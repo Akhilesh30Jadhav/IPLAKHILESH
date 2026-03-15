@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Similarity Search</title>
+    <link rel="stylesheet" href="./styles.css?v=ipl-theme-11" />
+  </head>
+  <body>
+    <main class="replay-shell">
+      <section class="replay-header">
+        <div>
+          <p class="eyebrow">Scouting Intelligence</p>
+          <h1>Similarity Search</h1>
+          <p>
+            Find lookalike players, domestic replacements, and cheaper alternatives using phase profile, style tags, and market context.
+          </p>
+          <div class="hero-actions">
+            <a class="action-button" href="./index.html" rel="noopener noreferrer">Back To Main Dashboard</a>
+          </div>
+        </div>
+        <div class="replay-badge">
+          <span>Scouting Tool</span>
+          <strong>Comps + Replacements</strong>
+        </div>
+      </section>
+
+      <section class="replay-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Controls</p>
+            <h3>Search Similar Profiles</h3>
+          </div>
+          <div class="control-row">
+            <label>
+              Horizon
+              <select id="similarity-horizon"></select>
+            </label>
+            <label>
+              Type
+              <select id="similarity-type"></select>
+            </label>
+            <label>
+              Mode
+              <select id="similarity-mode"></select>
+            </label>
+            <label>
+              Player
+              <input id="similarity-player" list="similarity-player-options" placeholder="Search player" />
+              <datalist id="similarity-player-options"></datalist>
+            </label>
+          </div>
+        </div>
+        <div class="tool-grid wide-left">
+          <div class="tile">
+            <h4>Candidate Board</h4>
+            <div class="table-wrap">
+              <table id="similarity-table"></table>
+            </div>
+          </div>
+          <div class="tile">
+            <h4>Selected Profile</h4>
+            <div id="similarity-summary" class="metric-stack"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./data/dashboard_data.js?v=ipl-theme-11"></script>
+    <script src="./similarity.js?v=ipl-theme-11"></script>
+  </body>
+</html>

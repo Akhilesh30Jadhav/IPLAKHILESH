@@ -9,6 +9,7 @@
     batterOptions: document.getElementById("matchup-batter-options"),
     bowlerOptions: document.getElementById("matchup-bowler-options"),
     liveSummary: document.getElementById("matchup-live-summary"),
+    confidence: document.getElementById("matchup-confidence"),
     h2hCards: document.getElementById("matchup-h2h-cards"),
     batterCards: document.getElementById("matchup-batter-cards"),
     bowlerTable: document.getElementById("matchup-bowler-table"),
@@ -67,11 +68,61 @@
     const phaseContest = PHASES.map((phase) => phaseContestRow(phase, batterPhase[phase], bowlerPhase[phase], phaseH2H.find((row) => row.phase === phase)));
 
     renderLiveSummary(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
+    renderConfidenceLayer(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
     renderHeadToHeadCards(batter, bowler, totalH2H, phaseH2H);
     renderBatterCards(batter, batterRows);
     renderBowlerTable(bowlerRows);
     renderPressureCards(batter, bowler, batterPressure, bowlerPressure);
     renderExplainability(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
+  }
+
+  function renderConfidenceLayer(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle) {
+    const directBalls = Number((totalH2H && totalH2H.balls) || 0);
+    const directDismissals = Number((totalH2H && totalH2H.dismissals) || 0);
+    const directLabel = directBalls >= 18 || directDismissals >= 3 ? "Strong" : directBalls >= 8 ? "Moderate" : "Weak";
+    const styleKnown = [
+      batterStyle.handedness && batterStyle.handedness !== "Unknown",
+      batterStyle.pace_spin_bias && !String(batterStyle.pace_spin_bias).includes("limited"),
+      bowlerStyle.bowling_family && bowlerStyle.bowling_family !== "Unknown",
+      bowlerStyle.bowling_style && bowlerStyle.bowling_style !== "Unknown style",
+      bowlerStyle.handedness_bias && !String(bowlerStyle.handedness_bias).includes("limited"),
+    ].filter(Boolean).length;
+    const styleLabel = styleKnown >= 4 ? "Strong" : styleKnown >= 2 ? "Moderate" : "Weak";
+    const phaseCoverage = phaseContest.filter((row) => row.batter_pct > 0 || row.bowler_pct > 0).length;
+    const confidenceScore = Math.max(
+      25,
+      Math.min(
+        96,
+        32 + Math.min(directBalls, 24) * 1.2 + Math.min(directDismissals, 3) * 6 + phaseCoverage * 8 + styleKnown * 5
+      )
+    );
+    const sampleBadge =
+      directBalls >= 18 ? "deep direct sample" : directBalls >= 8 ? "usable direct sample" : directBalls ? "thin direct sample" : "no direct sample";
+
+    els.confidence.innerHTML = `
+      <div class="insight-card">
+        <h5>Confidence Score</h5>
+        <p class="confidence-score">${formatDecimal(confidenceScore, 0)} / 100</p>
+        <div class="pill-row">
+          <span class="pill accent">${sampleBadge}</span>
+          <span class="pill">${phaseCoverage} phase signals</span>
+        </div>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <h5>Direct Evidence</h5>
+          <div class="summary-line"><span>Status</span><strong>${directLabel}</strong></div>
+          <div class="summary-line"><span>Balls</span><strong>${directBalls}</strong></div>
+          <div class="summary-line"><span>Dismissals</span><strong>${directDismissals}</strong></div>
+        </div>
+        <div class="compare-card">
+          <h5>Style Inference</h5>
+          <div class="summary-line"><span>Status</span><strong>${styleLabel}</strong></div>
+          <div class="summary-line"><span>Known tags</span><strong>${styleKnown} / 5</strong></div>
+          <div class="summary-line"><span>Interpretation</span><strong>${styleLabel === "Strong" ? "Good stylistic context" : styleLabel === "Moderate" ? "Partial stylistic context" : "Use style cautiously"}</strong></div>
+        </div>
+      </div>
+    `;
   }
 
   function phaseContestRow(phase, batterProfile, bowlerProfile, h2h) {

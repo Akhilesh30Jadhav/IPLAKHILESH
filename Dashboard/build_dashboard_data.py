@@ -53,6 +53,31 @@ ACTIVE_PHASE_FILES = {
 
 PHASE_ORDER = ["powerplay", "middle", "death"]
 ACTIVE_CUTOFF_YEAR = 2025
+WICKETKEEPER_HINTS = {
+    normalize_name(name)
+    for name in [
+        "MS Dhoni",
+        "Sanju Samson",
+        "Urvil Patel",
+        "Abhishek Porel",
+        "KL Rahul",
+        "Jos Buttler",
+        "Kumar Kushagra",
+        "Anuj Rawat",
+        "Rishabh Pant",
+        "Nicholas Pooran",
+        "Ruturaj Gaikwad",
+        "Ishan Kishan",
+        "Heinrich Klaasen",
+        "Jitesh Sharma",
+        "Phil Salt",
+        "Prabhsimran Singh",
+        "Dhruv Jurel",
+        "Donovan Ferreira",
+        "Robin Minz",
+        "Ryan Rickelton",
+    ]
+}
 
 MANUAL_STYLE_OVERRIDES = {
     "MS Dhoni": {"bat_style": "RHB", "bowl_style": "", "style_note": "wicketkeeper-finisher with elite game awareness and late-innings boundary access"},
@@ -555,15 +580,129 @@ def build_auction_payload() -> dict:
                 "then compare those prices with each player's model ceiling to measure value surplus and the quality drop-off within a role."
             ),
         },
-    }
+}
+
+
+def infer_team_player_role(
+    player: str,
+    batter_balls: dict[str, float],
+    bowler_balls: dict[str, float],
+    batter_phase_identity: dict[str, str],
+    player_style_lookup: dict[str, dict[str, str]],
+) -> str:
+    norm = normalize_name(player)
+    bat_balls = float(batter_balls.get(player, 0.0))
+    bowl_balls = float(bowler_balls.get(player, 0.0))
+    bowl_style = player_style_lookup.get(norm, {}).get("bowl_style", "")
+    bowl_family = bowl_family_from_style(bowl_style)
+    if norm in WICKETKEEPER_HINTS:
+        return "wicketkeeper"
+    if bat_balls >= 90 and bowl_balls >= 90:
+        return "all_rounder"
+    if bowl_balls >= 120 and bat_balls < 80:
+        if bowl_family == "Spin":
+            return "spinner"
+        if bowl_family == "Pace":
+            return "pacer"
+        return "bowler"
+    phase_identity = batter_phase_identity.get(player, "")
+    if phase_identity == "powerplay aggressor":
+        return "opener"
+    if phase_identity == "death overs finisher":
+        return "finisher"
+    if bat_balls >= 90:
+        return "middle_order"
+    if bowl_family == "Spin":
+        return "spinner"
+    if bowl_family == "Pace":
+        return "pacer"
+    return "utility"
 
 
 def build_team_payload() -> dict:
     configs = resolve_team_configs("2026")
     states = build_team_states(configs)
+    player_style_lookup = build_dashboard_player_style_lookup()
+    ball = pd.read_csv(DATA_DIR / "ipl_ball_by_ball.csv", usecols=["batter", "bowler", "legal_ball"])
+
+    batter_balls = (
+        ball.groupby("batter")["legal_ball"].sum().rename(index=canonical_player_name).groupby(level=0).sum().to_dict()
+    )
+    bowler_balls = (
+        ball.groupby("bowler")["legal_ball"].sum().rename(index=canonical_player_name).groupby(level=0).sum().to_dict()
+    )
+
+    batter_phase_identity: dict[str, str] = {}
+    batter_phase_scores: dict[str, dict[str, float]] = {}
+    for phase, path in PHASE_FILES["batting"].items():
+        phase_df = pd.read_csv(path)
+        phase_df["impact_pct"] = phase_df["impact_score"].rank(pct=True) * 100.0
+        for _, row in phase_df.iterrows():
+            batter_phase_scores.setdefault(canonical_player_name(str(row["batter"])), {})[phase] = float(row["impact_pct"])
+    for player, scores in batter_phase_scores.items():
+        if not scores:
+            continue
+        top_phase = max(scores, key=scores.get)
+        if scores[top_phase] < 55:
+            batter_phase_identity[player] = "balanced phase profile"
+        elif top_phase == "powerplay":
+            batter_phase_identity[player] = "powerplay aggressor"
+        elif top_phase == "death":
+            batter_phase_identity[player] = "death overs finisher"
+        else:
+            batter_phase_identity[player] = "middle-overs stabilizer"
+
+    role_display = {
+        "wicketkeeper": "Wicketkeeper",
+        "opener": "Opener",
+        "middle_order": "Middle Order",
+        "finisher": "Finisher",
+        "all_rounder": "All-Rounder",
+        "spinner": "Spin",
+        "pacer": "Pace",
+        "bowler": "Bowler",
+        "utility": "Utility",
+    }
+    skeleton_order = ["wicketkeeper", "opener", "opener", "middle_order", "middle_order", "finisher", "all_rounder", "spinner", "pacer", "pacer", "utility"]
+
+    auction_payload = build_auction_payload()
     teams = []
     for code, config in configs.items():
         state = states[code]
+        retained_players = [canonical_player_name(player) for player in config["retained_players"]]
+        retained_roles = []
+        for player in retained_players:
+            retained_roles.append(
+                {
+                    "player": player,
+                    "role": infer_team_player_role(player, batter_balls, bowler_balls, batter_phase_identity, player_style_lookup),
+                }
+            )
+
+        remaining = retained_roles.copy()
+        xi_slots = []
+        for slot in skeleton_order:
+            match = next((entry for entry in remaining if entry["role"] == slot), None)
+            if match:
+                xi_slots.append({"slot": role_display[slot], "player": match["player"], "filled": True})
+                remaining.remove(match)
+            else:
+                xi_slots.append({"slot": role_display[slot], "player": "Open", "filled": False})
+
+        role_counts: dict[str, int] = {}
+        for entry in retained_roles:
+            role_counts[entry["role"]] = role_counts.get(entry["role"], 0) + 1
+
+        recommended_fills = auction_payload["teams"][code]["top_targets"][:4]
+        overseas_pressure = round(
+            (max(0, state.overseas_limit - state.overseas_retained) / max(1, state.squad_size - state.retained)) * 100,
+            1,
+        )
+        role_gaps = [
+            {"role": role.replace("_", " "), "weight": weight}
+            for role, weight in sorted(config.get("role_needs", {}).items(), key=lambda item: item[1], reverse=True)
+        ]
+
         teams.append(
             {
                 "code": code,
@@ -572,13 +711,25 @@ def build_team_payload() -> dict:
                 "spent": config["spent"],
                 "retained": config["retained"],
                 "overseas_retained": config["overseas_retained"],
-                "retained_players": [canonical_player_name(player) for player in config["retained_players"]],
+                "retained_players": retained_players,
                 "role_needs": config.get("role_needs", {}),
                 "role_caps": config.get("role_caps", {}),
                 "auction_power": state.auction_power,
                 "aggression": state.aggression,
                 "open_slots": max(0, state.squad_size - state.retained),
                 "overseas_slots_left": max(0, state.overseas_limit - state.overseas_retained),
+                "xi_skeleton": xi_slots,
+                "retained_role_counts": [
+                    {"role": role_display.get(role, role.title()), "count": count}
+                    for role, count in sorted(role_counts.items(), key=lambda item: (-item[1], item[0]))
+                ],
+                "bench_depth": [
+                    {"player": entry["player"], "role": role_display.get(entry["role"], entry["role"].title())}
+                    for entry in remaining
+                ],
+                "recommended_fills": recommended_fills,
+                "role_gaps": role_gaps[:5],
+                "overseas_pressure_pct": overseas_pressure,
             }
         )
     teams.sort(key=lambda item: item["auction_power"], reverse=True)
@@ -615,7 +766,10 @@ def percentile_map(series: pd.Series, ascending: bool = True) -> dict[str, float
 def build_player_payload() -> dict:
     ball = pd.read_csv(DATA_DIR / "ipl_ball_by_ball.csv", parse_dates=["date"])
     ball["run_value"] = ball["runs_total"] - ball["runs_total"].mean()
+    ball["season_year"] = pd.to_datetime(ball["date"]).dt.year
     player_style_lookup = build_dashboard_player_style_lookup()
+    auction_pool = add_player_valuation_columns(load_auction_pool("2026"), season="2026")
+    league_events_mc = pd.read_csv(DATA_DIR / "league_auction_simulation_2026_events_mc.csv")
     ball["batter_norm"] = ball["batter"].map(normalize_name)
     ball["bowler_norm"] = ball["bowler"].map(normalize_name)
     ball["batter_hand"] = ball["batter_norm"].map(lambda key: player_style_lookup.get(key, {}).get("bat_style", "")).replace({"": None})
@@ -659,6 +813,26 @@ def build_player_payload() -> dict:
     bowler_base["wicket_rate"] = bowler_base["wickets"] / bowler_base["balls"].clip(lower=1)
     bowler_base["wins_added"] = -bowler_base["run_value"] / 15.0
 
+    market_stats = (
+        league_events_mc.assign(player_name=league_events_mc["player_name"].map(canonical_player_name))
+        .groupby("player_name")
+        .agg(expected_price=("final_price", "mean"), purchase_share=("run_id", "nunique"))
+        .reset_index()
+    )
+    total_runs = max(int(league_events_mc["run_id"].nunique()), 1)
+    market_stats["purchase_share"] = market_stats["purchase_share"] / total_runs
+    market_lookup_df = auction_pool.copy()
+    market_lookup_df["player_name"] = market_lookup_df["player_name"].map(canonical_player_name)
+    market_lookup_df = market_lookup_df.merge(market_stats, on="player_name", how="left")
+    market_lookup = (
+        market_lookup_df.sort_values(["quality_score", "base_ceiling"], ascending=False)
+        .drop_duplicates("player_name")
+        .set_index("player_name")[
+            ["role_bucket", "is_overseas", "quality_score", "base_ceiling", "expected_price", "purchase_share"]
+        ]
+        .to_dict("index")
+    )
+
     matchup_ball = ball[ball["bowl_family"].notna()].copy()
     batter_vs_style = (
         matchup_ball.groupby(["batter", "bowl_family"])
@@ -692,6 +866,61 @@ def build_player_payload() -> dict:
     )
     pressure_bowling = pressure_bowling[pressure_bowling["balls"] >= 18].copy()
     pressure_bowling["economy"] = pressure_bowling["runs"] / (pressure_bowling["balls"].clip(lower=1) / 6.0)
+
+    batter_yearly = (
+        ball.groupby(["batter", "season_year"])
+        .agg(
+            runs=("runs_batter", "sum"),
+            balls=("legal_ball", "sum"),
+            matches=("match_id", "nunique"),
+            run_value=("run_value", "sum"),
+        )
+        .reset_index()
+    )
+    batter_yearly["strike_rate"] = (batter_yearly["runs"] / batter_yearly["balls"].clip(lower=1)) * 100.0
+    batter_yearly["wins_added"] = batter_yearly["run_value"] / 15.0
+
+    bowler_yearly = (
+        ball.groupby(["bowler", "season_year"])
+        .agg(
+            runs=("runs_total", "sum"),
+            balls=("legal_ball", "sum"),
+            wickets=("wicket", "sum"),
+            matches=("match_id", "nunique"),
+            run_value=("run_value", "sum"),
+        )
+        .reset_index()
+    )
+    bowler_yearly["economy"] = bowler_yearly["runs"] / (bowler_yearly["balls"].clip(lower=1) / 6.0)
+    bowler_yearly["wins_added"] = -bowler_yearly["run_value"] / 15.0
+
+    batter_phase_yearly = (
+        ball.groupby(["batter", "season_year", "phase"])
+        .agg(runs=("runs_batter", "sum"), balls=("legal_ball", "sum"))
+        .reset_index()
+    )
+    batter_phase_yearly["strike_rate"] = (batter_phase_yearly["runs"] / batter_phase_yearly["balls"].clip(lower=1)) * 100.0
+    batter_phase_yearly["phase_impact"] = batter_phase_yearly["strike_rate"] * batter_phase_yearly["balls"]
+
+    bowler_phase_yearly = (
+        ball.groupby(["bowler", "season_year", "phase"])
+        .agg(runs=("runs_total", "sum"), balls=("legal_ball", "sum"), wickets=("wicket", "sum"))
+        .reset_index()
+    )
+    phase_league_econ = (
+        bowler_phase_yearly.groupby(["season_year", "phase"])
+        .agg(runs=("runs", "sum"), balls=("balls", "sum"))
+        .reset_index()
+    )
+    phase_league_econ["league_econ"] = phase_league_econ["runs"] / (phase_league_econ["balls"].clip(lower=1) / 6.0)
+    bowler_phase_yearly = bowler_phase_yearly.merge(
+        phase_league_econ[["season_year", "phase", "league_econ"]], on=["season_year", "phase"], how="left"
+    )
+    bowler_phase_yearly["economy"] = bowler_phase_yearly["runs"] / (bowler_phase_yearly["balls"].clip(lower=1) / 6.0)
+    bowler_phase_yearly["phase_impact"] = (
+        (bowler_phase_yearly["league_econ"] - bowler_phase_yearly["economy"]) * bowler_phase_yearly["balls"]
+        + 25.0 * bowler_phase_yearly["wickets"]
+    )
 
     batter_phase_frames = {phase: pd.read_csv(path) for phase, path in PHASE_FILES["batting"].items()}
     bowler_phase_frames = {phase: pd.read_csv(path) for phase, path in PHASE_FILES["bowling"].items()}
@@ -738,10 +967,30 @@ def build_player_payload() -> dict:
                 "impact_pct": round(float(phase_row["impact_pct"]), 2)
             }
 
+    def trend_signal(trend_rows: list[dict]) -> str:
+        if len(trend_rows) < 2:
+            return "limited sample"
+        values = [float(row["wins_added"]) for row in trend_rows]
+        recent = sum(values[-2:]) / min(2, len(values))
+        previous_window = values[:-2] if len(values) > 2 else values[:1]
+        previous = sum(previous_window) / max(len(previous_window), 1)
+        delta = recent - previous
+        if delta >= 2.0:
+            return "rising strongly"
+        if delta >= 0.75:
+            return "trending up"
+        if delta <= -2.0:
+            return "declining sharply"
+        if delta <= -0.75:
+            return "cooling off"
+        return "stable"
+
     batter_profiles = {}
     for _, row in batter_base.sort_values("runs", ascending=False).iterrows():
         player = row["player"]
         display_player = canonical_player_name(str(player))
+        yearly_rows = batter_yearly[batter_yearly["batter"] == player].sort_values("season_year")
+        yearly_phase_rows = batter_phase_yearly[batter_phase_yearly["batter"] == player]
         phase_details = {}
         total_impact_score = 0.0
         for phase in PHASE_ORDER:
@@ -781,6 +1030,20 @@ def build_player_payload() -> dict:
                 {"axis": "Strike Rate", "value": batter_sr_pct.get(player, 0.0)},
                 {"axis": "Wins Added", "value": batter_win_pct.get(player, 0.0)},
             ],
+            "market": (
+                None
+                if display_player not in market_lookup
+                else {
+                    "role_bucket": market_lookup[display_player]["role_bucket"],
+                    "is_overseas": bool(market_lookup[display_player]["is_overseas"]),
+                    "quality_score": round(float(market_lookup[display_player]["quality_score"]), 4),
+                    "base_ceiling": round(float(market_lookup[display_player]["base_ceiling"]), 2),
+                    "expected_price": None
+                    if pd.isna(market_lookup[display_player].get("expected_price"))
+                    else round(float(market_lookup[display_player]["expected_price"]), 2),
+                    "purchase_share": round(float(market_lookup[display_player].get("purchase_share") or 0.0), 3),
+                }
+            ),
         }
         batter_profiles[display_player]["style"] = compute_batter_style_profile(
             display_player,
@@ -790,11 +1053,32 @@ def build_player_payload() -> dict:
             pressure_batting[pressure_batting["batter"] == player],
             player_style_lookup,
         )
+        yearly_trend = []
+        for _, yearly_row in yearly_rows.iterrows():
+            season_phase = yearly_phase_rows[yearly_phase_rows["season_year"] == yearly_row["season_year"]]
+            best_phase = (
+                season_phase.sort_values("phase_impact", ascending=False).iloc[0]["phase"]
+                if not season_phase.empty
+                else "middle"
+            )
+            yearly_trend.append(
+                {
+                    "year": int(yearly_row["season_year"]),
+                    "impact_score": round(float(yearly_row["run_value"]), 2),
+                    "wins_added": round(float(yearly_row["wins_added"]), 2),
+                    "matches": int(yearly_row["matches"]),
+                    "best_phase": str(best_phase),
+                }
+            )
+        batter_profiles[display_player]["yearly_trend"] = yearly_trend
+        batter_profiles[display_player]["trend_signal"] = trend_signal(yearly_trend)
 
     bowler_profiles = {}
     for _, row in bowler_base.sort_values("wickets", ascending=False).iterrows():
         player = row["player"]
         display_player = canonical_player_name(str(player))
+        yearly_rows = bowler_yearly[bowler_yearly["bowler"] == player].sort_values("season_year")
+        yearly_phase_rows = bowler_phase_yearly[bowler_phase_yearly["bowler"] == player]
         phase_details = {}
         total_impact_score = 0.0
         for phase in PHASE_ORDER:
@@ -836,6 +1120,20 @@ def build_player_payload() -> dict:
                 {"axis": "Wickets", "value": bowler_wicket_pct.get(player, 0.0)},
                 {"axis": "Control", "value": bowler_control_pct.get(player, 0.0)},
             ],
+            "market": (
+                None
+                if display_player not in market_lookup
+                else {
+                    "role_bucket": market_lookup[display_player]["role_bucket"],
+                    "is_overseas": bool(market_lookup[display_player]["is_overseas"]),
+                    "quality_score": round(float(market_lookup[display_player]["quality_score"]), 4),
+                    "base_ceiling": round(float(market_lookup[display_player]["base_ceiling"]), 2),
+                    "expected_price": None
+                    if pd.isna(market_lookup[display_player].get("expected_price"))
+                    else round(float(market_lookup[display_player]["expected_price"]), 2),
+                    "purchase_share": round(float(market_lookup[display_player].get("purchase_share") or 0.0), 3),
+                }
+            ),
         }
         bowler_profiles[display_player]["style"] = compute_bowler_style_profile(
             display_player,
@@ -845,6 +1143,25 @@ def build_player_payload() -> dict:
             pressure_bowling[pressure_bowling["bowler"] == player],
             player_style_lookup,
         )
+        yearly_trend = []
+        for _, yearly_row in yearly_rows.iterrows():
+            season_phase = yearly_phase_rows[yearly_phase_rows["season_year"] == yearly_row["season_year"]]
+            best_phase = (
+                season_phase.sort_values("phase_impact", ascending=False).iloc[0]["phase"]
+                if not season_phase.empty
+                else "middle"
+            )
+            yearly_trend.append(
+                {
+                    "year": int(yearly_row["season_year"]),
+                    "impact_score": round(float(yearly_row["wins_added"]), 2),
+                    "wins_added": round(float(yearly_row["wins_added"]), 2),
+                    "matches": int(yearly_row["matches"]),
+                    "best_phase": str(best_phase),
+                }
+            )
+        bowler_profiles[display_player]["yearly_trend"] = yearly_trend
+        bowler_profiles[display_player]["trend_signal"] = trend_signal(yearly_trend)
 
     def similarity_reason(primary_style: dict[str, str], other_style: dict[str, str], keys: list[str], fallback: str) -> str:
         shared = []
@@ -933,7 +1250,7 @@ def build_player_payload() -> dict:
                     "phase_identity": other["style"]["phase_identity"],
                 }
             )
-        profile["comps"] = sorted(comps, key=lambda item: (-item["similarity_score"], -item["impact_score"]))[:5]
+        profile["comps"] = sorted(comps, key=lambda item: (-item["similarity_score"], -item["impact_score"]))[:12]
 
     for profile in bowler_profiles.values():
         comps = []
@@ -951,7 +1268,7 @@ def build_player_payload() -> dict:
                     "phase_identity": other["style"]["phase_identity"],
                 }
             )
-        profile["comps"] = sorted(comps, key=lambda item: (-item["similarity_score"], -item["impact_score"]))[:5]
+        profile["comps"] = sorted(comps, key=lambda item: (-item["similarity_score"], -item["impact_score"]))[:12]
 
     top_batter_impact = (
         pd.DataFrame(
@@ -1032,6 +1349,13 @@ def build_player_payload() -> dict:
                 "text": (
                     "Player comps combine three layers: phase radar shape, derived style labels, and pressure-trait alignment. "
                     "Similarity scores therefore reflect not just aggregate output, but whether two players score or control innings in similar windows."
+                ),
+            },
+            "trajectory": {
+                "title": "Trajectory And Form View",
+                "text": (
+                    "Season trends track year-by-year wins-added and phase-leading impact proxies. The trend signal compares recent seasons with the player's earlier baseline "
+                    "to flag whether the profile is rising, stable, or cooling off."
                 ),
             },
         },

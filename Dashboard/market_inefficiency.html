@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL Market Inefficiency Board</title>
+    <link rel="stylesheet" href="./styles.css?v=ipl-theme-11" />
+  </head>
+  <body>
+    <main class="replay-shell">
+      <section class="replay-header">
+        <div>
+          <p class="eyebrow">Auction Intelligence</p>
+          <h1>Market Inefficiency Board</h1>
+          <p>
+            Compare expected market prices, model ceilings, contest pressure, and value surplus across the 2026 auction pool.
+          </p>
+          <div class="hero-actions">
+            <a class="action-button" href="./index.html" rel="noopener noreferrer">Back To Main Dashboard</a>
+          </div>
+        </div>
+        <div class="replay-badge">
+          <span>Market View</span>
+          <strong>Underpriced vs Overpriced</strong>
+        </div>
+      </section>
+
+      <section class="replay-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Controls</p>
+            <h3>Screen The Market</h3>
+          </div>
+          <div class="control-row">
+            <label>
+              Board
+              <select id="market-board-type"></select>
+            </label>
+            <label>
+              Team
+              <select id="market-team"></select>
+            </label>
+            <label>
+              Role
+              <select id="market-role"></select>
+            </label>
+          </div>
+        </div>
+        <div class="tool-grid wide-left">
+          <div class="tile">
+            <h4>Market Board</h4>
+            <div class="table-wrap">
+              <table id="market-table"></table>
+            </div>
+          </div>
+          <div class="tile">
+            <h4>Headline Screen</h4>
+            <div id="market-cards" class="metric-stack"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="replay-panel">
+        <div class="tile-header">
+          <h4>Visual Value Curve</h4>
+          <span class="pill accent">Expected price vs model surplus</span>
+        </div>
+        <div id="market-bars" class="bar-chart"></div>
+      </section>
+    </main>
+
+    <script src="./data/dashboard_data.js?v=ipl-theme-11"></script>
+    <script src="./market.js?v=ipl-theme-11"></script>
+  </body>
+</html>

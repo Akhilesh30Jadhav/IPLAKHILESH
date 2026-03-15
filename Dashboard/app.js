@@ -25,6 +25,7 @@
     playerMethodology: document.getElementById("player-methodology"),
     wpaCards: document.getElementById("wpa-cards"),
     playerComps: document.getElementById("player-comps"),
+    playerTrajectory: document.getElementById("player-trajectory"),
     auctionTeamSelect: document.getElementById("auction-team-select"),
     rrBuysTable: document.getElementById("rr-buys-table"),
     mcTargetCards: document.getElementById("mc-target-cards"),
@@ -41,6 +42,10 @@
     teamSummary: document.getElementById("team-summary"),
     teamRoleNeeds: document.getElementById("team-role-needs"),
     retainedPlayerList: document.getElementById("retained-player-list"),
+    teamXiSkeleton: document.getElementById("team-xi-skeleton"),
+    teamBenchDepth: document.getElementById("team-bench-depth"),
+    teamRecommendedFills: document.getElementById("team-recommended-fills"),
+    teamOverseasPressure: document.getElementById("team-overseas-pressure"),
   };
 
   function formatNumber(value) {
@@ -437,6 +442,29 @@
     if (els.playerComps) {
       els.playerComps.innerHTML = compSections.join("");
     }
+
+    if (els.playerTrajectory) {
+      const trendRows = (profile.yearly_trend || []).slice().sort((a, b) => b.year - a.year);
+      els.playerTrajectory.innerHTML = `
+        <div class="metric-card">
+          <h5>${profile.player}</h5>
+          <strong>${profile.trend_signal || "stable"}</strong>
+          <p>Recent trajectory based on season-by-season wins-added and phase-leading impact proxies.</p>
+          ${
+            trendRows
+              .map(
+                (row) => `
+                  <div class="summary-line">
+                    <span>${row.year}<br /><span class="replacement-note">${String(row.best_phase || "middle").replace(/^./, (char) => char.toUpperCase())} lead phase</span></span>
+                    <strong>${formatDecimal(row.wins_added, 2)}</strong>
+                  </div>
+                `
+              )
+              .join("") || '<p class="muted">No seasonal trend available.</p>'
+          }
+        </div>
+      `;
+    }
   }
 
   function renderMethodology() {
@@ -631,6 +659,55 @@
     els.retainedPlayerList.innerHTML = team.retained_players
       .map((player) => `<span class="retained-chip">${player}</span>`)
       .join("");
+
+    if (els.teamXiSkeleton) {
+      els.teamXiSkeleton.innerHTML = (team.xi_skeleton || [])
+        .map(
+          (slot) => `
+            <div class="architecture-item ${slot.filled ? "filled" : "open"}">
+              <span>${slot.slot}</span>
+              <strong>${slot.player}</strong>
+            </div>
+          `
+        )
+        .join("");
+    }
+
+    if (els.teamBenchDepth) {
+      els.teamBenchDepth.innerHTML = (team.bench_depth || [])
+        .map(
+          (row) => `
+            <div class="architecture-item filled">
+              <span>${row.role}</span>
+              <strong>${row.player}</strong>
+            </div>
+          `
+        )
+        .join("") || '<p class="muted">No retained bench depth beyond the current skeleton.</p>';
+    }
+
+    if (els.teamRecommendedFills) {
+      els.teamRecommendedFills.innerHTML = (team.recommended_fills || [])
+        .map(
+          (row) => `
+            <div class="architecture-item filled">
+              <span>${humanizeRole(row.role_bucket)}</span>
+              <strong>${row.player_name}</strong>
+            </div>
+          `
+        )
+        .join("");
+    }
+
+    if (els.teamOverseasPressure) {
+      els.teamOverseasPressure.innerHTML = `
+        <div class="metric-card">
+          <h5>${team.code}</h5>
+          <strong>${formatDecimal(team.overseas_pressure_pct, 1)}%</strong>
+          <p>${team.overseas_slots_left} overseas slots left across ${team.open_slots} open squad positions.</p>
+        </div>
+      `;
+    }
   }
 
   initHero();

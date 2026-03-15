@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IPL Auction Intelligence Hub</title>
-    <link rel="stylesheet" href="./styles.css?v=ipl-theme-10" />
+    <link rel="stylesheet" href="./styles.css?v=ipl-theme-11" />
   </head>
   <body>
     <div class="page-shell">
@@ -41,6 +41,12 @@
               </a>
               <a class="action-button" href="./matchup_intelligence.html" target="_blank" rel="noopener noreferrer">
                 Open Matchup Intelligence
+              </a>
+              <a class="action-button" href="./market_inefficiency.html" target="_blank" rel="noopener noreferrer">
+                Open Market Inefficiency
+              </a>
+              <a class="action-button" href="./similarity_search.html" target="_blank" rel="noopener noreferrer">
+                Open Similarity Search
               </a>
             </div>
           </div>
@@ -150,6 +156,10 @@
             <div class="tile">
               <h4>Player Comps</h4>
               <div id="player-comps" class="metric-stack"></div>
+            </div>
+            <div class="tile">
+              <h4>Trajectory & Form</h4>
+              <div id="player-trajectory" class="metric-stack"></div>
             </div>
           </div>
         </section>
@@ -273,6 +283,24 @@
                 <div id="retained-player-list" class="retained-list"></div>
               </div>
             </div>
+            <div class="team-architecture-grid">
+              <div class="mini-block">
+                <h5>Retained XI Skeleton</h5>
+                <div id="team-xi-skeleton" class="architecture-list"></div>
+              </div>
+              <div class="mini-block">
+                <h5>Bench Depth</h5>
+                <div id="team-bench-depth" class="architecture-list"></div>
+              </div>
+              <div class="mini-block">
+                <h5>Recommended Auction Fills</h5>
+                <div id="team-recommended-fills" class="architecture-list"></div>
+              </div>
+              <div class="mini-block">
+                <h5>Overseas Slot Pressure</h5>
+                <div id="team-overseas-pressure" class="metric-stack"></div>
+              </div>
+            </div>
             <div class="dashboard-credit">
               <span class="dashboard-credit-label">Created By</span>
               <strong>Piyush Zaware</strong>
@@ -283,7 +311,7 @@
       </main>
     </div>
 
-    <script src="./data/dashboard_data.js?v=ipl-theme-10"></script>
-    <script src="./app.js?v=ipl-theme-10"></script>
+    <script src="./data/dashboard_data.js?v=ipl-theme-11"></script>
+    <script src="./app.js?v=ipl-theme-11"></script>
   </body>
 </html>
