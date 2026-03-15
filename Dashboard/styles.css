@@ -565,9 +565,12 @@ th {
   border: 1px solid rgba(255, 209, 102, 0.3);
   border-radius: 999px;
   padding: 4px 10px;
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
+  font-family: var(--display);
+  font-size: 0.94rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .replacement-note {
