@@ -53,24 +53,24 @@ For each batter and phase, the notebook constructs:
 
 The raw phase strike rate is then shrunk toward the league mean using a Bayesian adjustment:
 
-\[
+$$
 sr^{bayes}_{i,p} = \frac{B_{i,p}}{B_{i,p}+k}\,sr_{i,p} + \frac{k}{B_{i,p}+k}\,\bar{sr}_{p}
-\]
+$$
 
 where:
 
-- \(i\) is the batter
-- \(p\) is the phase
-- \(B_{i,p}\) is balls faced in that phase
-- \(sr_{i,p}\) is the raw strike rate
-- \(\bar{sr}_{p}\) is the league phase mean
-- \(k\) is the shrinkage constant
+- $i$ is the batter
+- $p$ is the phase
+- $B_{i,p}$ is balls faced in that phase
+- $sr_{i,p}$ is the raw strike rate
+- $\bar{sr}_{p}$ is the league phase mean
+- $k$ is the shrinkage constant
 
 The batting impact score is then:
 
-\[
+$$
 Impact^{bat}_{i,p} = sr^{bayes}_{i,p} \times B_{i,p}
-\]
+$$
 
 This rewards both quality and credible sample size. A player cannot rank highly on a tiny sample alone.
 
@@ -85,21 +85,21 @@ For each bowler and phase, the notebook constructs:
 
 The phase economy is also Bayesian-shrunk:
 
-\[
+$$
 econ^{bayes}_{i,p} = \frac{B_{i,p}}{B_{i,p}+k}\,econ_{i,p} + \frac{k}{B_{i,p}+k}\,\bar{econ}_{p}
-\]
+$$
 
 Bowling impact is then constructed as:
 
-\[
+$$
 Impact^{bowl}_{i,p} = (\bar{econ}_{p} - econ^{bayes}_{i,p}) \times B_{i,p} + \omega \times W_{i,p}
-\]
+$$
 
 where:
 
-- \(\bar{econ}_{p}\) is league phase economy
-- \(W_{i,p}\) is wickets in that phase
-- \(\omega\) is the wicket weight
+- $\bar{econ}_{p}$ is league phase economy
+- $W_{i,p}$ is wickets in that phase
+- $\omega$ is the wicket weight
 
 This gives credit to run suppression and wicket-taking rather than using economy alone.
 
@@ -122,9 +122,9 @@ The simulator first builds batting and bowling signals from the strongest availa
 
 Conceptually:
 
-\[
+$$
 q_i = f(\text{phase impact}_i, \text{experience}_i, \text{market prior}_i)
-\]
+$$
 
 Role-specific weights are then applied differently for batters, bowlers, wicketkeepers, and all-rounders inside [Code/rr_auction_simulator.py](/Users/piyushzaware/Documents/IPL_Data_Analysis/Code/rr_auction_simulator.py).
 
@@ -134,23 +134,23 @@ The notebook sketches a fuller run-expectancy and win-probability framework, but
 
 At the ball level:
 
-\[
+$$
 run\_value_b = runs\_total_b - \overline{runs\_total}
-\]
+$$
 
 These ball-level values are then aggregated to the player level. For batters:
 
-\[
+$$
 RunsAdded_i = \sum_b run\_value_b
-\]
+$$
 
 and for bowlers, the sign is reversed when interpreting value saved.
 
 Wins added is then approximated by:
 
-\[
+$$
 WinsAdded_i = \frac{RunsAdded_i}{15}
-\]
+$$
 
 using the notebook assumption that roughly 15 runs correspond to about 1 win.
 
@@ -174,36 +174,36 @@ The main ingredients are:
 
 The key auction-theoretic intuition is:
 
-\[
+$$
 P_i \approx \text{second-highest valuation} + \text{bid increment}
-\]
+$$
 
-For team \(t\), player \(i\), and auction state \(s\), the model uses a state-dependent valuation:
+For team $t$, player $i$, and auction state $s$, the model uses a state-dependent valuation:
 
-\[
+$$
 v_{t,i,s} = q_i + fit_{t,i,s} + scarcity_{i,s} - \lambda^p_{t,s} - \lambda^o_{t,s} - \lambda^r_{t,s}
-\]
+$$
 
 where:
 
-- \(q_i\) is player quality
-- \(fit_{t,i,s}\) captures role fit for the team
-- \(scarcity_{i,s}\) captures thin market supply
-- \(\lambda^p_{t,s}\) is the shadow cost of purse
-- \(\lambda^o_{t,s}\) is the shadow cost of an overseas slot
-- \(\lambda^r_{t,s}\) is the shadow cost of a roster spot
+- $q_i$ is player quality
+- $fit_{t,i,s}$ captures role fit for the team
+- $scarcity_{i,s}$ captures thin market supply
+- $\lambda^p_{t,s}$ is the shadow cost of purse
+- $\lambda^o_{t,s}$ is the shadow cost of an overseas slot
+- $\lambda^r_{t,s}$ is the shadow cost of a roster spot
 
 A team remains active in bidding while:
 
-\[
+$$
 current\_price + increment \leq walkaway_{t,i,s}
-\]
+$$
 
 with:
 
-\[
+$$
 walkaway_{t,i,s} = \min(v_{t,i,s}, feasible\ budget\ cap_{t,s})
-\]
+$$
 
 The simulator therefore does not treat player values as fixed. The same player can have a different walk-away price depending on:
 
@@ -219,9 +219,9 @@ Team priorities are not chosen by eyeballing the best player available. They are
 
 The logic is:
 
-\[
+$$
 Priority(role) = \text{best auction addition in role} - \text{best internal replacement in role}
-\]
+$$
 
 and then adjusted for:
 
