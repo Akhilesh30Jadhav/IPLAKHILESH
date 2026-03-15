@@ -12,7 +12,13 @@ OUT_DIR = ROOT / "Paper" / "tables"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(ROOT))
 
-from Code.rr_auction_simulator import TEAM_CONFIGS, build_team_states, normalize_name, resolve_team_configs
+from Code.rr_auction_simulator import (
+    TEAM_CONFIGS,
+    build_team_states,
+    canonical_player_name,
+    normalize_name,
+    resolve_team_configs,
+)
 
 
 def write_table(name: str, body: str) -> None:
@@ -83,7 +89,7 @@ def build_rr_core_table() -> None:
         if found_rows:
             found_rows.sort(key=lambda x: x[1])
             summary = "; ".join(f"{label}: {rank}" for label, rank in found_rows[:4])
-            rows.append((player, "Observed", summary))
+            rows.append((canonical_player_name(player), "Observed", summary))
         else:
             batter_rows = ball[ball["batter"].astype(str).map(normalize_name) == player_norm]
             bowler_rows = ball[ball["bowler"].astype(str).map(normalize_name) == player_norm]
@@ -101,9 +107,9 @@ def build_rr_core_table() -> None:
                         "Bowler sample balls: "
                         + ", ".join(f"{k} {int(v)}" for k, v in phase_balls.items())
                     )
-                rows.append((player, "Below cutoff", "; ".join(details)))
+                rows.append((canonical_player_name(player), "Below cutoff", "; ".join(details)))
             else:
-                rows.append((player, "No sample", "No public IPL ball-by-ball record in current dataset"))
+                rows.append((canonical_player_name(player), "No sample", "No public IPL ball-by-ball record in current dataset"))
 
     lines = [
         r"\begin{table}[H]",
@@ -130,7 +136,7 @@ def build_rr_retained_table() -> None:
             "Lhuan-Dre Pretorious", "Nandre Burger", "Sam Curran",
             "Shimron Hetmyer",
         }
-        formatted.append((player, "Overseas" if overseas else "Domestic"))
+        formatted.append((canonical_player_name(player), "Overseas" if overseas else "Domestic"))
 
     lines = [
         r"\begin{table}[H]",

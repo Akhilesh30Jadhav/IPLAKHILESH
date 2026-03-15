@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT))
 from Code.rr_auction_simulator import (
     add_player_valuation_columns,
     build_team_states,
+    canonical_player_name,
     load_auction_pool,
     normalize_name,
     resolve_team_configs,
@@ -78,7 +79,7 @@ def top_records(df: pd.DataFrame, name_col: str, columns: list[str], top_n: int 
     trimmed = df.head(top_n).copy()
     rows = []
     for idx, row in trimmed.iterrows():
-        payload = {"rank": idx + 1, "player": row[name_col]}
+        payload = {"rank": idx + 1, "player": canonical_player_name(str(row[name_col]))}
         for column in columns:
             value = row[column]
             if pd.isna(value):
@@ -94,7 +95,7 @@ def top_records(df: pd.DataFrame, name_col: str, columns: list[str], top_n: int 
 def all_records(df: pd.DataFrame, name_col: str, columns: list[str]) -> list[dict]:
     rows = []
     for idx, row in df.reset_index(drop=True).iterrows():
-        payload = {"rank": idx + 1, "player": row[name_col]}
+        payload = {"rank": idx + 1, "player": canonical_player_name(str(row[name_col]))}
         for column in columns:
             value = row[column]
             if pd.isna(value):
@@ -145,8 +146,14 @@ def build_overview_payload() -> dict:
 
 def build_auction_payload() -> dict:
     teams_payload = {}
-    league_summary = pd.read_csv(DATA_DIR / "league_auction_mc_summary_2026.csv").to_dict("records")
+    league_summary_df = pd.read_csv(DATA_DIR / "league_auction_mc_summary_2026.csv")
+    if "mc_top_target" in league_summary_df.columns:
+        league_summary_df["mc_top_target"] = league_summary_df["mc_top_target"].fillna("").map(canonical_player_name).replace({"": None})
+    league_summary = league_summary_df.to_dict("records")
     league_events = pd.read_csv(DATA_DIR / "league_auction_simulation_2026_events.csv")
+    for col in ["player_name", "winner", "runner_up"]:
+        if col in league_events.columns:
+            league_events[col] = league_events[col].fillna("").map(canonical_player_name).replace({"": None})
     replay_events = league_events.copy()
     replay_events["sequence_no"] = range(1, len(replay_events) + 1)
     filtered_events = league_events[
@@ -167,6 +174,11 @@ def build_auction_payload() -> dict:
         buys = pd.read_csv(DATA_DIR / f"{slug}_auction_simulated_buys_2026.csv")
         mc = pd.read_csv(DATA_DIR / f"{slug}_auction_purchase_summary_2026_mc.csv")
         spend_mc = pd.read_csv(DATA_DIR / f"{slug}_auction_spend_summary_2026_mc.csv")
+        buys = buys.assign(
+            player_name=buys["player_name"].map(canonical_player_name),
+            runner_up=buys["runner_up"].fillna("").map(canonical_player_name).replace({"": None}),
+        )
+        mc = mc.assign(player_name=mc["player_name"].map(canonical_player_name))
 
         teams_payload[team_code] = {
             "single_run_buys": buys.to_dict("records"),
@@ -198,7 +210,7 @@ def build_team_payload() -> dict:
                 "spent": config["spent"],
                 "retained": config["retained"],
                 "overseas_retained": config["overseas_retained"],
-                "retained_players": config["retained_players"],
+                "retained_players": [canonical_player_name(player) for player in config["retained_players"]],
                 "role_needs": config.get("role_needs", {}),
                 "role_caps": config.get("role_caps", {}),
                 "auction_power": state.auction_power,
@@ -305,6 +317,7 @@ def build_player_payload() -> dict:
     batter_profiles = {}
     for _, row in batter_base.sort_values("runs", ascending=False).iterrows():
         player = row["player"]
+        display_player = canonical_player_name(str(player))
         phase_details = {}
         total_impact_score = 0.0
         for phase in PHASE_ORDER:
@@ -322,8 +335,8 @@ def build_player_payload() -> dict:
                 }
                 total_impact_score += impact_score
 
-        batter_profiles[player] = {
-            "player": player,
+        batter_profiles[display_player] = {
+            "player": display_player,
             "type": "batter",
             "summary": {
                 "runs": int(safe_float(row["runs"])),
@@ -349,6 +362,7 @@ def build_player_payload() -> dict:
     bowler_profiles = {}
     for _, row in bowler_base.sort_values("wickets", ascending=False).iterrows():
         player = row["player"]
+        display_player = canonical_player_name(str(player))
         phase_details = {}
         total_impact_score = 0.0
         for phase in PHASE_ORDER:
@@ -367,8 +381,8 @@ def build_player_payload() -> dict:
                 }
                 total_impact_score += impact_score
 
-        bowler_profiles[player] = {
-            "player": player,
+        bowler_profiles[display_player] = {
+            "player": display_player,
             "type": "bowler",
             "summary": {
                 "runs": int(safe_float(row["runs"])),
@@ -477,17 +491,18 @@ def build_scenario_payload() -> dict:
     league_events = pd.read_csv(DATA_DIR / "league_auction_simulation_2026_events.csv")
 
     event_lookup = (
-        league_events.drop_duplicates("player_name")
+        league_events.assign(player_name=league_events["player_name"].map(canonical_player_name)).drop_duplicates("player_name")
         .set_index("player_name")[["winner", "final_price", "runner_up", "set_no"]]
         .to_dict("index")
     )
 
     players = []
     for _, row in auction_pool.iterrows():
-        rep = event_lookup.get(row["player_name"], {})
+        player_name = canonical_player_name(str(row["player_name"]))
+        rep = event_lookup.get(player_name, {})
         players.append(
             {
-                "player_name": row["player_name"],
+                "player_name": player_name,
                 "role_bucket": row["role_bucket"],
                 "reserve_price": round(float(row["reserve_price"]), 2),
                 "quality_score": round(float(row["quality_score"]), 4),
@@ -522,7 +537,7 @@ def build_scenario_payload() -> dict:
             "spent": config["spent"],
             "retained": config["retained"],
             "overseas_retained": config["overseas_retained"],
-            "retained_players": config["retained_players"],
+            "retained_players": [canonical_player_name(player) for player in config["retained_players"]],
             "open_slots": max(0, state.squad_size - state.retained),
             "overseas_slots_left": max(0, state.overseas_limit - state.overseas_retained),
             "auction_power": state.auction_power,
@@ -646,14 +661,14 @@ def build_matchup_payload() -> dict:
         bowl_frame["impact_pct"] = bowl_percentiles
 
         for _, row in bat_frame.iterrows():
-            batter_phase_profiles.setdefault(row["batter"], {})[phase] = {
+            batter_phase_profiles.setdefault(canonical_player_name(str(row["batter"])), {})[phase] = {
                 "impact_score": round(float(row["impact_score"]), 2),
                 "impact_pct": round(float(row["impact_pct"]), 2),
                 "balls": safe_int(row["balls"]),
                 "sr_bayes": round(float(row["sr_bayes"]), 2),
             }
         for _, row in bowl_frame.iterrows():
-            bowler_phase_profiles.setdefault(row["bowler"], {})[phase] = {
+            bowler_phase_profiles.setdefault(canonical_player_name(str(row["bowler"])), {})[phase] = {
                 "impact_score": round(float(row["impact_score"]), 2),
                 "impact_pct": round(float(row["impact_pct"]), 2),
                 "balls": safe_int(row["balls"]),
@@ -663,6 +678,20 @@ def build_matchup_payload() -> dict:
 
     death_batting = pd.read_csv(PHASE_FILES["batting"]["death"]).sort_values("impact_score", ascending=False).head(20)
     death_bowling = pd.read_csv(PHASE_FILES["bowling"]["death"]).sort_values("impact_score", ascending=False).head(20)
+
+    for frame, name_col in [
+        (batter_vs_style, "batter"),
+        (bowler_vs_hand, "bowler"),
+        (pressure_batting, "batter"),
+        (pressure_bowling, "bowler"),
+        (head_to_head_total, "batter"),
+        (head_to_head_total, "bowler"),
+        (head_to_head_phase, "batter"),
+        (head_to_head_phase, "bowler"),
+        (death_batting, "batter"),
+        (death_bowling, "bowler"),
+    ]:
+        frame[name_col] = frame[name_col].map(canonical_player_name)
 
     return {
         "batter_options": sorted(batter_vs_style["batter"].unique().tolist()),
