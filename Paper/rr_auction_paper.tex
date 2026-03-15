@@ -7,6 +7,7 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{float}
+\usepackage[round]{natbib}
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{caption}
@@ -26,8 +27,8 @@
 \setlength{\parskip}{0.4em}
 \pagestyle{plain}
 
-\title{\textbf{Sequential English Auctions Under Roster Constraints:}\\
-\textbf{A Rajasthan Royals Model for the IPL 2026 Auction}}
+\title{\textbf{IPL Auction Intelligence Under Roster Constraints:}\\
+\textbf{A League-Wide Sequential English Auction Model}}
 \author{Piyush Zaware\\University of Chicago}
 \date{\today}
 
@@ -35,9 +36,9 @@
 
 \begin{titlepage}
 \centering
-{\Large Sequential English Auctions Under Roster Constraints\par}
+{\Large IPL Auction Intelligence Under Roster Constraints\par}
 \vspace{0.35cm}
-{\Large A Rajasthan Royals Model for the IPL 2026 Auction\par}
+{\Large A League-Wide Sequential English Auction Model\par}
 \vspace{1.5cm}
 {\normalsize Piyush Zaware\par}
 {\normalsize University of Chicago\par}
@@ -46,23 +47,22 @@
 \vfill
 \begin{minipage}{0.9\textwidth}
 \small
-\textbf{Abstract.} This paper develops a formal economics model of the IPL 2026 auction from the perspective of Rajasthan Royals (RR), a franchise entering the auction with a nearly complete squad, only one overseas slot remaining, and a purse of Rs.\ 16.05 crore. The empirical inputs are drawn from a ball-by-ball IPL panel covering 1{,}169 matches and 278{,}205 deliveries between April 18, 2008 and June 3, 2025, together with the official 2026 auction list and set order. I first construct player quality measures from phase-specific batting and bowling impact scores using Bayesian shrinkage. I then embed those quality signals in a sequential English-auction environment with team-specific demand, set-wise nomination order, endogenous walk-away prices, purse constraints, and overseas-slot shadow costs. The resulting simulator reproduces the two core observed RR purchases identified in the project data---Ravi Bishnoi and Adam Milne---while also showing why exact replication of low-cost domestic depth picks is difficult in a public-data model. The main contribution is a tractable framework that converts cricket performance data into team-specific auction valuations under dynamic budget and roster constraints.
+\textbf{Abstract.} This paper develops a formal economics model of the IPL auction as a sequential English auction with budget, roster, and overseas-slot constraints. The empirical inputs are drawn from a ball-by-ball IPL panel covering 1{,}169 matches and 278{,}205 deliveries between April 18, 2008 and June 3, 2025, together with the official 2026 auction list, reserve prices, and set order. I first construct player quality measures from phase-specific batting and bowling impact scores using Bayesian shrinkage, then link those signals to a shared league-wide auction simulator in which franchise valuations depend on retained cores, role scarcity, purse state, and future substitution options. The framework is general and can be applied to any IPL team. For expository simplicity, I use Rajasthan Royals as the main worked example because its 2026 retained structure creates a particularly sharp constrained-bidding problem. The resulting simulator reproduces the two core observed RR purchases highlighted in the project data---Ravi Bishnoi and Adam Milne---while also showing why exact replication of low-cost domestic depth picks is difficult in a public-data model. The broader contribution is a tractable framework that converts cricket performance data into team-specific auction valuations and market-clearing outcomes under dynamic budget and roster constraints.
 \end{minipage}
 \vfill
 \begin{minipage}{0.9\textwidth}
 \small
-\textbf{Keywords:} auctions, sports economics, roster construction, sequential bidding, cricket analytics\\
-\textbf{JEL Codes:} D44, C63, L83
+\textbf{Keywords:} auctions, sports economics, roster construction, sequential bidding, cricket analytics
 \end{minipage}
 \end{titlepage}
 
 \section{Introduction}
 
-The IPL auction is a natural setting for applied auction theory. Teams do not bid for isolated objects; they bid for players whose value depends on roster composition, overseas-slot scarcity, remaining purse, and the sequence in which substitutes appear. The relevant problem is therefore not a static private-values auction. It is a dynamic procurement problem with state-dependent valuations.
+The IPL auction is a natural setting for applied auction theory. Teams do not bid for isolated objects; they bid for players whose value depends on roster composition, overseas-slot scarcity, remaining purse, and the sequence in which substitutes appear. The relevant problem is therefore not a static private-values auction. It is a dynamic procurement problem with state-dependent valuations. In that sense, the setting is closer to the broader auction-theory tradition that emphasizes strategic bidding under incomplete information, reserve prices, revenue equivalence, dynamic substitution, and endogenous price formation than to a simple one-shot private-values benchmark \citep{vickrey1961,wilson1979,milgromweber1982,myerson1981,bulowklemperer1996,klemperer1999,krishna2009,ausubel2004}.
 
-This project studies the 2026 Rajasthan Royals auction. RR entered the auction with 16 retained players, 7 retained overseas players, and only Rs.\ 16.05 crore of purse space remaining. Those facts create a sharp optimization problem. RR cannot rationally participate in every open bidding war. Instead, it must carry player-specific walk-away prices that reflect current role fit, future substitution possibilities, and the shadow value of roster flexibility.
+This project studies the IPL auction through a league-wide model and then, for expositional clarity, works through the 2026 Rajasthan Royals auction in detail. RR entered the auction with 16 retained players, 7 retained overseas players, and only Rs.\ 16.05 crore of purse space remaining. Those facts create a sharp optimization problem. RR cannot rationally participate in every open bidding war. Instead, it must carry player-specific walk-away prices that reflect current role fit, future substitution possibilities, and the shadow value of roster flexibility.
 
-The code base already contained the two building blocks for such a model. First, [A1\_code.ipynb] implements a ball-by-ball valuation pipeline that constructs phase-specific batting and bowling impact measures using Bayesian shrinkage. Second, [rr\_auction\_simulator.py] implements a set-wise English auction using the cleaned 2026 auction workbook, actual reserve prices, and a franchise-specific decision rule for RR. This paper formalizes those pieces in the style of an economics research paper.
+The code base already contained the two building blocks for such a model. First, \texttt{A1\_code.ipynb} implements a ball-by-ball valuation pipeline that constructs phase-specific batting and bowling impact measures using Bayesian shrinkage. Second, \texttt{rr\_auction\_simulator.py} implements a set-wise English auction using the cleaned 2026 auction workbook, actual reserve prices, and a shared league environment that can be focused on any franchise. This paper formalizes those pieces in the style of an economics research paper. On the sports side, the project is also part of the broader move toward decision-making with granular performance data rather than coarse seasonal aggregates, and toward thinking about player acquisition through constrained market design and labor-market institutions \citep{rottenberg1956,scully1974,kahn2000,lewis2004,alamar2013,masseythaler2013}.
 
 \section{Institutional Background}
 
@@ -244,6 +244,18 @@ The same machinery now generalizes naturally to any IPL franchise. If the analys
 
 The framework also generalizes across seasons. If the auction format is unchanged, the analyst can forecast 2027, 2028, or later auctions by replacing the retained-player list, purse, and retained-slot structure while preserving the same sequential auction mechanism. In the code, this is implemented through season-specific context overrides rather than season-specific rewrites of the bidding model.
 
+\subsection{General-Equilibrium Interpretation}
+
+The relevant solution concept in the current project is not partial equilibrium. A team's target board cannot be interpreted in isolation because prices and allocations are jointly determined by the bidding behavior of the full league. In the implemented scenario builder and league simulator, all franchises participate in the same shared auction path, each team's state evolves after every sale, and each player's clearing price reflects the current distribution of rival valuations.
+
+In that sense, the model solves for a reduced-form dynamic general equilibrium of the auction market. Let \(\mathbf{x}_s\) denote the vector of franchise states at auction state \(s\), and let \(V_s(i)\) denote the vector of active valuations for player \(i\) across teams. Then the equilibrium object is the sequence
+\begin{align}
+\left\{\mathbf{x}_s, p_s(i), w_s(i)\right\}_{s=1}^{S},
+\end{align}
+where \(p_s(i)\) is the market-clearing transaction price and \(w_s(i)\) is the winning team, both determined endogenously by the entire league's state vector rather than by a single franchise's standalone ranking. Changing one team's purse, retained core, or role needs changes rival opportunities as well, so the counterfactual is market-wide rather than franchise-local.
+
+This general-equilibrium interpretation is especially important for scarce roles such as Indian spin or late-innings pace. A player may appear affordable in a one-team ranking exercise, yet become unattainable once rival need, purse, and slot flexibility are allowed to interact in the same common auction environment. Conceptually, this pushes the problem closer to equilibrium reasoning in auction markets than to isolated score-based recommendation systems \citep{klemperer2004,krishna2009}.
+
 \subsection{Walk-Away Prices}
 
 The operational bidding object is the walk-away price:
@@ -380,11 +392,90 @@ Third, the current auction engine now randomizes nomination order within sets an
 
 \section{Conclusion}
 
-This paper converts the IPL 2026 Rajasthan Royals auction project into a formal economics model. Using delivery-level performance data, Bayesian phase-specific impact measures, actual 2026 auction sets, and a constrained sequential English-auction simulator with randomized within-set nomination order, the model reproduces RR's two core strategic purchases identified in the project context: Ravi Bishnoi and Adam Milne.
+This paper converts the IPL auction analytics project into a formal economics model. Using delivery-level performance data, Bayesian phase-specific impact measures, actual 2026 auction sets, and a constrained sequential English-auction simulator with randomized within-set nomination order, the model reproduces RR's two core strategic purchases identified in the project context: Ravi Bishnoi and Adam Milne.
 
 More broadly, the paper shows how auction theory and sports analytics can be combined in a tractable way. The key point is not that teams should simply buy the highest-rated players. The key point is that teams should carry endogenous walk-away prices that internalize budget, role scarcity, overseas limits, and future option value. For RR in 2026, that logic implies patience, shortlist discipline, and selective bidding rather than broad aggressive participation.
 
 At the same time, the framework is not RR specific. It is a general IPL auction template. Once a franchise's retained core, purse, overseas slots, and strategic role needs are supplied, the same model can be used to map plausible bidding strategy and simulate resulting auction outcomes.
+
+\begin{thebibliography}{99}
+
+\bibitem[Alamar(2013)]{alamar2013}
+Alamar, Benjamin. 2013.
+\textit{Sports Analytics: A Guide for Coaches, Managers, and Other Decision Makers}.
+New York: Columbia University Press.
+
+\bibitem[Ausubel(2004)]{ausubel2004}
+Ausubel, Lawrence M. 2004.
+``An Efficient Ascending-Bid Auction for Multiple Objects.''
+\textit{American Economic Review} 94(5): 1452--1475.
+
+\bibitem[Bulow and Klemperer(1996)]{bulowklemperer1996}
+Bulow, Jeremy, and Paul Klemperer. 1996.
+``Auctions Versus Negotiations.''
+\textit{American Economic Review} 86(1): 180--194.
+
+\bibitem[Klemperer(1999)]{klemperer1999}
+Klemperer, Paul. 1999.
+``Auction Theory: A Guide to the Literature.''
+\textit{Journal of Economic Surveys} 13(3): 227--286.
+
+\bibitem[Klemperer(2004)]{klemperer2004}
+Klemperer, Paul. 2004.
+\textit{Auctions: Theory and Practice}.
+Princeton: Princeton University Press.
+
+\bibitem[Krishna(2009)]{krishna2009}
+Krishna, Vijay. 2009.
+\textit{Auction Theory}, 2nd ed.
+Burlington, MA: Academic Press.
+
+\bibitem[Kahn(2000)]{kahn2000}
+Kahn, Lawrence M. 2000.
+``The Sports Business as a Labor Market Laboratory.''
+\textit{Journal of Economic Perspectives} 14(3): 75--94.
+
+\bibitem[Lewis(2004)]{lewis2004}
+Lewis, Michael. 2004.
+\textit{Moneyball: The Art of Winning an Unfair Game}.
+New York: W. W. Norton.
+
+\bibitem[Massey and Thaler(2013)]{masseythaler2013}
+Massey, Cade, and Richard H. Thaler. 2013.
+``The Loser's Curse: Overconfidence vs. Market Efficiency in the National Football League Draft.''
+\textit{Management Science} 59(7): 1479--1495.
+
+\bibitem[Milgrom and Weber(1982)]{milgromweber1982}
+Milgrom, Paul R., and Robert J. Weber. 1982.
+``A Theory of Auctions and Competitive Bidding.''
+\textit{Econometrica} 50(5): 1089--1122.
+
+\bibitem[Myerson(1981)]{myerson1981}
+Myerson, Roger B. 1981.
+``Optimal Auction Design.''
+\textit{Mathematics of Operations Research} 6(1): 58--73.
+
+\bibitem[Rottenberg(1956)]{rottenberg1956}
+Rottenberg, Simon. 1956.
+``The Baseball Players' Labor Market.''
+\textit{Journal of Political Economy} 64(3): 242--258.
+
+\bibitem[Scully(1974)]{scully1974}
+Scully, Gerald W. 1974.
+``Pay and Performance in Major League Baseball.''
+\textit{American Economic Review} 64(6): 915--930.
+
+\bibitem[Vickrey(1961)]{vickrey1961}
+Vickrey, William. 1961.
+``Counterspeculation, Auctions, and Competitive Sealed Tenders.''
+\textit{Journal of Finance} 16(1): 8--37.
+
+\bibitem[Wilson(1979)]{wilson1979}
+Wilson, Robert. 1979.
+``Auctions of Shares.''
+\textit{Quarterly Journal of Economics} 93(4): 675--689.
+
+\end{thebibliography}
 
 \appendix
 
