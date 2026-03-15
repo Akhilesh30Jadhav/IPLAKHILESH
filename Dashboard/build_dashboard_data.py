@@ -18,6 +18,7 @@ from Code.rr_auction_simulator import (
     add_player_valuation_columns,
     build_team_states,
     canonical_player_name,
+    first_initial_key,
     load_auction_pool,
     normalize_name,
     resolve_team_configs,
@@ -52,6 +53,142 @@ ACTIVE_PHASE_FILES = {
 
 PHASE_ORDER = ["powerplay", "middle", "death"]
 ACTIVE_CUTOFF_YEAR = 2025
+
+MANUAL_STYLE_OVERRIDES = {
+    "MS Dhoni": {"bat_style": "RHB", "bowl_style": ""},
+    "Sanju Samson": {"bat_style": "RHB", "bowl_style": ""},
+    "Ruturaj Gaikwad": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Shivam Dube": {"bat_style": "LHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Noor Ahmad": {"bat_style": "RHB", "bowl_style": "LEFT ARM WRIST SPIN"},
+    "Nathan Ellis": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Jamie Overton": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Mukesh Choudhary": {"bat_style": "RHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Syed Khaleel Ahmed": {"bat_style": "RHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Dewald Brevis": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "KL Rahul": {"bat_style": "RHB", "bowl_style": ""},
+    "Axar Patel": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Kuldeep Yadav": {"bat_style": "LHB", "bowl_style": "LEFT ARM WRIST SPIN"},
+    "Mitchell Starc": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST"},
+    "Tristan Stubbs": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "T. Natarajan": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Mukesh Kumar": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Nitish Rana": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Dushmantha Chameera": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Jos Buttler": {"bat_style": "RHB", "bowl_style": ""},
+    "Kagiso Rabada": {"bat_style": "LHB", "bowl_style": "RIGHT ARM FAST"},
+    "Mohammad Siraj": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Rashid Khan": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Shubman Gill": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Sai Sudharsan": {"bat_style": "LHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Washington Sundar": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Rahul Tewatia": {"bat_style": "LHB", "bowl_style": "LEFT ARM CHINAMAN"},
+    "Prasidh Krishna": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Glenn Phillips": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Sunil Narine": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Varun Chakaravarthy": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Harshit Rana": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Ajinkya Rahane": {"bat_style": "RHB", "bowl_style": "RIGHT ARM MEDIUM"},
+    "Rinku Singh": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Rovman Powell": {"bat_style": "RHB", "bowl_style": "RIGHT ARM MEDIUM FAST"},
+    "Vaibhav Arora": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Umran Malik": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Nicholas Pooran": {"bat_style": "LHB", "bowl_style": ""},
+    "Rishabh Pant": {"bat_style": "LHB", "bowl_style": ""},
+    "Mayank Yadav": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Aiden Markram": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Mitchell Marsh": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Md Shami": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Avesh Khan": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Mohsin Khan": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Jasprit Bumrah": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Hardik Pandya": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Rohit Sharma": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Suryakumar Yadav": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Tilak Verma": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Trent Boult": {"bat_style": "RHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Deepak Chahar": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Mitchell Santner": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Will Jacks": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Ryan Rickelton": {"bat_style": "LHB", "bowl_style": ""},
+    "Shardul Thakur": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Arshdeep Singh": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Marco Jansen": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST"},
+    "Lockie Ferguson": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Marcus Stoinis": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Shreyas Iyer": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Prabhsimran Singh": {"bat_style": "RHB", "bowl_style": ""},
+    "Yuzvendra Chahal": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Harpreet Brar": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Azmatullah Omarzai": {"bat_style": "RHB", "bowl_style": "RIGHT ARM MEDIUM FAST"},
+    "Virat Kohli": {"bat_style": "RHB", "bowl_style": "RIGHT ARM MEDIUM"},
+    "Bhuvneshwar Kumar": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Josh Hazlewood": {"bat_style": "LHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Phil Salt": {"bat_style": "RHB", "bowl_style": ""},
+    "Rajat Patidar": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Tim David": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Krunal Pandya": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Nuwan Thushara": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Yash Dayal": {"bat_style": "RHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Yashaswi Jaiswal": {"bat_style": "LHB", "bowl_style": ""},
+    "Jofra Archer": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Ravindra Jadeja": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Riyan Parag": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+    "Sam Curran": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST MEDIUM"},
+    "Sandeep Sharma": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Shimron Hetmyer": {"bat_style": "LHB", "bowl_style": ""},
+    "Dhruv Jurel": {"bat_style": "RHB", "bowl_style": ""},
+    "Tushar Deshpande": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Kwena Maphaka": {"bat_style": "LHB", "bowl_style": "LEFT ARM FAST"},
+    "Donovan Ferreira": {"bat_style": "RHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Vaibhav Suryavanshi": {"bat_style": "LHB", "bowl_style": ""},
+    "Travis Head": {"bat_style": "LHB", "bowl_style": "RIGHT ARM OFF SPIN"},
+    "Pat Cummins": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Heinrich Klaasen": {"bat_style": "RHB", "bowl_style": ""},
+    "Ishan Kishan": {"bat_style": "LHB", "bowl_style": ""},
+    "Abhishek Sharma": {"bat_style": "LHB", "bowl_style": "LEFT ARM SLOW ORTHODOX"},
+    "Harshal Patel": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST MEDIUM"},
+    "Nitish Kumar Reddy": {"bat_style": "RHB", "bowl_style": "RIGHT ARM MEDIUM FAST"},
+    "Brydon Carse": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "Kamindu Mendis": {"bat_style": "LHB", "bowl_style": "LEFT ARM ORTHODOX"},
+    "Jasprit Bumrah": {"bat_style": "RHB", "bowl_style": "RIGHT ARM FAST"},
+    "CV Varun": {"bat_style": "RHB", "bowl_style": "RIGHT ARM LEG SPIN"},
+}
+
+
+def compact_initials_key(name: str) -> str:
+    norm = normalize_name(name)
+    if not norm:
+        return ""
+    parts = norm.split()
+    if len(parts) == 1:
+        return parts[0]
+    return f"{''.join(part[0] for part in parts[:-1])} {parts[-1]}"
+
+
+def build_player_style_lookup(player_meta: pd.DataFrame) -> dict[str, dict[str, str]]:
+    registry: dict[str, dict[str, str]] = {}
+    for _, row in player_meta.iterrows():
+        raw_name = str(row.get("player_name", "")).strip()
+        canonical_name = canonical_player_name(raw_name)
+        bat_style = str(row.get("bat_style", "") or "").strip()
+        bowl_style = str(row.get("bowl_style", "") or "").strip()
+        keys = {
+            normalize_name(raw_name),
+            normalize_name(canonical_name),
+            first_initial_key(raw_name),
+            first_initial_key(canonical_name),
+            compact_initials_key(raw_name),
+            compact_initials_key(canonical_name),
+        }
+        for key in keys:
+            if not key:
+                continue
+            entry = registry.setdefault(key, {"bat_style": "", "bowl_style": ""})
+            if bat_style and not entry["bat_style"]:
+                entry["bat_style"] = bat_style
+            if bowl_style and not entry["bowl_style"]:
+                entry["bowl_style"] = bowl_style
+    return registry
 
 
 def ensure_auction_outputs() -> None:
@@ -584,20 +721,41 @@ def build_matchup_payload() -> dict:
     player_meta = (
         auction_pool.sort_values(["player_name"])
         .drop_duplicates("player_name")
-        .assign(player_norm=lambda frame: frame["player_name"].map(normalize_name))
     )
-    bat_style_map = player_meta.set_index("player_norm")["bat_style"].astype(str).to_dict()
-    bowl_style_map = player_meta.set_index("player_norm")["bowl_style"].astype(str).to_dict()
+    override_meta = pd.DataFrame(
+        [
+            {"player_name": name, "bat_style": values.get("bat_style", ""), "bowl_style": values.get("bowl_style", "")}
+            for name, values in MANUAL_STYLE_OVERRIDES.items()
+        ]
+    )
+    player_meta = pd.concat([player_meta[["player_name", "bat_style", "bowl_style"]], override_meta], ignore_index=True)
+    player_style_lookup = build_player_style_lookup(player_meta)
 
     ball = ball.copy()
     ball["batter_norm"] = ball["batter"].map(normalize_name)
     ball["bowler_norm"] = ball["bowler"].map(normalize_name)
-    ball["batter_hand"] = ball["batter_norm"].map(bat_style_map).replace({"": None})
-    ball["bowler_style"] = ball["bowler_norm"].map(bowl_style_map).replace({"": None})
+    ball["batter_hand"] = ball["batter_norm"].map(lambda key: player_style_lookup.get(key, {}).get("bat_style", "")).replace({"": None})
+    ball["bowler_style"] = ball["bowler_norm"].map(lambda key: player_style_lookup.get(key, {}).get("bowl_style", "")).replace({"": None})
     ball["bowl_family"] = ball["bowler_style"].map(bowl_family_from_style)
     ball["pressure_state"] = (
         (ball["balls_remaining"] <= 30) | (ball["innings_wickets_cum"] >= 5)
     ).map({True: "High Pressure", False: "Standard"})
+
+    batter_overall = (
+        ball.groupby("batter")
+        .agg(runs=("runs_batter", "sum"), balls=("legal_ball", "sum"), dismissals=("wicket", "sum"))
+        .reset_index()
+    )
+    batter_overall["strike_rate"] = (batter_overall["runs"] / batter_overall["balls"].clip(lower=1)) * 100.0
+    batter_overall["dismissal_rate"] = batter_overall["dismissals"] / batter_overall["balls"].clip(lower=1)
+
+    bowler_overall = (
+        ball.groupby("bowler")
+        .agg(runs=("runs_total", "sum"), balls=("legal_ball", "sum"), wickets=("wicket", "sum"))
+        .reset_index()
+    )
+    bowler_overall["economy"] = bowler_overall["runs"] / (bowler_overall["balls"].clip(lower=1) / 6.0)
+    bowler_overall["wicket_rate"] = bowler_overall["wickets"] / bowler_overall["balls"].clip(lower=1)
 
     matchup_ball = ball[ball["bowl_family"].notna()].copy()
     batter_vs_style = (
@@ -693,6 +851,128 @@ def build_matchup_payload() -> dict:
     ]:
         frame[name_col] = frame[name_col].map(canonical_player_name)
 
+    batter_context = batter_overall.copy()
+    batter_context["batter"] = batter_context["batter"].map(canonical_player_name)
+    batter_style_profiles = {}
+    for _, row in batter_context.iterrows():
+        player = row["batter"]
+        phase_profile = batter_phase_profiles.get(player, {})
+        pace_spin_rows = batter_vs_style[batter_vs_style["batter"] == player]
+        pressure_rows = pressure_batting[pressure_batting["batter"] == player]
+        hand = player_style_lookup.get(normalize_name(player), {}).get("bat_style", "")
+        phase_scores = {phase: float(phase_profile.get(phase, {}).get("impact_pct", 0.0)) for phase in PHASE_ORDER}
+        top_phase = max(phase_scores, key=phase_scores.get) if phase_scores else "middle"
+        top_phase_score = phase_scores.get(top_phase, 0.0)
+        if top_phase_score < 55:
+            phase_identity = "balanced phase profile"
+        elif top_phase == "powerplay":
+            phase_identity = "powerplay aggressor"
+        elif top_phase == "middle":
+            phase_identity = "middle-overs stabilizer"
+        else:
+            phase_identity = "death overs finisher"
+
+        pace_sr = safe_float(pace_spin_rows.loc[pace_spin_rows["bowl_family"] == "Pace", "strike_rate"].mean()) if not pace_spin_rows.empty else 0.0
+        spin_sr = safe_float(pace_spin_rows.loc[pace_spin_rows["bowl_family"] == "Spin", "strike_rate"].mean()) if not pace_spin_rows.empty else 0.0
+        if pace_sr and spin_sr:
+            if pace_sr - spin_sr >= 12:
+                pace_spin_bias = "stronger against pace"
+            elif spin_sr - pace_sr >= 12:
+                pace_spin_bias = "stronger against spin"
+            else:
+                pace_spin_bias = "balanced against pace and spin"
+        else:
+            pace_spin_bias = "limited pace-spin split sample"
+
+        if row["strike_rate"] >= 140:
+            scoring_style = "high-tempo boundary hitter"
+        elif row["strike_rate"] <= 118 and row["dismissal_rate"] <= 0.05:
+            scoring_style = "accumulator"
+        else:
+            scoring_style = "mixed scorer"
+
+        high_pressure_sr = safe_float(pressure_rows.loc[pressure_rows["pressure_state"] == "High Pressure", "strike_rate"].mean())
+        standard_sr = safe_float(pressure_rows.loc[pressure_rows["pressure_state"] == "Standard", "strike_rate"].mean())
+        if high_pressure_sr and standard_sr:
+            if high_pressure_sr - standard_sr >= 8:
+                pressure_trait = "lifts scoring under pressure"
+            elif standard_sr - high_pressure_sr >= 8:
+                pressure_trait = "less explosive under pressure"
+            else:
+                pressure_trait = "stable across pressure states"
+        else:
+            pressure_trait = "limited pressure sample"
+
+        batter_style_profiles[player] = {
+            "handedness": hand or "Unknown",
+            "phase_identity": phase_identity,
+            "scoring_style": scoring_style,
+            "pace_spin_bias": pace_spin_bias,
+            "pressure_trait": pressure_trait,
+        }
+
+    bowler_context = bowler_overall.copy()
+    bowler_context["bowler"] = bowler_context["bowler"].map(canonical_player_name)
+    bowler_style_profiles = {}
+    for _, row in bowler_context.iterrows():
+        player = row["bowler"]
+        phase_profile = bowler_phase_profiles.get(player, {})
+        hand_rows = bowler_vs_hand[bowler_vs_hand["bowler"] == player]
+        pressure_rows = pressure_bowling[pressure_bowling["bowler"] == player]
+        raw_style = player_style_lookup.get(normalize_name(player), {}).get("bowl_style", "")
+        family = bowl_family_from_style(raw_style) or "Unknown"
+        phase_scores = {phase: float(phase_profile.get(phase, {}).get("impact_pct", 0.0)) for phase in PHASE_ORDER}
+        top_phase = max(phase_scores, key=phase_scores.get) if phase_scores else "middle"
+        top_phase_score = phase_scores.get(top_phase, 0.0)
+        if top_phase_score < 55:
+            phase_identity = "utility overs option"
+        elif top_phase == "powerplay":
+            phase_identity = "new-ball specialist"
+        elif top_phase == "middle":
+            phase_identity = "middle-overs controller"
+        else:
+            phase_identity = "death overs specialist"
+
+        if row["economy"] <= 7.4 and row["wicket_rate"] <= 0.045:
+            bowling_style = "control bowler"
+        elif row["wicket_rate"] >= 0.055:
+            bowling_style = "wicket-taking threat"
+        else:
+            bowling_style = "balanced operator"
+
+        lhb_econ = safe_float(hand_rows.loc[hand_rows["batter_hand"] == "LHB", "economy"].mean())
+        rhb_econ = safe_float(hand_rows.loc[hand_rows["batter_hand"] == "RHB", "economy"].mean())
+        if lhb_econ and rhb_econ:
+            if rhb_econ - lhb_econ >= 0.75:
+                handedness_bias = "better against left-hand batters"
+            elif lhb_econ - rhb_econ >= 0.75:
+                handedness_bias = "better against right-hand batters"
+            else:
+                handedness_bias = "neutral by batter handedness"
+        else:
+            handedness_bias = "limited handedness split sample"
+
+        high_pressure_econ = safe_float(pressure_rows.loc[pressure_rows["pressure_state"] == "High Pressure", "economy"].mean())
+        standard_econ = safe_float(pressure_rows.loc[pressure_rows["pressure_state"] == "Standard", "economy"].mean())
+        if high_pressure_econ and standard_econ:
+            if standard_econ - high_pressure_econ >= 0.6:
+                pressure_trait = "sharpens under pressure"
+            elif high_pressure_econ - standard_econ >= 0.6:
+                pressure_trait = "more hittable under pressure"
+            else:
+                pressure_trait = "steady across pressure states"
+        else:
+            pressure_trait = "limited pressure sample"
+
+        bowler_style_profiles[player] = {
+            "bowling_family": family,
+            "bowling_style": raw_style or "Unknown style",
+            "phase_identity": phase_identity,
+            "attack_profile": bowling_style,
+            "handedness_bias": handedness_bias,
+            "pressure_trait": pressure_trait,
+        }
+
     bowler_options = sorted(
         {
             canonical_player_name(str(name))
@@ -711,6 +991,8 @@ def build_matchup_payload() -> dict:
         "head_to_head_phase": head_to_head_phase.to_dict("records"),
         "batter_phase_profiles": batter_phase_profiles,
         "bowler_phase_profiles": bowler_phase_profiles,
+        "batter_style_profiles": batter_style_profiles,
+        "bowler_style_profiles": bowler_style_profiles,
         "death_specialists": {
             "batting": death_batting[["batter", "impact_score", "balls", "sr_bayes"]].to_dict("records"),
             "bowling": death_bowling[["bowler", "impact_score", "balls", "econ_bayes", "wickets"]].to_dict("records"),

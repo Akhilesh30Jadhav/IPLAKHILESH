@@ -62,14 +62,16 @@
     const phaseH2H = data.head_to_head_phase.filter((row) => row.batter === batter && row.bowler === bowler);
     const batterPhase = data.batter_phase_profiles[batter] || {};
     const bowlerPhase = data.bowler_phase_profiles[bowler] || {};
+    const batterStyle = data.batter_style_profiles[batter] || {};
+    const bowlerStyle = data.bowler_style_profiles[bowler] || {};
     const phaseContest = PHASES.map((phase) => phaseContestRow(phase, batterPhase[phase], bowlerPhase[phase], phaseH2H.find((row) => row.phase === phase)));
 
-    renderLiveSummary(batter, bowler, totalH2H, phaseContest);
+    renderLiveSummary(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
     renderHeadToHeadCards(batter, bowler, totalH2H, phaseH2H);
     renderBatterCards(batter, batterRows);
     renderBowlerTable(bowlerRows);
     renderPressureCards(batter, bowler, batterPressure, bowlerPressure);
-    renderExplainability(batter, bowler, totalH2H, phaseContest);
+    renderExplainability(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
   }
 
   function phaseContestRow(phase, batterProfile, bowlerProfile, h2h) {
@@ -110,15 +112,40 @@
     };
   }
 
-  function renderLiveSummary(batter, bowler, totalH2H, phaseContest) {
+  function renderLiveSummary(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle) {
     const strongestBatter = phaseContest.slice().sort((a, b) => b.net_edge - a.net_edge)[0];
     const strongestBowler = phaseContest.slice().sort((a, b) => a.net_edge - b.net_edge)[0];
-    const overallVerdict = buildCommentatorCall(batter, bowler, totalH2H, phaseContest, strongestBatter, strongestBowler);
+    const overallVerdict = buildCommentatorCall(
+      batter,
+      bowler,
+      totalH2H,
+      phaseContest,
+      strongestBatter,
+      strongestBowler,
+      batterStyle,
+      bowlerStyle
+    );
 
     els.liveSummary.innerHTML = `
       <div class="insight-card">
         <h5>Live AI-Style Contest Call</h5>
         <p>${overallVerdict}</p>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <h5>${batter} Style Context</h5>
+          <div class="summary-line"><span>Handedness</span><strong>${batterStyle.handedness || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Phase identity</span><strong>${batterStyle.phase_identity || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Scoring style</span><strong>${batterStyle.scoring_style || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Pace / spin</span><strong>${batterStyle.pace_spin_bias || "Unknown"}</strong></div>
+        </div>
+        <div class="compare-card">
+          <h5>${bowler} Style Context</h5>
+          <div class="summary-line"><span>Bowling family</span><strong>${bowlerStyle.bowling_family || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Style</span><strong>${bowlerStyle.bowling_style || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Phase identity</span><strong>${bowlerStyle.phase_identity || "Unknown"}</strong></div>
+          <div class="summary-line"><span>Attack profile</span><strong>${bowlerStyle.attack_profile || "Unknown"}</strong></div>
+        </div>
       </div>
       <div class="compare-grid">
         ${phaseContest
@@ -140,15 +167,18 @@
     `;
   }
 
-  function buildCommentatorCall(batter, bowler, totalH2H, phaseContest, strongestBatter, strongestBowler) {
+  function buildCommentatorCall(batter, bowler, totalH2H, phaseContest, strongestBatter, strongestBowler, batterStyle, bowlerStyle) {
     const batterEdges = phaseContest.filter((row) => row.winner === "Batter");
     const bowlerEdges = phaseContest.filter((row) => row.winner === "Bowler");
+    const styleLead = `${batter} profiles as a ${batterStyle.handedness || "unknown-hand"} ${batterStyle.phase_identity || "batter"}, while ${bowler} arrives as a ${String(
+      bowlerStyle.phase_identity || "bowler"
+    ).toLowerCase()} with a ${String(bowlerStyle.attack_profile || "balanced profile").toLowerCase()}.`;
     const h2hLine = totalH2H
       ? `${bowler} has already removed ${batter} ${totalH2H.dismissals} time${totalH2H.dismissals === 1 ? "" : "s"} in ${totalH2H.balls} balls, so there is real duel evidence here rather than just broad profile strength.`
       : `There is no direct ball-by-ball record for this exact pair, so the call leans more on each player's phase profile than on head-to-head history.`;
 
     if (strongestBowler.net_edge <= -25) {
-      return `${bowler} looks in command of this matchup. The biggest squeeze comes in ${titlePhase(
+      return `${styleLead} ${bowler} looks in command of this matchup. The biggest squeeze comes in ${titlePhase(
         strongestBowler.phase
       )}, where the bowler's phase profile and the direct contest evidence both tilt heavily his way. ${batter} may still find moments if he survives into ${titlePhase(
         strongestBatter.phase
@@ -156,7 +186,7 @@
     }
 
     if (strongestBatter.net_edge >= 20) {
-      return `${batter} looks well set up to take this contest on. The cleanest scoring window is ${titlePhase(
+      return `${styleLead} ${batter} looks well set up to take this contest on. The cleanest scoring window is ${titlePhase(
         strongestBatter.phase
       )}, where the batter's phase output clearly outpaces the bowler's control signal. ${bowler} still has his best chance to drag the contest back in ${titlePhase(
         strongestBowler.phase
@@ -164,14 +194,14 @@
     }
 
     if (batterEdges.length && bowlerEdges.length) {
-      return `This feels like a properly game-state-sensitive battle. ${batter} has the better attacking window in ${batterEdges
+      return `${styleLead} This feels like a properly game-state-sensitive battle. ${batter} has the better attacking window in ${batterEdges
         .map((row) => titlePhase(row.phase))
         .join(", ")}, while ${bowler} is more likely to dictate terms in ${bowlerEdges
         .map((row) => titlePhase(row.phase))
         .join(", ")}. In other words, the matchup swings with phase and usage rather than being one-way traffic. ${h2hLine}`;
     }
 
-    return `This is a fairly balanced contest on the available evidence. ${titlePhase(
+    return `${styleLead} This is a fairly balanced contest on the available evidence. ${titlePhase(
       strongestBatter.phase
     )} is the nearest thing to a batting release valve, while ${titlePhase(
       strongestBowler.phase
@@ -288,14 +318,14 @@
     ].join("");
   }
 
-  function renderExplainability(batter, bowler, totalH2H, phaseContest) {
+  function renderExplainability(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle) {
     const batterFavorable = phaseContest.filter((row) => row.winner === "Batter").map((row) => titlePhase(row.phase));
     const bowlerFavorable = phaseContest.filter((row) => row.winner === "Bowler").map((row) => titlePhase(row.phase));
     const dismissalText = totalH2H
       ? `${bowler} has dismissed ${batter} ${totalH2H.dismissals} time${totalH2H.dismissals === 1 ? "" : "s"} in the ball-by-ball sample.`
       : `This exact pair has no direct dismissal history in the current sample.`;
-    const matchupWhy = buildWhyItMatters(batter, bowler, totalH2H, phaseContest);
-    const riskText = buildRiskRead(totalH2H, phaseContest);
+    const matchupWhy = buildWhyItMatters(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle);
+    const riskText = buildRiskRead(totalH2H, phaseContest, batterStyle, bowlerStyle);
 
     els.explainability.innerHTML = `
       <div class="insight-card">
@@ -312,6 +342,16 @@
         <p>${data.methodology.contest_engine}</p>
       </div>
       <div class="insight-card">
+        <h5>Style Context</h5>
+        <p>${batter} is profiled as a ${batterStyle.phase_identity || "batter"} with a ${String(
+          batterStyle.scoring_style || "mixed scoring profile"
+        ).toLowerCase()} and a tendency that is ${String(batterStyle.pace_spin_bias || "split-neutral").toLowerCase()}. ${bowler} is profiled as a ${String(
+          bowlerStyle.phase_identity || "bowler"
+        ).toLowerCase()} with a ${String(bowlerStyle.attack_profile || "balanced attack profile").toLowerCase()} and is ${String(
+          bowlerStyle.handedness_bias || "neutral by handedness"
+        ).toLowerCase()}.</p>
+      </div>
+      <div class="insight-card">
         <h5>Why The Matchup Matters</h5>
         <p>${matchupWhy}</p>
       </div>
@@ -322,26 +362,31 @@
     `;
   }
 
-  function buildWhyItMatters(batter, bowler, totalH2H, phaseContest) {
+  function buildWhyItMatters(batter, bowler, totalH2H, phaseContest, batterStyle, bowlerStyle) {
     const strongestBatter = phaseContest.slice().sort((a, b) => b.net_edge - a.net_edge)[0];
     const strongestBowler = phaseContest.slice().sort((a, b) => a.net_edge - b.net_edge)[0];
     const splitLine =
       strongestBatter.phase === strongestBowler.phase
         ? `Both players' strongest signals are colliding in ${titlePhase(strongestBatter.phase)}, which is why this duel is tactically important.`
         : `${batter}'s best route is ${titlePhase(strongestBatter.phase)}, while ${bowler}'s control zone is ${titlePhase(strongestBowler.phase)}. That phase split is exactly what a captain or analyst would game-plan around.`;
+    const styleLine = `${batter}'s profile leans ${String(batterStyle.pace_spin_bias || "balanced").toLowerCase()}, while ${bowler} is a ${String(
+      bowlerStyle.bowling_family || "mixed"
+    ).toLowerCase()} option whose identity is ${String(bowlerStyle.phase_identity || "phase-flexible").toLowerCase()}.`;
     const h2hLine = totalH2H
       ? `The head-to-head sample adds context: ${totalH2H.runs} runs off ${totalH2H.balls} balls at ${formatDecimal(totalH2H.strike_rate)} with ${totalH2H.dismissals} dismissals.`
       : `There is no direct duel sample, so tactical interpretation depends more on the broader phase record.`;
-    return `${splitLine} ${h2hLine}`;
+    return `${splitLine} ${styleLine} ${h2hLine}`;
   }
 
-  function buildRiskRead(totalH2H, phaseContest) {
+  function buildRiskRead(totalH2H, phaseContest, batterStyle, bowlerStyle) {
     const strongest = phaseContest.slice().sort((a, b) => Math.abs(b.net_edge) - Math.abs(a.net_edge))[0];
     if (totalH2H && totalH2H.balls <= 6) {
-      return `Direct evidence is informative here, but the sample is still tiny. The model treats repeated dismissals seriously, yet a handful of balls can still exaggerate the certainty of the call. The sharpest current signal is in ${titlePhase(strongest.phase)}.`;
+      return `Direct evidence is informative here, but the sample is still tiny. The model treats repeated dismissals seriously, yet a handful of balls can still exaggerate the certainty of the call. The sharpest current signal is in ${titlePhase(strongest.phase)}. Style labels such as ${String(
+        batterStyle.phase_identity || "the batter profile"
+      ).toLowerCase()} and ${String(bowlerStyle.phase_identity || "the bowler profile").toLowerCase()} should therefore be read as support, not proof.`;
     }
     if (!totalH2H) {
-      return `The biggest risk is the absence of direct duel evidence. Without head-to-head balls, the call is driven by broader phase quality, which is useful but less specific to this exact contest.`;
+      return `The biggest risk is the absence of direct duel evidence. Without head-to-head balls, the call is driven by broader phase quality and derived style labels, which are useful but less specific to this exact contest.`;
     }
     return `This call blends broad phase quality with direct duel evidence. The main uncertainty is whether the historical interaction remains stable in the exact role, phase, and game-state where the next contest happens.`;
   }
