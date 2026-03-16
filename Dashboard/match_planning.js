@@ -60,8 +60,11 @@
     const match = data.matches.find((row) => String(row.match_id) === els.match.value) || data.matches[0];
     if (!match) return;
 
+    const previousLens = els.lens.value;
     setOptions(els.lens, [match.home, match.away], (value) => `${value} Lens`);
-    if (![match.home, match.away].includes(els.lens.value)) {
+    if ([match.home, match.away].includes(previousLens)) {
+      els.lens.value = previousLens;
+    } else {
       els.lens.value = match.home;
     }
 
