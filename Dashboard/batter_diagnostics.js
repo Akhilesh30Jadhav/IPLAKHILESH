@@ -90,7 +90,12 @@
   }
 
   function matchupRows(player) {
-    return data.bowler_matchups.filter((row) => row.batter_name === player);
+    const rows = data.bowler_matchups.filter((row) => row.batter_name === player);
+    if (els.horizon.value !== "Active") {
+      return rows;
+    }
+    const activeBowlerSet = new Set(data.active_bowler_options || []);
+    return rows.filter((row) => activeBowlerSet.has(row.bowler_name));
   }
 
   function dismissalRows(player) {

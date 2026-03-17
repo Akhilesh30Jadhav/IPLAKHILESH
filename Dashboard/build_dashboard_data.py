@@ -2853,6 +2853,7 @@ def build_batter_diagnostics_payload(players_payload: dict) -> dict:
     )
 
     batter_profiles = players_payload["batter_profiles"]
+    bowler_profiles = players_payload["bowler_profiles"]
     batter_options = sorted(batter_profiles.keys())
     active_batter_options = sorted(
         [
@@ -2861,6 +2862,11 @@ def build_batter_diagnostics_payload(players_payload: dict) -> dict:
             if int(profile["summary"].get("last_year", 0)) >= ACTIVE_CUTOFF_YEAR
         ]
     )
+    active_bowler_options = {
+        player
+        for player, profile in bowler_profiles.items()
+        if int(profile["summary"].get("last_year", 0)) >= ACTIVE_CUTOFF_YEAR
+    }
 
     venue_label_lookup = (
         ball.groupby(["location_key", "venue_label"])
@@ -3011,6 +3017,7 @@ def build_batter_diagnostics_payload(players_payload: dict) -> dict:
         "batter_options": batter_options,
         "active_batter_options": active_batter_options,
         "summaries": summaries,
+        "active_bowler_options": sorted(active_bowler_options),
         "phase_splits": phase_splits.to_dict("records"),
         "pressure_splits": pressure_splits.to_dict("records"),
         "venue_splits": venue_splits.to_dict("records"),
