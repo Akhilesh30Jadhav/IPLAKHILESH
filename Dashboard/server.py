@@ -159,10 +159,10 @@ def build_scenario_response(payload: dict) -> dict:
 def build_match_brief_response(payload: dict) -> dict:
     match_id = int(payload.get("match_id") or 0)
     team_lens = str(payload.get("team_lens") or "").upper()
-    model = str(payload.get("model") or os.environ.get("CLAUDE_MODEL") or "claude-sonnet-4-6")
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    model = str(payload.get("model") or os.environ.get("GROQ_MODEL") or "llama-3.3-70b-versatile")
+    api_key = os.environ.get("GROQ_API_KEY", "").strip()
     if not api_key:
-        raise ValueError("ANTHROPIC_API_KEY is not configured on the server")
+        raise ValueError("GROQ_API_KEY is not configured on the server")
 
     dashboard_payload = load_dashboard_payload()
     planning = dashboard_payload.get("match_planning", {})
@@ -210,17 +210,20 @@ def build_match_brief_response(payload: dict) -> dict:
     body = {
         "model": model,
         "max_tokens": 2048,
-        "system": system_prompt,
-        "messages": [{"role": "user", "content": user_content}],
+        "temperature": 0.3,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user",   "content": user_content},
+        ],
     }
 
     request = Request(
-        "https://api.anthropic.com/v1/messages",
+        "https://api.groq.com/openai/v1/chat/completions",
         data=json.dumps(body).encode("utf-8"),
         headers={
-            "Content-Type": "application/json",
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
+            "Content-Type":  "application/json",
+            "Authorization": f"Bearer {api_key}",
+            "User-Agent":    "python-requests/2.31.0",
         },
         method="POST",
     )
@@ -229,11 +232,11 @@ def build_match_brief_response(payload: dict) -> dict:
             payload_raw = json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="ignore")
-        raise ValueError(f"Claude API error: {exc.code} {detail}") from exc
+        raise ValueError(f"Groq API error: {exc.code} {detail}") from exc
     except URLError as exc:
-        raise ValueError(f"Unable to reach Claude API: {exc.reason}") from exc
+        raise ValueError(f"Unable to reach Groq API: {exc.reason}") from exc
 
-    content = payload_raw["content"][0]["text"].strip()
+    content = payload_raw["choices"][0]["message"]["content"].strip()
     # Strip markdown code fences if present
     if content.startswith("```"):
         content = content.split("\n", 1)[-1]
