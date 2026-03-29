@@ -275,6 +275,7 @@
         try {
           const res  = await fetch("/api/auth", {
             method: "POST",
+            credentials: "same-origin",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ code: input.value }),
           });
@@ -283,9 +284,13 @@
           if (data.ok) {
             window.location.replace("./rr_hub.html");
           } else {
-            throw new Error("wrong code");
+            throw new Error(data.error || "wrong code");
           }
-        } catch (_) {
+        } catch (error) {
+          errorMsg.textContent =
+            error && error.message && error.message !== "wrong code"
+              ? "Unable to verify access right now. Please try again."
+              : "Incorrect access code. Please try again.";
           errorMsg.classList.add("visible");
           input.value = "";
           input.focus();

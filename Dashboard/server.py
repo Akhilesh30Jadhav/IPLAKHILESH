@@ -20,7 +20,7 @@ DASHBOARD_DIR = ROOT / "Dashboard"
 sys.path.insert(0, str(ROOT))
 
 # ── Auth config ────────────────────────────────────────────────────────────────
-_ACCESS_CODE    = os.environ.get("RR_ACCESS_CODE", "royals2026")
+_ACCESS_CODE    = (os.environ.get("RR_ACCESS_CODE") or "royals2026").strip()
 _COOKIE_NAME    = "rr_auth"
 _COOKIE_VALUE   = "creaseiq_ok"
 # Paths served without authentication (GET)
@@ -650,7 +650,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                     # HttpOnly + SameSite=Strict keeps the cookie off JS and same-origin only
                     self.send_header(
                         "Set-Cookie",
-                        f"{_COOKIE_NAME}={_COOKIE_VALUE}; Path=/; SameSite=Strict; HttpOnly",
+                        f"{_COOKIE_NAME}={_COOKIE_VALUE}; Path=/; SameSite=Lax; HttpOnly; Max-Age=43200",
                     )
                     self.send_header("Content-Length", str(len(body)))
                     self.end_headers()
