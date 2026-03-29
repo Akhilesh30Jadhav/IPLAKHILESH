@@ -342,7 +342,7 @@ def build_bid_ladder_debug(
 
 
 _live_score_cache: dict = {"ts": 0.0, "data": None}
-_LIVE_CACHE_TTL = 60  # seconds
+_LIVE_CACHE_TTL = 180  # 3 minutes — fits 100 calls/day free tier across a full match
 
 
 def fetch_live_score() -> dict:

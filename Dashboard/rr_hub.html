@@ -1428,9 +1428,54 @@
       }
     }
 
-    // Poll immediately then every 60 seconds
-    pollLiveScore();
-    setInterval(pollLiveScore, 60_000);
+    // ── Match-window guard — only poll during RR match hours ─────
+    // Free tier: 100 calls/day. At 3-min intervals over a 4.5h match = ~90 calls.
+    // Outside match windows we make zero API calls.
+    const POLL_INTERVAL_MS  = 3 * 60 * 1000;  // 3 minutes
+    const WINDOW_BEFORE_MIN = 30;              // start polling 30 min before kickoff
+    const WINDOW_AFTER_MIN  = 5 * 60;         // stop polling 5 hours after kickoff
+
+    function getMatchWindowStatus() {
+      const matches = (window.DASHBOARD_DATA?.match_planning?.matches) || [];
+      const rrMatches = matches.filter(m => m.home === "RR" || m.away === "RR");
+      const now = Date.now();
+
+      for (const m of rrMatches) {
+        // Parse scheduled start: date (YYYY-MM-DD) + start time ("7:30 PM")
+        const [h12, minPart] = (m.start || "7:30 PM").split(":");
+        const [min, ampm] = minPart.split(" ");
+        let hour = parseInt(h12, 10);
+        if (ampm === "PM" && hour !== 12) hour += 12;
+        if (ampm === "AM" && hour === 12) hour = 0;
+        // IST offset: UTC+5:30
+        const matchStart = new Date(`${m.date}T${String(hour).padStart(2,"0")}:${min}:00+05:30`).getTime();
+        const windowStart = matchStart - WINDOW_BEFORE_MIN * 60 * 1000;
+        const windowEnd   = matchStart + WINDOW_AFTER_MIN  * 60 * 1000;
+        if (now >= windowStart && now <= windowEnd) {
+          return { inWindow: true, match: m };
+        }
+      }
+      return { inWindow: false };
+    }
+
+    let _liveScoreTimer = null;
+
+    function startLiveScorePolling() {
+      const { inWindow } = getMatchWindowStatus();
+      if (!inWindow) return;   // not a match window — use zero API calls
+      pollLiveScore();
+      _liveScoreTimer = setInterval(() => {
+        const { inWindow: stillIn } = getMatchWindowStatus();
+        if (stillIn) {
+          pollLiveScore();
+        } else {
+          clearInterval(_liveScoreTimer);
+          banner.classList.remove("visible");
+        }
+      }, POLL_INTERVAL_MS);
+    }
+
+    startLiveScorePolling();
   })();
   </script>
 
