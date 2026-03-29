@@ -1387,6 +1387,17 @@
         </div>`;
     }
 
+    function humanizeBriefError(error) {
+      const message = String(error?.message || error || "").trim();
+      if (/429|rate limit|rate_limit_exceeded|tokens per day/i.test(message)) {
+        return "Live AI brief is temporarily unavailable because the Groq quota has been reached. Try again later.";
+      }
+      if (/Unable to reach Groq API|network|fetch/i.test(message)) {
+        return "Live AI brief is temporarily unavailable because the Groq service could not be reached.";
+      }
+      return "Live AI brief is temporarily unavailable right now.";
+    }
+
     function renderBrief(brief) {
       result.style.display = "block";
       result.innerHTML = `
@@ -1437,7 +1448,7 @@
         renderBrief(data.brief);
       } catch (err) {
         result.innerHTML = `<div style="color:#F87171;font-size:0.82rem;padding:10px;background:rgba(248,113,113,0.08);border-radius:10px;border:1px solid rgba(248,113,113,0.2);">
-          <strong>Error:</strong> ${err.message}
+          <strong>AI Brief Unavailable:</strong> ${humanizeBriefError(err)}
         </div>`;
       } finally {
         btn.disabled = false;

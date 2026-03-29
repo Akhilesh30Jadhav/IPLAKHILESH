@@ -126,6 +126,17 @@
     `;
   }
 
+  function humanizeBriefError(error) {
+    const message = String(error?.message || error || "").trim();
+    if (/429|rate limit|rate_limit_exceeded|tokens per day/i.test(message)) {
+      return "Using structured fallback brief. Live AI summary is temporarily unavailable because the Groq quota has been reached.";
+    }
+    if (/Unable to reach Groq API|network|fetch/i.test(message)) {
+      return "Using structured fallback brief. Live AI summary is temporarily unavailable because the Groq service could not be reached.";
+    }
+    return "Using structured fallback brief. Live AI summary is temporarily unavailable right now.";
+  }
+
   function currentMatch() {
     return data.matches.find((row) => String(row.match_id) === els.match.value) || data.matches[0];
   }
@@ -361,7 +372,7 @@
       })
       .catch((error) => {
         if (els.aiStatus) {
-          els.aiStatus.textContent = `Using structured fallback brief. Live Groq summary unavailable: ${error.message}`;
+          els.aiStatus.textContent = humanizeBriefError(error);
         }
         els.swot.innerHTML = fallbackSwotHtml;
         els.tactics.innerHTML = fallbackTacticsHtml;
