@@ -85,9 +85,27 @@ ARTICLE_HINTS = [
     "doubt", "fitness", "training", "squad", "match preview", "preview", "opener",
 ]
 
+VERBOSE = False
+JUNK_TITLE_TERMS = [
+    "csktv", "squad", "schedule", "fixtures", "points table", "points-table",
+    "live cricket scores", "need ", "won", "preview", "tickets", "shop",
+    "gallery", "photos", "videos", "starting 11", "wpl", "women",
+]
+STRONG_AVAILABILITY_TERMS = [
+    "injury", "injured", "miss", "missing", "ruled out", "replacement",
+    "replaces", "replaced", "returns", "return", "fit", "fitness",
+    "rejoined", "availability", "unavailable", "training", "side strain",
+    "hamstring", "recover", "doubtful", "managed",
+]
+
 
 def utc_now_iso() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat()
+
+
+def log_debug(message: str) -> None:
+    if VERBOSE:
+        print(f"[Layer3][debug] {message}")
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -128,6 +146,19 @@ def relevance_score(text: str, source: dict[str, Any]) -> int:
         if keyword in lowered:
             score += 1
     return score
+
+
+def has_strong_availability_signal(text: str) -> bool:
+    lowered = normalize_text(text)
+    return any(term in lowered for term in STRONG_AVAILABILITY_TERMS)
+
+
+def looks_like_junk_item(title: str, raw_text: str = "") -> bool:
+    combined = normalize_text(f"{title} {raw_text}")
+    if any(term in combined for term in JUNK_TITLE_TERMS):
+        if not has_strong_availability_signal(combined):
+            return True
+    return False
 
 
 def keep_relevant_text(raw_text: str, source: dict[str, Any]) -> str:
@@ -259,6 +290,81 @@ def parse_web_item(source: dict[str, Any], raw_text: str) -> list[dict[str, Any]
     ]
 
 
+def parse_story_date(text: str) -> str:
+    for pattern in [
+        r"\b(\d{1,2}\s+[A-Za-z]{3,9},\s+\d{4})\b",
+        r"\b(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4})\b",
+        r"\b(\d{4}-\d{2}-\d{2})\b",
+    ]:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(1)
+    return ""
+
+
+def story_items_from_text(source: dict[str, Any], raw_text: str) -> list[dict[str, Any]]:
+    cleaned = strip_html(raw_text)
+    items: list[dict[str, Any]] = []
+
+    if source["source_id"] == "ipl_official_news":
+        pattern = re.compile(
+            r"Article\s+(.*?)\s+(\d{1,2}\s+[A-Za-z]{3},\s+\d{4}).{0,120}?Read More",
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        for match in pattern.finditer(cleaned):
+            title = re.sub(r"\s+", " ", match.group(1)).strip(" -|")
+            published_at = match.group(2).strip()
+            snippet = title
+            if relevance_score(snippet, source) > 0:
+                items.append({"title": title, "url": source["url"], "published_at": published_at, "raw_text": snippet})
+
+    elif source["source_id"] in {"rr_official_site", "kkr_official_site", "mi_official_site", "rcb_official_site", "lsg_official_site", "dc_official_site", "pbks_official_site", "gt_official_site"}:
+        pattern = re.compile(
+            r"([A-Z0-9][^.:\n]{18,220}?)\s+(\d{1,2}\s+[A-Za-z]{3},\s+\d{4})",
+            flags=re.IGNORECASE,
+        )
+        for match in pattern.finditer(cleaned):
+            title = re.sub(r"\s+", " ", match.group(1)).strip(" -|")
+            published_at = match.group(2).strip()
+            if title.lower().startswith(("home", "news", "download", "load more", "share")):
+                continue
+            if relevance_score(title, source) > 0:
+                items.append({"title": title, "url": source["url"], "published_at": published_at, "raw_text": title})
+
+    elif source["source_id"] == "cricbuzz_latest_news":
+        pattern = re.compile(
+            r"IPL 2026\s+([^\.]{12,220}?)\s+([A-Z][^\.]{20,320})",
+            flags=re.IGNORECASE,
+        )
+        for match in pattern.finditer(cleaned):
+            title = re.sub(r"\s+", " ", match.group(1)).strip(" -|")
+            body = re.sub(r"\s+", " ", match.group(2)).strip()
+            combined = f"{title}. {body}"
+            if relevance_score(combined, source) > 0:
+                items.append({"title": title, "url": source["url"], "published_at": "", "raw_text": combined})
+
+    elif source["source_id"] == "csk_official_site":
+        pattern = re.compile(
+            r"(Spencer Johnson joins CSK for TATA IPL 2026|MS Dhoni[^\.]{0,180}|Nathan Ellis[^\.]{0,180}|Sanju Samson[^\.]{0,180})",
+            flags=re.IGNORECASE,
+        )
+        for match in pattern.finditer(cleaned):
+            title = re.sub(r"\s+", " ", match.group(1)).strip(" -|")
+            if relevance_score(title, source) > 0:
+                items.append({"title": title, "url": source["url"], "published_at": parse_story_date(cleaned), "raw_text": title})
+
+    deduped: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for item in items:
+        key = normalize_text(item["title"])
+        if len(key) < 10 or key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    log_debug(f"{source['source_id']} story-item adapter produced {len(deduped)} candidate snippets")
+    return deduped[: max(int(source.get("max_articles", 4)) * 2, 6)]
+
+
 def candidate_article_links(source: dict[str, Any], raw_text: str) -> list[dict[str, str]]:
     base_url = str(source.get("url") or "").strip()
     base_host = urlparse(base_url).netloc.lower()
@@ -279,6 +385,8 @@ def candidate_article_links(source: dict[str, Any], raw_text: str) -> list[dict[
         if any(token in lowered for token in ["/login", "/signup", "/shop", "/tickets", "/photos", "/videos", "/gallery", "/stats", "/fixtures", "/points-table", "/squad"]):
             return
         title_text = strip_html(title)
+        if looks_like_junk_item(title_text, cleaned):
+            return
         score = relevance_score(f"{title_text} {cleaned}", source)
         score += sum(1 for hint in ARTICLE_HINTS if hint in f"{title_text} {cleaned}".lower())
         if score <= 0:
@@ -311,6 +419,7 @@ def candidate_article_links(source: dict[str, Any], raw_text: str) -> list[dict[
 
     candidates.sort(key=lambda row: int(row["score"]), reverse=True)
     max_articles = int(source.get("max_articles", 4))
+    log_debug(f"{source['source_id']} discovered {len(candidates[:max_articles])} article links")
     return candidates[:max_articles]
 
 
@@ -327,10 +436,13 @@ def parse_article_date(raw_text: str) -> str:
 
 def parse_web_items(source: dict[str, Any], raw_text: str) -> list[dict[str, Any]]:
     items = parse_web_item(source, raw_text)
+    for row in story_items_from_text(source, raw_text):
+        items.append(row)
     for link in candidate_article_links(source, raw_text):
         try:
             article_raw = fetch_url(link["url"])
         except (HTTPError, URLError):
+            log_debug(f"{source['source_id']} could not fetch article {link['url']}")
             continue
         except Exception:
             continue
@@ -341,7 +453,12 @@ def parse_web_items(source: dict[str, Any], raw_text: str) -> list[dict[str, Any
         article["title"] = link["title"] or article["title"]
         article["published_at"] = parse_article_date(article_raw) or article.get("published_at", "")
         items.append(article)
+    log_debug(f"{source['source_id']} total parsed web items: {len(items)}")
     return items
+
+
+def groq_backoff_seconds(attempt: int) -> float:
+    return 2.0 * (attempt + 1)
 
 
 def source_item_id(source_id: str, url: str, title: str) -> str:
@@ -353,16 +470,45 @@ def team_scope_text(source: dict[str, Any]) -> list[str]:
     return [str(team).upper() for team in source.get("team_scope", [])]
 
 
-def ingest_sources() -> list[dict[str, Any]]:
+def parse_team_filter(raw: str | None) -> set[str]:
+    if not raw:
+        return set()
+    return {
+        token.strip().upper()
+        for token in str(raw).split(",")
+        if token.strip()
+    }
+
+
+def source_matches_team_filter(source: dict[str, Any], team_filter: set[str]) -> bool:
+    if not team_filter:
+        return True
+    source_scope = {str(team).upper() for team in source.get("team_scope", []) or []}
+    return bool(source_scope & team_filter)
+
+
+def inbox_matches_team_filter(item: dict[str, Any], team_filter: set[str]) -> bool:
+    if not team_filter:
+        return True
+    item_scope = {str(team).upper() for team in item.get("team_scope", []) or []}
+    team = str(item.get("team") or "").upper().strip()
+    return bool(item_scope & team_filter) or (team in team_filter)
+
+
+def ingest_sources(team_filter: set[str] | None = None) -> list[dict[str, Any]]:
     watchlist = load_json(WATCHLIST_PATH, [])
     inbox = load_json(INBOX_PATH, [])
     existing_ids = {item["source_item_id"] for item in inbox}
     new_items: list[dict[str, Any]] = []
+    team_filter = team_filter or set()
 
     for source in watchlist:
         if not source.get("enabled"):
             continue
         if source.get("source_type") == "manual":
+            continue
+        if not source_matches_team_filter(source, team_filter):
+            log_debug(f"{source['source_id']} skipped by team filter")
             continue
         url = str(source.get("url") or "").strip()
         if not url:
@@ -383,9 +529,11 @@ def ingest_sources() -> list[dict[str, Any]]:
         parsed_items = parse_rss_items(source, raw_text) if looks_like_rss(raw_text) else parse_web_items(source, raw_text)
         for row in parsed_items:
             if not row["raw_text"] or relevance_score(f"{row['title']} {row['raw_text']}", source) == 0:
+                log_debug(f"{source['source_id']} skipped low-relevance item: {row.get('title','')[:90]}")
                 continue
             item_id = source_item_id(source["source_id"], row["url"], row["title"])
             if item_id in existing_ids:
+                log_debug(f"{source['source_id']} skipped duplicate item: {row['title'][:90]}")
                 continue
             entry = {
                 "source_item_id": item_id,
@@ -404,6 +552,7 @@ def ingest_sources() -> list[dict[str, Any]]:
             inbox.append(entry)
             new_items.append(entry)
             existing_ids.add(item_id)
+            log_debug(f"{source['source_id']} added item: {row['title'][:110]}")
 
     save_json(INBOX_PATH, inbox)
     return new_items
@@ -448,18 +597,32 @@ def groq_extract_claims(source_item: dict[str, Any]) -> list[dict[str, Any]]:
             {"role": "user", "content": user_content},
         ],
     }
-    request = Request(
-        GROQ_API_URL,
-        data=json.dumps(body).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "User-Agent": "CreaseIQ-Layer3-Intel/1.0",
-        },
-        method="POST",
-    )
-    with urlopen(request, timeout=60) as response:
-        payload_raw = json.loads(response.read().decode("utf-8"))
+    last_error: Exception | None = None
+    for attempt in range(3):
+        request = Request(
+            GROQ_API_URL,
+            data=json.dumps(body).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {GROQ_API_KEY}",
+                "User-Agent": "CreaseIQ-Layer3-Intel/1.0",
+            },
+            method="POST",
+        )
+        try:
+            with urlopen(request, timeout=60) as response:
+                payload_raw = json.loads(response.read().decode("utf-8"))
+            break
+        except HTTPError as exc:
+            last_error = exc
+            if exc.code == 429 and attempt < 2:
+                wait_seconds = groq_backoff_seconds(attempt)
+                log_debug(f"Groq 429 for {source_item['source_item_id']} · retrying in {wait_seconds:.1f}s")
+                time.sleep(wait_seconds)
+                continue
+            raise
+    else:
+        raise last_error or RuntimeError("Groq request failed")
     content = payload_raw["choices"][0]["message"]["content"].strip()
     if content.startswith("```"):
         content = content.split("\n", 1)[-1]
@@ -470,12 +633,29 @@ def groq_extract_claims(source_item: dict[str, Any]) -> list[dict[str, Any]]:
     return rows
 
 
-def extract_claims(limit: int | None = None) -> list[dict[str, Any]]:
+def extract_claims(limit: int | None = None, team_filter: set[str] | None = None) -> list[dict[str, Any]]:
     inbox = load_json(INBOX_PATH, [])
     claims = load_json(CLAIMS_PATH, [])
     extracted: list[dict[str, Any]] = []
+    team_filter = team_filter or set()
 
-    pending = [item for item in inbox if item.get("status") != "processed"]
+    pending = [
+        item for item in inbox
+        if item.get("status") != "processed" and inbox_matches_team_filter(item, team_filter)
+    ]
+    pending = [
+        item for item in pending
+        if not looks_like_junk_item(item.get("title", ""), item.get("raw_text", ""))
+        and (has_strong_availability_signal(f"{item.get('title','')} {item.get('raw_text','')}") or "official" in str(item.get("priority", "")))
+    ]
+    pending.sort(
+        key=lambda item: (
+            has_strong_availability_signal(f"{item.get('title','')} {item.get('raw_text','')}"),
+            PRIORITY_SCORE.get(str(item.get("priority") or ""), 0),
+            relevance_score(f"{item.get('title','')} {item.get('raw_text','')}", {"team_scope": item.get("team_scope", [])}),
+        ),
+        reverse=True,
+    )
     if limit is not None:
         pending = pending[:limit]
 
@@ -488,6 +668,7 @@ def extract_claims(limit: int | None = None) -> list[dict[str, Any]]:
         except Exception as exc:  # noqa: BLE001
             item["status"] = "extract_failed"
             item["extract_error"] = str(exc)
+            log_debug(f"extract failed for {item['source_item_id']}: {exc}")
             continue
 
         for idx, row in enumerate(rows):
@@ -516,6 +697,7 @@ def extract_claims(limit: int | None = None) -> list[dict[str, Any]]:
             if claim["player"]:
                 claims.append(claim)
                 extracted.append(claim)
+                log_debug(f"claim extracted: {claim['team']} · {claim['player']} · {claim['status']}")
         item["status"] = "processed"
         time.sleep(1.0)
 
@@ -583,14 +765,21 @@ def main() -> None:
     parser.add_argument("--extract-only", action="store_true", help="Run Groq extraction on inbox only.")
     parser.add_argument("--resolve-only", action="store_true", help="Resolve claims into registry only.")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of inbox items processed during extraction.")
+    parser.add_argument("--teams", type=str, default="", help="Comma-separated team codes to scope ingestion/extraction, for example RR,CSK.")
+    parser.add_argument("--verbose", action="store_true", help="Print source discovery and extraction debug logs.")
     args = parser.parse_args()
+    global VERBOSE
+    VERBOSE = args.verbose
+    team_filter = parse_team_filter(args.teams)
+    if team_filter:
+        log_debug(f"team filter active: {sorted(team_filter)}")
 
     new_items: list[dict[str, Any]] = []
     extracted: list[dict[str, Any]] = []
     resolved: list[dict[str, Any]] = []
 
     if args.extract_only:
-        extracted = extract_claims(limit=args.limit)
+        extracted = extract_claims(limit=args.limit, team_filter=team_filter)
         print_summary(new_items, extracted, resolved)
         return
     if args.resolve_only:
@@ -599,11 +788,11 @@ def main() -> None:
         return
 
     if not args.extract_only and not args.resolve_only:
-        new_items = ingest_sources()
+        new_items = ingest_sources(team_filter=team_filter)
         if args.ingest_only:
             print_summary(new_items, extracted, resolved)
             return
-        extracted = extract_claims(limit=args.limit)
+        extracted = extract_claims(limit=args.limit, team_filter=team_filter)
         resolved = resolve_registry()
         print_summary(new_items, extracted, resolved)
 
