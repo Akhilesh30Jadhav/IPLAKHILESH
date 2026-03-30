@@ -72,18 +72,6 @@
     "note": "Joins CSK for TATA IPL 2026"
   },
   {
-    "player": "Faf du Plessis",
-    "team": "DC",
-    "status": "available",
-    "confidence": "official",
-    "selection_probability": 0.8,
-    "best_source": "Delhi Capitals Official",
-    "source_date": "2026-03-29T16:06:13+00:00",
-    "expected_absence_window": null,
-    "replacement_candidates": [],
-    "note": "Rejoined the squad for remainder of IPL 2025"
-  },
-  {
     "player": "Harry Brook",
     "team": "DC",
     "status": "ruled_out",
@@ -131,7 +119,7 @@
     "source_date": "2026-03-29T16:06:13+00:00",
     "expected_absence_window": null,
     "replacement_candidates": [],
-    "note": "Rejoined the squad for remainder of IPL 2025"
+    "note": "Available for IPL 2026 season"
   },
   {
     "player": "Kulwant Khejroliya",
@@ -594,18 +582,6 @@
     "expected_absence_window": null,
     "replacement_candidates": [],
     "note": "Joins RR as replacement for Sam Curran"
-  },
-  {
-    "player": "Dewald Brevis",
-    "team": "RR",
-    "status": "ruled_out",
-    "confidence": "major_media",
-    "selection_probability": 0.0,
-    "best_source": "Cricbuzz Latest News",
-    "source_date": "2026-03-29T16:57:50+00:00",
-    "expected_absence_window": "at least 1 match",
-    "replacement_candidates": [],
-    "note": "side strain"
   },
   {
     "player": "Sam Curran",
