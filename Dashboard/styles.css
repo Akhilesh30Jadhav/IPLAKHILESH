@@ -1,69 +1,103 @@
 :root {
-  /* CreaseIQ foundation palette */
-  --cq-ink-950: #081014;
-  --cq-ink-900: #0f1720;
-  --cq-ink-850: #182230;
-  --cq-ink-800: #1e2c3c;
-  --cq-ink-700: #314658;
-  --cq-stone-50: #f5f7f8;
-  --cq-stone-100: #eaf0f2;
-  --cq-stone-200: #d6e0e5;
-  --cq-stone-400: #9fb0bb;
-  --cq-teal-400: #2dd4bf;
-  --cq-teal-500: #16b6a5;
-  --cq-teal-700: #0d7c75;
-  --cq-amber-300: #f5c96a;
-  --cq-amber-400: #f5b840;
-  --cq-amber-500: #dd9d20;
-  --cq-rose-500: #e85d75;
-  --cq-blue-500: #4d8cff;
+  --card: #fcfcfc;
+  --ring: #644a40;
+  --input: #d8d8d8;
+  --muted: #efefef;
+  --accent: #e8e8e8;
+  --border: #d8d8d8;
+  --radius: 0.5rem;
+  --chart-1: #644a40;
+  --chart-2: #ffdfb5;
+  --chart-3: #e8e8e8;
+  --chart-4: #ffe6c4;
+  --chart-5: #66493e;
+  --popover: #fcfcfc;
+  --primary: #644a40;
+  --sidebar: #fbfbfb;
+  --secondary: #ffdfb5;
+  --background: #f9f9f9;
+  --foreground: #202020;
+  --destructive: #e54d2e;
+  --sidebar-ring: #b5b5b5;
+  --sidebar-accent: #f7f7f7;
+  --sidebar-border: #ebebeb;
+  --card-foreground: #202020;
+  --sidebar-primary: #343434;
+  --muted-foreground: #646464;
+  --accent-foreground: #202020;
+  --popover-foreground: #202020;
+  --primary-foreground: #ffffff;
+  --sidebar-foreground: #252525;
+  --secondary-foreground: #582d1d;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #343434;
+  --sidebar-primary-foreground: #fbfbfb;
+
+  /* CreaseIQ compatibility palette mapped to the active theme */
+  --cq-ink-950: #111111;
+  --cq-ink-900: #191919;
+  --cq-ink-850: #393028;
+  --cq-ink-800: #42382e;
+  --cq-ink-700: #484848;
+  --cq-stone-50: var(--card);
+  --cq-stone-100: var(--sidebar);
+  --cq-stone-200: var(--muted);
+  --cq-stone-400: var(--muted-foreground);
+  --cq-teal-400: var(--chart-4);
+  --cq-teal-500: var(--primary);
+  --cq-teal-700: var(--chart-5);
+  --cq-amber-300: var(--chart-2);
+  --cq-amber-400: var(--secondary);
+  --cq-amber-500: var(--secondary-foreground);
+  --cq-rose-500: var(--destructive);
+  --cq-blue-500: var(--sidebar-primary);
 
   /* Typography */
   --cq-font-display: "Trebuchet MS", "Avenir Next Condensed", "Arial Narrow", sans-serif;
   --cq-font-ui: "Avenir Next", "Segoe UI", sans-serif;
 
   /* Layout / motion */
-  --cq-radius-sm: 14px;
-  --cq-radius-md: 20px;
-  --cq-radius-lg: 24px;
-  --cq-radius-xl: 32px;
-  --cq-shadow-card: 0 22px 48px rgba(3, 10, 16, 0.26);
-  --cq-shadow-accent: 0 12px 30px rgba(22, 182, 165, 0.18);
-  --cq-shadow-soft: 0 10px 24px rgba(8, 16, 20, 0.12);
+  --cq-radius-sm: 0.5rem;
+  --cq-radius-md: 0.75rem;
+  --cq-radius-lg: 1rem;
+  --cq-radius-xl: 1.25rem;
+  --cq-shadow-card: 0 16px 34px rgba(32, 32, 32, 0.08);
+  --cq-shadow-accent: 0 8px 20px rgba(100, 74, 64, 0.18);
+  --cq-shadow-soft: 0 8px 18px rgba(32, 32, 32, 0.1);
 
   /* Core CreaseIQ semantic tokens */
-  --cq-shell-bg: var(--cq-ink-950);
-  --cq-shell-bg-2: var(--cq-ink-900);
-  --cq-shell-glow-primary: rgba(45, 212, 191, 0.18);
-  --cq-shell-glow-secondary: rgba(245, 184, 64, 0.12);
-  --cq-shell-grid-line: rgba(214, 224, 229, 0.12);
+  --cq-shell-bg: var(--background);
+  --cq-shell-bg-2: var(--sidebar);
+  --cq-shell-glow-primary: rgba(100, 74, 64, 0.14);
+  --cq-shell-glow-secondary: rgba(255, 223, 181, 0.24);
+  --cq-shell-grid-line: rgba(216, 216, 216, 0.42);
 
-  --cq-surface-1: rgba(245, 247, 248, 0.98);
-  --cq-surface-2: rgba(234, 240, 242, 0.98);
-  --cq-surface-3: rgba(214, 224, 229, 0.68);
-  --cq-surface-inverse: rgba(15, 23, 32, 0.96);
+  --cq-surface-1: var(--card);
+  --cq-surface-2: var(--sidebar);
+  --cq-surface-3: var(--muted);
+  --cq-surface-inverse: #191919;
 
-  --cq-text-primary: #10202a;
-  --cq-text-secondary: #536571;
-  --cq-text-inverse: #f5f7f8;
-  --cq-text-inverse-muted: rgba(245, 247, 248, 0.72);
+  --cq-text-primary: var(--foreground);
+  --cq-text-secondary: var(--muted-foreground);
+  --cq-text-inverse: var(--foreground);
+  --cq-text-inverse-muted: #646464;
 
-  --cq-accent-primary: var(--cq-teal-500);
-  --cq-accent-primary-strong: var(--cq-teal-700);
-  --cq-accent-primary-soft: rgba(45, 212, 191, 0.14);
-  --cq-accent-secondary: var(--cq-amber-400);
-  --cq-accent-secondary-soft: rgba(245, 184, 64, 0.18);
-  --cq-accent-tertiary: var(--cq-blue-500);
+  --cq-accent-primary: var(--primary);
+  --cq-accent-primary-strong: var(--chart-5);
+  --cq-accent-primary-soft: rgba(100, 74, 64, 0.14);
+  --cq-accent-secondary: var(--secondary);
+  --cq-accent-secondary-soft: rgba(255, 223, 181, 0.36);
+  --cq-accent-tertiary: var(--sidebar-primary);
 
-  --cq-border-soft: rgba(159, 176, 187, 0.48);
-  --cq-border-strong: rgba(159, 176, 187, 0.72);
-  --cq-border-accent: rgba(22, 182, 165, 0.24);
-  --cq-border-highlight: rgba(245, 184, 64, 0.28);
+  --cq-border-soft: rgba(216, 216, 216, 0.86);
+  --cq-border-strong: rgba(216, 216, 216, 1);
+  --cq-border-accent: rgba(100, 74, 64, 0.24);
+  --cq-border-highlight: rgba(255, 223, 181, 0.66);
 
-  --cq-status-positive: #0d9488;
-  --cq-status-warning: #d97706;
-  --cq-status-danger: #c2410c;
-  --cq-status-danger-soft: rgba(232, 93, 117, 0.16);
+  --cq-status-positive: #2b7a4b;
+  --cq-status-warning: #9c5a1c;
+  --cq-status-danger: var(--destructive);
+  --cq-status-danger-soft: rgba(229, 77, 46, 0.16);
 
   /* Team-skin hooks. These override only accent/tint behavior, not structure. */
   --cq-team-accent-primary: var(--cq-accent-primary);
@@ -85,6 +119,42 @@
   --radius: var(--cq-radius-lg);
   --display: var(--cq-font-display);
   --ui: var(--cq-font-ui);
+}
+
+.dark {
+  --card: #191919;
+  --ring: #ffe0c2;
+  --input: #484848;
+  --muted: #222222;
+  --accent: #2a2a2a;
+  --border: #201e18;
+  --radius: 0.5rem;
+  --chart-1: #ffe0c2;
+  --chart-2: #393028;
+  --chart-3: #2a2a2a;
+  --chart-4: #42382e;
+  --chart-5: #ffe0c1;
+  --popover: #191919;
+  --primary: #ffe0c2;
+  --sidebar: #18181b;
+  --secondary: #393028;
+  --background: #111111;
+  --foreground: #eeeeee;
+  --destructive: #e54d2e;
+  --sidebar-ring: #d4d4d8;
+  --sidebar-accent: #27272a;
+  --sidebar-border: #27272a;
+  --card-foreground: #eeeeee;
+  --sidebar-primary: #1d4ed8;
+  --muted-foreground: #b4b4b4;
+  --accent-foreground: #eeeeee;
+  --popover-foreground: #eeeeee;
+  --primary-foreground: #081a1b;
+  --sidebar-foreground: #f4f4f5;
+  --secondary-foreground: #ffe0c2;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #f4f4f5;
+  --sidebar-primary-foreground: #ffffff;
 }
 
 body[data-team-theme="rr"] {
@@ -122,7 +192,7 @@ body {
   background:
     radial-gradient(circle at top left, var(--cq-shell-glow-secondary), transparent 22%),
     radial-gradient(circle at top right, var(--cq-shell-glow-primary), transparent 24%),
-    linear-gradient(180deg, rgba(8, 16, 20, 0.96), rgba(15, 23, 32, 0.99)),
+    linear-gradient(180deg, var(--background), #f2f2f2),
     var(--bg);
   color: var(--ink);
 }
@@ -137,7 +207,7 @@ body {
   padding: 32px 24px;
   border-right: 1px solid var(--line);
   background:
-    linear-gradient(180deg, rgba(10, 17, 22, 0.98), rgba(20, 31, 42, 0.95)),
+    linear-gradient(180deg, var(--sidebar), var(--card)),
     radial-gradient(circle at top, var(--cq-team-glow), transparent 26%);
   backdrop-filter: blur(12px);
   position: sticky;
@@ -194,7 +264,7 @@ body {
   color: var(--cq-text-inverse);
   padding: 12px 14px;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--card);
   border: 1px solid var(--cq-border-highlight);
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -232,8 +302,8 @@ body {
 .panel,
 .tile,
 .kpi-card {
-  background: linear-gradient(180deg, rgba(15, 23, 32, 0.96), rgba(24, 34, 48, 0.96));
-  border: 1px solid rgba(214, 224, 229, 0.08);
+  background: linear-gradient(180deg, var(--cq-surface-1), var(--cq-surface-2));
+  border: 1px solid var(--cq-border-soft);
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
 }
@@ -246,7 +316,7 @@ body {
   align-items: center;
   background:
     var(--cq-team-surface-tint),
-    linear-gradient(135deg, rgba(15,23,32,0.98), rgba(24,34,48,0.98)),
+    linear-gradient(135deg, var(--cq-surface-1), var(--cq-surface-2)),
     radial-gradient(circle at right top, var(--cq-shell-glow-primary), transparent 28%);
 }
 
@@ -259,7 +329,7 @@ body {
   min-width: 220px;
   padding: 18px 20px;
   border-radius: 20px;
-  background: linear-gradient(145deg, var(--cq-shell-bg-2), var(--cq-ink-850));
+  background: linear-gradient(145deg, var(--cq-surface-2), var(--cq-surface-1));
   color: var(--cq-text-inverse);
   display: grid;
   gap: 8px;
@@ -408,8 +478,8 @@ input[type="search"] {
   min-width: 148px;
   padding: 10px 12px;
   border-radius: 12px;
-  border: 1px solid rgba(214, 224, 229, 0.12);
-  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  background: var(--card);
   color: var(--cq-text-inverse);
   font-weight: 600;
 }
@@ -460,9 +530,8 @@ textarea:focus {
 .table-panel {
   padding: 18px;
   border-radius: 22px;
-  background:
-    linear-gradient(180deg, rgba(24,34,48,0.98), rgba(15,23,32,0.96));
-  border: 1px solid rgba(214, 224, 229, 0.08);
+  background: linear-gradient(180deg, var(--cq-surface-1), var(--cq-surface-2));
+  border: 1px solid var(--cq-border-soft);
 }
 
 .tile h4,
@@ -504,7 +573,7 @@ textarea:focus {
 .bar-track {
   height: 14px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.08);
+  background: var(--cq-surface-3);
   overflow: hidden;
 }
 
@@ -553,7 +622,7 @@ td {
 th {
   position: sticky;
   top: 0;
-  background: rgba(12, 18, 30, 0.98);
+  background: var(--sidebar);
   z-index: 1;
   font-size: 0.78rem;
   text-transform: uppercase;
@@ -864,8 +933,8 @@ input[list] {
 .replay-header,
 .replay-panel,
 .replay-card {
-  background: linear-gradient(180deg, rgba(15,23,32,0.98), rgba(24,34,48,0.96));
-  border: 1px solid rgba(214, 224, 229, 0.08);
+  background: linear-gradient(180deg, var(--cq-surface-1), var(--cq-surface-2));
+  border: 1px solid var(--cq-border-soft);
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
 }
@@ -1027,7 +1096,7 @@ input[list] {
 }
 
 .replay-meta-grid .summary-line {
-  background: rgba(255,255,255,0.04);
+  background: var(--cq-surface-3);
   border-radius: 14px;
   padding: 12px 14px;
 }
@@ -1049,7 +1118,7 @@ input[list] {
   padding: 14px 16px;
   border-radius: 16px;
   border: 1px solid rgba(214, 224, 229, 0.08);
-  background: rgba(255,255,255,0.04);
+  background: var(--cq-surface-3);
 }
 
 .timeline-row.active {
@@ -1087,7 +1156,7 @@ input[list] {
 .purse-track {
   height: 12px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.08);
+  background: var(--cq-surface-3);
   overflow: hidden;
 }
 
@@ -1120,7 +1189,7 @@ input[list] {
   padding: 14px;
   border-radius: 18px;
   border: 1px solid rgba(214, 224, 229, 0.08);
-  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  background: linear-gradient(180deg, var(--cq-surface-1), var(--cq-surface-2));
 }
 
 .bucket-panel h5 {
@@ -1141,7 +1210,7 @@ input[list] {
   align-items: center;
   padding: 10px 12px;
   border-radius: 14px;
-  background: rgba(255,255,255,0.04);
+  background: var(--cq-surface-1);
   border: 1px solid rgba(45, 212, 191, 0.14);
   font-weight: 700;
   color: var(--cq-text-inverse);
@@ -1183,8 +1252,8 @@ textarea {
   min-height: 120px;
   padding: 12px 14px;
   border-radius: 14px;
-  border: 1px solid rgba(214, 224, 229, 0.12);
-  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  background: var(--card);
   color: var(--cq-text-inverse);
   font: inherit;
   line-height: 1.5;
@@ -1210,7 +1279,7 @@ input[type="range"] {
   padding: 16px;
   border-radius: 18px;
   border: 1px solid rgba(214, 224, 229, 0.08);
-  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  background: linear-gradient(180deg, var(--cq-surface-1), var(--cq-surface-2));
 }
 
 .insight-card h5 {
@@ -1232,8 +1301,8 @@ input[type="range"] {
   justify-content: space-between;
   gap: 20px;
   padding: 12px 32px;
-  background: linear-gradient(90deg, rgba(8,16,20,0.96), rgba(24,34,48,0.96));
-  border-bottom: 1px solid rgba(214, 224, 229, 0.08);
+  background: linear-gradient(90deg, var(--sidebar), var(--card));
+  border-bottom: 1px solid var(--cq-border-soft);
   position: sticky;
   top: 0;
   z-index: 50;

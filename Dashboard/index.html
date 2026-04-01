@@ -8,21 +8,38 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink:       #06081A;
-      --ink2:      #0C1230;
-      --card:      #111830;
-      --card2:     #161F3A;
-      --border:    rgba(255,255,255,0.07);
-      --pink:      #E8175D;
-      --pink-d:    #B5144A;
-      --pink-glow: rgba(232,23,93,0.3);
-      --pink-dim:  rgba(232,23,93,0.1);
-      --blue:      #14336B;
-      --gold:      #F0B429;
-      --text:      #EEF2FF;
-      --muted:     #7B8DB8;
-      --light:     #C4CDE8;
+      --ink:       #f9f9f9;
+      --ink2:      #fbfbfb;
+      --card:      #fcfcfc;
+      --card2:     #efefef;
+      --border:    #d8d8d8;
+      --pink:      #644a40;
+      --pink-d:    #66493e;
+      --pink-glow: rgba(100,74,64,0.24);
+      --pink-dim:  rgba(100,74,64,0.1);
+      --blue:      #42382e;
+      --gold:      #ffdfb5;
+      --text:      #202020;
+      --muted:     #646464;
+      --light:     #343434;
       --green:     #22C55E;
+    }
+
+    .dark {
+      --ink:       #111111;
+      --ink2:      #191919;
+      --card:      #191919;
+      --card2:     #222222;
+      --border:    #201e18;
+      --pink:      #ffe0c2;
+      --pink-d:    #ffe0c1;
+      --pink-glow: rgba(255,224,194,0.3);
+      --pink-dim:  rgba(255,224,194,0.15);
+      --blue:      #393028;
+      --gold:      #42382e;
+      --text:      #eeeeee;
+      --muted:     #b4b4b4;
+      --light:     #d4d4d8;
     }
 
     html { scroll-behavior: smooth; }
@@ -39,7 +56,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(6,8,26,0.92);
+      background: var(--card);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       display: flex;

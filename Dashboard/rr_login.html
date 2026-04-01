@@ -6,19 +6,33 @@
     <title>Rajasthan Royals — Access</title>
     <style>
       :root {
-        --rr-pink:       #E8175D;
-        --rr-pink-light: #FF4B82;
-        --rr-pink-glow:  rgba(232, 23, 93, 0.35);
-        --rr-pink-dim:   rgba(232, 23, 93, 0.15);
-        --rr-blue:       #14336B;
-        --rr-dark:       #06081A;
-        --rr-dark-2:     #0C1230;
-        --rr-card:       #111830;
-        --rr-text:       #EEF2FF;
-        --rr-muted:      #7B8DB8;
-        --rr-border:     rgba(232, 23, 93, 0.25);
+        --rr-pink:       #644a40;
+        --rr-pink-light: #66493e;
+        --rr-pink-glow:  rgba(100, 74, 64, 0.35);
+        --rr-pink-dim:   rgba(100, 74, 64, 0.15);
+        --rr-blue:       #42382e;
+        --rr-dark:       #f9f9f9;
+        --rr-dark-2:     #fbfbfb;
+        --rr-card:       #fcfcfc;
+        --rr-text:       #202020;
+        --rr-muted:      #646464;
+        --rr-border:     #d8d8d8;
         --display: "Trebuchet MS", "Arial Narrow", sans-serif;
         --ui: "Segoe UI", system-ui, sans-serif;
+      }
+
+      .dark {
+        --rr-pink:       #ffe0c2;
+        --rr-pink-light: #ffe0c1;
+        --rr-pink-glow:  rgba(255, 224, 194, 0.35);
+        --rr-pink-dim:   rgba(255, 224, 194, 0.15);
+        --rr-blue:       #393028;
+        --rr-dark:       #111111;
+        --rr-dark-2:     #191919;
+        --rr-card:       #191919;
+        --rr-text:       #eeeeee;
+        --rr-muted:      #b4b4b4;
+        --rr-border:     #201e18;
       }
 
       * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -29,8 +43,8 @@
         background: var(--rr-dark);
         color: var(--rr-text);
         background-image:
-          radial-gradient(ellipse 70% 50% at 50% 0%, rgba(232,23,93,0.14), transparent),
-          radial-gradient(ellipse 50% 40% at 80% 70%, rgba(20,51,107,0.2), transparent);
+          radial-gradient(ellipse 70% 50% at 50% 0%, rgba(100,74,64,0.12), transparent),
+          radial-gradient(ellipse 50% 40% at 80% 70%, rgba(255,223,181,0.22), transparent);
       }
 
       body {
@@ -51,7 +65,7 @@
         border-radius: 24px;
         padding: 44px 40px;
         box-shadow:
-          0 0 60px rgba(232,23,93,0.1),
+          0 0 60px rgba(100,74,64,0.1),
           0 32px 80px rgba(0,0,0,0.6);
         position: relative;
         overflow: hidden;
@@ -62,7 +76,7 @@
         position: absolute;
         top: 0; left: 0; right: 0;
         height: 3px;
-        background: linear-gradient(90deg, var(--rr-pink), #14336B);
+        background: linear-gradient(90deg, var(--rr-pink), var(--rr-blue));
       }
 
       /* ── Logo ───────────────────────────────────────────────── */
@@ -78,7 +92,7 @@
         width: 64px;
         height: 64px;
         border-radius: 18px;
-        background: linear-gradient(135deg, var(--rr-pink), #B5144A);
+        background: linear-gradient(135deg, var(--rr-pink), var(--rr-pink-light));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -130,8 +144,8 @@
         width: 100%;
         padding: 14px 16px;
         border-radius: 12px;
-        background: rgba(255,255,255,0.05);
-        border: 1px solid rgba(255,255,255,0.1);
+        background: var(--rr-dark-2);
+        border: 1px solid var(--rr-border);
         color: var(--rr-text);
         font-size: 1rem;
         font-family: var(--ui);
@@ -146,7 +160,7 @@
       }
 
       .form-input::placeholder {
-        color: rgba(123, 141, 184, 0.5);
+        color: rgba(100, 100, 100, 0.7);
         letter-spacing: 0.3em;
       }
 
@@ -155,21 +169,21 @@
         width: 100%;
         padding: 15px;
         border-radius: 12px;
-        background: linear-gradient(135deg, var(--rr-pink), #B5144A);
+        background: linear-gradient(135deg, var(--rr-pink), var(--rr-pink-light));
         color: white;
         font-weight: 700;
         font-size: 0.92rem;
         letter-spacing: 0.06em;
         border: none;
         cursor: pointer;
-        box-shadow: 0 4px 20px rgba(232,23,93,0.35);
+        box-shadow: 0 4px 20px rgba(100,74,64,0.35);
         transition: all 0.2s;
         font-family: var(--ui);
       }
 
       .submit-btn:hover {
         transform: translateY(-1px);
-        box-shadow: 0 6px 28px rgba(232,23,93,0.5);
+        box-shadow: 0 6px 28px rgba(100,74,64,0.5);
       }
 
       .submit-btn:active {
@@ -182,7 +196,7 @@
         margin-top: 14px;
         padding: 10px 14px;
         border-radius: 10px;
-        background: rgba(232,23,93,0.1);
+        background: rgba(100,74,64,0.08);
         border: 1px solid var(--rr-border);
         color: var(--rr-pink-light);
         font-size: 0.8rem;
