@@ -1,27 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en" data-no-global-beams>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CreaseIQ — Decision Intelligence for IPL Front Offices</title>
+  <title>CreaseIQ - Decision Intelligence for IPL Front Offices</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink:       #f9f9f9;
-      --ink2:      #fbfbfb;
-      --card:      #fcfcfc;
-      --card2:     #efefef;
-      --border:    #d8d8d8;
-      --pink:      #644a40;
-      --pink-d:    #66493e;
-      --pink-glow: rgba(100,74,64,0.24);
-      --pink-dim:  rgba(100,74,64,0.1);
-      --blue:      #42382e;
-      --gold:      #ffdfb5;
-      --text:      #202020;
-      --muted:     #646464;
-      --light:     #343434;
+      --ink:       #0a0a0b;
+      --ink2:      #141416;
+      --card:      #19191c;
+      --card2:     #222227;
+      --border:    rgba(255,250,246,0.16);
+      --pink:      #ffe0c2;
+      --pink-d:    #c48a63;
+      --pink-glow: rgba(196,138,99,0.34);
+      --pink-dim:  rgba(196,138,99,0.18);
+      --blue:      #3b3f48;
+      --gold:      #ffe0c2;
+      --text:      #f6f3ef;
+      --muted:     #b9b0a7;
+      --light:     #d6cec6;
       --green:     #22C55E;
     }
 
@@ -45,13 +45,40 @@
     html { scroll-behavior: smooth; }
 
     body {
+      position: relative;
+      overflow-x: hidden;
       font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      background: var(--ink);
+      background:
+        radial-gradient(ellipse 44% 26% at 50% 52%, rgba(196,138,99,0.30), transparent 70%),
+        var(--ink);
       color: var(--text);
       line-height: 1.6;
     }
 
-    /* ── NAV ──────────────────────────────────────────────────────────── */
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      left: 50%;
+      width: min(70vw, 980px);
+      height: min(70vw, 980px);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: -1;
+      transform: translateX(-50%);
+      background: radial-gradient(circle at 50% 50%, rgba(223,229,238,0.26), rgba(223,229,238,0));
+      filter: blur(2px);
+    }
+
+    body::before {
+      top: -42vw;
+    }
+
+    body::after {
+      bottom: -46vw;
+    }
+
+    /* NAV */
     nav {
       position: sticky;
       top: 0;
@@ -126,7 +153,7 @@
 
     .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 20px var(--pink-glow); }
 
-    /* ── HERO ─────────────────────────────────────────────────────────── */
+    /* HERO */
     .hero {
       position: relative;
       overflow: hidden;
@@ -139,8 +166,8 @@
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(232,23,93,0.12), transparent),
-        radial-gradient(ellipse 60% 50% at 80% 80%, rgba(20,51,107,0.15), transparent);
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(196,138,99,0.18), transparent),
+        radial-gradient(ellipse 60% 50% at 80% 80%, rgba(223,229,238,0.12), transparent);
       pointer-events: none;
     }
 
@@ -234,7 +261,7 @@
 
     .btn-secondary:hover { background: rgba(255,255,255,0.09); }
 
-    /* ── STATS BAR ────────────────────────────────────────────────────── */
+    /* STATS BAR */
     .stats-bar {
       display: flex;
       justify-content: center;
@@ -273,7 +300,7 @@
       font-weight: 600;
     }
 
-    /* ── SECTION SHARED ───────────────────────────────────────────────── */
+    /* SECTION SHARED */
     .section {
       padding: 80px 40px;
       max-width: 1180px;
@@ -305,7 +332,7 @@
       margin-bottom: 48px;
     }
 
-    /* ── PROBLEM ──────────────────────────────────────────────────────── */
+    /* PROBLEM */
     .problem-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -315,13 +342,25 @@
     .problem-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px;
+      border-radius: 22px;
+      min-height: 320px;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .problem-card:hover {
+      transform: translateY(-5px) scale(1.01);
+      border-color: rgba(255, 224, 194, 0.42);
     }
 
     .problem-icon {
       font-size: 1.6rem;
       margin-bottom: 14px;
+      position: relative;
+      z-index: 2;
     }
 
     .problem-card h4 {
@@ -329,15 +368,20 @@
       font-weight: 700;
       color: var(--text);
       margin-bottom: 8px;
+      position: relative;
+      z-index: 2;
     }
 
     .problem-card p {
       font-size: 0.85rem;
       color: var(--muted);
       line-height: 1.6;
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
     }
 
-    /* ── MODULES GRID ─────────────────────────────────────────────────── */
+    /* MODULES GRID */
     .modules-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
@@ -347,11 +391,16 @@
     .module-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px;
+      border-radius: 22px;
+      min-height: 320px;
+      padding: 24px;
       transition: border-color 0.2s, transform 0.2s;
       position: relative;
       overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+      display: block;
     }
 
     .module-card::before {
@@ -365,8 +414,8 @@
     }
 
     .module-card:hover {
-      border-color: rgba(232,23,93,0.3);
-      transform: translateY(-2px);
+      border-color: rgba(255, 224, 194, 0.42);
+      transform: translateY(-5px) scale(1.01);
     }
 
     .module-card:hover::before { opacity: 1; }
@@ -380,6 +429,8 @@
       text-transform: uppercase;
       letter-spacing: 0.12em;
       margin-bottom: 14px;
+      position: relative;
+      z-index: 2;
     }
 
     .tag-scouting  { background: rgba(232,23,93,0.12); color: var(--pink); border: 1px solid rgba(232,23,93,0.25); }
@@ -394,6 +445,8 @@
       color: var(--text);
       margin-bottom: 8px;
       letter-spacing: -0.01em;
+      position: relative;
+      z-index: 2;
     }
 
     .module-card p {
@@ -401,6 +454,9 @@
       color: var(--muted);
       line-height: 1.6;
       margin-bottom: 16px;
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
     }
 
     .module-bullets {
@@ -415,17 +471,18 @@
       color: var(--light);
       padding-left: 14px;
       position: relative;
+      z-index: 2;
     }
 
     .module-bullets li::before {
-      content: '→';
+      content: '->';
       position: absolute;
       left: 0;
       color: var(--pink);
       font-size: 0.7rem;
     }
 
-    /* ── FRANCHISE SECTION ────────────────────────────────────────────── */
+    /* FRANCHISE SECTION */
     .franchise-block {
       background: linear-gradient(135deg, var(--card2), var(--ink2));
       border: 1px solid rgba(232,23,93,0.2);
@@ -466,8 +523,8 @@
     }
 
     .franchise-features {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
       gap: 14px;
     }
 
@@ -475,6 +532,20 @@
       display: flex;
       gap: 14px;
       align-items: flex-start;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      min-height: 168px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .franchise-feature:hover {
+      transform: translateY(-5px) scale(1.01);
+      border-color: rgba(255, 224, 194, 0.42);
     }
 
     .ff-icon {
@@ -489,6 +560,8 @@
       font-size: 0.9rem;
       flex-shrink: 0;
       margin-top: 1px;
+      position: relative;
+      z-index: 2;
     }
 
     .ff-body h5 {
@@ -496,6 +569,8 @@
       font-weight: 700;
       color: var(--text);
       margin-bottom: 2px;
+      position: relative;
+      z-index: 2;
     }
 
     .ff-body p {
@@ -503,9 +578,12 @@
       color: var(--muted);
       margin-bottom: 0;
       line-height: 1.5;
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
     }
 
-    /* ── CTA BAND ─────────────────────────────────────────────────────── */
+    /* CTA BAND */
     .cta-band {
       background: var(--ink2);
       border-top: 1px solid var(--border);
@@ -537,7 +615,7 @@
       flex-wrap: wrap;
     }
 
-    /* ── FOOTER ───────────────────────────────────────────────────────── */
+    /* FOOTER */
     footer {
       padding: 40px;
       border-top: 1px solid var(--border);
@@ -592,14 +670,14 @@
       text-decoration: none;
     }
 
-    /* ── DIVIDER ──────────────────────────────────────────────────────── */
+    /* DIVIDER */
     .section-divider {
       border: none;
       border-top: 1px solid var(--border);
       margin: 0;
     }
 
-    /* ── MODAL ────────────────────────────────────────────────────────── */
+    /* MODAL */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -751,7 +829,7 @@
       font-size: 0.8rem;
     }
 
-    /* ── RESPONSIVE ───────────────────────────────────────────────────── */
+    /* RESPONSIVE */
     @media (max-width: 640px) {
       nav { padding: 0 20px; }
       .nav-link { display: none; }
@@ -765,10 +843,10 @@
 </head>
 <body>
 
-<!-- ── DEMO REQUEST MODAL ────────────────────────────────────────────────── -->
+<!-- DEMO REQUEST MODAL -->
 <div class="modal-overlay" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
   <div class="modal">
-    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <button class="modal-close" id="modal-close" aria-label="Close">x</button>
     <div id="modal-form-wrap">
       <h2 id="modal-title">Request Franchise Demo</h2>
       <p class="modal-sub">Tell us about your franchise and we'll send you private access to the full platform.</p>
@@ -789,19 +867,19 @@
           <label class="form-label" for="f-note">What are you looking for? (optional)</label>
           <textarea class="form-input" id="f-note" placeholder="Auction prep, matchup scouting, salary analysis..."></textarea>
         </div>
-        <button class="form-submit" type="submit" id="demo-submit">Send Request →</button>
+        <button class="form-submit" type="submit" id="demo-submit">Send Request -></button>
         <div class="form-error" id="form-error"></div>
       </form>
     </div>
     <div class="form-success" id="form-success">
-      <div class="success-icon">✅</div>
+      <div class="success-icon">OK</div>
       <h3>Request received</h3>
       <p>We'll review your request and send you private demo access within 24 hours.</p>
     </div>
   </div>
 </div>
 
-<!-- ── NAV ──────────────────────────────────────────────────────────────── -->
+<!-- NAV -->
 <nav>
   <div class="nav-brand">
     <div class="nav-logo">CIQ</div>
@@ -809,19 +887,20 @@
   </div>
   <div class="nav-right">
     <a class="nav-link" href="#modules">Modules</a>
+    <a class="nav-link" href="./illuminated_hero.html">Hero Demo</a>
     <a class="nav-link" href="#franchise">For Franchises</a>
     <a class="nav-link" href="#" onclick="openDemoModal();return false;">Contact</a>
-    <a class="nav-cta" href="./rr_login.html">Live Demo →</a>
+    <a class="nav-cta" href="./rr_login.html">Live Demo -></a>
   </div>
 </nav>
 
-<!-- ── HERO ─────────────────────────────────────────────────────────────── -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-badge">IPL 2026 · Now Live</div>
+  <div class="hero-badge">IPL 2026 - Now Live</div>
   <h1>Decision intelligence for<br /><em>IPL front offices</em></h1>
   <p class="hero-sub">
     CreaseIQ turns 350,000+ ball-by-ball deliveries into prescriptive
-    intelligence — auction strategy, matchup scouting, salary valuation,
+    intelligence - auction strategy, matchup scouting, salary valuation,
     and match-by-match tactical planning in one platform.
   </p>
   <div class="hero-actions">
@@ -829,12 +908,12 @@
       Request Franchise Demo
     </a>
     <a class="btn-secondary" href="./rr_login.html">
-      See RR Demo →
+      See RR Demo ->
     </a>
   </div>
 </section>
 
-<!-- ── STATS BAR ─────────────────────────────────────────────────────────── -->
+<!-- STATS BAR -->
 <div class="stats-bar">
   <div class="stat-item">
     <span class="stat-number">350K+</span>
@@ -845,7 +924,7 @@
     <span class="stat-label">Decision modules</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number">2017–25</span>
+    <span class="stat-number">2017-25</span>
     <span class="stat-label">IPL seasons covered</span>
   </div>
   <div class="stat-item">
@@ -860,42 +939,42 @@
 
 <hr class="section-divider" />
 
-<!-- ── PROBLEM ───────────────────────────────────────────────────────────── -->
+<!-- PROBLEM -->
 <div class="section">
   <p class="section-eyebrow">The Problem</p>
   <h2 class="section-title">IPL franchises make million-rupee<br />decisions with fragmented tools</h2>
   <p class="section-sub">
     Auction rooms. Tactical huddles. Salary negotiations.
-    Each decision is high-stakes and time-pressured — but most franchises
+    Each decision is high-stakes and time-pressured - but most franchises
     still rely on disconnected spreadsheets, offshore vendors, and ad-hoc analyst builds.
   </p>
   <div class="problem-grid">
     <div class="problem-card">
-      <div class="problem-icon">📊</div>
+      <div class="problem-icon">ST</div>
       <h4>No integrated front-office platform</h4>
-      <p>Auction data, phase metrics, matchups, and salary models live in different tools — or don't exist at all.</p>
-    </div>
+      <p>Auction data, phase metrics, matchups, and salary models live in different tools - or don't exist at all.</p>
+</div>
     <div class="problem-card">
-      <div class="problem-icon">💸</div>
+      <div class="problem-icon">IN</div>
       <h4>Offshore spend with low ROI</h4>
-      <p>Top franchises spend ₹15–20 Cr/year on analytics with 50%+ going to offshore vendors not built for IPL.</p>
-    </div>
+      <p>Top franchises spend Rs 15-20 Cr/year on analytics with 50%+ going to offshore vendors not built for IPL.</p>
+</div>
     <div class="problem-card">
-      <div class="problem-icon">⏱️</div>
+      <div class="problem-icon">TM</div>
       <h4>Match-day decisions lack data support</h4>
-      <p>Captains and coaches need fixture-specific intelligence in minutes — not a day after the analyst processes it.</p>
-    </div>
+      <p>Captains and coaches need fixture-specific intelligence in minutes - not a day after the analyst processes it.</p>
+</div>
     <div class="problem-card">
-      <div class="problem-icon">🎯</div>
+      <div class="problem-icon">TG</div>
       <h4>Auction strategy isn't league-aware</h4>
       <p>Building a squad in isolation misses rival pressure, price inflation, and role duplication across the full auction.</p>
-    </div>
+</div>
   </div>
 </div>
 
 <hr class="section-divider" />
 
-<!-- ── MODULES ────────────────────────────────────────────────────────────── -->
+<!-- MODULES -->
 <div class="section" id="modules">
   <p class="section-eyebrow">Platform Modules</p>
   <h2 class="section-title">Nine decision tools.<br />One connected platform.</h2>
@@ -906,18 +985,18 @@
 
   <div class="modules-grid">
 
-    <div class="module-card">
+    <a class="module-card" href="./phase_studio.html">
       <span class="module-tag tag-scouting">Scouting</span>
       <h3>Phase Studio</h3>
-      <p>Identify batting and bowling leaders by phase — powerplay, middle overs, death — with Bayesian-corrected impact scores.</p>
+      <p>Identify batting and bowling leaders by phase - powerplay, middle overs, death - with Bayesian-corrected impact scores.</p>
       <ul class="module-bullets">
         <li>Phase-specific impact rankings</li>
         <li>Active vs career horizon toggle</li>
         <li>Side-by-side player comparison</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./rr_hub.html">
       <span class="module-tag tag-scouting">Scouting</span>
       <h3>Player Lab</h3>
       <p>Multi-dimensional player profiles with skill radar, wins-added proxy, trajectory, and statistical comps.</p>
@@ -926,9 +1005,9 @@
         <li>Win probability added (WPA proxy)</li>
         <li>Comparable player finder</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./batter_diagnostics.html">
       <span class="module-tag tag-scouting">Scouting</span>
       <h3>Batter Diagnostics</h3>
       <p>Deep batter scouting using phase, pressure, venue, bowling family, named bowler matchups, and dismissal patterns.</p>
@@ -937,53 +1016,53 @@
         <li>High-pressure performance split</li>
         <li>Named bowler target / respect list</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./matchup_intelligence.html">
       <span class="module-tag tag-matchup">Matchup</span>
       <h3>Matchup Intelligence</h3>
-      <p>Ball-by-ball batter vs bowler interaction view — direct evidence weighted more heavily when repeated dismissals exist.</p>
+      <p>Ball-by-ball batter vs bowler interaction view - direct evidence weighted more heavily when repeated dismissals exist.</p>
       <ul class="module-bullets">
         <li>Head-to-head dismissal evidence</li>
         <li>Contextual percentile benchmarks</li>
         <li>AI-style interpretation layer</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./auction_war_room.html">
       <span class="module-tag tag-auction">Auction</span>
       <h3>Auction War Room</h3>
-      <p>Shared-league auction simulation — all 10 franchises bidding simultaneously across 500 Monte Carlo paths.</p>
+      <p>Shared-league auction simulation - all 10 franchises bidding simultaneously across 500 Monte Carlo paths.</p>
       <ul class="module-bullets">
         <li>Role-weighted franchise strategy</li>
         <li>Expected clearing price by player</li>
         <li>Rival pressure and purse tracking</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./scenario_builder.html">
       <span class="module-tag tag-auction">Auction</span>
       <h3>Scenario Builder</h3>
-      <p>User-adjustable shared-auction counterfactual — change purse, retained players, or role needs and re-run the full league.</p>
+      <p>User-adjustable shared-auction counterfactual - change purse, retained players, or role needs and re-run the full league.</p>
       <ul class="module-bullets">
         <li>Live scenario parameter editing</li>
         <li>Backend-backed shared simulation</li>
         <li>Multi-franchise override support</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./market_inefficiency.html">
       <span class="module-tag tag-auction">Auction</span>
       <h3>Market Inefficiency</h3>
-      <p>Identify systematically underpriced player archetypes — where auction market prices diverge from ball-by-ball value.</p>
+      <p>Identify systematically underpriced player archetypes - where auction market prices diverge from ball-by-ball value.</p>
       <ul class="module-bullets">
         <li>Role-market replacement value board</li>
         <li>Drop-off curves by position</li>
         <li>Auction edge identification</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./salary_value_lab.html">
       <span class="module-tag tag-salary">Salary</span>
       <h3>Salary Value Lab</h3>
       <p>Compare every active player's 2026 IPL salary against a model-implied fair value derived from total platform performance.</p>
@@ -992,32 +1071,32 @@
         <li>Value gap in crores</li>
         <li>Undervalued / overvalued ranking</li>
       </ul>
-    </div>
+</a>
 
-    <div class="module-card">
+    <a class="module-card" href="./match_planning.html">
       <span class="module-tag tag-planning">Match Planning</span>
       <h3>Match Planning</h3>
-      <p>Fixture-specific SWOT and tactical planning for every IPL 2026 game — opponent-aware, venue-aware, and AI-assisted.</p>
+      <p>Fixture-specific SWOT and tactical planning for every IPL 2026 game - opponent-aware, venue-aware, and AI-assisted.</p>
       <ul class="module-bullets">
         <li>All 74 IPL 2026 fixtures</li>
         <li>Venue and stadium specialist cards</li>
         <li>AI match brief in 10 seconds</li>
       </ul>
-    </div>
+</a>
 
   </div>
 </div>
 
 <hr class="section-divider" />
 
-<!-- ── FRANCHISE SECTION ──────────────────────────────────────────────────── -->
+<!-- FRANCHISE SECTION -->
 <div class="section" id="franchise">
   <div class="franchise-block">
     <div>
       <p class="franchise-eyebrow">Franchise Intelligence Layer</p>
       <h2>Built for your squad.<br />Locked to your franchise.</h2>
       <p>
-        Each franchise deployment is a dedicated module — pre-loaded with your
+        Each franchise deployment is a dedicated module - pre-loaded with your
         retained core, fixture schedule, rival profiles, and salary constraints.
         Not a generic dashboard. A front-office command center built around your team.
       </p>
@@ -1025,52 +1104,52 @@
         <a class="btn-primary" href="mailto:zpiyushrd19@gmail.com?subject=CreaseIQ%20Franchise%20Demo%20Request&body=Hi%20Piyush%2C%0A%0AI%27d%20like%20to%20learn%20more%20about%20CreaseIQ%20for%20our%20franchise.%0A%0ATeam%3A%20%0ARole%3A%20%0A">
           Request Your Franchise Demo
         </a>
-        <a class="btn-secondary" href="./rr_login.html">See RR Demo →</a>
+        <a class="btn-secondary" href="./rr_login.html">See RR Demo -></a>
       </div>
     </div>
     <div class="franchise-features">
       <div class="franchise-feature">
-        <div class="ff-icon">🏏</div>
+        <div class="ff-icon">SQ</div>
         <div class="ff-body">
           <h5>Franchise-specific squad context</h5>
           <p>Retained players, purse, overseas slots, and role gaps pre-loaded for your team.</p>
         </div>
-      </div>
+</div>
       <div class="franchise-feature">
-        <div class="ff-icon">📍</div>
+        <div class="ff-icon">VN</div>
         <div class="ff-body">
           <h5>Venue and fixture aware</h5>
           <p>Match planning adapts to your actual fixture list, home ground, and away conditions.</p>
         </div>
-      </div>
+</div>
       <div class="franchise-feature">
-        <div class="ff-icon">⚡</div>
+        <div class="ff-icon">AI</div>
         <div class="ff-body">
           <h5>AI match briefs on demand</h5>
           <p>Fixture-specific tactical brief generated in under 10 seconds before every game.</p>
         </div>
-      </div>
+</div>
       <div class="franchise-feature">
-        <div class="ff-icon">🔒</div>
+        <div class="ff-icon">LK</div>
         <div class="ff-body">
           <h5>Access-controlled and private</h5>
-          <p>Your franchise module is locked behind private credentials — not accessible to rivals.</p>
+          <p>Your franchise module is locked behind private credentials - not accessible to rivals.</p>
         </div>
-      </div>
+</div>
       <div class="franchise-feature">
-        <div class="ff-icon">🔄</div>
+        <div class="ff-icon">RT</div>
         <div class="ff-body">
           <h5>Live score integration</h5>
           <p>Real-time match scores streamed directly into the hub during match windows.</p>
         </div>
-      </div>
+</div>
     </div>
   </div>
 </div>
 
 <hr class="section-divider" />
 
-<!-- ── CTA BAND ───────────────────────────────────────────────────────────── -->
+<!-- CTA BAND -->
 <div class="cta-band">
   <h2>Ready to see it for your franchise?</h2>
   <p>Takes 20 minutes. No setup. Platform is live today.</p>
@@ -1078,18 +1157,18 @@
     <a class="btn-primary" href="#" onclick="openDemoModal();return false;">
       Request Franchise Demo
     </a>
-    <a class="btn-secondary" href="./rr_login.html">See RR Demo Live →</a>
+    <a class="btn-secondary" href="./rr_login.html">See RR Demo Live -></a>
   </div>
 </div>
 
-<!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+<!-- FOOTER -->
 <footer>
   <div class="footer-brand">
     <div class="footer-logo">CIQ</div>
     <span class="footer-wordmark">Crease<span>IQ</span></span>
   </div>
   <p class="footer-note">
-    Built on Cricsheet ball-by-ball data · IPL 2017–2025 · 1,169 matches · 350,000+ deliveries.
+    Built on Cricsheet ball-by-ball data - IPL 2017-2025 - 1,169 matches - 350,000+ deliveries.
     Phase metrics use Bayesian shrinkage. Salary valuations are model-implied estimates.
   </p>
   <p class="footer-contact">
@@ -1133,7 +1212,7 @@
     }
 
     btn.disabled = true;
-    btn.textContent = "Sending…";
+    btn.textContent = "Sending...";
 
     try {
       const res  = await fetch("/api/demo-request", {
@@ -1150,9 +1229,10 @@
       errEl.textContent = "Something went wrong. Email us directly at zpiyushrd19@gmail.com";
       errEl.style.display = "block";
       btn.disabled = false;
-      btn.textContent = "Send Request →";
+      btn.textContent = "Send Request ->";
     }
   });
 </script>
 </body>
 </html>
+

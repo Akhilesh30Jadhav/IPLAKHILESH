@@ -24,7 +24,7 @@ _ACCESS_CODE    = (os.environ.get("RR_ACCESS_CODE") or "royals2026").strip()
 _COOKIE_NAME    = "rr_auth"
 _COOKIE_VALUE   = "creaseiq_ok"
 # Paths served without authentication (GET)
-_PUBLIC_PATHS      = {"/", "/index.html", "/rr_login.html", "/favicon.ico"}
+_PUBLIC_PATHS      = {"/", "/index.html", "/rr_login.html", "/favicon.ico", "/beams-background.js", "/illuminated_hero.html"}
 # POST endpoints that don't require auth
 _PUBLIC_POST_PATHS = {"/api/auth", "/api/demo-request"}
 
@@ -703,7 +703,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
     def _redirect_to_login(self) -> None:
         self.send_response(HTTPStatus.FOUND)
-        self.send_header("Location", "/rr_login.html")
+        self.send_header("Location", "/illuminated_hero.html")
         self.end_headers()
 
     def _send_json(self, status: HTTPStatus, data: dict) -> None:
@@ -714,6 +714,32 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _serve_html_with_beams(self, path: str) -> bool:
+        rel = "index.html" if path in ("", "/") else path.lstrip("/")
+        file_path = (DASHBOARD_DIR / rel).resolve()
+        if not str(file_path).startswith(str(DASHBOARD_DIR.resolve())):
+            self.send_error(HTTPStatus.FORBIDDEN, "Invalid path")
+            return True
+        if not file_path.exists() or file_path.suffix.lower() != ".html":
+            return False
+
+        html = file_path.read_text(encoding="utf-8")
+        marker = '<script src="/beams-background.js"></script>'
+        skip_marker = "data-no-global-beams"
+        if marker not in html and skip_marker not in html:
+            if "</body>" in html:
+                html = html.replace("</body>", f"  {marker}\n  </body>", 1)
+            else:
+                html = f"{html}\n{marker}\n"
+
+        body = html.encode("utf-8")
+        self.send_response(HTTPStatus.OK)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+        return True
+
     # ── GET ────────────────────────────────────────────────────────────────────
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
@@ -721,10 +747,12 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
         # Normalise root
         if path in ("", "/"):
-            path = "/index.html"
+            path = "/illuminated_hero.html"
 
         # Always serve public pages without auth
         if path in _PUBLIC_PATHS:
+            if self._serve_html_with_beams(path):
+                return
             super().do_GET()
             return
 
@@ -747,6 +775,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             except Exception as exc:  # noqa: BLE001
                 self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
         else:
+            if self._serve_html_with_beams(path):
+                return
             super().do_GET()
 
     # ── POST ───────────────────────────────────────────────────────────────────
