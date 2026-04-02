@@ -1430,3 +1430,90 @@ input[type="range"] {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 12px;
+    gap: 16px;
+  }
+  
+  .sidebar {
+    padding: 20px 16px;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-links a {
+    white-space: nowrap;
+  }
+  
+  .hero-panel, .panel, .tile, .kpi-card, .chart-panel, .table-panel {
+    padding: 16px;
+  }
+  
+  .hero-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .hero-actions, .platform-pills {
+    justify-content: flex-start;
+  }
+  
+  .bar-row, .bar-row.compact, .weight-row, .purse-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  
+  .bar-row .bar-value, .weight-row input, .purse-row .purse-fill {
+    text-align: left;
+  }
+  
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+  
+  table {
+    min-width: 600px; /* Trigger horizontal scrolling instead of unreadable squishing */
+  }
+  
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  select, input[list], input[type="text"], input[type="search"] {
+    width: 100%;
+  }
+
+  .pill-row {
+    gap: 8px;
+  }
+  
+  .team-architecture-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #player-radar {
+    min-height: 280px;
+  }
+  
+  .product-topbar {
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .product-topbar__label {
+    display: none; /* Hide extraneous text on tiny screens */
+  }
+}

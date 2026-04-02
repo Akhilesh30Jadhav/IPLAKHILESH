@@ -184,6 +184,28 @@
           opacity: 0.8;
         }
       }
+      
+      @media (max-width: 600px) {
+        .hero-title {
+          font-size: clamp(2rem, 9vw, 2.6rem);
+          margin-top: -30px;
+        }
+        .hero-copy {
+          transform: translateY(11em);
+          padding: 0 24px;
+          font-size: 0.95rem;
+        }
+        .hero-actions {
+          top: calc(50% + 14.5rem);
+          flex-direction: column;
+          padding: 0 32px;
+          gap: 16px;
+        }
+        .hero-btn {
+          text-align: center;
+          width: 100%;
+        }
+      }
     </style>
   </head>
   <body>
