@@ -186,24 +186,38 @@
       }
       
       @media (max-width: 600px) {
+        .hero-wrap {
+          flex-direction: column;
+          gap: 20px;
+        }
         .hero-title {
-          font-size: clamp(2rem, 9vw, 2.6rem);
-          margin-top: -30px;
+          font-size: clamp(2.3rem, 11vw, 3rem);
+          margin-top: -40px;
         }
         .hero-copy {
-          transform: translateY(11em);
+          position: relative;
+          top: auto;
+          bottom: auto;
+          transform: none;
+          margin: 0;
           padding: 0 24px;
-          font-size: 0.95rem;
+          font-size: 1rem;
         }
         .hero-actions {
-          top: calc(50% + 14.5rem);
+          position: relative;
+          top: auto;
+          left: auto;
+          right: auto;
           flex-direction: column;
           padding: 0 32px;
-          gap: 16px;
+          gap: 14px;
+          width: 100%;
+          margin: 10px 0 0 0;
         }
         .hero-btn {
           text-align: center;
           width: 100%;
+          padding: 14px 18px;
         }
       }
     </style>
