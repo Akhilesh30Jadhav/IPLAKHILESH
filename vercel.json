@@ -2,36 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/api",
+      "source": "/(.*)",
       "destination": "/api/index"
-    },
-    {
-      "source": "/api/auth",
-      "destination": "/api/index"
-    },
-    {
-      "source": "/api/demo-request",
-      "destination": "/api/index"
-    },
-    {
-      "source": "/api/run-scenario",
-      "destination": "/api/index"
-    },
-    {
-      "source": "/api/live-score",
-      "destination": "/api/index"
-    },
-    {
-      "source": "/api/match-brief",
-      "destination": "/api/index"
-    },
-    {
-      "source": "/",
-      "destination": "/Dashboard/illuminated_hero.html"
-    },
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/Dashboard/$1"
     }
   ]
 }

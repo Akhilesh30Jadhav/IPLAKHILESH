@@ -3,7 +3,7 @@ from __future__ import annotations
 from http import HTTPStatus
 import os
 
-from flask import Flask, jsonify, make_response, request
+from flask import Flask, jsonify, make_response, request, send_from_directory
 
 from Dashboard.server import (
     _ACCESS_CODE,
@@ -95,3 +95,20 @@ def api_live_score_post():
         return jsonify(fetch_live_score())
     except Exception as exc:  # noqa: BLE001
         return jsonify({"error": str(exc)}), HTTPStatus.BAD_REQUEST
+
+
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_dashboard(path):
+    if not path or path == "/":
+        path = "illuminated_hero.html"
+    elif path.startswith("Dashboard/"):
+        path = path[len("Dashboard/"):]
+        
+    dashboard_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Dashboard")
+    file_path = os.path.join(dashboard_dir, path)
+    
+    if os.path.exists(file_path):
+        return send_from_directory(dashboard_dir, path)
+        
+    return make_response("Not Found", 404)
