@@ -6113,5 +6113,37 @@
     "fetched_at": "2026-04-08T07:46:29+00:00",
     "raw_text": "ity DC School Cup DC School Cup DC School Cup Fixtures Facebook Twitter Instagram Youtube Android iOs Facebook Instagram Twitter Youtube Android iOs IPL News DC Eye Hat-trick of Wins to Extend Unbeaten Start to the Season",
     "status": "unprocessed"
+  },
+  {
+    "source_item_id": "rr_official_site_als_news_more_reset_filters_adjust_filters_cancel_filter_by_category_all_close_all_news_press_releases_",
+    "source_id": "rr_official_site",
+    "source_name": "Rajasthan Royals Official",
+    "source_type": "web",
+    "priority": "official",
+    "team_scope": [
+      "RR"
+    ],
+    "title": "als news More Reset Filters Adjust Filters Cancel Filter by Category All Close All News Press Releases Apply Filters Reset Filters What is the secret behind Yashasvi Jaiswal and Vaibhav Sooryavanshi’s explosive chemistry?",
+    "url": "https://www.rajasthanroyals.com/latest-news",
+    "published_at": "08 Apr, 2026",
+    "fetched_at": "2026-04-08T10:36:39+00:00",
+    "raw_text": "als news More Reset Filters Adjust Filters Cancel Filter by Category All Close All News Press Releases Apply Filters Reset Filters What is the secret behind Yashasvi Jaiswal and Vaibhav Sooryavanshi’s explosive chemistry?",
+    "status": "unprocessed"
+  },
+  {
+    "source_item_id": "rr_official_site_rajasthan_royals_to_face_knight_riders_on_the_road_at_eden_gardens_know_prices_and_book_online_latest_n",
+    "source_id": "rr_official_site",
+    "source_name": "Rajasthan Royals Official",
+    "source_type": "web",
+    "priority": "official",
+    "team_scope": [
+      "RR"
+    ],
+    "title": "Rajasthan Royals to face Knight Riders on the road at Eden Gardens - know prices and book online",
+    "url": "https://www.rajasthanroyals.com/latest-news",
+    "published_at": "08 Apr, 2026",
+    "fetched_at": "2026-04-08T10:36:39+00:00",
+    "raw_text": "Rajasthan Royals to face Knight Riders on the road at Eden Gardens - know prices and book online",
+    "status": "unprocessed"
   }
 ]
