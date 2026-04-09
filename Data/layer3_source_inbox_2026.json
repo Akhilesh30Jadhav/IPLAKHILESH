@@ -6623,5 +6623,30 @@
     "fetched_at": "2026-04-09T07:48:58+00:00",
     "raw_text": "KKR vs LSG preview - Let’s climb up the table with another positive result",
     "status": "unprocessed"
+  },
+  {
+    "source_item_id": "cricbuzz_latest_news_prabhsimran_backs_cricket_news_latest_news",
+    "source_id": "cricbuzz_latest_news",
+    "source_name": "Cricbuzz Latest News",
+    "source_type": "web",
+    "priority": "major_media",
+    "team_scope": [
+      "RR",
+      "CSK",
+      "MI",
+      "RCB",
+      "GT",
+      "DC",
+      "KKR",
+      "LSG",
+      "PBKS",
+      "SRH"
+    ],
+    "title": "Prabhsimran backs",
+    "url": "https://www.cricbuzz.com/cricket-news/latest-news",
+    "published_at": "",
+    "fetched_at": "2026-04-09T10:41:39+00:00",
+    "raw_text": "Prabhsimran backs. Impact Player, says needs 'to do more' for India call-up The PBKS youngster believes the Impact Player's existence is a \"very good opportunity\" The PBKS youngster believes the Impact Player's existence is a \"very good opportunity\" Bangladesh cricket Aminul invoked govt in WC standoff, now seeks ICC intervention against",
+    "status": "unprocessed"
   }
 ]
