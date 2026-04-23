@@ -13411,5 +13411,30 @@
     "fetched_at": "2026-04-23T04:32:09+00:00",
     "raw_text": "Langer: Ekana. pitch is like playing at the WACA, we've not adjusted LSG's head coach admitted that they have failed to adjust to the pace and bounce at home, with another defeat exposing their mounting issues at Ekana LSG's head coach admitted that they have failed to adjust to the pace and bounce at home, with another defeat exposin",
     "status": "unprocessed"
+  },
+  {
+    "source_item_id": "cricbuzz_latest_news_starc_cleared_cricket_news_latest_news",
+    "source_id": "cricbuzz_latest_news",
+    "source_name": "Cricbuzz Latest News",
+    "source_type": "web",
+    "priority": "major_media",
+    "team_scope": [
+      "RR",
+      "CSK",
+      "MI",
+      "RCB",
+      "GT",
+      "DC",
+      "KKR",
+      "LSG",
+      "PBKS",
+      "SRH"
+    ],
+    "title": "Starc cleared",
+    "url": "https://www.cricbuzz.com/cricket-news/latest-news",
+    "published_at": "",
+    "fetched_at": "2026-04-23T08:06:30+00:00",
+    "raw_text": "Starc cleared. by CA to play IPL The left-arm pacer will join the Delhi Capitals squad and could be in contention to play on May 1 against Rajasthan Royals The left-arm pacer will join the Delhi Capitals squad and could be in contention to play on May 1 against Rajasthan Royals IPL 2026 Langer: Ekana pitch is like playing at the WACA,",
+    "status": "unprocessed"
   }
 ]
