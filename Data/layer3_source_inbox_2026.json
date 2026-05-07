@@ -19279,5 +19279,30 @@
     "fetched_at": "2026-05-07T04:54:41+00:00",
     "raw_text": "TATA IPL 2026, Match 49: SRH vs PBKS – Match Report",
     "status": "unprocessed"
+  },
+  {
+    "source_item_id": "cricbuzz_latest_news_australia_players_cricket_news_latest_news",
+    "source_id": "cricbuzz_latest_news",
+    "source_name": "Cricbuzz Latest News",
+    "source_type": "web",
+    "priority": "major_media",
+    "team_scope": [
+      "RR",
+      "CSK",
+      "MI",
+      "RCB",
+      "GT",
+      "DC",
+      "KKR",
+      "LSG",
+      "PBKS",
+      "SRH"
+    ],
+    "title": "Australia players",
+    "url": "https://www.cricbuzz.com/cricket-news/latest-news",
+    "published_at": "",
+    "fetched_at": "2026-05-07T08:44:10+00:00",
+    "raw_text": "Australia players. not to leave IPL for Pakistan ODIs Cricket Australia confirmed to Cricbuzz that Australian players \"will still be in the IPL and will complete their commitments\" Cricket Australia confirmed to Cricbuzz that Australian players \"will still be in the IPL and will complete their commitments\" Australia tour of Pakistan, 2026",
+    "status": "unprocessed"
   }
 ]
