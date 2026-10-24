@@ -30047,7 +30047,7 @@ window.DASHBOARD_DATA = {
         "team_code": "KKR",
         "representative_spend": 37.45,
         "representative_purse_left": 26.85,
-        "mc_average_spend": 39.99,
+        "mc_average_spend": 39.93,
         "mc_top_target": "David Miller",
         "mc_top_target_share": 1.0,
         "mc_unique_targets": 25
@@ -30056,82 +30056,82 @@ window.DASHBOARD_DATA = {
         "team_code": "CSK",
         "representative_spend": 23.2,
         "representative_purse_left": 20.2,
-        "mc_average_spend": 22.81,
-        "mc_top_target": "Fazalhaq Farooqi",
-        "mc_top_target_share": 0.85,
+        "mc_average_spend": 22.82,
+        "mc_top_target": "Matheesha Pathirana",
+        "mc_top_target_share": 0.628,
         "mc_unique_targets": 20
       },
       {
         "team_code": "DC",
         "representative_spend": 18.9,
         "representative_purse_left": 2.9,
-        "mc_average_spend": 17.55,
-        "mc_top_target": "Ben Duckett",
-        "mc_top_target_share": 0.5,
-        "mc_unique_targets": 43
+        "mc_average_spend": 17.87,
+        "mc_top_target": "Finn Allen",
+        "mc_top_target_share": 0.358,
+        "mc_unique_targets": 51
       },
       {
         "team_code": "SRH",
         "representative_spend": 13.15,
         "representative_purse_left": 12.35,
-        "mc_average_spend": 14.24,
+        "mc_average_spend": 14.53,
         "mc_top_target": "Kartik Sharma",
         "mc_top_target_share": 1.0,
-        "mc_unique_targets": 25
+        "mc_unique_targets": 32
       },
       {
         "team_code": "LSG",
         "representative_spend": 14.85,
         "representative_purse_left": 8.1,
-        "mc_average_spend": 13.22,
+        "mc_average_spend": 13.06,
         "mc_top_target": "Akeal Hosein",
-        "mc_top_target_share": 0.55,
+        "mc_top_target_share": 0.556,
         "mc_unique_targets": 24
       },
       {
         "team_code": "RCB",
         "representative_spend": 8.9,
         "representative_purse_left": 7.5,
-        "mc_average_spend": 11.62,
-        "mc_top_target": "Karn Sharma",
-        "mc_top_target_share": 0.8,
-        "mc_unique_targets": 25
+        "mc_average_spend": 11.72,
+        "mc_top_target": "Shivam Shukla",
+        "mc_top_target_share": 0.708,
+        "mc_unique_targets": 27
       },
       {
         "team_code": "GT",
         "representative_spend": 11.95,
         "representative_purse_left": 0.95,
-        "mc_average_spend": 10.45,
+        "mc_average_spend": 9.88,
         "mc_top_target": "Wahidullah Zadran",
-        "mc_top_target_share": 0.8,
-        "mc_unique_targets": 26
+        "mc_top_target_share": 0.826,
+        "mc_unique_targets": 43
       },
       {
         "team_code": "RR",
         "representative_spend": 9.25,
         "representative_purse_left": 6.8,
-        "mc_average_spend": 8.34,
+        "mc_average_spend": 8.48,
         "mc_top_target": "Chetan Sakariya",
-        "mc_top_target_share": 0.95,
-        "mc_unique_targets": 17
+        "mc_top_target_share": 0.992,
+        "mc_unique_targets": 19
       },
       {
         "team_code": "PBKS",
         "representative_spend": 7.65,
         "representative_purse_left": 3.85,
-        "mc_average_spend": 6.87,
-        "mc_top_target": "Mayank Agarawal",
-        "mc_top_target_share": 0.45,
-        "mc_unique_targets": 24
+        "mc_average_spend": 6.74,
+        "mc_top_target": "Rahul Tripathi",
+        "mc_top_target_share": 0.438,
+        "mc_unique_targets": 30
       },
       {
         "team_code": "MI",
         "representative_spend": 2.5,
         "representative_purse_left": 0.25,
         "mc_average_spend": 2.44,
-        "mc_top_target": "Aman Rao Perala",
-        "mc_top_target_share": 0.6,
-        "mc_unique_targets": 16
+        "mc_top_target": "Kuldeep Sen",
+        "mc_top_target_share": 0.556,
+        "mc_unique_targets": 17
       }
     ],
     "league_events": [
@@ -37805,124 +37805,124 @@ window.DASHBOARD_DATA = {
         ],
         "mc_purchase_summary": [
           {
-            "player_name": "Fazalhaq Farooqi",
-            "times_bought": 17,
-            "share_of_runs": 0.85,
-            "avg_price_when_bought": 2.68
-          },
-          {
             "player_name": "Matheesha Pathirana",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 5.75
-          },
-          {
-            "player_name": "Matt Henry",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
-            "avg_price_when_bought": 4.69
+            "times_bought": 314,
+            "share_of_runs": 0.628,
+            "avg_price_when_bought": 5.76
           },
           {
             "player_name": "Anrich Nortje",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 5.33
+            "times_bought": 294,
+            "share_of_runs": 0.588,
+            "avg_price_when_bought": 5.25
           },
           {
             "player_name": "Gerald Coetzee",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 3.35
+            "times_bought": 290,
+            "share_of_runs": 0.58,
+            "avg_price_when_bought": 3.38
+          },
+          {
+            "player_name": "Matt Henry",
+            "times_bought": 280,
+            "share_of_runs": 0.56,
+            "avg_price_when_bought": 4.73
+          },
+          {
+            "player_name": "Fazalhaq Farooqi",
+            "times_bought": 279,
+            "share_of_runs": 0.558,
+            "avg_price_when_bought": 2.63
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "times_bought": 279,
+            "share_of_runs": 0.558,
+            "avg_price_when_bought": 2.47
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "times_bought": 264,
+            "share_of_runs": 0.528,
+            "avg_price_when_bought": 4.74
+          },
+          {
+            "player_name": "Akash Deep",
+            "times_bought": 261,
+            "share_of_runs": 0.522,
+            "avg_price_when_bought": 3.0
+          },
+          {
+            "player_name": "Rahul Chahar",
+            "times_bought": 261,
+            "share_of_runs": 0.522,
+            "avg_price_when_bought": 3.5
           },
           {
             "player_name": "Mahipal Lomror",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
+            "times_bought": 260,
+            "share_of_runs": 0.52,
             "avg_price_when_bought": 0.5
           },
           {
-            "player_name": "Shivam Mavi",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 2.3
+            "player_name": "Tanush Kotian",
+            "times_bought": 257,
+            "share_of_runs": 0.514,
+            "avg_price_when_bought": 0.3
           },
           {
-            "player_name": "Tanush Kotian",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
+            "player_name": "Shivang Kumar",
+            "times_bought": 254,
+            "share_of_runs": 0.508,
             "avg_price_when_bought": 0.3
           },
           {
             "player_name": "Prashant Veer",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
+            "times_bought": 249,
+            "share_of_runs": 0.498,
             "avg_price_when_bought": 0.3
           },
           {
-            "player_name": "Rahul Chahar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Akash Deep",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 3.0
+            "player_name": "Shivam Mavi",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 2.3
           },
           {
             "player_name": "Anmolpreet Singh",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.66
-          },
-          {
-            "player_name": "Abhinav Manohar",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.89
-          },
-          {
-            "player_name": "Shivang Kumar",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.3
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 4.67
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 2.39
-          },
-          {
-            "player_name": "Yash Dhull",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.6
-          },
-          {
-            "player_name": "Aarya Desai",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.55
-          },
-          {
-            "player_name": "Atharva Taide",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.8
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 0.68
           },
           {
             "player_name": "Abhinav Tejrana",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.5
+            "times_bought": 125,
+            "share_of_runs": 0.25,
+            "avg_price_when_bought": 0.57
+          },
+          {
+            "player_name": "Yash Dhull",
+            "times_bought": 113,
+            "share_of_runs": 0.226,
+            "avg_price_when_bought": 0.57
+          },
+          {
+            "player_name": "Atharva Taide",
+            "times_bought": 111,
+            "share_of_runs": 0.222,
+            "avg_price_when_bought": 0.69
+          },
+          {
+            "player_name": "Aarya Desai",
+            "times_bought": 102,
+            "share_of_runs": 0.204,
+            "avg_price_when_bought": 0.57
+          },
+          {
+            "player_name": "Abhinav Manohar",
+            "times_bought": 95,
+            "share_of_runs": 0.19,
+            "avg_price_when_bought": 0.89
           }
         ],
         "mc_spend_summary": [
@@ -38025,44 +38025,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "CSK",
             "total_spend": 19.15
+          },
+          {
+            "run_id": 21,
+            "focus_team": "CSK",
+            "total_spend": 19.55
+          },
+          {
+            "run_id": 22,
+            "focus_team": "CSK",
+            "total_spend": 18.55
+          },
+          {
+            "run_id": 23,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 24,
+            "focus_team": "CSK",
+            "total_spend": 20.15
+          },
+          {
+            "run_id": 25,
+            "focus_team": "CSK",
+            "total_spend": 23.15
+          },
+          {
+            "run_id": 26,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 27,
+            "focus_team": "CSK",
+            "total_spend": 27.0
+          },
+          {
+            "run_id": 28,
+            "focus_team": "CSK",
+            "total_spend": 20.75
+          },
+          {
+            "run_id": 29,
+            "focus_team": "CSK",
+            "total_spend": 25.4
+          },
+          {
+            "run_id": 30,
+            "focus_team": "CSK",
+            "total_spend": 22.7
+          },
+          {
+            "run_id": 31,
+            "focus_team": "CSK",
+            "total_spend": 22.7
+          },
+          {
+            "run_id": 32,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 33,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 34,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 35,
+            "focus_team": "CSK",
+            "total_spend": 24.6
+          },
+          {
+            "run_id": 36,
+            "focus_team": "CSK",
+            "total_spend": 22.15
+          },
+          {
+            "run_id": 37,
+            "focus_team": "CSK",
+            "total_spend": 19.95
+          },
+          {
+            "run_id": 38,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 39,
+            "focus_team": "CSK",
+            "total_spend": 18.5
+          },
+          {
+            "run_id": 40,
+            "focus_team": "CSK",
+            "total_spend": 25.5
+          },
+          {
+            "run_id": 41,
+            "focus_team": "CSK",
+            "total_spend": 22.15
+          },
+          {
+            "run_id": 42,
+            "focus_team": "CSK",
+            "total_spend": 20.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "CSK",
+            "total_spend": 22.5
+          },
+          {
+            "run_id": 44,
+            "focus_team": "CSK",
+            "total_spend": 22.35
+          },
+          {
+            "run_id": 45,
+            "focus_team": "CSK",
+            "total_spend": 21.6
+          },
+          {
+            "run_id": 46,
+            "focus_team": "CSK",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 47,
+            "focus_team": "CSK",
+            "total_spend": 23.25
+          },
+          {
+            "run_id": 48,
+            "focus_team": "CSK",
+            "total_spend": 24.8
+          },
+          {
+            "run_id": 49,
+            "focus_team": "CSK",
+            "total_spend": 24.65
+          },
+          {
+            "run_id": 50,
+            "focus_team": "CSK",
+            "total_spend": 25.1
+          },
+          {
+            "run_id": 51,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 52,
+            "focus_team": "CSK",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 53,
+            "focus_team": "CSK",
+            "total_spend": 25.5
+          },
+          {
+            "run_id": 54,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 55,
+            "focus_team": "CSK",
+            "total_spend": 21.0
+          },
+          {
+            "run_id": 56,
+            "focus_team": "CSK",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 57,
+            "focus_team": "CSK",
+            "total_spend": 28.5
+          },
+          {
+            "run_id": 58,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 59,
+            "focus_team": "CSK",
+            "total_spend": 22.7
+          },
+          {
+            "run_id": 60,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 61,
+            "focus_team": "CSK",
+            "total_spend": 21.75
+          },
+          {
+            "run_id": 62,
+            "focus_team": "CSK",
+            "total_spend": 25.25
+          },
+          {
+            "run_id": 63,
+            "focus_team": "CSK",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 64,
+            "focus_team": "CSK",
+            "total_spend": 27.8
+          },
+          {
+            "run_id": 65,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 66,
+            "focus_team": "CSK",
+            "total_spend": 23.95
+          },
+          {
+            "run_id": 67,
+            "focus_team": "CSK",
+            "total_spend": 25.5
+          },
+          {
+            "run_id": 68,
+            "focus_team": "CSK",
+            "total_spend": 21.6
+          },
+          {
+            "run_id": 69,
+            "focus_team": "CSK",
+            "total_spend": 22.75
+          },
+          {
+            "run_id": 70,
+            "focus_team": "CSK",
+            "total_spend": 22.95
+          },
+          {
+            "run_id": 71,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 72,
+            "focus_team": "CSK",
+            "total_spend": 23.6
+          },
+          {
+            "run_id": 73,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 74,
+            "focus_team": "CSK",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 75,
+            "focus_team": "CSK",
+            "total_spend": 23.4
+          },
+          {
+            "run_id": 76,
+            "focus_team": "CSK",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 77,
+            "focus_team": "CSK",
+            "total_spend": 24.6
+          },
+          {
+            "run_id": 78,
+            "focus_team": "CSK",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 79,
+            "focus_team": "CSK",
+            "total_spend": 26.1
+          },
+          {
+            "run_id": 80,
+            "focus_team": "CSK",
+            "total_spend": 22.35
+          },
+          {
+            "run_id": 81,
+            "focus_team": "CSK",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 82,
+            "focus_team": "CSK",
+            "total_spend": 26.7
+          },
+          {
+            "run_id": 83,
+            "focus_team": "CSK",
+            "total_spend": 23.6
+          },
+          {
+            "run_id": 84,
+            "focus_team": "CSK",
+            "total_spend": 22.35
+          },
+          {
+            "run_id": 85,
+            "focus_team": "CSK",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 86,
+            "focus_team": "CSK",
+            "total_spend": 28.3
+          },
+          {
+            "run_id": 87,
+            "focus_team": "CSK",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 88,
+            "focus_team": "CSK",
+            "total_spend": 26.15
+          },
+          {
+            "run_id": 89,
+            "focus_team": "CSK",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 90,
+            "focus_team": "CSK",
+            "total_spend": 19.3
+          },
+          {
+            "run_id": 91,
+            "focus_team": "CSK",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 92,
+            "focus_team": "CSK",
+            "total_spend": 22.7
+          },
+          {
+            "run_id": 93,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 94,
+            "focus_team": "CSK",
+            "total_spend": 25.95
+          },
+          {
+            "run_id": 95,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 96,
+            "focus_team": "CSK",
+            "total_spend": 22.0
+          },
+          {
+            "run_id": 97,
+            "focus_team": "CSK",
+            "total_spend": 20.95
+          },
+          {
+            "run_id": 98,
+            "focus_team": "CSK",
+            "total_spend": 27.0
+          },
+          {
+            "run_id": 99,
+            "focus_team": "CSK",
+            "total_spend": 27.05
+          },
+          {
+            "run_id": 100,
+            "focus_team": "CSK",
+            "total_spend": 25.1
+          },
+          {
+            "run_id": 101,
+            "focus_team": "CSK",
+            "total_spend": 23.8
+          },
+          {
+            "run_id": 102,
+            "focus_team": "CSK",
+            "total_spend": 24.15
+          },
+          {
+            "run_id": 103,
+            "focus_team": "CSK",
+            "total_spend": 21.05
+          },
+          {
+            "run_id": 104,
+            "focus_team": "CSK",
+            "total_spend": 26.35
+          },
+          {
+            "run_id": 105,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 106,
+            "focus_team": "CSK",
+            "total_spend": 20.45
+          },
+          {
+            "run_id": 107,
+            "focus_team": "CSK",
+            "total_spend": 18.3
+          },
+          {
+            "run_id": 108,
+            "focus_team": "CSK",
+            "total_spend": 20.95
+          },
+          {
+            "run_id": 109,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 110,
+            "focus_team": "CSK",
+            "total_spend": 25.2
+          },
+          {
+            "run_id": 111,
+            "focus_team": "CSK",
+            "total_spend": 21.65
+          },
+          {
+            "run_id": 112,
+            "focus_team": "CSK",
+            "total_spend": 25.7
+          },
+          {
+            "run_id": 113,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 114,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 115,
+            "focus_team": "CSK",
+            "total_spend": 21.25
+          },
+          {
+            "run_id": 116,
+            "focus_team": "CSK",
+            "total_spend": 21.55
+          },
+          {
+            "run_id": 117,
+            "focus_team": "CSK",
+            "total_spend": 24.25
+          },
+          {
+            "run_id": 118,
+            "focus_team": "CSK",
+            "total_spend": 20.2
+          },
+          {
+            "run_id": 119,
+            "focus_team": "CSK",
+            "total_spend": 25.3
+          },
+          {
+            "run_id": 120,
+            "focus_team": "CSK",
+            "total_spend": 21.95
+          },
+          {
+            "run_id": 121,
+            "focus_team": "CSK",
+            "total_spend": 23.4
+          },
+          {
+            "run_id": 122,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 123,
+            "focus_team": "CSK",
+            "total_spend": 20.85
+          },
+          {
+            "run_id": 124,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 125,
+            "focus_team": "CSK",
+            "total_spend": 24.5
+          },
+          {
+            "run_id": 126,
+            "focus_team": "CSK",
+            "total_spend": 21.8
+          },
+          {
+            "run_id": 127,
+            "focus_team": "CSK",
+            "total_spend": 27.8
+          },
+          {
+            "run_id": 128,
+            "focus_team": "CSK",
+            "total_spend": 21.35
+          },
+          {
+            "run_id": 129,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 130,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 131,
+            "focus_team": "CSK",
+            "total_spend": 26.5
+          },
+          {
+            "run_id": 132,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 133,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 134,
+            "focus_team": "CSK",
+            "total_spend": 24.35
+          },
+          {
+            "run_id": 135,
+            "focus_team": "CSK",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 136,
+            "focus_team": "CSK",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 137,
+            "focus_team": "CSK",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 138,
+            "focus_team": "CSK",
+            "total_spend": 22.45
+          },
+          {
+            "run_id": 139,
+            "focus_team": "CSK",
+            "total_spend": 22.1
+          },
+          {
+            "run_id": 140,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 141,
+            "focus_team": "CSK",
+            "total_spend": 23.35
+          },
+          {
+            "run_id": 142,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 143,
+            "focus_team": "CSK",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 144,
+            "focus_team": "CSK",
+            "total_spend": 21.05
+          },
+          {
+            "run_id": 145,
+            "focus_team": "CSK",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 146,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 147,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 148,
+            "focus_team": "CSK",
+            "total_spend": 27.05
+          },
+          {
+            "run_id": 149,
+            "focus_team": "CSK",
+            "total_spend": 24.95
+          },
+          {
+            "run_id": 150,
+            "focus_team": "CSK",
+            "total_spend": 21.35
+          },
+          {
+            "run_id": 151,
+            "focus_team": "CSK",
+            "total_spend": 22.65
+          },
+          {
+            "run_id": 152,
+            "focus_team": "CSK",
+            "total_spend": 23.95
+          },
+          {
+            "run_id": 153,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 154,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 155,
+            "focus_team": "CSK",
+            "total_spend": 21.7
+          },
+          {
+            "run_id": 156,
+            "focus_team": "CSK",
+            "total_spend": 23.15
+          },
+          {
+            "run_id": 157,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 158,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 159,
+            "focus_team": "CSK",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 160,
+            "focus_team": "CSK",
+            "total_spend": 25.55
+          },
+          {
+            "run_id": 161,
+            "focus_team": "CSK",
+            "total_spend": 26.5
+          },
+          {
+            "run_id": 162,
+            "focus_team": "CSK",
+            "total_spend": 23.25
+          },
+          {
+            "run_id": 163,
+            "focus_team": "CSK",
+            "total_spend": 19.5
+          },
+          {
+            "run_id": 164,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 165,
+            "focus_team": "CSK",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 166,
+            "focus_team": "CSK",
+            "total_spend": 20.45
+          },
+          {
+            "run_id": 167,
+            "focus_team": "CSK",
+            "total_spend": 24.95
+          },
+          {
+            "run_id": 168,
+            "focus_team": "CSK",
+            "total_spend": 19.75
+          },
+          {
+            "run_id": 169,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 170,
+            "focus_team": "CSK",
+            "total_spend": 25.2
+          },
+          {
+            "run_id": 171,
+            "focus_team": "CSK",
+            "total_spend": 28.2
+          },
+          {
+            "run_id": 172,
+            "focus_team": "CSK",
+            "total_spend": 21.25
+          },
+          {
+            "run_id": 173,
+            "focus_team": "CSK",
+            "total_spend": 23.8
+          },
+          {
+            "run_id": 174,
+            "focus_team": "CSK",
+            "total_spend": 24.55
+          },
+          {
+            "run_id": 175,
+            "focus_team": "CSK",
+            "total_spend": 24.5
+          },
+          {
+            "run_id": 176,
+            "focus_team": "CSK",
+            "total_spend": 23.7
+          },
+          {
+            "run_id": 177,
+            "focus_team": "CSK",
+            "total_spend": 22.9
+          },
+          {
+            "run_id": 178,
+            "focus_team": "CSK",
+            "total_spend": 25.7
+          },
+          {
+            "run_id": 179,
+            "focus_team": "CSK",
+            "total_spend": 26.0
+          },
+          {
+            "run_id": 180,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 181,
+            "focus_team": "CSK",
+            "total_spend": 21.45
+          },
+          {
+            "run_id": 182,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 183,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 184,
+            "focus_team": "CSK",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 185,
+            "focus_team": "CSK",
+            "total_spend": 23.7
+          },
+          {
+            "run_id": 186,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 187,
+            "focus_team": "CSK",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 188,
+            "focus_team": "CSK",
+            "total_spend": 25.3
+          },
+          {
+            "run_id": 189,
+            "focus_team": "CSK",
+            "total_spend": 23.3
+          },
+          {
+            "run_id": 190,
+            "focus_team": "CSK",
+            "total_spend": 25.7
+          },
+          {
+            "run_id": 191,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 192,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 193,
+            "focus_team": "CSK",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 194,
+            "focus_team": "CSK",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 195,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 196,
+            "focus_team": "CSK",
+            "total_spend": 22.55
+          },
+          {
+            "run_id": 197,
+            "focus_team": "CSK",
+            "total_spend": 26.2
+          },
+          {
+            "run_id": 198,
+            "focus_team": "CSK",
+            "total_spend": 17.1
+          },
+          {
+            "run_id": 199,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 200,
+            "focus_team": "CSK",
+            "total_spend": 21.1
+          },
+          {
+            "run_id": 201,
+            "focus_team": "CSK",
+            "total_spend": 21.8
+          },
+          {
+            "run_id": 202,
+            "focus_team": "CSK",
+            "total_spend": 26.15
+          },
+          {
+            "run_id": 203,
+            "focus_team": "CSK",
+            "total_spend": 22.5
+          },
+          {
+            "run_id": 204,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 205,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 206,
+            "focus_team": "CSK",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 207,
+            "focus_team": "CSK",
+            "total_spend": 23.2
+          },
+          {
+            "run_id": 208,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 209,
+            "focus_team": "CSK",
+            "total_spend": 23.3
+          },
+          {
+            "run_id": 210,
+            "focus_team": "CSK",
+            "total_spend": 27.05
+          },
+          {
+            "run_id": 211,
+            "focus_team": "CSK",
+            "total_spend": 18.45
+          },
+          {
+            "run_id": 212,
+            "focus_team": "CSK",
+            "total_spend": 22.65
+          },
+          {
+            "run_id": 213,
+            "focus_team": "CSK",
+            "total_spend": 21.55
+          },
+          {
+            "run_id": 214,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 215,
+            "focus_team": "CSK",
+            "total_spend": 24.7
+          },
+          {
+            "run_id": 216,
+            "focus_team": "CSK",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 217,
+            "focus_team": "CSK",
+            "total_spend": 21.4
+          },
+          {
+            "run_id": 218,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 219,
+            "focus_team": "CSK",
+            "total_spend": 24.25
+          },
+          {
+            "run_id": 220,
+            "focus_team": "CSK",
+            "total_spend": 21.0
+          },
+          {
+            "run_id": 221,
+            "focus_team": "CSK",
+            "total_spend": 22.75
+          },
+          {
+            "run_id": 222,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 223,
+            "focus_team": "CSK",
+            "total_spend": 24.05
+          },
+          {
+            "run_id": 224,
+            "focus_team": "CSK",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 225,
+            "focus_team": "CSK",
+            "total_spend": 26.2
+          },
+          {
+            "run_id": 226,
+            "focus_team": "CSK",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 227,
+            "focus_team": "CSK",
+            "total_spend": 21.7
+          },
+          {
+            "run_id": 228,
+            "focus_team": "CSK",
+            "total_spend": 25.35
+          },
+          {
+            "run_id": 229,
+            "focus_team": "CSK",
+            "total_spend": 24.55
+          },
+          {
+            "run_id": 230,
+            "focus_team": "CSK",
+            "total_spend": 20.7
+          },
+          {
+            "run_id": 231,
+            "focus_team": "CSK",
+            "total_spend": 26.05
+          },
+          {
+            "run_id": 232,
+            "focus_team": "CSK",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 233,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 234,
+            "focus_team": "CSK",
+            "total_spend": 24.4
+          },
+          {
+            "run_id": 235,
+            "focus_team": "CSK",
+            "total_spend": 22.2
+          },
+          {
+            "run_id": 236,
+            "focus_team": "CSK",
+            "total_spend": 21.1
+          },
+          {
+            "run_id": 237,
+            "focus_team": "CSK",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 238,
+            "focus_team": "CSK",
+            "total_spend": 24.2
+          },
+          {
+            "run_id": 239,
+            "focus_team": "CSK",
+            "total_spend": 26.2
+          },
+          {
+            "run_id": 240,
+            "focus_team": "CSK",
+            "total_spend": 22.25
+          },
+          {
+            "run_id": 241,
+            "focus_team": "CSK",
+            "total_spend": 20.45
+          },
+          {
+            "run_id": 242,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 243,
+            "focus_team": "CSK",
+            "total_spend": 21.8
+          },
+          {
+            "run_id": 244,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 245,
+            "focus_team": "CSK",
+            "total_spend": 21.8
+          },
+          {
+            "run_id": 246,
+            "focus_team": "CSK",
+            "total_spend": 20.65
+          },
+          {
+            "run_id": 247,
+            "focus_team": "CSK",
+            "total_spend": 18.95
+          },
+          {
+            "run_id": 248,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 249,
+            "focus_team": "CSK",
+            "total_spend": 24.9
+          },
+          {
+            "run_id": 250,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 251,
+            "focus_team": "CSK",
+            "total_spend": 21.75
+          },
+          {
+            "run_id": 252,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 253,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 254,
+            "focus_team": "CSK",
+            "total_spend": 23.95
+          },
+          {
+            "run_id": 255,
+            "focus_team": "CSK",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 256,
+            "focus_team": "CSK",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 257,
+            "focus_team": "CSK",
+            "total_spend": 20.05
+          },
+          {
+            "run_id": 258,
+            "focus_team": "CSK",
+            "total_spend": 23.6
+          },
+          {
+            "run_id": 259,
+            "focus_team": "CSK",
+            "total_spend": 22.45
+          },
+          {
+            "run_id": 260,
+            "focus_team": "CSK",
+            "total_spend": 26.0
+          },
+          {
+            "run_id": 261,
+            "focus_team": "CSK",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 262,
+            "focus_team": "CSK",
+            "total_spend": 21.1
+          },
+          {
+            "run_id": 263,
+            "focus_team": "CSK",
+            "total_spend": 21.0
+          },
+          {
+            "run_id": 264,
+            "focus_team": "CSK",
+            "total_spend": 25.45
+          },
+          {
+            "run_id": 265,
+            "focus_team": "CSK",
+            "total_spend": 23.35
+          },
+          {
+            "run_id": 266,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 267,
+            "focus_team": "CSK",
+            "total_spend": 28.7
+          },
+          {
+            "run_id": 268,
+            "focus_team": "CSK",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 269,
+            "focus_team": "CSK",
+            "total_spend": 26.35
+          },
+          {
+            "run_id": 270,
+            "focus_team": "CSK",
+            "total_spend": 19.0
+          },
+          {
+            "run_id": 271,
+            "focus_team": "CSK",
+            "total_spend": 23.7
+          },
+          {
+            "run_id": 272,
+            "focus_team": "CSK",
+            "total_spend": 22.45
+          },
+          {
+            "run_id": 273,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 274,
+            "focus_team": "CSK",
+            "total_spend": 27.0
+          },
+          {
+            "run_id": 275,
+            "focus_team": "CSK",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 276,
+            "focus_team": "CSK",
+            "total_spend": 28.7
+          },
+          {
+            "run_id": 277,
+            "focus_team": "CSK",
+            "total_spend": 26.25
+          },
+          {
+            "run_id": 278,
+            "focus_team": "CSK",
+            "total_spend": 22.9
+          },
+          {
+            "run_id": 279,
+            "focus_team": "CSK",
+            "total_spend": 20.85
+          },
+          {
+            "run_id": 280,
+            "focus_team": "CSK",
+            "total_spend": 25.9
+          },
+          {
+            "run_id": 281,
+            "focus_team": "CSK",
+            "total_spend": 20.45
+          },
+          {
+            "run_id": 282,
+            "focus_team": "CSK",
+            "total_spend": 21.05
+          },
+          {
+            "run_id": 283,
+            "focus_team": "CSK",
+            "total_spend": 24.15
+          },
+          {
+            "run_id": 284,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 285,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 286,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 287,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 288,
+            "focus_team": "CSK",
+            "total_spend": 26.7
+          },
+          {
+            "run_id": 289,
+            "focus_team": "CSK",
+            "total_spend": 23.2
+          },
+          {
+            "run_id": 290,
+            "focus_team": "CSK",
+            "total_spend": 19.35
+          },
+          {
+            "run_id": 291,
+            "focus_team": "CSK",
+            "total_spend": 23.4
+          },
+          {
+            "run_id": 292,
+            "focus_team": "CSK",
+            "total_spend": 23.9
+          },
+          {
+            "run_id": 293,
+            "focus_team": "CSK",
+            "total_spend": 20.85
+          },
+          {
+            "run_id": 294,
+            "focus_team": "CSK",
+            "total_spend": 23.45
+          },
+          {
+            "run_id": 295,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 296,
+            "focus_team": "CSK",
+            "total_spend": 24.4
+          },
+          {
+            "run_id": 297,
+            "focus_team": "CSK",
+            "total_spend": 26.05
+          },
+          {
+            "run_id": 298,
+            "focus_team": "CSK",
+            "total_spend": 26.0
+          },
+          {
+            "run_id": 299,
+            "focus_team": "CSK",
+            "total_spend": 21.05
+          },
+          {
+            "run_id": 300,
+            "focus_team": "CSK",
+            "total_spend": 22.95
+          },
+          {
+            "run_id": 301,
+            "focus_team": "CSK",
+            "total_spend": 26.05
+          },
+          {
+            "run_id": 302,
+            "focus_team": "CSK",
+            "total_spend": 23.8
+          },
+          {
+            "run_id": 303,
+            "focus_team": "CSK",
+            "total_spend": 23.4
+          },
+          {
+            "run_id": 304,
+            "focus_team": "CSK",
+            "total_spend": 20.95
+          },
+          {
+            "run_id": 305,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 306,
+            "focus_team": "CSK",
+            "total_spend": 25.55
+          },
+          {
+            "run_id": 307,
+            "focus_team": "CSK",
+            "total_spend": 24.8
+          },
+          {
+            "run_id": 308,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 309,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 310,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 311,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 312,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 313,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 314,
+            "focus_team": "CSK",
+            "total_spend": 21.4
+          },
+          {
+            "run_id": 315,
+            "focus_team": "CSK",
+            "total_spend": 18.55
+          },
+          {
+            "run_id": 316,
+            "focus_team": "CSK",
+            "total_spend": 20.85
+          },
+          {
+            "run_id": 317,
+            "focus_team": "CSK",
+            "total_spend": 22.3
+          },
+          {
+            "run_id": 318,
+            "focus_team": "CSK",
+            "total_spend": 23.1
+          },
+          {
+            "run_id": 319,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 320,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 321,
+            "focus_team": "CSK",
+            "total_spend": 24.05
+          },
+          {
+            "run_id": 322,
+            "focus_team": "CSK",
+            "total_spend": 21.9
+          },
+          {
+            "run_id": 323,
+            "focus_team": "CSK",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 324,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 325,
+            "focus_team": "CSK",
+            "total_spend": 23.95
+          },
+          {
+            "run_id": 326,
+            "focus_team": "CSK",
+            "total_spend": 25.45
+          },
+          {
+            "run_id": 327,
+            "focus_team": "CSK",
+            "total_spend": 21.25
+          },
+          {
+            "run_id": 328,
+            "focus_team": "CSK",
+            "total_spend": 23.9
+          },
+          {
+            "run_id": 329,
+            "focus_team": "CSK",
+            "total_spend": 25.9
+          },
+          {
+            "run_id": 330,
+            "focus_team": "CSK",
+            "total_spend": 26.35
+          },
+          {
+            "run_id": 331,
+            "focus_team": "CSK",
+            "total_spend": 22.6
+          },
+          {
+            "run_id": 332,
+            "focus_team": "CSK",
+            "total_spend": 20.8
+          },
+          {
+            "run_id": 333,
+            "focus_team": "CSK",
+            "total_spend": 24.9
+          },
+          {
+            "run_id": 334,
+            "focus_team": "CSK",
+            "total_spend": 25.7
+          },
+          {
+            "run_id": 335,
+            "focus_team": "CSK",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 336,
+            "focus_team": "CSK",
+            "total_spend": 26.9
+          },
+          {
+            "run_id": 337,
+            "focus_team": "CSK",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 338,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 339,
+            "focus_team": "CSK",
+            "total_spend": 24.8
+          },
+          {
+            "run_id": 340,
+            "focus_team": "CSK",
+            "total_spend": 24.95
+          },
+          {
+            "run_id": 341,
+            "focus_team": "CSK",
+            "total_spend": 25.55
+          },
+          {
+            "run_id": 342,
+            "focus_team": "CSK",
+            "total_spend": 18.45
+          },
+          {
+            "run_id": 343,
+            "focus_team": "CSK",
+            "total_spend": 22.1
+          },
+          {
+            "run_id": 344,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 345,
+            "focus_team": "CSK",
+            "total_spend": 25.05
+          },
+          {
+            "run_id": 346,
+            "focus_team": "CSK",
+            "total_spend": 26.2
+          },
+          {
+            "run_id": 347,
+            "focus_team": "CSK",
+            "total_spend": 26.95
+          },
+          {
+            "run_id": 348,
+            "focus_team": "CSK",
+            "total_spend": 24.25
+          },
+          {
+            "run_id": 349,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 350,
+            "focus_team": "CSK",
+            "total_spend": 22.65
+          },
+          {
+            "run_id": 351,
+            "focus_team": "CSK",
+            "total_spend": 25.1
+          },
+          {
+            "run_id": 352,
+            "focus_team": "CSK",
+            "total_spend": 22.5
+          },
+          {
+            "run_id": 353,
+            "focus_team": "CSK",
+            "total_spend": 23.1
+          },
+          {
+            "run_id": 354,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 355,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 356,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 357,
+            "focus_team": "CSK",
+            "total_spend": 19.65
+          },
+          {
+            "run_id": 358,
+            "focus_team": "CSK",
+            "total_spend": 20.75
+          },
+          {
+            "run_id": 359,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 360,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 361,
+            "focus_team": "CSK",
+            "total_spend": 23.15
+          },
+          {
+            "run_id": 362,
+            "focus_team": "CSK",
+            "total_spend": 23.85
+          },
+          {
+            "run_id": 363,
+            "focus_team": "CSK",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 364,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 365,
+            "focus_team": "CSK",
+            "total_spend": 22.05
+          },
+          {
+            "run_id": 366,
+            "focus_team": "CSK",
+            "total_spend": 24.1
+          },
+          {
+            "run_id": 367,
+            "focus_team": "CSK",
+            "total_spend": 24.1
+          },
+          {
+            "run_id": 368,
+            "focus_team": "CSK",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 369,
+            "focus_team": "CSK",
+            "total_spend": 25.25
+          },
+          {
+            "run_id": 370,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 371,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 372,
+            "focus_team": "CSK",
+            "total_spend": 25.85
+          },
+          {
+            "run_id": 373,
+            "focus_team": "CSK",
+            "total_spend": 23.75
+          },
+          {
+            "run_id": 374,
+            "focus_team": "CSK",
+            "total_spend": 22.05
+          },
+          {
+            "run_id": 375,
+            "focus_team": "CSK",
+            "total_spend": 20.8
+          },
+          {
+            "run_id": 376,
+            "focus_team": "CSK",
+            "total_spend": 25.6
+          },
+          {
+            "run_id": 377,
+            "focus_team": "CSK",
+            "total_spend": 23.2
+          },
+          {
+            "run_id": 378,
+            "focus_team": "CSK",
+            "total_spend": 23.35
+          },
+          {
+            "run_id": 379,
+            "focus_team": "CSK",
+            "total_spend": 23.7
+          },
+          {
+            "run_id": 380,
+            "focus_team": "CSK",
+            "total_spend": 23.65
+          },
+          {
+            "run_id": 381,
+            "focus_team": "CSK",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 382,
+            "focus_team": "CSK",
+            "total_spend": 24.95
+          },
+          {
+            "run_id": 383,
+            "focus_team": "CSK",
+            "total_spend": 24.5
+          },
+          {
+            "run_id": 384,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 385,
+            "focus_team": "CSK",
+            "total_spend": 26.2
+          },
+          {
+            "run_id": 386,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 387,
+            "focus_team": "CSK",
+            "total_spend": 24.45
+          },
+          {
+            "run_id": 388,
+            "focus_team": "CSK",
+            "total_spend": 25.5
+          },
+          {
+            "run_id": 389,
+            "focus_team": "CSK",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 390,
+            "focus_team": "CSK",
+            "total_spend": 22.25
+          },
+          {
+            "run_id": 391,
+            "focus_team": "CSK",
+            "total_spend": 21.25
+          },
+          {
+            "run_id": 392,
+            "focus_team": "CSK",
+            "total_spend": 24.25
+          },
+          {
+            "run_id": 393,
+            "focus_team": "CSK",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 394,
+            "focus_team": "CSK",
+            "total_spend": 23.15
+          },
+          {
+            "run_id": 395,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 396,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 397,
+            "focus_team": "CSK",
+            "total_spend": 23.6
+          },
+          {
+            "run_id": 398,
+            "focus_team": "CSK",
+            "total_spend": 22.5
+          },
+          {
+            "run_id": 399,
+            "focus_team": "CSK",
+            "total_spend": 25.45
+          },
+          {
+            "run_id": 400,
+            "focus_team": "CSK",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 401,
+            "focus_team": "CSK",
+            "total_spend": 25.35
+          },
+          {
+            "run_id": 402,
+            "focus_team": "CSK",
+            "total_spend": 18.95
+          },
+          {
+            "run_id": 403,
+            "focus_team": "CSK",
+            "total_spend": 24.15
+          },
+          {
+            "run_id": 404,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 405,
+            "focus_team": "CSK",
+            "total_spend": 20.75
+          },
+          {
+            "run_id": 406,
+            "focus_team": "CSK",
+            "total_spend": 19.7
+          },
+          {
+            "run_id": 407,
+            "focus_team": "CSK",
+            "total_spend": 21.9
+          },
+          {
+            "run_id": 408,
+            "focus_team": "CSK",
+            "total_spend": 24.35
+          },
+          {
+            "run_id": 409,
+            "focus_team": "CSK",
+            "total_spend": 22.0
+          },
+          {
+            "run_id": 410,
+            "focus_team": "CSK",
+            "total_spend": 22.9
+          },
+          {
+            "run_id": 411,
+            "focus_team": "CSK",
+            "total_spend": 22.3
+          },
+          {
+            "run_id": 412,
+            "focus_team": "CSK",
+            "total_spend": 28.5
+          },
+          {
+            "run_id": 413,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 414,
+            "focus_team": "CSK",
+            "total_spend": 24.3
+          },
+          {
+            "run_id": 415,
+            "focus_team": "CSK",
+            "total_spend": 23.5
+          },
+          {
+            "run_id": 416,
+            "focus_team": "CSK",
+            "total_spend": 25.0
+          },
+          {
+            "run_id": 417,
+            "focus_team": "CSK",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 418,
+            "focus_team": "CSK",
+            "total_spend": 22.35
+          },
+          {
+            "run_id": 419,
+            "focus_team": "CSK",
+            "total_spend": 17.75
+          },
+          {
+            "run_id": 420,
+            "focus_team": "CSK",
+            "total_spend": 24.2
+          },
+          {
+            "run_id": 421,
+            "focus_team": "CSK",
+            "total_spend": 20.0
+          },
+          {
+            "run_id": 422,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 423,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 424,
+            "focus_team": "CSK",
+            "total_spend": 24.05
+          },
+          {
+            "run_id": 425,
+            "focus_team": "CSK",
+            "total_spend": 24.5
+          },
+          {
+            "run_id": 426,
+            "focus_team": "CSK",
+            "total_spend": 22.2
+          },
+          {
+            "run_id": 427,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 428,
+            "focus_team": "CSK",
+            "total_spend": 26.3
+          },
+          {
+            "run_id": 429,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 430,
+            "focus_team": "CSK",
+            "total_spend": 19.75
+          },
+          {
+            "run_id": 431,
+            "focus_team": "CSK",
+            "total_spend": 27.5
+          },
+          {
+            "run_id": 432,
+            "focus_team": "CSK",
+            "total_spend": 25.45
+          },
+          {
+            "run_id": 433,
+            "focus_team": "CSK",
+            "total_spend": 22.65
+          },
+          {
+            "run_id": 434,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 435,
+            "focus_team": "CSK",
+            "total_spend": 26.1
+          },
+          {
+            "run_id": 436,
+            "focus_team": "CSK",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 437,
+            "focus_team": "CSK",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 438,
+            "focus_team": "CSK",
+            "total_spend": 20.15
+          },
+          {
+            "run_id": 439,
+            "focus_team": "CSK",
+            "total_spend": 21.65
+          },
+          {
+            "run_id": 440,
+            "focus_team": "CSK",
+            "total_spend": 20.75
+          },
+          {
+            "run_id": 441,
+            "focus_team": "CSK",
+            "total_spend": 25.2
+          },
+          {
+            "run_id": 442,
+            "focus_team": "CSK",
+            "total_spend": 19.65
+          },
+          {
+            "run_id": 443,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 444,
+            "focus_team": "CSK",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 445,
+            "focus_team": "CSK",
+            "total_spend": 22.6
+          },
+          {
+            "run_id": 446,
+            "focus_team": "CSK",
+            "total_spend": 25.55
+          },
+          {
+            "run_id": 447,
+            "focus_team": "CSK",
+            "total_spend": 22.8
+          },
+          {
+            "run_id": 448,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 449,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 450,
+            "focus_team": "CSK",
+            "total_spend": 23.3
+          },
+          {
+            "run_id": 451,
+            "focus_team": "CSK",
+            "total_spend": 21.7
+          },
+          {
+            "run_id": 452,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 453,
+            "focus_team": "CSK",
+            "total_spend": 22.9
+          },
+          {
+            "run_id": 454,
+            "focus_team": "CSK",
+            "total_spend": 22.1
+          },
+          {
+            "run_id": 455,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 456,
+            "focus_team": "CSK",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 457,
+            "focus_team": "CSK",
+            "total_spend": 24.1
+          },
+          {
+            "run_id": 458,
+            "focus_team": "CSK",
+            "total_spend": 25.9
+          },
+          {
+            "run_id": 459,
+            "focus_team": "CSK",
+            "total_spend": 25.5
+          },
+          {
+            "run_id": 460,
+            "focus_team": "CSK",
+            "total_spend": 21.95
+          },
+          {
+            "run_id": 461,
+            "focus_team": "CSK",
+            "total_spend": 20.55
+          },
+          {
+            "run_id": 462,
+            "focus_team": "CSK",
+            "total_spend": 24.0
+          },
+          {
+            "run_id": 463,
+            "focus_team": "CSK",
+            "total_spend": 23.55
+          },
+          {
+            "run_id": 464,
+            "focus_team": "CSK",
+            "total_spend": 23.95
+          },
+          {
+            "run_id": 465,
+            "focus_team": "CSK",
+            "total_spend": 25.15
+          },
+          {
+            "run_id": 466,
+            "focus_team": "CSK",
+            "total_spend": 21.35
+          },
+          {
+            "run_id": 467,
+            "focus_team": "CSK",
+            "total_spend": 21.0
+          },
+          {
+            "run_id": 468,
+            "focus_team": "CSK",
+            "total_spend": 22.3
+          },
+          {
+            "run_id": 469,
+            "focus_team": "CSK",
+            "total_spend": 26.3
+          },
+          {
+            "run_id": 470,
+            "focus_team": "CSK",
+            "total_spend": 22.1
+          },
+          {
+            "run_id": 471,
+            "focus_team": "CSK",
+            "total_spend": 26.05
+          },
+          {
+            "run_id": 472,
+            "focus_team": "CSK",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 473,
+            "focus_team": "CSK",
+            "total_spend": 21.35
+          },
+          {
+            "run_id": 474,
+            "focus_team": "CSK",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 475,
+            "focus_team": "CSK",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 476,
+            "focus_team": "CSK",
+            "total_spend": 26.4
+          },
+          {
+            "run_id": 477,
+            "focus_team": "CSK",
+            "total_spend": 26.95
+          },
+          {
+            "run_id": 478,
+            "focus_team": "CSK",
+            "total_spend": 25.8
+          },
+          {
+            "run_id": 479,
+            "focus_team": "CSK",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 480,
+            "focus_team": "CSK",
+            "total_spend": 20.65
+          },
+          {
+            "run_id": 481,
+            "focus_team": "CSK",
+            "total_spend": 25.25
+          },
+          {
+            "run_id": 482,
+            "focus_team": "CSK",
+            "total_spend": 22.95
+          },
+          {
+            "run_id": 483,
+            "focus_team": "CSK",
+            "total_spend": 25.0
+          },
+          {
+            "run_id": 484,
+            "focus_team": "CSK",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 485,
+            "focus_team": "CSK",
+            "total_spend": 20.0
+          },
+          {
+            "run_id": 486,
+            "focus_team": "CSK",
+            "total_spend": 20.75
+          },
+          {
+            "run_id": 487,
+            "focus_team": "CSK",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 488,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 489,
+            "focus_team": "CSK",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 490,
+            "focus_team": "CSK",
+            "total_spend": 23.1
+          },
+          {
+            "run_id": 491,
+            "focus_team": "CSK",
+            "total_spend": 25.85
+          },
+          {
+            "run_id": 492,
+            "focus_team": "CSK",
+            "total_spend": 23.0
+          },
+          {
+            "run_id": 493,
+            "focus_team": "CSK",
+            "total_spend": 20.5
+          },
+          {
+            "run_id": 494,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 495,
+            "focus_team": "CSK",
+            "total_spend": 23.05
+          },
+          {
+            "run_id": 496,
+            "focus_team": "CSK",
+            "total_spend": 26.95
+          },
+          {
+            "run_id": 497,
+            "focus_team": "CSK",
+            "total_spend": 26.3
+          },
+          {
+            "run_id": 498,
+            "focus_team": "CSK",
+            "total_spend": 26.15
+          },
+          {
+            "run_id": 499,
+            "focus_team": "CSK",
+            "total_spend": 20.8
+          },
+          {
+            "run_id": 500,
+            "focus_team": "CSK",
+            "total_spend": 22.7
           }
         ],
         "top_targets": [
           {
-            "player_name": "Fazalhaq Farooqi",
-            "times_bought": 17,
-            "share_of_runs": 0.85,
-            "avg_price_when_bought": 2.68
-          },
-          {
             "player_name": "Matheesha Pathirana",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 5.75
-          },
-          {
-            "player_name": "Matt Henry",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
-            "avg_price_when_bought": 4.69
+            "times_bought": 314,
+            "share_of_runs": 0.628,
+            "avg_price_when_bought": 5.76
           },
           {
             "player_name": "Anrich Nortje",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 5.33
+            "times_bought": 294,
+            "share_of_runs": 0.588,
+            "avg_price_when_bought": 5.25
           },
           {
             "player_name": "Gerald Coetzee",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 3.35
+            "times_bought": 290,
+            "share_of_runs": 0.58,
+            "avg_price_when_bought": 3.38
           },
           {
-            "player_name": "Mahipal Lomror",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 0.5
+            "player_name": "Matt Henry",
+            "times_bought": 280,
+            "share_of_runs": 0.56,
+            "avg_price_when_bought": 4.73
+          },
+          {
+            "player_name": "Fazalhaq Farooqi",
+            "times_bought": 279,
+            "share_of_runs": 0.558,
+            "avg_price_when_bought": 2.63
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "times_bought": 279,
+            "share_of_runs": 0.558,
+            "avg_price_when_bought": 2.47
           }
         ]
       },
@@ -38183,262 +40583,310 @@ window.DASHBOARD_DATA = {
         ],
         "mc_purchase_summary": [
           {
+            "player_name": "Finn Allen",
+            "times_bought": 179,
+            "share_of_runs": 0.358,
+            "avg_price_when_bought": 3.36
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 177,
+            "share_of_runs": 0.354,
+            "avg_price_when_bought": 3.25
+          },
+          {
             "player_name": "Ben Duckett",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 3.02
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 3.11
           },
           {
             "player_name": "Jonny Bairstow",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.31
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 2.33
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "times_bought": 171,
+            "share_of_runs": 0.342,
+            "avg_price_when_bought": 3.62
+          },
+          {
+            "player_name": "Rahmanullah Gurbaz",
+            "times_bought": 162,
+            "share_of_runs": 0.324,
+            "avg_price_when_bought": 2.6
           },
           {
             "player_name": "Cameron Green",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
+            "times_bought": 135,
+            "share_of_runs": 0.27,
             "avg_price_when_bought": 5.0
           },
           {
             "player_name": "Prithvi Shaw",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
+            "times_bought": 135,
+            "share_of_runs": 0.27,
             "avg_price_when_bought": 3.3
           },
           {
-            "player_name": "Finn Allen",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 3.25
-          },
-          {
-            "player_name": "Naman Tiwari",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.96
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 3.61
-          },
-          {
-            "player_name": "Abhinav Tejrana",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Akeal Hosein",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 3.75
-          },
-          {
-            "player_name": "Prashant Solanki",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.88
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 1.9
-          },
-          {
-            "player_name": "Anmolpreet Singh",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.62
-          },
-          {
-            "player_name": "Anrich Nortje",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 4.25
-          },
-          {
-            "player_name": "Atharva Taide",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.62
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 1.6
-          },
-          {
-            "player_name": "Rahmanullah Gurbaz",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 2.6
-          },
-          {
-            "player_name": "Sediqullah Atal",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.85
-          },
-          {
-            "player_name": "Shivam Shukla",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Vignesh Puthur",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 1.0
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.9
-          },
-          {
-            "player_name": "Aarya Desai",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Akash Madhwal",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.7
-          },
-          {
-            "player_name": "Ashok Sharma",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.87
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Jamie Smith",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 3.25
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.97
-          },
-          {
-            "player_name": "Matheesha Pathirana",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 4.5
-          },
-          {
-            "player_name": "Sushant Mishra",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.97
-          },
-          {
-            "player_name": "Wahidullah Zadran",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.4
-          },
-          {
-            "player_name": "Ackeem Auguste",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.75
-          },
-          {
-            "player_name": "Fazalhaq Farooqi",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 2.0
-          },
-          {
-            "player_name": "Jake Fraser-McGurk",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 4.5
-          },
-          {
-            "player_name": "Matt Henry",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 3.5
-          },
-          {
             "player_name": "Sarfaraz Khan",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 117,
+            "share_of_runs": 0.234,
             "avg_price_when_bought": 2.55
           },
           {
-            "player_name": "Yash Dhull",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.5
+            "player_name": "Jake Fraser-McGurk",
+            "times_bought": 113,
+            "share_of_runs": 0.226,
+            "avg_price_when_bought": 4.5
           },
           {
-            "player_name": "Abhinav Manohar",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.8
+            "player_name": "Prashant Solanki",
+            "times_bought": 103,
+            "share_of_runs": 0.206,
+            "avg_price_when_bought": 0.9
           },
           {
-            "player_name": "Gerald Coetzee",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 2.5
+            "player_name": "Anmolpreet Singh",
+            "times_bought": 94,
+            "share_of_runs": 0.188,
+            "avg_price_when_bought": 0.61
+          },
+          {
+            "player_name": "Akash Madhwal",
+            "times_bought": 90,
+            "share_of_runs": 0.18,
+            "avg_price_when_bought": 0.74
+          },
+          {
+            "player_name": "Kartik Tyagi",
+            "times_bought": 87,
+            "share_of_runs": 0.174,
+            "avg_price_when_bought": 0.99
+          },
+          {
+            "player_name": "Atharva Taide",
+            "times_bought": 86,
+            "share_of_runs": 0.172,
+            "avg_price_when_bought": 0.61
           },
           {
             "player_name": "Karn Sharma",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 1.8
+            "times_bought": 86,
+            "share_of_runs": 0.172,
+            "avg_price_when_bought": 1.7
           },
           {
-            "player_name": "Maheesh Theekshana",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 3.75
+            "player_name": "Vignesh Puthur",
+            "times_bought": 86,
+            "share_of_runs": 0.172,
+            "avg_price_when_bought": 1.0
           },
           {
-            "player_name": "Mujeeb Rahman",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "player_name": "Aarya Desai",
+            "times_bought": 85,
+            "share_of_runs": 0.17,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "times_bought": 84,
+            "share_of_runs": 0.168,
+            "avg_price_when_bought": 0.9
+          },
+          {
+            "player_name": "Sushant Mishra",
+            "times_bought": 82,
+            "share_of_runs": 0.164,
+            "avg_price_when_bought": 0.93
+          },
+          {
+            "player_name": "Naman Tiwari",
+            "times_bought": 80,
+            "share_of_runs": 0.16,
+            "avg_price_when_bought": 0.92
+          },
+          {
+            "player_name": "Ackeem Auguste",
+            "times_bought": 79,
+            "share_of_runs": 0.158,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "times_bought": 78,
+            "share_of_runs": 0.156,
+            "avg_price_when_bought": 1.9
+          },
+          {
+            "player_name": "Abhinav Manohar",
+            "times_bought": 77,
+            "share_of_runs": 0.154,
+            "avg_price_when_bought": 0.81
+          },
+          {
+            "player_name": "Anrich Nortje",
+            "times_bought": 75,
+            "share_of_runs": 0.15,
+            "avg_price_when_bought": 4.25
+          },
+          {
+            "player_name": "Matt Henry",
+            "times_bought": 75,
+            "share_of_runs": 0.15,
             "avg_price_when_bought": 3.5
           },
           {
+            "player_name": "Ashok Sharma",
+            "times_bought": 73,
+            "share_of_runs": 0.146,
+            "avg_price_when_bought": 0.91
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "times_bought": 72,
+            "share_of_runs": 0.144,
+            "avg_price_when_bought": 3.5
+          },
+          {
+            "player_name": "Fazalhaq Farooqi",
+            "times_bought": 70,
+            "share_of_runs": 0.14,
+            "avg_price_when_bought": 2.0
+          },
+          {
+            "player_name": "Matheesha Pathirana",
+            "times_bought": 69,
+            "share_of_runs": 0.138,
+            "avg_price_when_bought": 4.5
+          },
+          {
+            "player_name": "Kumar Kartikeya Singh",
+            "times_bought": 65,
+            "share_of_runs": 0.13,
+            "avg_price_when_bought": 1.62
+          },
+          {
+            "player_name": "Mujeeb Rahman",
+            "times_bought": 65,
+            "share_of_runs": 0.13,
+            "avg_price_when_bought": 3.5
+          },
+          {
+            "player_name": "Yash Dhull",
+            "times_bought": 65,
+            "share_of_runs": 0.13,
+            "avg_price_when_bought": 0.5
+          },
+          {
             "player_name": "Raj Limbani",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.6
+            "times_bought": 64,
+            "share_of_runs": 0.128,
+            "avg_price_when_bought": 0.58
+          },
+          {
+            "player_name": "Sediqullah Atal",
+            "times_bought": 63,
+            "share_of_runs": 0.126,
+            "avg_price_when_bought": 0.85
+          },
+          {
+            "player_name": "Gerald Coetzee",
+            "times_bought": 61,
+            "share_of_runs": 0.122,
+            "avg_price_when_bought": 2.5
+          },
+          {
+            "player_name": "Maheesh Theekshana",
+            "times_bought": 61,
+            "share_of_runs": 0.122,
+            "avg_price_when_bought": 3.75
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "times_bought": 60,
+            "share_of_runs": 0.12,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Shivam Shukla",
+            "times_bought": 60,
+            "share_of_runs": 0.12,
+            "avg_price_when_bought": 0.5
           },
           {
             "player_name": "Simarjeet Singh",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.6
+            "times_bought": 56,
+            "share_of_runs": 0.112,
+            "avg_price_when_bought": 0.74
+          },
+          {
+            "player_name": "Akeal Hosein",
+            "times_bought": 52,
+            "share_of_runs": 0.104,
+            "avg_price_when_bought": 3.75
+          },
+          {
+            "player_name": "Wahidullah Zadran",
+            "times_bought": 38,
+            "share_of_runs": 0.076,
+            "avg_price_when_bought": 0.47
+          },
+          {
+            "player_name": "Rahul Tripathi",
+            "times_bought": 30,
+            "share_of_runs": 0.06,
+            "avg_price_when_bought": 2.49
+          },
+          {
+            "player_name": "Mayank Agarawal",
+            "times_bought": 27,
+            "share_of_runs": 0.054,
+            "avg_price_when_bought": 1.69
+          },
+          {
+            "player_name": "Pathum Nissanka",
+            "times_bought": 19,
+            "share_of_runs": 0.038,
+            "avg_price_when_bought": 1.27
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "times_bought": 15,
+            "share_of_runs": 0.03,
+            "avg_price_when_bought": 1.01
           },
           {
             "player_name": "Steve Smith",
+            "times_bought": 14,
+            "share_of_runs": 0.028,
+            "avg_price_when_bought": 3.29
+          },
+          {
+            "player_name": "Tim Robinson",
+            "times_bought": 11,
+            "share_of_runs": 0.022,
+            "avg_price_when_bought": 0.77
+          },
+          {
+            "player_name": "Kuldeep Sen",
+            "times_bought": 6,
+            "share_of_runs": 0.012,
+            "avg_price_when_bought": 1.02
+          },
+          {
+            "player_name": "Ankit Kumar",
             "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 3.25
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Umesh Yadav",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 1.5
           }
         ],
         "mc_spend_summary": [
@@ -38541,44 +40989,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "DC",
             "total_spend": 20.3
+          },
+          {
+            "run_id": 21,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 22,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 23,
+            "focus_team": "DC",
+            "total_spend": 16.5
+          },
+          {
+            "run_id": 24,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 25,
+            "focus_team": "DC",
+            "total_spend": 16.85
+          },
+          {
+            "run_id": 26,
+            "focus_team": "DC",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 27,
+            "focus_team": "DC",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 28,
+            "focus_team": "DC",
+            "total_spend": 19.7
+          },
+          {
+            "run_id": 29,
+            "focus_team": "DC",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 30,
+            "focus_team": "DC",
+            "total_spend": 21.25
+          },
+          {
+            "run_id": 31,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 32,
+            "focus_team": "DC",
+            "total_spend": 17.05
+          },
+          {
+            "run_id": 33,
+            "focus_team": "DC",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 34,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 35,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 36,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 37,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 38,
+            "focus_team": "DC",
+            "total_spend": 19.9
+          },
+          {
+            "run_id": 39,
+            "focus_team": "DC",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 40,
+            "focus_team": "DC",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 41,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 42,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 43,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 44,
+            "focus_team": "DC",
+            "total_spend": 17.45
+          },
+          {
+            "run_id": 45,
+            "focus_team": "DC",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 46,
+            "focus_team": "DC",
+            "total_spend": 18.85
+          },
+          {
+            "run_id": 47,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 48,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 49,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 50,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 51,
+            "focus_team": "DC",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 52,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 53,
+            "focus_team": "DC",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 54,
+            "focus_team": "DC",
+            "total_spend": 20.2
+          },
+          {
+            "run_id": 55,
+            "focus_team": "DC",
+            "total_spend": 16.65
+          },
+          {
+            "run_id": 56,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 57,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 58,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 59,
+            "focus_team": "DC",
+            "total_spend": 17.1
+          },
+          {
+            "run_id": 60,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 61,
+            "focus_team": "DC",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 62,
+            "focus_team": "DC",
+            "total_spend": 19.4
+          },
+          {
+            "run_id": 63,
+            "focus_team": "DC",
+            "total_spend": 19.1
+          },
+          {
+            "run_id": 64,
+            "focus_team": "DC",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 65,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 66,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 67,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 68,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 69,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 70,
+            "focus_team": "DC",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 71,
+            "focus_team": "DC",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 72,
+            "focus_team": "DC",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 73,
+            "focus_team": "DC",
+            "total_spend": 20.05
+          },
+          {
+            "run_id": 74,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 75,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 76,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 77,
+            "focus_team": "DC",
+            "total_spend": 17.25
+          },
+          {
+            "run_id": 78,
+            "focus_team": "DC",
+            "total_spend": 17.05
+          },
+          {
+            "run_id": 79,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 80,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 81,
+            "focus_team": "DC",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 82,
+            "focus_team": "DC",
+            "total_spend": 16.65
+          },
+          {
+            "run_id": 83,
+            "focus_team": "DC",
+            "total_spend": 19.5
+          },
+          {
+            "run_id": 84,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 85,
+            "focus_team": "DC",
+            "total_spend": 16.6
+          },
+          {
+            "run_id": 86,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 87,
+            "focus_team": "DC",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 88,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 89,
+            "focus_team": "DC",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 90,
+            "focus_team": "DC",
+            "total_spend": 19.1
+          },
+          {
+            "run_id": 91,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 92,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 93,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 94,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 95,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 96,
+            "focus_team": "DC",
+            "total_spend": 16.85
+          },
+          {
+            "run_id": 97,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 98,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 99,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 100,
+            "focus_team": "DC",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 101,
+            "focus_team": "DC",
+            "total_spend": 17.45
+          },
+          {
+            "run_id": 102,
+            "focus_team": "DC",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 103,
+            "focus_team": "DC",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 104,
+            "focus_team": "DC",
+            "total_spend": 17.1
+          },
+          {
+            "run_id": 105,
+            "focus_team": "DC",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 106,
+            "focus_team": "DC",
+            "total_spend": 19.95
+          },
+          {
+            "run_id": 107,
+            "focus_team": "DC",
+            "total_spend": 18.25
+          },
+          {
+            "run_id": 108,
+            "focus_team": "DC",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 109,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 110,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 111,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 112,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 113,
+            "focus_team": "DC",
+            "total_spend": 20.3
+          },
+          {
+            "run_id": 114,
+            "focus_team": "DC",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 115,
+            "focus_team": "DC",
+            "total_spend": 19.35
+          },
+          {
+            "run_id": 116,
+            "focus_team": "DC",
+            "total_spend": 19.35
+          },
+          {
+            "run_id": 117,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 118,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 119,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 120,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 121,
+            "focus_team": "DC",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 122,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 123,
+            "focus_team": "DC",
+            "total_spend": 16.6
+          },
+          {
+            "run_id": 124,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 125,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 126,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 127,
+            "focus_team": "DC",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 128,
+            "focus_team": "DC",
+            "total_spend": 19.6
+          },
+          {
+            "run_id": 129,
+            "focus_team": "DC",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 130,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 131,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 132,
+            "focus_team": "DC",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 133,
+            "focus_team": "DC",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 134,
+            "focus_team": "DC",
+            "total_spend": 21.05
+          },
+          {
+            "run_id": 135,
+            "focus_team": "DC",
+            "total_spend": 19.4
+          },
+          {
+            "run_id": 136,
+            "focus_team": "DC",
+            "total_spend": 17.55
+          },
+          {
+            "run_id": 137,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 138,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 139,
+            "focus_team": "DC",
+            "total_spend": 21.5
+          },
+          {
+            "run_id": 140,
+            "focus_team": "DC",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 141,
+            "focus_team": "DC",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 142,
+            "focus_team": "DC",
+            "total_spend": 19.2
+          },
+          {
+            "run_id": 143,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 144,
+            "focus_team": "DC",
+            "total_spend": 19.9
+          },
+          {
+            "run_id": 145,
+            "focus_team": "DC",
+            "total_spend": 20.4
+          },
+          {
+            "run_id": 146,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 147,
+            "focus_team": "DC",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 148,
+            "focus_team": "DC",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 149,
+            "focus_team": "DC",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 150,
+            "focus_team": "DC",
+            "total_spend": 16.65
+          },
+          {
+            "run_id": 151,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 152,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 153,
+            "focus_team": "DC",
+            "total_spend": 19.55
+          },
+          {
+            "run_id": 154,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 155,
+            "focus_team": "DC",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 156,
+            "focus_team": "DC",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 157,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 158,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 159,
+            "focus_team": "DC",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 160,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 161,
+            "focus_team": "DC",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 162,
+            "focus_team": "DC",
+            "total_spend": 21.0
+          },
+          {
+            "run_id": 163,
+            "focus_team": "DC",
+            "total_spend": 21.1
+          },
+          {
+            "run_id": 164,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 165,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 166,
+            "focus_team": "DC",
+            "total_spend": 20.8
+          },
+          {
+            "run_id": 167,
+            "focus_team": "DC",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 168,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 169,
+            "focus_team": "DC",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 170,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 171,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 172,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 173,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 174,
+            "focus_team": "DC",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 175,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 176,
+            "focus_team": "DC",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 177,
+            "focus_team": "DC",
+            "total_spend": 19.8
+          },
+          {
+            "run_id": 178,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 179,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 180,
+            "focus_team": "DC",
+            "total_spend": 16.75
+          },
+          {
+            "run_id": 181,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 182,
+            "focus_team": "DC",
+            "total_spend": 16.5
+          },
+          {
+            "run_id": 183,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 184,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 185,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 186,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 187,
+            "focus_team": "DC",
+            "total_spend": 21.55
+          },
+          {
+            "run_id": 188,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 189,
+            "focus_team": "DC",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 190,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 191,
+            "focus_team": "DC",
+            "total_spend": 17.25
+          },
+          {
+            "run_id": 192,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 193,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 194,
+            "focus_team": "DC",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 195,
+            "focus_team": "DC",
+            "total_spend": 21.5
+          },
+          {
+            "run_id": 196,
+            "focus_team": "DC",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 197,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 198,
+            "focus_team": "DC",
+            "total_spend": 18.3
+          },
+          {
+            "run_id": 199,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 200,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 201,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 202,
+            "focus_team": "DC",
+            "total_spend": 17.25
+          },
+          {
+            "run_id": 203,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 204,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 205,
+            "focus_team": "DC",
+            "total_spend": 20.7
+          },
+          {
+            "run_id": 206,
+            "focus_team": "DC",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 207,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 208,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 209,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 210,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 211,
+            "focus_team": "DC",
+            "total_spend": 18.55
+          },
+          {
+            "run_id": 212,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 213,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 214,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 215,
+            "focus_team": "DC",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 216,
+            "focus_team": "DC",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 217,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 218,
+            "focus_team": "DC",
+            "total_spend": 21.4
+          },
+          {
+            "run_id": 219,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 220,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 221,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 222,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 223,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 224,
+            "focus_team": "DC",
+            "total_spend": 19.3
+          },
+          {
+            "run_id": 225,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 226,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 227,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 228,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 229,
+            "focus_team": "DC",
+            "total_spend": 17.55
+          },
+          {
+            "run_id": 230,
+            "focus_team": "DC",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 231,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 232,
+            "focus_team": "DC",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 233,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 234,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 235,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 236,
+            "focus_team": "DC",
+            "total_spend": 19.2
+          },
+          {
+            "run_id": 237,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 238,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 239,
+            "focus_team": "DC",
+            "total_spend": 17.75
+          },
+          {
+            "run_id": 240,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 241,
+            "focus_team": "DC",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 242,
+            "focus_team": "DC",
+            "total_spend": 19.55
+          },
+          {
+            "run_id": 243,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 244,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 245,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 246,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 247,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 248,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 249,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 250,
+            "focus_team": "DC",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 251,
+            "focus_team": "DC",
+            "total_spend": 21.65
+          },
+          {
+            "run_id": 252,
+            "focus_team": "DC",
+            "total_spend": 19.4
+          },
+          {
+            "run_id": 253,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 254,
+            "focus_team": "DC",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 255,
+            "focus_team": "DC",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 256,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 257,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 258,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 259,
+            "focus_team": "DC",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 260,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 261,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 262,
+            "focus_team": "DC",
+            "total_spend": 17.1
+          },
+          {
+            "run_id": 263,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 264,
+            "focus_team": "DC",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 265,
+            "focus_team": "DC",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 266,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 267,
+            "focus_team": "DC",
+            "total_spend": 19.5
+          },
+          {
+            "run_id": 268,
+            "focus_team": "DC",
+            "total_spend": 19.35
+          },
+          {
+            "run_id": 269,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 270,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 271,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 272,
+            "focus_team": "DC",
+            "total_spend": 16.6
+          },
+          {
+            "run_id": 273,
+            "focus_team": "DC",
+            "total_spend": 16.65
+          },
+          {
+            "run_id": 274,
+            "focus_team": "DC",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 275,
+            "focus_team": "DC",
+            "total_spend": 20.9
+          },
+          {
+            "run_id": 276,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 277,
+            "focus_team": "DC",
+            "total_spend": 16.5
+          },
+          {
+            "run_id": 278,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 279,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 280,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 281,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 282,
+            "focus_team": "DC",
+            "total_spend": 16.85
+          },
+          {
+            "run_id": 283,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 284,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 285,
+            "focus_team": "DC",
+            "total_spend": 14.65
+          },
+          {
+            "run_id": 286,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 287,
+            "focus_team": "DC",
+            "total_spend": 19.05
+          },
+          {
+            "run_id": 288,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 289,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 290,
+            "focus_team": "DC",
+            "total_spend": 17.45
+          },
+          {
+            "run_id": 291,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 292,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 293,
+            "focus_team": "DC",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 294,
+            "focus_team": "DC",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 295,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 296,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 297,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 298,
+            "focus_team": "DC",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 299,
+            "focus_team": "DC",
+            "total_spend": 20.0
+          },
+          {
+            "run_id": 300,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 301,
+            "focus_team": "DC",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 302,
+            "focus_team": "DC",
+            "total_spend": 19.5
+          },
+          {
+            "run_id": 303,
+            "focus_team": "DC",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 304,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 305,
+            "focus_team": "DC",
+            "total_spend": 19.2
+          },
+          {
+            "run_id": 306,
+            "focus_team": "DC",
+            "total_spend": 18.95
+          },
+          {
+            "run_id": 307,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 308,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 309,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 310,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 311,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 312,
+            "focus_team": "DC",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 313,
+            "focus_team": "DC",
+            "total_spend": 19.3
+          },
+          {
+            "run_id": 314,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 315,
+            "focus_team": "DC",
+            "total_spend": 21.35
+          },
+          {
+            "run_id": 316,
+            "focus_team": "DC",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 317,
+            "focus_team": "DC",
+            "total_spend": 19.4
+          },
+          {
+            "run_id": 318,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 319,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 320,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 321,
+            "focus_team": "DC",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 322,
+            "focus_team": "DC",
+            "total_spend": 19.7
+          },
+          {
+            "run_id": 323,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 324,
+            "focus_team": "DC",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 325,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 326,
+            "focus_team": "DC",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 327,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 328,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 329,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 330,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 331,
+            "focus_team": "DC",
+            "total_spend": 20.95
+          },
+          {
+            "run_id": 332,
+            "focus_team": "DC",
+            "total_spend": 18.75
+          },
+          {
+            "run_id": 333,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 334,
+            "focus_team": "DC",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 335,
+            "focus_team": "DC",
+            "total_spend": 21.5
+          },
+          {
+            "run_id": 336,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 337,
+            "focus_team": "DC",
+            "total_spend": 20.85
+          },
+          {
+            "run_id": 338,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 339,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 340,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 341,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 342,
+            "focus_team": "DC",
+            "total_spend": 18.5
+          },
+          {
+            "run_id": 343,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 344,
+            "focus_team": "DC",
+            "total_spend": 18.5
+          },
+          {
+            "run_id": 345,
+            "focus_team": "DC",
+            "total_spend": 20.35
+          },
+          {
+            "run_id": 346,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 347,
+            "focus_team": "DC",
+            "total_spend": 16.85
+          },
+          {
+            "run_id": 348,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 349,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 350,
+            "focus_team": "DC",
+            "total_spend": 19.1
+          },
+          {
+            "run_id": 351,
+            "focus_team": "DC",
+            "total_spend": 17.05
+          },
+          {
+            "run_id": 352,
+            "focus_team": "DC",
+            "total_spend": 18.8
+          },
+          {
+            "run_id": 353,
+            "focus_team": "DC",
+            "total_spend": 17.95
+          },
+          {
+            "run_id": 354,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 355,
+            "focus_team": "DC",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 356,
+            "focus_team": "DC",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 357,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 358,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 359,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 360,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 361,
+            "focus_team": "DC",
+            "total_spend": 21.3
+          },
+          {
+            "run_id": 362,
+            "focus_team": "DC",
+            "total_spend": 20.5
+          },
+          {
+            "run_id": 363,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 364,
+            "focus_team": "DC",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 365,
+            "focus_team": "DC",
+            "total_spend": 18.1
+          },
+          {
+            "run_id": 366,
+            "focus_team": "DC",
+            "total_spend": 17.2
+          },
+          {
+            "run_id": 367,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 368,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 369,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 370,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 371,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 372,
+            "focus_team": "DC",
+            "total_spend": 17.65
+          },
+          {
+            "run_id": 373,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 374,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 375,
+            "focus_team": "DC",
+            "total_spend": 17.05
+          },
+          {
+            "run_id": 376,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 377,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 378,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 379,
+            "focus_team": "DC",
+            "total_spend": 19.55
+          },
+          {
+            "run_id": 380,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 381,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 382,
+            "focus_team": "DC",
+            "total_spend": 17.0
+          },
+          {
+            "run_id": 383,
+            "focus_team": "DC",
+            "total_spend": 18.2
+          },
+          {
+            "run_id": 384,
+            "focus_team": "DC",
+            "total_spend": 16.65
+          },
+          {
+            "run_id": 385,
+            "focus_team": "DC",
+            "total_spend": 17.25
+          },
+          {
+            "run_id": 386,
+            "focus_team": "DC",
+            "total_spend": 17.95
+          },
+          {
+            "run_id": 387,
+            "focus_team": "DC",
+            "total_spend": 18.3
+          },
+          {
+            "run_id": 388,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 389,
+            "focus_team": "DC",
+            "total_spend": 17.15
+          },
+          {
+            "run_id": 390,
+            "focus_team": "DC",
+            "total_spend": 17.8
+          },
+          {
+            "run_id": 391,
+            "focus_team": "DC",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 392,
+            "focus_team": "DC",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 393,
+            "focus_team": "DC",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 394,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 395,
+            "focus_team": "DC",
+            "total_spend": 20.25
+          },
+          {
+            "run_id": 396,
+            "focus_team": "DC",
+            "total_spend": 20.1
+          },
+          {
+            "run_id": 397,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 398,
+            "focus_team": "DC",
+            "total_spend": 21.45
+          },
+          {
+            "run_id": 399,
+            "focus_team": "DC",
+            "total_spend": 19.0
+          },
+          {
+            "run_id": 400,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 401,
+            "focus_team": "DC",
+            "total_spend": 17.45
+          },
+          {
+            "run_id": 402,
+            "focus_team": "DC",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 403,
+            "focus_team": "DC",
+            "total_spend": 19.0
+          },
+          {
+            "run_id": 404,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 405,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 406,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 407,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 408,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 409,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 410,
+            "focus_team": "DC",
+            "total_spend": 20.2
+          },
+          {
+            "run_id": 411,
+            "focus_team": "DC",
+            "total_spend": 18.25
+          },
+          {
+            "run_id": 412,
+            "focus_team": "DC",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 413,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 414,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 415,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 416,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 417,
+            "focus_team": "DC",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 418,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 419,
+            "focus_team": "DC",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 420,
+            "focus_team": "DC",
+            "total_spend": 21.5
+          },
+          {
+            "run_id": 421,
+            "focus_team": "DC",
+            "total_spend": 18.7
+          },
+          {
+            "run_id": 422,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 423,
+            "focus_team": "DC",
+            "total_spend": 16.95
+          },
+          {
+            "run_id": 424,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 425,
+            "focus_team": "DC",
+            "total_spend": 17.3
+          },
+          {
+            "run_id": 426,
+            "focus_team": "DC",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 427,
+            "focus_team": "DC",
+            "total_spend": 17.9
+          },
+          {
+            "run_id": 428,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 429,
+            "focus_team": "DC",
+            "total_spend": 19.8
+          },
+          {
+            "run_id": 430,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 431,
+            "focus_team": "DC",
+            "total_spend": 17.95
+          },
+          {
+            "run_id": 432,
+            "focus_team": "DC",
+            "total_spend": 20.5
+          },
+          {
+            "run_id": 433,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 434,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 435,
+            "focus_team": "DC",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 436,
+            "focus_team": "DC",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 437,
+            "focus_team": "DC",
+            "total_spend": 19.2
+          },
+          {
+            "run_id": 438,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 439,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 440,
+            "focus_team": "DC",
+            "total_spend": 19.2
+          },
+          {
+            "run_id": 441,
+            "focus_team": "DC",
+            "total_spend": 17.55
+          },
+          {
+            "run_id": 442,
+            "focus_team": "DC",
+            "total_spend": 18.85
+          },
+          {
+            "run_id": 443,
+            "focus_team": "DC",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 444,
+            "focus_team": "DC",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 445,
+            "focus_team": "DC",
+            "total_spend": 16.75
+          },
+          {
+            "run_id": 446,
+            "focus_team": "DC",
+            "total_spend": 19.85
+          },
+          {
+            "run_id": 447,
+            "focus_team": "DC",
+            "total_spend": 17.35
+          },
+          {
+            "run_id": 448,
+            "focus_team": "DC",
+            "total_spend": 18.9
+          },
+          {
+            "run_id": 449,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 450,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 451,
+            "focus_team": "DC",
+            "total_spend": 19.05
+          },
+          {
+            "run_id": 452,
+            "focus_team": "DC",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 453,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 454,
+            "focus_team": "DC",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 455,
+            "focus_team": "DC",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 456,
+            "focus_team": "DC",
+            "total_spend": 20.6
+          },
+          {
+            "run_id": 457,
+            "focus_team": "DC",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 458,
+            "focus_team": "DC",
+            "total_spend": 17.85
+          },
+          {
+            "run_id": 459,
+            "focus_team": "DC",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 460,
+            "focus_team": "DC",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 461,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 462,
+            "focus_team": "DC",
+            "total_spend": 18.35
+          },
+          {
+            "run_id": 463,
+            "focus_team": "DC",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 464,
+            "focus_team": "DC",
+            "total_spend": 21.15
+          },
+          {
+            "run_id": 465,
+            "focus_team": "DC",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 466,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 467,
+            "focus_team": "DC",
+            "total_spend": 20.65
+          },
+          {
+            "run_id": 468,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 469,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 470,
+            "focus_team": "DC",
+            "total_spend": 14.3
+          },
+          {
+            "run_id": 471,
+            "focus_team": "DC",
+            "total_spend": 17.4
+          },
+          {
+            "run_id": 472,
+            "focus_team": "DC",
+            "total_spend": 19.15
+          },
+          {
+            "run_id": 473,
+            "focus_team": "DC",
+            "total_spend": 19.45
+          },
+          {
+            "run_id": 474,
+            "focus_team": "DC",
+            "total_spend": 18.0
+          },
+          {
+            "run_id": 475,
+            "focus_team": "DC",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 476,
+            "focus_team": "DC",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 477,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 478,
+            "focus_team": "DC",
+            "total_spend": 17.6
+          },
+          {
+            "run_id": 479,
+            "focus_team": "DC",
+            "total_spend": 17.75
+          },
+          {
+            "run_id": 480,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 481,
+            "focus_team": "DC",
+            "total_spend": 17.5
+          },
+          {
+            "run_id": 482,
+            "focus_team": "DC",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 483,
+            "focus_team": "DC",
+            "total_spend": 17.05
+          },
+          {
+            "run_id": 484,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 485,
+            "focus_team": "DC",
+            "total_spend": 18.4
+          },
+          {
+            "run_id": 486,
+            "focus_team": "DC",
+            "total_spend": 19.25
+          },
+          {
+            "run_id": 487,
+            "focus_team": "DC",
+            "total_spend": 17.7
+          },
+          {
+            "run_id": 488,
+            "focus_team": "DC",
+            "total_spend": 18.15
+          },
+          {
+            "run_id": 489,
+            "focus_team": "DC",
+            "total_spend": 21.2
+          },
+          {
+            "run_id": 490,
+            "focus_team": "DC",
+            "total_spend": 18.6
+          },
+          {
+            "run_id": 491,
+            "focus_team": "DC",
+            "total_spend": 16.9
+          },
+          {
+            "run_id": 492,
+            "focus_team": "DC",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 493,
+            "focus_team": "DC",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 494,
+            "focus_team": "DC",
+            "total_spend": 18.65
+          },
+          {
+            "run_id": 495,
+            "focus_team": "DC",
+            "total_spend": 19.8
+          },
+          {
+            "run_id": 496,
+            "focus_team": "DC",
+            "total_spend": 18.05
+          },
+          {
+            "run_id": 497,
+            "focus_team": "DC",
+            "total_spend": 16.6
+          },
+          {
+            "run_id": 498,
+            "focus_team": "DC",
+            "total_spend": 19.35
+          },
+          {
+            "run_id": 499,
+            "focus_team": "DC",
+            "total_spend": 18.5
+          },
+          {
+            "run_id": 500,
+            "focus_team": "DC",
+            "total_spend": 19.05
           }
         ],
         "top_targets": [
           {
-            "player_name": "Ben Duckett",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 3.02
-          },
-          {
-            "player_name": "Jonny Bairstow",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.31
-          },
-          {
-            "player_name": "Cameron Green",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 5.0
-          },
-          {
-            "player_name": "Prithvi Shaw",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 3.3
-          },
-          {
             "player_name": "Finn Allen",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
+            "times_bought": 179,
+            "share_of_runs": 0.358,
+            "avg_price_when_bought": 3.36
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 177,
+            "share_of_runs": 0.354,
             "avg_price_when_bought": 3.25
           },
           {
-            "player_name": "Naman Tiwari",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.96
+            "player_name": "Ben Duckett",
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 3.11
+          },
+          {
+            "player_name": "Jonny Bairstow",
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 2.33
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "times_bought": 171,
+            "share_of_runs": 0.342,
+            "avg_price_when_bought": 3.62
+          },
+          {
+            "player_name": "Rahmanullah Gurbaz",
+            "times_bought": 162,
+            "share_of_runs": 0.324,
+            "avg_price_when_bought": 2.6
           }
         ]
       },
@@ -38658,159 +43506,261 @@ window.DASHBOARD_DATA = {
         "mc_purchase_summary": [
           {
             "player_name": "Wahidullah Zadran",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
+            "times_bought": 413,
+            "share_of_runs": 0.826,
             "avg_price_when_bought": 0.38
           },
           {
             "player_name": "Pathum Nissanka",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
+            "times_bought": 172,
+            "share_of_runs": 0.344,
             "avg_price_when_bought": 1.23
           },
           {
             "player_name": "Steve Smith",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 2.64
+            "times_bought": 165,
+            "share_of_runs": 0.33,
+            "avg_price_when_bought": 2.77
           },
           {
-            "player_name": "Cameron Green",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 4.75
+            "player_name": "Sarfaraz Khan",
+            "times_bought": 157,
+            "share_of_runs": 0.314,
+            "avg_price_when_bought": 2.3
           },
           {
-            "player_name": "Jamie Smith",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 3.5
+            "player_name": "Reeza Hendricks",
+            "times_bought": 129,
+            "share_of_runs": 0.258,
+            "avg_price_when_bought": 1.1
           },
           {
             "player_name": "Prithvi Shaw",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
+            "times_bought": 126,
+            "share_of_runs": 0.252,
             "avg_price_when_bought": 3.05
           },
           {
             "player_name": "Tim Robinson",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.81
+            "times_bought": 114,
+            "share_of_runs": 0.228,
+            "avg_price_when_bought": 0.8
+          },
+          {
+            "player_name": "Cameron Green",
+            "times_bought": 109,
+            "share_of_runs": 0.218,
+            "avg_price_when_bought": 4.75
           },
           {
             "player_name": "Jake Fraser-McGurk",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "times_bought": 108,
+            "share_of_runs": 0.216,
             "avg_price_when_bought": 4.25
           },
           {
-            "player_name": "Kuldeep Sen",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.95
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 3.75
-          },
-          {
-            "player_name": "Rahul Tripathi",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 2.55
-          },
-          {
-            "player_name": "Sarfaraz Khan",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 2.3
-          },
-          {
-            "player_name": "Umesh Yadav",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 1.5
-          },
-          {
-            "player_name": "Ben Duckett",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 3.25
-          },
-          {
             "player_name": "Rahmanullah Gurbaz",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
+            "times_bought": 92,
+            "share_of_runs": 0.184,
             "avg_price_when_bought": 2.85
           },
           {
-            "player_name": "Reeza Hendricks",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 1.07
+            "player_name": "Quinton De Kock",
+            "times_bought": 89,
+            "share_of_runs": 0.178,
+            "avg_price_when_bought": 3.75
           },
           {
-            "player_name": "Akash Madhwal",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.6
+            "player_name": "Ben Duckett",
+            "times_bought": 84,
+            "share_of_runs": 0.168,
+            "avg_price_when_bought": 3.25
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 84,
+            "share_of_runs": 0.168,
+            "avg_price_when_bought": 3.5
           },
           {
             "player_name": "Finn Allen",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 78,
+            "share_of_runs": 0.156,
             "avg_price_when_bought": 3.5
           },
           {
             "player_name": "Jonny Bairstow",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 73,
+            "share_of_runs": 0.146,
             "avg_price_when_bought": 2.5
           },
           {
-            "player_name": "Ashok Sharma",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.8
+            "player_name": "Kuldeep Sen",
+            "times_bought": 63,
+            "share_of_runs": 0.126,
+            "avg_price_when_bought": 0.98
           },
           {
-            "player_name": "Chetan Sakariya",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.85
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.9
+            "player_name": "Rahul Tripathi",
+            "times_bought": 59,
+            "share_of_runs": 0.118,
+            "avg_price_when_bought": 1.94
           },
           {
             "player_name": "Mayank Agarawal",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 1.25
+            "times_bought": 53,
+            "share_of_runs": 0.106,
+            "avg_price_when_bought": 1.47
+          },
+          {
+            "player_name": "Umesh Yadav",
+            "times_bought": 51,
+            "share_of_runs": 0.102,
+            "avg_price_when_bought": 1.5
+          },
+          {
+            "player_name": "Akash Madhwal",
+            "times_bought": 38,
+            "share_of_runs": 0.076,
+            "avg_price_when_bought": 0.6
           },
           {
             "player_name": "Naman Tiwari",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 38,
+            "share_of_runs": 0.076,
+            "avg_price_when_bought": 0.8
+          },
+          {
+            "player_name": "Kartik Tyagi",
+            "times_bought": 36,
+            "share_of_runs": 0.072,
+            "avg_price_when_bought": 0.9
+          },
+          {
+            "player_name": "Ashok Sharma",
+            "times_bought": 35,
+            "share_of_runs": 0.07,
             "avg_price_when_bought": 0.8
           },
           {
             "player_name": "Sushant Mishra",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 28,
+            "share_of_runs": 0.056,
             "avg_price_when_bought": 0.8
           },
           {
-            "player_name": "Tim Seifert",
-            "times_bought": 1,
+            "player_name": "Simarjeet Singh",
+            "times_bought": 27,
+            "share_of_runs": 0.054,
+            "avg_price_when_bought": 0.6
+          },
+          {
+            "player_name": "Raj Limbani",
+            "times_bought": 25,
             "share_of_runs": 0.05,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Tim Seifert",
+            "times_bought": 8,
+            "share_of_runs": 0.016,
             "avg_price_when_bought": 1.5
+          },
+          {
+            "player_name": "Kusal Mendis",
+            "times_bought": 7,
+            "share_of_runs": 0.014,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Kusal Perera",
+            "times_bought": 7,
+            "share_of_runs": 0.014,
+            "avg_price_when_bought": 1.06
+          },
+          {
+            "player_name": "Chetan Sakariya",
+            "times_bought": 4,
+            "share_of_runs": 0.008,
+            "avg_price_when_bought": 0.85
+          },
+          {
+            "player_name": "Salman Nizar",
+            "times_bought": 4,
+            "share_of_runs": 0.008,
+            "avg_price_when_bought": 0.33
+          },
+          {
+            "player_name": "Ankit Kumar",
+            "times_bought": 3,
+            "share_of_runs": 0.006,
+            "avg_price_when_bought": 0.3
+          },
+          {
+            "player_name": "Danish Malewar",
+            "times_bought": 3,
+            "share_of_runs": 0.006,
+            "avg_price_when_bought": 0.57
+          },
+          {
+            "player_name": "Jordan Cox",
+            "times_bought": 3,
+            "share_of_runs": 0.006,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "times_bought": 3,
+            "share_of_runs": 0.006,
+            "avg_price_when_bought": 0.33
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "times_bought": 2,
+            "share_of_runs": 0.004,
+            "avg_price_when_bought": 0.45
+          },
+          {
+            "player_name": "Benjamin McDermott",
+            "times_bought": 2,
+            "share_of_runs": 0.004,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Josh Inglis",
+            "times_bought": 2,
+            "share_of_runs": 0.004,
+            "avg_price_when_bought": 2.0
+          },
+          {
+            "player_name": "Manan Vohra",
+            "times_bought": 2,
+            "share_of_runs": 0.004,
+            "avg_price_when_bought": 0.45
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.6
+          },
+          {
+            "player_name": "Rohan Kunnummal",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.3
+          },
+          {
+            "player_name": "Shivam Shukla",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Tom Banton",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 2.0
           }
         ],
         "mc_spend_summary": [
@@ -38913,43 +43863,2443 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "GT",
             "total_spend": 10.55
+          },
+          {
+            "run_id": 21,
+            "focus_team": "GT",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 22,
+            "focus_team": "GT",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 23,
+            "focus_team": "GT",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 24,
+            "focus_team": "GT",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 25,
+            "focus_team": "GT",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 26,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 27,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 28,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 29,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 30,
+            "focus_team": "GT",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 31,
+            "focus_team": "GT",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 32,
+            "focus_team": "GT",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 33,
+            "focus_team": "GT",
+            "total_spend": 9.8
+          },
+          {
+            "run_id": 34,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 35,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 36,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 37,
+            "focus_team": "GT",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 38,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 39,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 40,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 41,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 42,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "GT",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 44,
+            "focus_team": "GT",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 45,
+            "focus_team": "GT",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 46,
+            "focus_team": "GT",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 47,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 48,
+            "focus_team": "GT",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 49,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 50,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 51,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 52,
+            "focus_team": "GT",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 53,
+            "focus_team": "GT",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 54,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 55,
+            "focus_team": "GT",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 56,
+            "focus_team": "GT",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 57,
+            "focus_team": "GT",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 58,
+            "focus_team": "GT",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 59,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 60,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 61,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 62,
+            "focus_team": "GT",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 63,
+            "focus_team": "GT",
+            "total_spend": 9.3
+          },
+          {
+            "run_id": 64,
+            "focus_team": "GT",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 65,
+            "focus_team": "GT",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 66,
+            "focus_team": "GT",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 67,
+            "focus_team": "GT",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 68,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 69,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 70,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 71,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 72,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 73,
+            "focus_team": "GT",
+            "total_spend": 7.8
+          },
+          {
+            "run_id": 74,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 75,
+            "focus_team": "GT",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 76,
+            "focus_team": "GT",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 77,
+            "focus_team": "GT",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 78,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 79,
+            "focus_team": "GT",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 80,
+            "focus_team": "GT",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 81,
+            "focus_team": "GT",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 82,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 83,
+            "focus_team": "GT",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 84,
+            "focus_team": "GT",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 85,
+            "focus_team": "GT",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 86,
+            "focus_team": "GT",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 87,
+            "focus_team": "GT",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 88,
+            "focus_team": "GT",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 89,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 90,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 91,
+            "focus_team": "GT",
+            "total_spend": 9.8
+          },
+          {
+            "run_id": 92,
+            "focus_team": "GT",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 93,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 94,
+            "focus_team": "GT",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 95,
+            "focus_team": "GT",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 96,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 97,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 98,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 99,
+            "focus_team": "GT",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 100,
+            "focus_team": "GT",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 101,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 102,
+            "focus_team": "GT",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 103,
+            "focus_team": "GT",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 104,
+            "focus_team": "GT",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 105,
+            "focus_team": "GT",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 106,
+            "focus_team": "GT",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 107,
+            "focus_team": "GT",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 108,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 109,
+            "focus_team": "GT",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 110,
+            "focus_team": "GT",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 111,
+            "focus_team": "GT",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 112,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 113,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 114,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 115,
+            "focus_team": "GT",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 116,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 117,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 118,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 119,
+            "focus_team": "GT",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 120,
+            "focus_team": "GT",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 121,
+            "focus_team": "GT",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 122,
+            "focus_team": "GT",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 123,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 124,
+            "focus_team": "GT",
+            "total_spend": 9.4
+          },
+          {
+            "run_id": 125,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 126,
+            "focus_team": "GT",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 127,
+            "focus_team": "GT",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 128,
+            "focus_team": "GT",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 129,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 130,
+            "focus_team": "GT",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 131,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 132,
+            "focus_team": "GT",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 133,
+            "focus_team": "GT",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 134,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 135,
+            "focus_team": "GT",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 136,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 137,
+            "focus_team": "GT",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 138,
+            "focus_team": "GT",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 139,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 140,
+            "focus_team": "GT",
+            "total_spend": 8.7
+          },
+          {
+            "run_id": 141,
+            "focus_team": "GT",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 142,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 143,
+            "focus_team": "GT",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 144,
+            "focus_team": "GT",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 145,
+            "focus_team": "GT",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 146,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 147,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 148,
+            "focus_team": "GT",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 149,
+            "focus_team": "GT",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 150,
+            "focus_team": "GT",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 151,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 152,
+            "focus_team": "GT",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 153,
+            "focus_team": "GT",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 154,
+            "focus_team": "GT",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 155,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 156,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 157,
+            "focus_team": "GT",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 158,
+            "focus_team": "GT",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 159,
+            "focus_team": "GT",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 160,
+            "focus_team": "GT",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 161,
+            "focus_team": "GT",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 162,
+            "focus_team": "GT",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 163,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 164,
+            "focus_team": "GT",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 165,
+            "focus_team": "GT",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 166,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 167,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 168,
+            "focus_team": "GT",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 169,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 170,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 171,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 172,
+            "focus_team": "GT",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 173,
+            "focus_team": "GT",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 174,
+            "focus_team": "GT",
+            "total_spend": 8.55
+          },
+          {
+            "run_id": 175,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 176,
+            "focus_team": "GT",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 177,
+            "focus_team": "GT",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 178,
+            "focus_team": "GT",
+            "total_spend": 8.35
+          },
+          {
+            "run_id": 179,
+            "focus_team": "GT",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 180,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 181,
+            "focus_team": "GT",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 182,
+            "focus_team": "GT",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 183,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 184,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 185,
+            "focus_team": "GT",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 186,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 187,
+            "focus_team": "GT",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 188,
+            "focus_team": "GT",
+            "total_spend": 7.8
+          },
+          {
+            "run_id": 189,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 190,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 191,
+            "focus_team": "GT",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 192,
+            "focus_team": "GT",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 193,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 194,
+            "focus_team": "GT",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 195,
+            "focus_team": "GT",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 196,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 197,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 198,
+            "focus_team": "GT",
+            "total_spend": 8.55
+          },
+          {
+            "run_id": 199,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 200,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 201,
+            "focus_team": "GT",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 202,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 203,
+            "focus_team": "GT",
+            "total_spend": 8.6
+          },
+          {
+            "run_id": 204,
+            "focus_team": "GT",
+            "total_spend": 10.35
+          },
+          {
+            "run_id": 205,
+            "focus_team": "GT",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 206,
+            "focus_team": "GT",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 207,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 208,
+            "focus_team": "GT",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 209,
+            "focus_team": "GT",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 210,
+            "focus_team": "GT",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 211,
+            "focus_team": "GT",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 212,
+            "focus_team": "GT",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 213,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 214,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 215,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 216,
+            "focus_team": "GT",
+            "total_spend": 8.9
+          },
+          {
+            "run_id": 217,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 218,
+            "focus_team": "GT",
+            "total_spend": 10.1
+          },
+          {
+            "run_id": 219,
+            "focus_team": "GT",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 220,
+            "focus_team": "GT",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 221,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 222,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 223,
+            "focus_team": "GT",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 224,
+            "focus_team": "GT",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 225,
+            "focus_team": "GT",
+            "total_spend": 8.9
+          },
+          {
+            "run_id": 226,
+            "focus_team": "GT",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 227,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 228,
+            "focus_team": "GT",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 229,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 230,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 231,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 232,
+            "focus_team": "GT",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 233,
+            "focus_team": "GT",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 234,
+            "focus_team": "GT",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 235,
+            "focus_team": "GT",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 236,
+            "focus_team": "GT",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 237,
+            "focus_team": "GT",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 238,
+            "focus_team": "GT",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 239,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 240,
+            "focus_team": "GT",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 241,
+            "focus_team": "GT",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 242,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 243,
+            "focus_team": "GT",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 244,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 245,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 246,
+            "focus_team": "GT",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 247,
+            "focus_team": "GT",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 248,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 249,
+            "focus_team": "GT",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 250,
+            "focus_team": "GT",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 251,
+            "focus_team": "GT",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 252,
+            "focus_team": "GT",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 253,
+            "focus_team": "GT",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 254,
+            "focus_team": "GT",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 255,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 256,
+            "focus_team": "GT",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 257,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 258,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 259,
+            "focus_team": "GT",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 260,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 261,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 262,
+            "focus_team": "GT",
+            "total_spend": 9.55
+          },
+          {
+            "run_id": 263,
+            "focus_team": "GT",
+            "total_spend": 7.1
+          },
+          {
+            "run_id": 264,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 265,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 266,
+            "focus_team": "GT",
+            "total_spend": 8.55
+          },
+          {
+            "run_id": 267,
+            "focus_team": "GT",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 268,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 269,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 270,
+            "focus_team": "GT",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 271,
+            "focus_team": "GT",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 272,
+            "focus_team": "GT",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 273,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 274,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 275,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 276,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 277,
+            "focus_team": "GT",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 278,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 279,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 280,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 281,
+            "focus_team": "GT",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 282,
+            "focus_team": "GT",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 283,
+            "focus_team": "GT",
+            "total_spend": 7.45
+          },
+          {
+            "run_id": 284,
+            "focus_team": "GT",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 285,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 286,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 287,
+            "focus_team": "GT",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 288,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 289,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 290,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 291,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 292,
+            "focus_team": "GT",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 293,
+            "focus_team": "GT",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 294,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 295,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 296,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 297,
+            "focus_team": "GT",
+            "total_spend": 8.35
+          },
+          {
+            "run_id": 298,
+            "focus_team": "GT",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 299,
+            "focus_team": "GT",
+            "total_spend": 8.35
+          },
+          {
+            "run_id": 300,
+            "focus_team": "GT",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 301,
+            "focus_team": "GT",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 302,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 303,
+            "focus_team": "GT",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 304,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 305,
+            "focus_team": "GT",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 306,
+            "focus_team": "GT",
+            "total_spend": 8.7
+          },
+          {
+            "run_id": 307,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 308,
+            "focus_team": "GT",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 309,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 310,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 311,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 312,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 313,
+            "focus_team": "GT",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 314,
+            "focus_team": "GT",
+            "total_spend": 9.3
+          },
+          {
+            "run_id": 315,
+            "focus_team": "GT",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 316,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 317,
+            "focus_team": "GT",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 318,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 319,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 320,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 321,
+            "focus_team": "GT",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 322,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 323,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 324,
+            "focus_team": "GT",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 325,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 326,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 327,
+            "focus_team": "GT",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 328,
+            "focus_team": "GT",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 329,
+            "focus_team": "GT",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 330,
+            "focus_team": "GT",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 331,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 332,
+            "focus_team": "GT",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 333,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 334,
+            "focus_team": "GT",
+            "total_spend": 9.8
+          },
+          {
+            "run_id": 335,
+            "focus_team": "GT",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 336,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 337,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 338,
+            "focus_team": "GT",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 339,
+            "focus_team": "GT",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 340,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 341,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 342,
+            "focus_team": "GT",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 343,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 344,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 345,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 346,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 347,
+            "focus_team": "GT",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 348,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 349,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 350,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 351,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 352,
+            "focus_team": "GT",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 353,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 354,
+            "focus_team": "GT",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 355,
+            "focus_team": "GT",
+            "total_spend": 10.1
+          },
+          {
+            "run_id": 356,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 357,
+            "focus_team": "GT",
+            "total_spend": 7.45
+          },
+          {
+            "run_id": 358,
+            "focus_team": "GT",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 359,
+            "focus_team": "GT",
+            "total_spend": 9.4
+          },
+          {
+            "run_id": 360,
+            "focus_team": "GT",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 361,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 362,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 363,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 364,
+            "focus_team": "GT",
+            "total_spend": 8.6
+          },
+          {
+            "run_id": 365,
+            "focus_team": "GT",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 366,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 367,
+            "focus_team": "GT",
+            "total_spend": 9.4
+          },
+          {
+            "run_id": 368,
+            "focus_team": "GT",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 369,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 370,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 371,
+            "focus_team": "GT",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 372,
+            "focus_team": "GT",
+            "total_spend": 7.45
+          },
+          {
+            "run_id": 373,
+            "focus_team": "GT",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 374,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 375,
+            "focus_team": "GT",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 376,
+            "focus_team": "GT",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 377,
+            "focus_team": "GT",
+            "total_spend": 9.4
+          },
+          {
+            "run_id": 378,
+            "focus_team": "GT",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 379,
+            "focus_team": "GT",
+            "total_spend": 8.9
+          },
+          {
+            "run_id": 380,
+            "focus_team": "GT",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 381,
+            "focus_team": "GT",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 382,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 383,
+            "focus_team": "GT",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 384,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 385,
+            "focus_team": "GT",
+            "total_spend": 8.7
+          },
+          {
+            "run_id": 386,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 387,
+            "focus_team": "GT",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 388,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 389,
+            "focus_team": "GT",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 390,
+            "focus_team": "GT",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 391,
+            "focus_team": "GT",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 392,
+            "focus_team": "GT",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 393,
+            "focus_team": "GT",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 394,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 395,
+            "focus_team": "GT",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 396,
+            "focus_team": "GT",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 397,
+            "focus_team": "GT",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 398,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 399,
+            "focus_team": "GT",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 400,
+            "focus_team": "GT",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 401,
+            "focus_team": "GT",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 402,
+            "focus_team": "GT",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 403,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 404,
+            "focus_team": "GT",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 405,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 406,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 407,
+            "focus_team": "GT",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 408,
+            "focus_team": "GT",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 409,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 410,
+            "focus_team": "GT",
+            "total_spend": 8.45
+          },
+          {
+            "run_id": 411,
+            "focus_team": "GT",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 412,
+            "focus_team": "GT",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 413,
+            "focus_team": "GT",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 414,
+            "focus_team": "GT",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 415,
+            "focus_team": "GT",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 416,
+            "focus_team": "GT",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 417,
+            "focus_team": "GT",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 418,
+            "focus_team": "GT",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 419,
+            "focus_team": "GT",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 420,
+            "focus_team": "GT",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 421,
+            "focus_team": "GT",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 422,
+            "focus_team": "GT",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 423,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 424,
+            "focus_team": "GT",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 425,
+            "focus_team": "GT",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 426,
+            "focus_team": "GT",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 427,
+            "focus_team": "GT",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 428,
+            "focus_team": "GT",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 429,
+            "focus_team": "GT",
+            "total_spend": 9.35
+          },
+          {
+            "run_id": 430,
+            "focus_team": "GT",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 431,
+            "focus_team": "GT",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 432,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 433,
+            "focus_team": "GT",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 434,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 435,
+            "focus_team": "GT",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 436,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 437,
+            "focus_team": "GT",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 438,
+            "focus_team": "GT",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 439,
+            "focus_team": "GT",
+            "total_spend": 10.35
+          },
+          {
+            "run_id": 440,
+            "focus_team": "GT",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 441,
+            "focus_team": "GT",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 442,
+            "focus_team": "GT",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 443,
+            "focus_team": "GT",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 444,
+            "focus_team": "GT",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 445,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 446,
+            "focus_team": "GT",
+            "total_spend": 9.7
+          },
+          {
+            "run_id": 447,
+            "focus_team": "GT",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 448,
+            "focus_team": "GT",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 449,
+            "focus_team": "GT",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 450,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 451,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 452,
+            "focus_team": "GT",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 453,
+            "focus_team": "GT",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 454,
+            "focus_team": "GT",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 455,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 456,
+            "focus_team": "GT",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 457,
+            "focus_team": "GT",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 458,
+            "focus_team": "GT",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 459,
+            "focus_team": "GT",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 460,
+            "focus_team": "GT",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 461,
+            "focus_team": "GT",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 462,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 463,
+            "focus_team": "GT",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 464,
+            "focus_team": "GT",
+            "total_spend": 9.55
+          },
+          {
+            "run_id": 465,
+            "focus_team": "GT",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 466,
+            "focus_team": "GT",
+            "total_spend": 8.6
+          },
+          {
+            "run_id": 467,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 468,
+            "focus_team": "GT",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 469,
+            "focus_team": "GT",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 470,
+            "focus_team": "GT",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 471,
+            "focus_team": "GT",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 472,
+            "focus_team": "GT",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 473,
+            "focus_team": "GT",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 474,
+            "focus_team": "GT",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 475,
+            "focus_team": "GT",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 476,
+            "focus_team": "GT",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 477,
+            "focus_team": "GT",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 478,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 479,
+            "focus_team": "GT",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 480,
+            "focus_team": "GT",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 481,
+            "focus_team": "GT",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 482,
+            "focus_team": "GT",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 483,
+            "focus_team": "GT",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 484,
+            "focus_team": "GT",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 485,
+            "focus_team": "GT",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 486,
+            "focus_team": "GT",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 487,
+            "focus_team": "GT",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 488,
+            "focus_team": "GT",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 489,
+            "focus_team": "GT",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 490,
+            "focus_team": "GT",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 491,
+            "focus_team": "GT",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 492,
+            "focus_team": "GT",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 493,
+            "focus_team": "GT",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 494,
+            "focus_team": "GT",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 495,
+            "focus_team": "GT",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 496,
+            "focus_team": "GT",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 497,
+            "focus_team": "GT",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 498,
+            "focus_team": "GT",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 499,
+            "focus_team": "GT",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 500,
+            "focus_team": "GT",
+            "total_spend": 7.55
           }
         ],
         "top_targets": [
           {
             "player_name": "Wahidullah Zadran",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
+            "times_bought": 413,
+            "share_of_runs": 0.826,
             "avg_price_when_bought": 0.38
           },
           {
             "player_name": "Pathum Nissanka",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
+            "times_bought": 172,
+            "share_of_runs": 0.344,
             "avg_price_when_bought": 1.23
           },
           {
             "player_name": "Steve Smith",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 2.64
+            "times_bought": 165,
+            "share_of_runs": 0.33,
+            "avg_price_when_bought": 2.77
           },
           {
-            "player_name": "Cameron Green",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 4.75
+            "player_name": "Sarfaraz Khan",
+            "times_bought": 157,
+            "share_of_runs": 0.314,
+            "avg_price_when_bought": 2.3
           },
           {
-            "player_name": "Jamie Smith",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 3.5
+            "player_name": "Reeza Hendricks",
+            "times_bought": 129,
+            "share_of_runs": 0.258,
+            "avg_price_when_bought": 1.1
           },
           {
             "player_name": "Prithvi Shaw",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
+            "times_bought": 126,
+            "share_of_runs": 0.252,
             "avg_price_when_bought": 3.05
           }
         ]
@@ -39142,153 +46492,153 @@ window.DASHBOARD_DATA = {
         "mc_purchase_summary": [
           {
             "player_name": "David Miller",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 9.0
           },
           {
             "player_name": "Devon Conway",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 6.0
           },
           {
             "player_name": "Gus Atkinson",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "K.S. Bharat",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
-            "avg_price_when_bought": 1.14
+            "avg_price_when_bought": 1.13
           },
           {
             "player_name": "Venkatesh Iyer",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "Wiaan Mulder",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
             "player_name": "Jake Fraser-McGurk",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
+            "times_bought": 279,
+            "share_of_runs": 0.558,
             "avg_price_when_bought": 4.25
-          },
-          {
-            "player_name": "Sarfaraz Khan",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 2.3
-          },
-          {
-            "player_name": "Akash Deep",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.75
-          },
-          {
-            "player_name": "Aarya Desai",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.55
-          },
-          {
-            "player_name": "Abhinav Manohar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.87
-          },
-          {
-            "player_name": "Abhinav Tejrana",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.58
-          },
-          {
-            "player_name": "Ravi Bishnoi",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 6.0
-          },
-          {
-            "player_name": "Atharva Taide",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.73
           },
           {
             "player_name": "Shivam Mavi",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
+            "times_bought": 261,
+            "share_of_runs": 0.522,
             "avg_price_when_bought": 3.05
-          },
-          {
-            "player_name": "Yash Dhull",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.58
           },
           {
             "player_name": "Cameron Green",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
+            "times_bought": 256,
+            "share_of_runs": 0.512,
             "avg_price_when_bought": 4.75
           },
           {
-            "player_name": "Prithvi Shaw",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 3.05
+            "player_name": "Abhinav Manohar",
+            "times_bought": 243,
+            "share_of_runs": 0.486,
+            "avg_price_when_bought": 0.9
           },
           {
-            "player_name": "Jamie Smith",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 3.9
-          },
-          {
-            "player_name": "Ben Duckett",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "player_name": "Akash Deep",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
             "avg_price_when_bought": 3.75
           },
           {
-            "player_name": "Quinton De Kock",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 4.5
+            "player_name": "Prithvi Shaw",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 3.05
           },
           {
-            "player_name": "Jonny Bairstow",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 3.0
+            "player_name": "Ravi Bishnoi",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 6.0
+          },
+          {
+            "player_name": "Yash Dhull",
+            "times_bought": 232,
+            "share_of_runs": 0.464,
+            "avg_price_when_bought": 0.58
+          },
+          {
+            "player_name": "Aarya Desai",
+            "times_bought": 230,
+            "share_of_runs": 0.46,
+            "avg_price_when_bought": 0.56
+          },
+          {
+            "player_name": "Sarfaraz Khan",
+            "times_bought": 226,
+            "share_of_runs": 0.452,
+            "avg_price_when_bought": 2.3
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "times_bought": 219,
+            "share_of_runs": 0.438,
+            "avg_price_when_bought": 0.56
+          },
+          {
+            "player_name": "Atharva Taide",
+            "times_bought": 216,
+            "share_of_runs": 0.432,
+            "avg_price_when_bought": 0.71
           },
           {
             "player_name": "Anmolpreet Singh",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.7
+            "times_bought": 156,
+            "share_of_runs": 0.312,
+            "avg_price_when_bought": 0.63
           },
           {
             "player_name": "Finn Allen",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 4.25
+            "times_bought": 83,
+            "share_of_runs": 0.166,
+            "avg_price_when_bought": 4.23
+          },
+          {
+            "player_name": "Ben Duckett",
+            "times_bought": 80,
+            "share_of_runs": 0.16,
+            "avg_price_when_bought": 3.72
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 79,
+            "share_of_runs": 0.158,
+            "avg_price_when_bought": 3.96
+          },
+          {
+            "player_name": "Jonny Bairstow",
+            "times_bought": 76,
+            "share_of_runs": 0.152,
+            "avg_price_when_bought": 2.98
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "times_bought": 76,
+            "share_of_runs": 0.152,
+            "avg_price_when_bought": 4.49
           },
           {
             "player_name": "Rahmanullah Gurbaz",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 3.35
+            "times_bought": 71,
+            "share_of_runs": 0.142,
+            "avg_price_when_bought": 3.34
           }
         ],
         "mc_spend_summary": [
@@ -39391,42 +46741,2442 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "KKR",
             "total_spend": 44.55
+          },
+          {
+            "run_id": 21,
+            "focus_team": "KKR",
+            "total_spend": 44.05
+          },
+          {
+            "run_id": 22,
+            "focus_team": "KKR",
+            "total_spend": 40.9
+          },
+          {
+            "run_id": 23,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 24,
+            "focus_team": "KKR",
+            "total_spend": 40.9
+          },
+          {
+            "run_id": 25,
+            "focus_team": "KKR",
+            "total_spend": 37.2
+          },
+          {
+            "run_id": 26,
+            "focus_team": "KKR",
+            "total_spend": 39.5
+          },
+          {
+            "run_id": 27,
+            "focus_team": "KKR",
+            "total_spend": 38.75
+          },
+          {
+            "run_id": 28,
+            "focus_team": "KKR",
+            "total_spend": 42.55
+          },
+          {
+            "run_id": 29,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 30,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 31,
+            "focus_team": "KKR",
+            "total_spend": 37.2
+          },
+          {
+            "run_id": 32,
+            "focus_team": "KKR",
+            "total_spend": 42.7
+          },
+          {
+            "run_id": 33,
+            "focus_team": "KKR",
+            "total_spend": 42.35
+          },
+          {
+            "run_id": 34,
+            "focus_team": "KKR",
+            "total_spend": 43.1
+          },
+          {
+            "run_id": 35,
+            "focus_team": "KKR",
+            "total_spend": 44.5
+          },
+          {
+            "run_id": 36,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 37,
+            "focus_team": "KKR",
+            "total_spend": 43.65
+          },
+          {
+            "run_id": 38,
+            "focus_team": "KKR",
+            "total_spend": 43.75
+          },
+          {
+            "run_id": 39,
+            "focus_team": "KKR",
+            "total_spend": 44.35
+          },
+          {
+            "run_id": 40,
+            "focus_team": "KKR",
+            "total_spend": 37.55
+          },
+          {
+            "run_id": 41,
+            "focus_team": "KKR",
+            "total_spend": 36.65
+          },
+          {
+            "run_id": 42,
+            "focus_team": "KKR",
+            "total_spend": 42.2
+          },
+          {
+            "run_id": 43,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 44,
+            "focus_team": "KKR",
+            "total_spend": 37.6
+          },
+          {
+            "run_id": 45,
+            "focus_team": "KKR",
+            "total_spend": 42.45
+          },
+          {
+            "run_id": 46,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 47,
+            "focus_team": "KKR",
+            "total_spend": 42.1
+          },
+          {
+            "run_id": 48,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 49,
+            "focus_team": "KKR",
+            "total_spend": 37.4
+          },
+          {
+            "run_id": 50,
+            "focus_team": "KKR",
+            "total_spend": 38.45
+          },
+          {
+            "run_id": 51,
+            "focus_team": "KKR",
+            "total_spend": 43.5
+          },
+          {
+            "run_id": 52,
+            "focus_team": "KKR",
+            "total_spend": 41.5
+          },
+          {
+            "run_id": 53,
+            "focus_team": "KKR",
+            "total_spend": 35.8
+          },
+          {
+            "run_id": 54,
+            "focus_team": "KKR",
+            "total_spend": 35.6
+          },
+          {
+            "run_id": 55,
+            "focus_team": "KKR",
+            "total_spend": 41.5
+          },
+          {
+            "run_id": 56,
+            "focus_team": "KKR",
+            "total_spend": 43.4
+          },
+          {
+            "run_id": 57,
+            "focus_team": "KKR",
+            "total_spend": 35.65
+          },
+          {
+            "run_id": 58,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 59,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 60,
+            "focus_team": "KKR",
+            "total_spend": 40.9
+          },
+          {
+            "run_id": 61,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 62,
+            "focus_team": "KKR",
+            "total_spend": 37.6
+          },
+          {
+            "run_id": 63,
+            "focus_team": "KKR",
+            "total_spend": 43.4
+          },
+          {
+            "run_id": 64,
+            "focus_team": "KKR",
+            "total_spend": 36.85
+          },
+          {
+            "run_id": 65,
+            "focus_team": "KKR",
+            "total_spend": 42.65
+          },
+          {
+            "run_id": 66,
+            "focus_team": "KKR",
+            "total_spend": 38.35
+          },
+          {
+            "run_id": 67,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 68,
+            "focus_team": "KKR",
+            "total_spend": 42.65
+          },
+          {
+            "run_id": 69,
+            "focus_team": "KKR",
+            "total_spend": 43.8
+          },
+          {
+            "run_id": 70,
+            "focus_team": "KKR",
+            "total_spend": 38.95
+          },
+          {
+            "run_id": 71,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 72,
+            "focus_team": "KKR",
+            "total_spend": 37.75
+          },
+          {
+            "run_id": 73,
+            "focus_team": "KKR",
+            "total_spend": 40.8
+          },
+          {
+            "run_id": 74,
+            "focus_team": "KKR",
+            "total_spend": 43.35
+          },
+          {
+            "run_id": 75,
+            "focus_team": "KKR",
+            "total_spend": 39.25
+          },
+          {
+            "run_id": 76,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 77,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 78,
+            "focus_team": "KKR",
+            "total_spend": 42.1
+          },
+          {
+            "run_id": 79,
+            "focus_team": "KKR",
+            "total_spend": 38.1
+          },
+          {
+            "run_id": 80,
+            "focus_team": "KKR",
+            "total_spend": 41.9
+          },
+          {
+            "run_id": 81,
+            "focus_team": "KKR",
+            "total_spend": 41.2
+          },
+          {
+            "run_id": 82,
+            "focus_team": "KKR",
+            "total_spend": 39.15
+          },
+          {
+            "run_id": 83,
+            "focus_team": "KKR",
+            "total_spend": 35.2
+          },
+          {
+            "run_id": 84,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 85,
+            "focus_team": "KKR",
+            "total_spend": 42.85
+          },
+          {
+            "run_id": 86,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 87,
+            "focus_team": "KKR",
+            "total_spend": 42.85
+          },
+          {
+            "run_id": 88,
+            "focus_team": "KKR",
+            "total_spend": 35.6
+          },
+          {
+            "run_id": 89,
+            "focus_team": "KKR",
+            "total_spend": 44.05
+          },
+          {
+            "run_id": 90,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 91,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 92,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 93,
+            "focus_team": "KKR",
+            "total_spend": 45.2
+          },
+          {
+            "run_id": 94,
+            "focus_team": "KKR",
+            "total_spend": 39.25
+          },
+          {
+            "run_id": 95,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 96,
+            "focus_team": "KKR",
+            "total_spend": 44.5
+          },
+          {
+            "run_id": 97,
+            "focus_team": "KKR",
+            "total_spend": 42.8
+          },
+          {
+            "run_id": 98,
+            "focus_team": "KKR",
+            "total_spend": 35.8
+          },
+          {
+            "run_id": 99,
+            "focus_team": "KKR",
+            "total_spend": 37.15
+          },
+          {
+            "run_id": 100,
+            "focus_team": "KKR",
+            "total_spend": 37.95
+          },
+          {
+            "run_id": 101,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 102,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 103,
+            "focus_team": "KKR",
+            "total_spend": 42.7
+          },
+          {
+            "run_id": 104,
+            "focus_team": "KKR",
+            "total_spend": 36.8
+          },
+          {
+            "run_id": 105,
+            "focus_team": "KKR",
+            "total_spend": 41.2
+          },
+          {
+            "run_id": 106,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 107,
+            "focus_team": "KKR",
+            "total_spend": 43.25
+          },
+          {
+            "run_id": 108,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 109,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 110,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 111,
+            "focus_team": "KKR",
+            "total_spend": 39.15
+          },
+          {
+            "run_id": 112,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 113,
+            "focus_team": "KKR",
+            "total_spend": 38.2
+          },
+          {
+            "run_id": 114,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 115,
+            "focus_team": "KKR",
+            "total_spend": 42.35
+          },
+          {
+            "run_id": 116,
+            "focus_team": "KKR",
+            "total_spend": 38.3
+          },
+          {
+            "run_id": 117,
+            "focus_team": "KKR",
+            "total_spend": 38.0
+          },
+          {
+            "run_id": 118,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 119,
+            "focus_team": "KKR",
+            "total_spend": 39.4
+          },
+          {
+            "run_id": 120,
+            "focus_team": "KKR",
+            "total_spend": 42.9
+          },
+          {
+            "run_id": 121,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 122,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 123,
+            "focus_team": "KKR",
+            "total_spend": 43.85
+          },
+          {
+            "run_id": 124,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 125,
+            "focus_team": "KKR",
+            "total_spend": 38.25
+          },
+          {
+            "run_id": 126,
+            "focus_team": "KKR",
+            "total_spend": 41.2
+          },
+          {
+            "run_id": 127,
+            "focus_team": "KKR",
+            "total_spend": 36.75
+          },
+          {
+            "run_id": 128,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 129,
+            "focus_team": "KKR",
+            "total_spend": 36.2
+          },
+          {
+            "run_id": 130,
+            "focus_team": "KKR",
+            "total_spend": 43.05
+          },
+          {
+            "run_id": 131,
+            "focus_team": "KKR",
+            "total_spend": 39.15
+          },
+          {
+            "run_id": 132,
+            "focus_team": "KKR",
+            "total_spend": 41.0
+          },
+          {
+            "run_id": 133,
+            "focus_team": "KKR",
+            "total_spend": 39.35
+          },
+          {
+            "run_id": 134,
+            "focus_team": "KKR",
+            "total_spend": 38.95
+          },
+          {
+            "run_id": 135,
+            "focus_team": "KKR",
+            "total_spend": 37.4
+          },
+          {
+            "run_id": 136,
+            "focus_team": "KKR",
+            "total_spend": 43.55
+          },
+          {
+            "run_id": 137,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 138,
+            "focus_team": "KKR",
+            "total_spend": 38.45
+          },
+          {
+            "run_id": 139,
+            "focus_team": "KKR",
+            "total_spend": 35.5
+          },
+          {
+            "run_id": 140,
+            "focus_team": "KKR",
+            "total_spend": 44.35
+          },
+          {
+            "run_id": 141,
+            "focus_team": "KKR",
+            "total_spend": 38.4
+          },
+          {
+            "run_id": 142,
+            "focus_team": "KKR",
+            "total_spend": 36.8
+          },
+          {
+            "run_id": 143,
+            "focus_team": "KKR",
+            "total_spend": 45.8
+          },
+          {
+            "run_id": 144,
+            "focus_team": "KKR",
+            "total_spend": 35.7
+          },
+          {
+            "run_id": 145,
+            "focus_team": "KKR",
+            "total_spend": 42.8
+          },
+          {
+            "run_id": 146,
+            "focus_team": "KKR",
+            "total_spend": 44.05
+          },
+          {
+            "run_id": 147,
+            "focus_team": "KKR",
+            "total_spend": 35.8
+          },
+          {
+            "run_id": 148,
+            "focus_team": "KKR",
+            "total_spend": 37.05
+          },
+          {
+            "run_id": 149,
+            "focus_team": "KKR",
+            "total_spend": 37.5
+          },
+          {
+            "run_id": 150,
+            "focus_team": "KKR",
+            "total_spend": 37.1
+          },
+          {
+            "run_id": 151,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 152,
+            "focus_team": "KKR",
+            "total_spend": 36.2
+          },
+          {
+            "run_id": 153,
+            "focus_team": "KKR",
+            "total_spend": 38.55
+          },
+          {
+            "run_id": 154,
+            "focus_team": "KKR",
+            "total_spend": 36.05
+          },
+          {
+            "run_id": 155,
+            "focus_team": "KKR",
+            "total_spend": 43.9
+          },
+          {
+            "run_id": 156,
+            "focus_team": "KKR",
+            "total_spend": 43.05
+          },
+          {
+            "run_id": 157,
+            "focus_team": "KKR",
+            "total_spend": 43.25
+          },
+          {
+            "run_id": 158,
+            "focus_team": "KKR",
+            "total_spend": 37.8
+          },
+          {
+            "run_id": 159,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 160,
+            "focus_team": "KKR",
+            "total_spend": 39.7
+          },
+          {
+            "run_id": 161,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 162,
+            "focus_team": "KKR",
+            "total_spend": 36.15
+          },
+          {
+            "run_id": 163,
+            "focus_team": "KKR",
+            "total_spend": 40.9
+          },
+          {
+            "run_id": 164,
+            "focus_team": "KKR",
+            "total_spend": 38.3
+          },
+          {
+            "run_id": 165,
+            "focus_team": "KKR",
+            "total_spend": 42.75
+          },
+          {
+            "run_id": 166,
+            "focus_team": "KKR",
+            "total_spend": 43.8
+          },
+          {
+            "run_id": 167,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 168,
+            "focus_team": "KKR",
+            "total_spend": 42.85
+          },
+          {
+            "run_id": 169,
+            "focus_team": "KKR",
+            "total_spend": 42.95
+          },
+          {
+            "run_id": 170,
+            "focus_team": "KKR",
+            "total_spend": 42.6
+          },
+          {
+            "run_id": 171,
+            "focus_team": "KKR",
+            "total_spend": 35.8
+          },
+          {
+            "run_id": 172,
+            "focus_team": "KKR",
+            "total_spend": 42.65
+          },
+          {
+            "run_id": 173,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 174,
+            "focus_team": "KKR",
+            "total_spend": 43.65
+          },
+          {
+            "run_id": 175,
+            "focus_team": "KKR",
+            "total_spend": 37.35
+          },
+          {
+            "run_id": 176,
+            "focus_team": "KKR",
+            "total_spend": 37.5
+          },
+          {
+            "run_id": 177,
+            "focus_team": "KKR",
+            "total_spend": 40.05
+          },
+          {
+            "run_id": 178,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 179,
+            "focus_team": "KKR",
+            "total_spend": 39.35
+          },
+          {
+            "run_id": 180,
+            "focus_team": "KKR",
+            "total_spend": 37.2
+          },
+          {
+            "run_id": 181,
+            "focus_team": "KKR",
+            "total_spend": 43.1
+          },
+          {
+            "run_id": 182,
+            "focus_team": "KKR",
+            "total_spend": 38.85
+          },
+          {
+            "run_id": 183,
+            "focus_team": "KKR",
+            "total_spend": 36.75
+          },
+          {
+            "run_id": 184,
+            "focus_team": "KKR",
+            "total_spend": 43.35
+          },
+          {
+            "run_id": 185,
+            "focus_team": "KKR",
+            "total_spend": 43.7
+          },
+          {
+            "run_id": 186,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 187,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 188,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 189,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 190,
+            "focus_team": "KKR",
+            "total_spend": 37.95
+          },
+          {
+            "run_id": 191,
+            "focus_team": "KKR",
+            "total_spend": 38.8
+          },
+          {
+            "run_id": 192,
+            "focus_team": "KKR",
+            "total_spend": 43.1
+          },
+          {
+            "run_id": 193,
+            "focus_team": "KKR",
+            "total_spend": 41.2
+          },
+          {
+            "run_id": 194,
+            "focus_team": "KKR",
+            "total_spend": 39.65
+          },
+          {
+            "run_id": 195,
+            "focus_team": "KKR",
+            "total_spend": 36.0
+          },
+          {
+            "run_id": 196,
+            "focus_team": "KKR",
+            "total_spend": 46.0
+          },
+          {
+            "run_id": 197,
+            "focus_team": "KKR",
+            "total_spend": 36.95
+          },
+          {
+            "run_id": 198,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 199,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 200,
+            "focus_team": "KKR",
+            "total_spend": 42.25
+          },
+          {
+            "run_id": 201,
+            "focus_team": "KKR",
+            "total_spend": 40.95
+          },
+          {
+            "run_id": 202,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 203,
+            "focus_team": "KKR",
+            "total_spend": 42.3
+          },
+          {
+            "run_id": 204,
+            "focus_team": "KKR",
+            "total_spend": 37.25
+          },
+          {
+            "run_id": 205,
+            "focus_team": "KKR",
+            "total_spend": 42.9
+          },
+          {
+            "run_id": 206,
+            "focus_team": "KKR",
+            "total_spend": 43.8
+          },
+          {
+            "run_id": 207,
+            "focus_team": "KKR",
+            "total_spend": 45.25
+          },
+          {
+            "run_id": 208,
+            "focus_team": "KKR",
+            "total_spend": 38.2
+          },
+          {
+            "run_id": 209,
+            "focus_team": "KKR",
+            "total_spend": 38.15
+          },
+          {
+            "run_id": 210,
+            "focus_team": "KKR",
+            "total_spend": 36.85
+          },
+          {
+            "run_id": 211,
+            "focus_team": "KKR",
+            "total_spend": 41.65
+          },
+          {
+            "run_id": 212,
+            "focus_team": "KKR",
+            "total_spend": 38.4
+          },
+          {
+            "run_id": 213,
+            "focus_team": "KKR",
+            "total_spend": 43.85
+          },
+          {
+            "run_id": 214,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 215,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 216,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 217,
+            "focus_team": "KKR",
+            "total_spend": 42.3
+          },
+          {
+            "run_id": 218,
+            "focus_team": "KKR",
+            "total_spend": 42.35
+          },
+          {
+            "run_id": 219,
+            "focus_team": "KKR",
+            "total_spend": 37.35
+          },
+          {
+            "run_id": 220,
+            "focus_team": "KKR",
+            "total_spend": 42.45
+          },
+          {
+            "run_id": 221,
+            "focus_team": "KKR",
+            "total_spend": 44.1
+          },
+          {
+            "run_id": 222,
+            "focus_team": "KKR",
+            "total_spend": 42.1
+          },
+          {
+            "run_id": 223,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 224,
+            "focus_team": "KKR",
+            "total_spend": 41.45
+          },
+          {
+            "run_id": 225,
+            "focus_team": "KKR",
+            "total_spend": 38.0
+          },
+          {
+            "run_id": 226,
+            "focus_team": "KKR",
+            "total_spend": 42.9
+          },
+          {
+            "run_id": 227,
+            "focus_team": "KKR",
+            "total_spend": 41.05
+          },
+          {
+            "run_id": 228,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 229,
+            "focus_team": "KKR",
+            "total_spend": 38.65
+          },
+          {
+            "run_id": 230,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 231,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 232,
+            "focus_team": "KKR",
+            "total_spend": 42.7
+          },
+          {
+            "run_id": 233,
+            "focus_team": "KKR",
+            "total_spend": 42.55
+          },
+          {
+            "run_id": 234,
+            "focus_team": "KKR",
+            "total_spend": 39.25
+          },
+          {
+            "run_id": 235,
+            "focus_team": "KKR",
+            "total_spend": 41.9
+          },
+          {
+            "run_id": 236,
+            "focus_team": "KKR",
+            "total_spend": 44.0
+          },
+          {
+            "run_id": 237,
+            "focus_team": "KKR",
+            "total_spend": 43.6
+          },
+          {
+            "run_id": 238,
+            "focus_team": "KKR",
+            "total_spend": 38.1
+          },
+          {
+            "run_id": 239,
+            "focus_team": "KKR",
+            "total_spend": 39.4
+          },
+          {
+            "run_id": 240,
+            "focus_team": "KKR",
+            "total_spend": 42.75
+          },
+          {
+            "run_id": 241,
+            "focus_team": "KKR",
+            "total_spend": 43.15
+          },
+          {
+            "run_id": 242,
+            "focus_team": "KKR",
+            "total_spend": 40.5
+          },
+          {
+            "run_id": 243,
+            "focus_team": "KKR",
+            "total_spend": 44.3
+          },
+          {
+            "run_id": 244,
+            "focus_team": "KKR",
+            "total_spend": 41.9
+          },
+          {
+            "run_id": 245,
+            "focus_team": "KKR",
+            "total_spend": 44.7
+          },
+          {
+            "run_id": 246,
+            "focus_team": "KKR",
+            "total_spend": 43.1
+          },
+          {
+            "run_id": 247,
+            "focus_team": "KKR",
+            "total_spend": 43.05
+          },
+          {
+            "run_id": 248,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 249,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 250,
+            "focus_team": "KKR",
+            "total_spend": 36.45
+          },
+          {
+            "run_id": 251,
+            "focus_team": "KKR",
+            "total_spend": 37.0
+          },
+          {
+            "run_id": 252,
+            "focus_team": "KKR",
+            "total_spend": 42.5
+          },
+          {
+            "run_id": 253,
+            "focus_team": "KKR",
+            "total_spend": 37.75
+          },
+          {
+            "run_id": 254,
+            "focus_team": "KKR",
+            "total_spend": 42.9
+          },
+          {
+            "run_id": 255,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 256,
+            "focus_team": "KKR",
+            "total_spend": 41.1
+          },
+          {
+            "run_id": 257,
+            "focus_team": "KKR",
+            "total_spend": 44.9
+          },
+          {
+            "run_id": 258,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 259,
+            "focus_team": "KKR",
+            "total_spend": 43.6
+          },
+          {
+            "run_id": 260,
+            "focus_team": "KKR",
+            "total_spend": 37.75
+          },
+          {
+            "run_id": 261,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 262,
+            "focus_team": "KKR",
+            "total_spend": 45.0
+          },
+          {
+            "run_id": 263,
+            "focus_team": "KKR",
+            "total_spend": 42.1
+          },
+          {
+            "run_id": 264,
+            "focus_team": "KKR",
+            "total_spend": 37.7
+          },
+          {
+            "run_id": 265,
+            "focus_team": "KKR",
+            "total_spend": 43.8
+          },
+          {
+            "run_id": 266,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 267,
+            "focus_team": "KKR",
+            "total_spend": 39.35
+          },
+          {
+            "run_id": 268,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 269,
+            "focus_team": "KKR",
+            "total_spend": 37.55
+          },
+          {
+            "run_id": 270,
+            "focus_team": "KKR",
+            "total_spend": 44.1
+          },
+          {
+            "run_id": 271,
+            "focus_team": "KKR",
+            "total_spend": 43.55
+          },
+          {
+            "run_id": 272,
+            "focus_team": "KKR",
+            "total_spend": 44.0
+          },
+          {
+            "run_id": 273,
+            "focus_team": "KKR",
+            "total_spend": 42.15
+          },
+          {
+            "run_id": 274,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 275,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 276,
+            "focus_team": "KKR",
+            "total_spend": 35.6
+          },
+          {
+            "run_id": 277,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 278,
+            "focus_team": "KKR",
+            "total_spend": 37.8
+          },
+          {
+            "run_id": 279,
+            "focus_team": "KKR",
+            "total_spend": 44.5
+          },
+          {
+            "run_id": 280,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 281,
+            "focus_team": "KKR",
+            "total_spend": 44.55
+          },
+          {
+            "run_id": 282,
+            "focus_team": "KKR",
+            "total_spend": 41.5
+          },
+          {
+            "run_id": 283,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 284,
+            "focus_team": "KKR",
+            "total_spend": 38.7
+          },
+          {
+            "run_id": 285,
+            "focus_team": "KKR",
+            "total_spend": 41.0
+          },
+          {
+            "run_id": 286,
+            "focus_team": "KKR",
+            "total_spend": 43.65
+          },
+          {
+            "run_id": 287,
+            "focus_team": "KKR",
+            "total_spend": 44.3
+          },
+          {
+            "run_id": 288,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 289,
+            "focus_team": "KKR",
+            "total_spend": 41.3
+          },
+          {
+            "run_id": 290,
+            "focus_team": "KKR",
+            "total_spend": 42.6
+          },
+          {
+            "run_id": 291,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 292,
+            "focus_team": "KKR",
+            "total_spend": 43.25
+          },
+          {
+            "run_id": 293,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 294,
+            "focus_team": "KKR",
+            "total_spend": 36.65
+          },
+          {
+            "run_id": 295,
+            "focus_team": "KKR",
+            "total_spend": 36.2
+          },
+          {
+            "run_id": 296,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 297,
+            "focus_team": "KKR",
+            "total_spend": 38.0
+          },
+          {
+            "run_id": 298,
+            "focus_team": "KKR",
+            "total_spend": 36.0
+          },
+          {
+            "run_id": 299,
+            "focus_team": "KKR",
+            "total_spend": 41.4
+          },
+          {
+            "run_id": 300,
+            "focus_team": "KKR",
+            "total_spend": 37.4
+          },
+          {
+            "run_id": 301,
+            "focus_team": "KKR",
+            "total_spend": 35.9
+          },
+          {
+            "run_id": 302,
+            "focus_team": "KKR",
+            "total_spend": 41.45
+          },
+          {
+            "run_id": 303,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 304,
+            "focus_team": "KKR",
+            "total_spend": 40.75
+          },
+          {
+            "run_id": 305,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 306,
+            "focus_team": "KKR",
+            "total_spend": 35.4
+          },
+          {
+            "run_id": 307,
+            "focus_team": "KKR",
+            "total_spend": 39.7
+          },
+          {
+            "run_id": 308,
+            "focus_team": "KKR",
+            "total_spend": 40.45
+          },
+          {
+            "run_id": 309,
+            "focus_team": "KKR",
+            "total_spend": 42.6
+          },
+          {
+            "run_id": 310,
+            "focus_team": "KKR",
+            "total_spend": 41.65
+          },
+          {
+            "run_id": 311,
+            "focus_team": "KKR",
+            "total_spend": 42.2
+          },
+          {
+            "run_id": 312,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 313,
+            "focus_team": "KKR",
+            "total_spend": 45.3
+          },
+          {
+            "run_id": 314,
+            "focus_team": "KKR",
+            "total_spend": 43.05
+          },
+          {
+            "run_id": 315,
+            "focus_team": "KKR",
+            "total_spend": 40.8
+          },
+          {
+            "run_id": 316,
+            "focus_team": "KKR",
+            "total_spend": 42.25
+          },
+          {
+            "run_id": 317,
+            "focus_team": "KKR",
+            "total_spend": 43.45
+          },
+          {
+            "run_id": 318,
+            "focus_team": "KKR",
+            "total_spend": 37.5
+          },
+          {
+            "run_id": 319,
+            "focus_team": "KKR",
+            "total_spend": 42.85
+          },
+          {
+            "run_id": 320,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 321,
+            "focus_team": "KKR",
+            "total_spend": 37.0
+          },
+          {
+            "run_id": 322,
+            "focus_team": "KKR",
+            "total_spend": 41.5
+          },
+          {
+            "run_id": 323,
+            "focus_team": "KKR",
+            "total_spend": 43.6
+          },
+          {
+            "run_id": 324,
+            "focus_team": "KKR",
+            "total_spend": 43.75
+          },
+          {
+            "run_id": 325,
+            "focus_team": "KKR",
+            "total_spend": 38.45
+          },
+          {
+            "run_id": 326,
+            "focus_team": "KKR",
+            "total_spend": 36.45
+          },
+          {
+            "run_id": 327,
+            "focus_team": "KKR",
+            "total_spend": 43.55
+          },
+          {
+            "run_id": 328,
+            "focus_team": "KKR",
+            "total_spend": 38.85
+          },
+          {
+            "run_id": 329,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 330,
+            "focus_team": "KKR",
+            "total_spend": 36.55
+          },
+          {
+            "run_id": 331,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 332,
+            "focus_team": "KKR",
+            "total_spend": 37.3
+          },
+          {
+            "run_id": 333,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 334,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 335,
+            "focus_team": "KKR",
+            "total_spend": 42.05
+          },
+          {
+            "run_id": 336,
+            "focus_team": "KKR",
+            "total_spend": 35.9
+          },
+          {
+            "run_id": 337,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 338,
+            "focus_team": "KKR",
+            "total_spend": 35.9
+          },
+          {
+            "run_id": 339,
+            "focus_team": "KKR",
+            "total_spend": 35.55
+          },
+          {
+            "run_id": 340,
+            "focus_team": "KKR",
+            "total_spend": 35.95
+          },
+          {
+            "run_id": 341,
+            "focus_team": "KKR",
+            "total_spend": 38.8
+          },
+          {
+            "run_id": 342,
+            "focus_team": "KKR",
+            "total_spend": 44.4
+          },
+          {
+            "run_id": 343,
+            "focus_team": "KKR",
+            "total_spend": 42.25
+          },
+          {
+            "run_id": 344,
+            "focus_team": "KKR",
+            "total_spend": 38.35
+          },
+          {
+            "run_id": 345,
+            "focus_team": "KKR",
+            "total_spend": 36.9
+          },
+          {
+            "run_id": 346,
+            "focus_team": "KKR",
+            "total_spend": 37.1
+          },
+          {
+            "run_id": 347,
+            "focus_team": "KKR",
+            "total_spend": 37.8
+          },
+          {
+            "run_id": 348,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 349,
+            "focus_team": "KKR",
+            "total_spend": 37.1
+          },
+          {
+            "run_id": 350,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 351,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 352,
+            "focus_team": "KKR",
+            "total_spend": 43.45
+          },
+          {
+            "run_id": 353,
+            "focus_team": "KKR",
+            "total_spend": 37.6
+          },
+          {
+            "run_id": 354,
+            "focus_team": "KKR",
+            "total_spend": 38.35
+          },
+          {
+            "run_id": 355,
+            "focus_team": "KKR",
+            "total_spend": 36.8
+          },
+          {
+            "run_id": 356,
+            "focus_team": "KKR",
+            "total_spend": 43.45
+          },
+          {
+            "run_id": 357,
+            "focus_team": "KKR",
+            "total_spend": 43.45
+          },
+          {
+            "run_id": 358,
+            "focus_team": "KKR",
+            "total_spend": 42.35
+          },
+          {
+            "run_id": 359,
+            "focus_team": "KKR",
+            "total_spend": 37.0
+          },
+          {
+            "run_id": 360,
+            "focus_team": "KKR",
+            "total_spend": 36.8
+          },
+          {
+            "run_id": 361,
+            "focus_team": "KKR",
+            "total_spend": 38.4
+          },
+          {
+            "run_id": 362,
+            "focus_team": "KKR",
+            "total_spend": 36.25
+          },
+          {
+            "run_id": 363,
+            "focus_team": "KKR",
+            "total_spend": 43.4
+          },
+          {
+            "run_id": 364,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 365,
+            "focus_team": "KKR",
+            "total_spend": 38.6
+          },
+          {
+            "run_id": 366,
+            "focus_team": "KKR",
+            "total_spend": 37.05
+          },
+          {
+            "run_id": 367,
+            "focus_team": "KKR",
+            "total_spend": 36.65
+          },
+          {
+            "run_id": 368,
+            "focus_team": "KKR",
+            "total_spend": 41.9
+          },
+          {
+            "run_id": 369,
+            "focus_team": "KKR",
+            "total_spend": 37.4
+          },
+          {
+            "run_id": 370,
+            "focus_team": "KKR",
+            "total_spend": 41.8
+          },
+          {
+            "run_id": 371,
+            "focus_team": "KKR",
+            "total_spend": 42.1
+          },
+          {
+            "run_id": 372,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 373,
+            "focus_team": "KKR",
+            "total_spend": 37.6
+          },
+          {
+            "run_id": 374,
+            "focus_team": "KKR",
+            "total_spend": 44.95
+          },
+          {
+            "run_id": 375,
+            "focus_team": "KKR",
+            "total_spend": 44.6
+          },
+          {
+            "run_id": 376,
+            "focus_team": "KKR",
+            "total_spend": 37.75
+          },
+          {
+            "run_id": 377,
+            "focus_team": "KKR",
+            "total_spend": 42.7
+          },
+          {
+            "run_id": 378,
+            "focus_team": "KKR",
+            "total_spend": 37.0
+          },
+          {
+            "run_id": 379,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 380,
+            "focus_team": "KKR",
+            "total_spend": 35.55
+          },
+          {
+            "run_id": 381,
+            "focus_team": "KKR",
+            "total_spend": 42.9
+          },
+          {
+            "run_id": 382,
+            "focus_team": "KKR",
+            "total_spend": 37.9
+          },
+          {
+            "run_id": 383,
+            "focus_team": "KKR",
+            "total_spend": 37.65
+          },
+          {
+            "run_id": 384,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 385,
+            "focus_team": "KKR",
+            "total_spend": 39.15
+          },
+          {
+            "run_id": 386,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 387,
+            "focus_team": "KKR",
+            "total_spend": 38.45
+          },
+          {
+            "run_id": 388,
+            "focus_team": "KKR",
+            "total_spend": 37.7
+          },
+          {
+            "run_id": 389,
+            "focus_team": "KKR",
+            "total_spend": 42.5
+          },
+          {
+            "run_id": 390,
+            "focus_team": "KKR",
+            "total_spend": 43.75
+          },
+          {
+            "run_id": 391,
+            "focus_team": "KKR",
+            "total_spend": 43.3
+          },
+          {
+            "run_id": 392,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 393,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 394,
+            "focus_team": "KKR",
+            "total_spend": 35.8
+          },
+          {
+            "run_id": 395,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 396,
+            "focus_team": "KKR",
+            "total_spend": 36.75
+          },
+          {
+            "run_id": 397,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 398,
+            "focus_team": "KKR",
+            "total_spend": 41.85
+          },
+          {
+            "run_id": 399,
+            "focus_team": "KKR",
+            "total_spend": 37.35
+          },
+          {
+            "run_id": 400,
+            "focus_team": "KKR",
+            "total_spend": 36.2
+          },
+          {
+            "run_id": 401,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 402,
+            "focus_team": "KKR",
+            "total_spend": 42.75
+          },
+          {
+            "run_id": 403,
+            "focus_team": "KKR",
+            "total_spend": 35.85
+          },
+          {
+            "run_id": 404,
+            "focus_team": "KKR",
+            "total_spend": 41.25
+          },
+          {
+            "run_id": 405,
+            "focus_team": "KKR",
+            "total_spend": 41.85
+          },
+          {
+            "run_id": 406,
+            "focus_team": "KKR",
+            "total_spend": 43.4
+          },
+          {
+            "run_id": 407,
+            "focus_team": "KKR",
+            "total_spend": 37.2
+          },
+          {
+            "run_id": 408,
+            "focus_team": "KKR",
+            "total_spend": 38.0
+          },
+          {
+            "run_id": 409,
+            "focus_team": "KKR",
+            "total_spend": 42.65
+          },
+          {
+            "run_id": 410,
+            "focus_team": "KKR",
+            "total_spend": 37.55
+          },
+          {
+            "run_id": 411,
+            "focus_team": "KKR",
+            "total_spend": 36.65
+          },
+          {
+            "run_id": 412,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 413,
+            "focus_team": "KKR",
+            "total_spend": 37.75
+          },
+          {
+            "run_id": 414,
+            "focus_team": "KKR",
+            "total_spend": 41.95
+          },
+          {
+            "run_id": 415,
+            "focus_team": "KKR",
+            "total_spend": 35.9
+          },
+          {
+            "run_id": 416,
+            "focus_team": "KKR",
+            "total_spend": 37.8
+          },
+          {
+            "run_id": 417,
+            "focus_team": "KKR",
+            "total_spend": 43.45
+          },
+          {
+            "run_id": 418,
+            "focus_team": "KKR",
+            "total_spend": 43.05
+          },
+          {
+            "run_id": 419,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 420,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 421,
+            "focus_team": "KKR",
+            "total_spend": 43.75
+          },
+          {
+            "run_id": 422,
+            "focus_team": "KKR",
+            "total_spend": 41.9
+          },
+          {
+            "run_id": 423,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 424,
+            "focus_team": "KKR",
+            "total_spend": 41.65
+          },
+          {
+            "run_id": 425,
+            "focus_team": "KKR",
+            "total_spend": 43.95
+          },
+          {
+            "run_id": 426,
+            "focus_team": "KKR",
+            "total_spend": 44.0
+          },
+          {
+            "run_id": 427,
+            "focus_team": "KKR",
+            "total_spend": 42.2
+          },
+          {
+            "run_id": 428,
+            "focus_team": "KKR",
+            "total_spend": 37.85
+          },
+          {
+            "run_id": 429,
+            "focus_team": "KKR",
+            "total_spend": 36.7
+          },
+          {
+            "run_id": 430,
+            "focus_team": "KKR",
+            "total_spend": 42.95
+          },
+          {
+            "run_id": 431,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 432,
+            "focus_team": "KKR",
+            "total_spend": 36.0
+          },
+          {
+            "run_id": 433,
+            "focus_team": "KKR",
+            "total_spend": 42.3
+          },
+          {
+            "run_id": 434,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 435,
+            "focus_team": "KKR",
+            "total_spend": 36.95
+          },
+          {
+            "run_id": 436,
+            "focus_team": "KKR",
+            "total_spend": 41.85
+          },
+          {
+            "run_id": 437,
+            "focus_team": "KKR",
+            "total_spend": 37.25
+          },
+          {
+            "run_id": 438,
+            "focus_team": "KKR",
+            "total_spend": 44.3
+          },
+          {
+            "run_id": 439,
+            "focus_team": "KKR",
+            "total_spend": 37.35
+          },
+          {
+            "run_id": 440,
+            "focus_team": "KKR",
+            "total_spend": 41.85
+          },
+          {
+            "run_id": 441,
+            "focus_team": "KKR",
+            "total_spend": 43.15
+          },
+          {
+            "run_id": 442,
+            "focus_team": "KKR",
+            "total_spend": 42.8
+          },
+          {
+            "run_id": 443,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 444,
+            "focus_team": "KKR",
+            "total_spend": 36.85
+          },
+          {
+            "run_id": 445,
+            "focus_team": "KKR",
+            "total_spend": 35.9
+          },
+          {
+            "run_id": 446,
+            "focus_team": "KKR",
+            "total_spend": 39.35
+          },
+          {
+            "run_id": 447,
+            "focus_team": "KKR",
+            "total_spend": 41.6
+          },
+          {
+            "run_id": 448,
+            "focus_team": "KKR",
+            "total_spend": 41.0
+          },
+          {
+            "run_id": 449,
+            "focus_team": "KKR",
+            "total_spend": 42.6
+          },
+          {
+            "run_id": 450,
+            "focus_team": "KKR",
+            "total_spend": 35.7
+          },
+          {
+            "run_id": 451,
+            "focus_team": "KKR",
+            "total_spend": 38.8
+          },
+          {
+            "run_id": 452,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 453,
+            "focus_team": "KKR",
+            "total_spend": 36.5
+          },
+          {
+            "run_id": 454,
+            "focus_team": "KKR",
+            "total_spend": 36.4
+          },
+          {
+            "run_id": 455,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 456,
+            "focus_team": "KKR",
+            "total_spend": 44.3
+          },
+          {
+            "run_id": 457,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 458,
+            "focus_team": "KKR",
+            "total_spend": 37.95
+          },
+          {
+            "run_id": 459,
+            "focus_team": "KKR",
+            "total_spend": 41.25
+          },
+          {
+            "run_id": 460,
+            "focus_team": "KKR",
+            "total_spend": 44.1
+          },
+          {
+            "run_id": 461,
+            "focus_team": "KKR",
+            "total_spend": 41.8
+          },
+          {
+            "run_id": 462,
+            "focus_team": "KKR",
+            "total_spend": 37.65
+          },
+          {
+            "run_id": 463,
+            "focus_team": "KKR",
+            "total_spend": 44.7
+          },
+          {
+            "run_id": 464,
+            "focus_team": "KKR",
+            "total_spend": 36.3
+          },
+          {
+            "run_id": 465,
+            "focus_team": "KKR",
+            "total_spend": 36.65
+          },
+          {
+            "run_id": 466,
+            "focus_team": "KKR",
+            "total_spend": 42.0
+          },
+          {
+            "run_id": 467,
+            "focus_team": "KKR",
+            "total_spend": 43.9
+          },
+          {
+            "run_id": 468,
+            "focus_team": "KKR",
+            "total_spend": 43.35
+          },
+          {
+            "run_id": 469,
+            "focus_team": "KKR",
+            "total_spend": 35.5
+          },
+          {
+            "run_id": 470,
+            "focus_team": "KKR",
+            "total_spend": 41.7
+          },
+          {
+            "run_id": 471,
+            "focus_team": "KKR",
+            "total_spend": 37.8
+          },
+          {
+            "run_id": 472,
+            "focus_team": "KKR",
+            "total_spend": 44.0
+          },
+          {
+            "run_id": 473,
+            "focus_team": "KKR",
+            "total_spend": 37.25
+          },
+          {
+            "run_id": 474,
+            "focus_team": "KKR",
+            "total_spend": 43.35
+          },
+          {
+            "run_id": 475,
+            "focus_team": "KKR",
+            "total_spend": 44.3
+          },
+          {
+            "run_id": 476,
+            "focus_team": "KKR",
+            "total_spend": 38.1
+          },
+          {
+            "run_id": 477,
+            "focus_team": "KKR",
+            "total_spend": 37.55
+          },
+          {
+            "run_id": 478,
+            "focus_team": "KKR",
+            "total_spend": 38.05
+          },
+          {
+            "run_id": 479,
+            "focus_team": "KKR",
+            "total_spend": 43.6
+          },
+          {
+            "run_id": 480,
+            "focus_team": "KKR",
+            "total_spend": 42.95
+          },
+          {
+            "run_id": 481,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 482,
+            "focus_team": "KKR",
+            "total_spend": 43.85
+          },
+          {
+            "run_id": 483,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 484,
+            "focus_team": "KKR",
+            "total_spend": 44.0
+          },
+          {
+            "run_id": 485,
+            "focus_team": "KKR",
+            "total_spend": 42.3
+          },
+          {
+            "run_id": 486,
+            "focus_team": "KKR",
+            "total_spend": 41.85
+          },
+          {
+            "run_id": 487,
+            "focus_team": "KKR",
+            "total_spend": 42.4
+          },
+          {
+            "run_id": 488,
+            "focus_team": "KKR",
+            "total_spend": 37.2
+          },
+          {
+            "run_id": 489,
+            "focus_team": "KKR",
+            "total_spend": 40.9
+          },
+          {
+            "run_id": 490,
+            "focus_team": "KKR",
+            "total_spend": 36.6
+          },
+          {
+            "run_id": 491,
+            "focus_team": "KKR",
+            "total_spend": 38.5
+          },
+          {
+            "run_id": 492,
+            "focus_team": "KKR",
+            "total_spend": 42.2
+          },
+          {
+            "run_id": 493,
+            "focus_team": "KKR",
+            "total_spend": 43.5
+          },
+          {
+            "run_id": 494,
+            "focus_team": "KKR",
+            "total_spend": 41.3
+          },
+          {
+            "run_id": 495,
+            "focus_team": "KKR",
+            "total_spend": 38.65
+          },
+          {
+            "run_id": 496,
+            "focus_team": "KKR",
+            "total_spend": 38.8
+          },
+          {
+            "run_id": 497,
+            "focus_team": "KKR",
+            "total_spend": 36.45
+          },
+          {
+            "run_id": 498,
+            "focus_team": "KKR",
+            "total_spend": 37.45
+          },
+          {
+            "run_id": 499,
+            "focus_team": "KKR",
+            "total_spend": 43.0
+          },
+          {
+            "run_id": 500,
+            "focus_team": "KKR",
+            "total_spend": 36.2
           }
         ],
         "top_targets": [
           {
             "player_name": "David Miller",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 9.0
           },
           {
             "player_name": "Devon Conway",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 6.0
           },
           {
             "player_name": "Gus Atkinson",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "K.S. Bharat",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
-            "avg_price_when_bought": 1.14
+            "avg_price_when_bought": 1.13
           },
           {
             "player_name": "Venkatesh Iyer",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "Wiaan Mulder",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           }
@@ -39522,147 +49272,147 @@ window.DASHBOARD_DATA = {
         "mc_purchase_summary": [
           {
             "player_name": "Akeal Hosein",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Ashok Sharma",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 0.99
-          },
-          {
-            "player_name": "Maheesh Theekshana",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.73
+            "times_bought": 278,
+            "share_of_runs": 0.556,
+            "avg_price_when_bought": 3.67
           },
           {
             "player_name": "Mujeeb Rahman",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.68
+            "times_bought": 273,
+            "share_of_runs": 0.546,
+            "avg_price_when_bought": 3.46
           },
           {
-            "player_name": "Sushant Mishra",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.01
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 1.2
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.99
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 4.25
+            "player_name": "Maheesh Theekshana",
+            "times_bought": 271,
+            "share_of_runs": 0.542,
+            "avg_price_when_bought": 3.76
           },
           {
             "player_name": "Naman Tiwari",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 0.92
+            "times_bought": 190,
+            "share_of_runs": 0.38,
+            "avg_price_when_bought": 0.98
           },
           {
-            "player_name": "Raj Limbani",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.66
+            "player_name": "Sushant Mishra",
+            "times_bought": 185,
+            "share_of_runs": 0.37,
+            "avg_price_when_bought": 0.95
           },
           {
-            "player_name": "Akash Madhwal",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.7
+            "player_name": "Ashok Sharma",
+            "times_bought": 169,
+            "share_of_runs": 0.338,
+            "avg_price_when_bought": 0.97
           },
           {
-            "player_name": "Matt Henry",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 4.25
-          },
-          {
-            "player_name": "Simarjeet Singh",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.65
-          },
-          {
-            "player_name": "Gerald Coetzee",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 3.0
-          },
-          {
-            "player_name": "Karn Sharma",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 2.1
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 2.35
-          },
-          {
-            "player_name": "Vignesh Puthur",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
+            "player_name": "Kartik Tyagi",
+            "times_bought": 153,
+            "share_of_runs": 0.306,
             "avg_price_when_bought": 1.13
           },
           {
-            "player_name": "Anrich Nortje",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 5.0
+            "player_name": "Raj Limbani",
+            "times_bought": 151,
+            "share_of_runs": 0.302,
+            "avg_price_when_bought": 0.63
           },
           {
-            "player_name": "Kumar Kartikeya Singh",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 2.0
+            "player_name": "Simarjeet Singh",
+            "times_bought": 144,
+            "share_of_runs": 0.288,
+            "avg_price_when_bought": 0.77
           },
           {
-            "player_name": "Prashant Solanki",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 1.2
+            "player_name": "Akash Madhwal",
+            "times_bought": 123,
+            "share_of_runs": 0.246,
+            "avg_price_when_bought": 0.78
           },
           {
-            "player_name": "Shivam Shukla",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.7
+            "player_name": "Vignesh Puthur",
+            "times_bought": 95,
+            "share_of_runs": 0.19,
+            "avg_price_when_bought": 1.19
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "times_bought": 93,
+            "share_of_runs": 0.186,
+            "avg_price_when_bought": 1.19
           },
           {
             "player_name": "Fazalhaq Farooqi",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 89,
+            "share_of_runs": 0.178,
             "avg_price_when_bought": 2.25
           },
           {
+            "player_name": "Karn Sharma",
+            "times_bought": 89,
+            "share_of_runs": 0.178,
+            "avg_price_when_bought": 2.24
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "times_bought": 88,
+            "share_of_runs": 0.176,
+            "avg_price_when_bought": 4.24
+          },
+          {
+            "player_name": "Shivam Shukla",
+            "times_bought": 85,
+            "share_of_runs": 0.17,
+            "avg_price_when_bought": 0.69
+          },
+          {
+            "player_name": "Kumar Kartikeya Singh",
+            "times_bought": 83,
+            "share_of_runs": 0.166,
+            "avg_price_when_bought": 1.98
+          },
+          {
+            "player_name": "Gerald Coetzee",
+            "times_bought": 79,
+            "share_of_runs": 0.158,
+            "avg_price_when_bought": 3.0
+          },
+          {
+            "player_name": "Prashant Solanki",
+            "times_bought": 69,
+            "share_of_runs": 0.138,
+            "avg_price_when_bought": 1.17
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "times_bought": 69,
+            "share_of_runs": 0.138,
+            "avg_price_when_bought": 2.35
+          },
+          {
+            "player_name": "Matt Henry",
+            "times_bought": 63,
+            "share_of_runs": 0.126,
+            "avg_price_when_bought": 4.25
+          },
+          {
+            "player_name": "Anrich Nortje",
+            "times_bought": 59,
+            "share_of_runs": 0.118,
+            "avg_price_when_bought": 4.97
+          },
+          {
             "player_name": "Matheesha Pathirana",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 53,
+            "share_of_runs": 0.106,
             "avg_price_when_bought": 5.0
           },
           {
             "player_name": "Wahidullah Zadran",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.4
+            "times_bought": 49,
+            "share_of_runs": 0.098,
+            "avg_price_when_bought": 0.44
           }
         ],
         "mc_spend_summary": [
@@ -39765,44 +49515,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "LSG",
             "total_spend": 14.15
+          },
+          {
+            "run_id": 21,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 22,
+            "focus_team": "LSG",
+            "total_spend": 16.8
+          },
+          {
+            "run_id": 23,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 24,
+            "focus_team": "LSG",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 25,
+            "focus_team": "LSG",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 26,
+            "focus_team": "LSG",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 27,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 28,
+            "focus_team": "LSG",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 29,
+            "focus_team": "LSG",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 30,
+            "focus_team": "LSG",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 31,
+            "focus_team": "LSG",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 32,
+            "focus_team": "LSG",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 33,
+            "focus_team": "LSG",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 34,
+            "focus_team": "LSG",
+            "total_spend": 14.85
+          },
+          {
+            "run_id": 35,
+            "focus_team": "LSG",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 36,
+            "focus_team": "LSG",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 37,
+            "focus_team": "LSG",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 38,
+            "focus_team": "LSG",
+            "total_spend": 8.7
+          },
+          {
+            "run_id": 39,
+            "focus_team": "LSG",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 40,
+            "focus_team": "LSG",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 41,
+            "focus_team": "LSG",
+            "total_spend": 14.3
+          },
+          {
+            "run_id": 42,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "LSG",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 44,
+            "focus_team": "LSG",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 45,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 46,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 47,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 48,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 49,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 50,
+            "focus_team": "LSG",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 51,
+            "focus_team": "LSG",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 52,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 53,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 54,
+            "focus_team": "LSG",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 55,
+            "focus_team": "LSG",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 56,
+            "focus_team": "LSG",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 57,
+            "focus_team": "LSG",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 58,
+            "focus_team": "LSG",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 59,
+            "focus_team": "LSG",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 60,
+            "focus_team": "LSG",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 61,
+            "focus_team": "LSG",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 62,
+            "focus_team": "LSG",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 63,
+            "focus_team": "LSG",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 64,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 65,
+            "focus_team": "LSG",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 66,
+            "focus_team": "LSG",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 67,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 68,
+            "focus_team": "LSG",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 69,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 70,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 71,
+            "focus_team": "LSG",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 72,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 73,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 74,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 75,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 76,
+            "focus_team": "LSG",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 77,
+            "focus_team": "LSG",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 78,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 79,
+            "focus_team": "LSG",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 80,
+            "focus_team": "LSG",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 81,
+            "focus_team": "LSG",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 82,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 83,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 84,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 85,
+            "focus_team": "LSG",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 86,
+            "focus_team": "LSG",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 87,
+            "focus_team": "LSG",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 88,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 89,
+            "focus_team": "LSG",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 90,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 91,
+            "focus_team": "LSG",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 92,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 93,
+            "focus_team": "LSG",
+            "total_spend": 9.55
+          },
+          {
+            "run_id": 94,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 95,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 96,
+            "focus_team": "LSG",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 97,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 98,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 99,
+            "focus_team": "LSG",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 100,
+            "focus_team": "LSG",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 101,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 102,
+            "focus_team": "LSG",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 103,
+            "focus_team": "LSG",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 104,
+            "focus_team": "LSG",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 105,
+            "focus_team": "LSG",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 106,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 107,
+            "focus_team": "LSG",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 108,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 109,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 110,
+            "focus_team": "LSG",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 111,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 112,
+            "focus_team": "LSG",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 113,
+            "focus_team": "LSG",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 114,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 115,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 116,
+            "focus_team": "LSG",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 117,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 118,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 119,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 120,
+            "focus_team": "LSG",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 121,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 122,
+            "focus_team": "LSG",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 123,
+            "focus_team": "LSG",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 124,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 125,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 126,
+            "focus_team": "LSG",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 127,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 128,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 129,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 130,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 131,
+            "focus_team": "LSG",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 132,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 133,
+            "focus_team": "LSG",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 134,
+            "focus_team": "LSG",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 135,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 136,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 137,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 138,
+            "focus_team": "LSG",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 139,
+            "focus_team": "LSG",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 140,
+            "focus_team": "LSG",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 141,
+            "focus_team": "LSG",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 142,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 143,
+            "focus_team": "LSG",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 144,
+            "focus_team": "LSG",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 145,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 146,
+            "focus_team": "LSG",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 147,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 148,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 149,
+            "focus_team": "LSG",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 150,
+            "focus_team": "LSG",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 151,
+            "focus_team": "LSG",
+            "total_spend": 14.85
+          },
+          {
+            "run_id": 152,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 153,
+            "focus_team": "LSG",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 154,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 155,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 156,
+            "focus_team": "LSG",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 157,
+            "focus_team": "LSG",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 158,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 159,
+            "focus_team": "LSG",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 160,
+            "focus_team": "LSG",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 161,
+            "focus_team": "LSG",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 162,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 163,
+            "focus_team": "LSG",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 164,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 165,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 166,
+            "focus_team": "LSG",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 167,
+            "focus_team": "LSG",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 168,
+            "focus_team": "LSG",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 169,
+            "focus_team": "LSG",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 170,
+            "focus_team": "LSG",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 171,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 172,
+            "focus_team": "LSG",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 173,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 174,
+            "focus_team": "LSG",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 175,
+            "focus_team": "LSG",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 176,
+            "focus_team": "LSG",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 177,
+            "focus_team": "LSG",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 178,
+            "focus_team": "LSG",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 179,
+            "focus_team": "LSG",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 180,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 181,
+            "focus_team": "LSG",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 182,
+            "focus_team": "LSG",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 183,
+            "focus_team": "LSG",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 184,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 185,
+            "focus_team": "LSG",
+            "total_spend": 9.8
+          },
+          {
+            "run_id": 186,
+            "focus_team": "LSG",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 187,
+            "focus_team": "LSG",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 188,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 189,
+            "focus_team": "LSG",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 190,
+            "focus_team": "LSG",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 191,
+            "focus_team": "LSG",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 192,
+            "focus_team": "LSG",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 193,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 194,
+            "focus_team": "LSG",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 195,
+            "focus_team": "LSG",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 196,
+            "focus_team": "LSG",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 197,
+            "focus_team": "LSG",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 198,
+            "focus_team": "LSG",
+            "total_spend": 14.65
+          },
+          {
+            "run_id": 199,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 200,
+            "focus_team": "LSG",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 201,
+            "focus_team": "LSG",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 202,
+            "focus_team": "LSG",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 203,
+            "focus_team": "LSG",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 204,
+            "focus_team": "LSG",
+            "total_spend": 14.85
+          },
+          {
+            "run_id": 205,
+            "focus_team": "LSG",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 206,
+            "focus_team": "LSG",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 207,
+            "focus_team": "LSG",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 208,
+            "focus_team": "LSG",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 209,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 210,
+            "focus_team": "LSG",
+            "total_spend": 9.35
+          },
+          {
+            "run_id": 211,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 212,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 213,
+            "focus_team": "LSG",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 214,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 215,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 216,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 217,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 218,
+            "focus_team": "LSG",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 219,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 220,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 221,
+            "focus_team": "LSG",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 222,
+            "focus_team": "LSG",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 223,
+            "focus_team": "LSG",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 224,
+            "focus_team": "LSG",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 225,
+            "focus_team": "LSG",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 226,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 227,
+            "focus_team": "LSG",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 228,
+            "focus_team": "LSG",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 229,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 230,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 231,
+            "focus_team": "LSG",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 232,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 233,
+            "focus_team": "LSG",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 234,
+            "focus_team": "LSG",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 235,
+            "focus_team": "LSG",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 236,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 237,
+            "focus_team": "LSG",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 238,
+            "focus_team": "LSG",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 239,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 240,
+            "focus_team": "LSG",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 241,
+            "focus_team": "LSG",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 242,
+            "focus_team": "LSG",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 243,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 244,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 245,
+            "focus_team": "LSG",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 246,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 247,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 248,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 249,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 250,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 251,
+            "focus_team": "LSG",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 252,
+            "focus_team": "LSG",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 253,
+            "focus_team": "LSG",
+            "total_spend": 14.3
+          },
+          {
+            "run_id": 254,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 255,
+            "focus_team": "LSG",
+            "total_spend": 16.7
+          },
+          {
+            "run_id": 256,
+            "focus_team": "LSG",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 257,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 258,
+            "focus_team": "LSG",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 259,
+            "focus_team": "LSG",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 260,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 261,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 262,
+            "focus_team": "LSG",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 263,
+            "focus_team": "LSG",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 264,
+            "focus_team": "LSG",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 265,
+            "focus_team": "LSG",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 266,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 267,
+            "focus_team": "LSG",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 268,
+            "focus_team": "LSG",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 269,
+            "focus_team": "LSG",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 270,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 271,
+            "focus_team": "LSG",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 272,
+            "focus_team": "LSG",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 273,
+            "focus_team": "LSG",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 274,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 275,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 276,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 277,
+            "focus_team": "LSG",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 278,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 279,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 280,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 281,
+            "focus_team": "LSG",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 282,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 283,
+            "focus_team": "LSG",
+            "total_spend": 14.3
+          },
+          {
+            "run_id": 284,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 285,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 286,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 287,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 288,
+            "focus_team": "LSG",
+            "total_spend": 9.35
+          },
+          {
+            "run_id": 289,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 290,
+            "focus_team": "LSG",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 291,
+            "focus_team": "LSG",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 292,
+            "focus_team": "LSG",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 293,
+            "focus_team": "LSG",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 294,
+            "focus_team": "LSG",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 295,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 296,
+            "focus_team": "LSG",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 297,
+            "focus_team": "LSG",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 298,
+            "focus_team": "LSG",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 299,
+            "focus_team": "LSG",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 300,
+            "focus_team": "LSG",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 301,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 302,
+            "focus_team": "LSG",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 303,
+            "focus_team": "LSG",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 304,
+            "focus_team": "LSG",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 305,
+            "focus_team": "LSG",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 306,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 307,
+            "focus_team": "LSG",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 308,
+            "focus_team": "LSG",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 309,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 310,
+            "focus_team": "LSG",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 311,
+            "focus_team": "LSG",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 312,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 313,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 314,
+            "focus_team": "LSG",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 315,
+            "focus_team": "LSG",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 316,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 317,
+            "focus_team": "LSG",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 318,
+            "focus_team": "LSG",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 319,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 320,
+            "focus_team": "LSG",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 321,
+            "focus_team": "LSG",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 322,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 323,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 324,
+            "focus_team": "LSG",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 325,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 326,
+            "focus_team": "LSG",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 327,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 328,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 329,
+            "focus_team": "LSG",
+            "total_spend": 9.3
+          },
+          {
+            "run_id": 330,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 331,
+            "focus_team": "LSG",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 332,
+            "focus_team": "LSG",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 333,
+            "focus_team": "LSG",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 334,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 335,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 336,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 337,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 338,
+            "focus_team": "LSG",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 339,
+            "focus_team": "LSG",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 340,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 341,
+            "focus_team": "LSG",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 342,
+            "focus_team": "LSG",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 343,
+            "focus_team": "LSG",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 344,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 345,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 346,
+            "focus_team": "LSG",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 347,
+            "focus_team": "LSG",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 348,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 349,
+            "focus_team": "LSG",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 350,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 351,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 352,
+            "focus_team": "LSG",
+            "total_spend": 10.35
+          },
+          {
+            "run_id": 353,
+            "focus_team": "LSG",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 354,
+            "focus_team": "LSG",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 355,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 356,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 357,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 358,
+            "focus_team": "LSG",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 359,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 360,
+            "focus_team": "LSG",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 361,
+            "focus_team": "LSG",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 362,
+            "focus_team": "LSG",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 363,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 364,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 365,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 366,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 367,
+            "focus_team": "LSG",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 368,
+            "focus_team": "LSG",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 369,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 370,
+            "focus_team": "LSG",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 371,
+            "focus_team": "LSG",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 372,
+            "focus_team": "LSG",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 373,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 374,
+            "focus_team": "LSG",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 375,
+            "focus_team": "LSG",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 376,
+            "focus_team": "LSG",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 377,
+            "focus_team": "LSG",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 378,
+            "focus_team": "LSG",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 379,
+            "focus_team": "LSG",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 380,
+            "focus_team": "LSG",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 381,
+            "focus_team": "LSG",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 382,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 383,
+            "focus_team": "LSG",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 384,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 385,
+            "focus_team": "LSG",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 386,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 387,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 388,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 389,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 390,
+            "focus_team": "LSG",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 391,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 392,
+            "focus_team": "LSG",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 393,
+            "focus_team": "LSG",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 394,
+            "focus_team": "LSG",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 395,
+            "focus_team": "LSG",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 396,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 397,
+            "focus_team": "LSG",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 398,
+            "focus_team": "LSG",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 399,
+            "focus_team": "LSG",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 400,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 401,
+            "focus_team": "LSG",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 402,
+            "focus_team": "LSG",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 403,
+            "focus_team": "LSG",
+            "total_spend": 14.85
+          },
+          {
+            "run_id": 404,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 405,
+            "focus_team": "LSG",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 406,
+            "focus_team": "LSG",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 407,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 408,
+            "focus_team": "LSG",
+            "total_spend": 9.7
+          },
+          {
+            "run_id": 409,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 410,
+            "focus_team": "LSG",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 411,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 412,
+            "focus_team": "LSG",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 413,
+            "focus_team": "LSG",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 414,
+            "focus_team": "LSG",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 415,
+            "focus_team": "LSG",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 416,
+            "focus_team": "LSG",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 417,
+            "focus_team": "LSG",
+            "total_spend": 14.2
+          },
+          {
+            "run_id": 418,
+            "focus_team": "LSG",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 419,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 420,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 421,
+            "focus_team": "LSG",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 422,
+            "focus_team": "LSG",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 423,
+            "focus_team": "LSG",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 424,
+            "focus_team": "LSG",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 425,
+            "focus_team": "LSG",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 426,
+            "focus_team": "LSG",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 427,
+            "focus_team": "LSG",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 428,
+            "focus_team": "LSG",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 429,
+            "focus_team": "LSG",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 430,
+            "focus_team": "LSG",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 431,
+            "focus_team": "LSG",
+            "total_spend": 9.4
+          },
+          {
+            "run_id": 432,
+            "focus_team": "LSG",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 433,
+            "focus_team": "LSG",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 434,
+            "focus_team": "LSG",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 435,
+            "focus_team": "LSG",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 436,
+            "focus_team": "LSG",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 437,
+            "focus_team": "LSG",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 438,
+            "focus_team": "LSG",
+            "total_spend": 14.2
+          },
+          {
+            "run_id": 439,
+            "focus_team": "LSG",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 440,
+            "focus_team": "LSG",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 441,
+            "focus_team": "LSG",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 442,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 443,
+            "focus_team": "LSG",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 444,
+            "focus_team": "LSG",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 445,
+            "focus_team": "LSG",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 446,
+            "focus_team": "LSG",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 447,
+            "focus_team": "LSG",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 448,
+            "focus_team": "LSG",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 449,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 450,
+            "focus_team": "LSG",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 451,
+            "focus_team": "LSG",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 452,
+            "focus_team": "LSG",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 453,
+            "focus_team": "LSG",
+            "total_spend": 14.75
+          },
+          {
+            "run_id": 454,
+            "focus_team": "LSG",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 455,
+            "focus_team": "LSG",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 456,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 457,
+            "focus_team": "LSG",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 458,
+            "focus_team": "LSG",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 459,
+            "focus_team": "LSG",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 460,
+            "focus_team": "LSG",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 461,
+            "focus_team": "LSG",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 462,
+            "focus_team": "LSG",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 463,
+            "focus_team": "LSG",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 464,
+            "focus_team": "LSG",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 465,
+            "focus_team": "LSG",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 466,
+            "focus_team": "LSG",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 467,
+            "focus_team": "LSG",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 468,
+            "focus_team": "LSG",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 469,
+            "focus_team": "LSG",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 470,
+            "focus_team": "LSG",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 471,
+            "focus_team": "LSG",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 472,
+            "focus_team": "LSG",
+            "total_spend": 10.35
+          },
+          {
+            "run_id": 473,
+            "focus_team": "LSG",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 474,
+            "focus_team": "LSG",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 475,
+            "focus_team": "LSG",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 476,
+            "focus_team": "LSG",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 477,
+            "focus_team": "LSG",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 478,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 479,
+            "focus_team": "LSG",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 480,
+            "focus_team": "LSG",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 481,
+            "focus_team": "LSG",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 482,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 483,
+            "focus_team": "LSG",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 484,
+            "focus_team": "LSG",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 485,
+            "focus_team": "LSG",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 486,
+            "focus_team": "LSG",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 487,
+            "focus_team": "LSG",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 488,
+            "focus_team": "LSG",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 489,
+            "focus_team": "LSG",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 490,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 491,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 492,
+            "focus_team": "LSG",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 493,
+            "focus_team": "LSG",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 494,
+            "focus_team": "LSG",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 495,
+            "focus_team": "LSG",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 496,
+            "focus_team": "LSG",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 497,
+            "focus_team": "LSG",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 498,
+            "focus_team": "LSG",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 499,
+            "focus_team": "LSG",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 500,
+            "focus_team": "LSG",
+            "total_spend": 14.4
           }
         ],
         "top_targets": [
           {
             "player_name": "Akeal Hosein",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Ashok Sharma",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 0.99
-          },
-          {
-            "player_name": "Maheesh Theekshana",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.73
+            "times_bought": 278,
+            "share_of_runs": 0.556,
+            "avg_price_when_bought": 3.67
           },
           {
             "player_name": "Mujeeb Rahman",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.68
+            "times_bought": 273,
+            "share_of_runs": 0.546,
+            "avg_price_when_bought": 3.46
+          },
+          {
+            "player_name": "Maheesh Theekshana",
+            "times_bought": 271,
+            "share_of_runs": 0.542,
+            "avg_price_when_bought": 3.76
+          },
+          {
+            "player_name": "Naman Tiwari",
+            "times_bought": 190,
+            "share_of_runs": 0.38,
+            "avg_price_when_bought": 0.98
           },
           {
             "player_name": "Sushant Mishra",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.01
+            "times_bought": 185,
+            "share_of_runs": 0.37,
+            "avg_price_when_bought": 0.95
           },
           {
-            "player_name": "Yash Raj Punja",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 1.2
+            "player_name": "Ashok Sharma",
+            "times_bought": 169,
+            "share_of_runs": 0.338,
+            "avg_price_when_bought": 0.97
           }
         ]
       },
@@ -39881,100 +52031,106 @@ window.DASHBOARD_DATA = {
         ],
         "mc_purchase_summary": [
           {
-            "player_name": "Aman Rao Perala",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Kuldeep Sen",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
+            "times_bought": 278,
+            "share_of_runs": 0.556,
             "avg_price_when_bought": 0.85
           },
           {
-            "player_name": "Ankit Kumar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Danish Malewar",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.3
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
           },
           {
-            "player_name": "Rohan Kunnummal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.3
+            "player_name": "Manan Vohra",
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
           },
           {
             "player_name": "Akshat Raghuwanshi",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.34
-          },
-          {
-            "player_name": "Pathum Nissanka",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.75
+            "times_bought": 218,
+            "share_of_runs": 0.436,
+            "avg_price_when_bought": 0.31
           },
           {
             "player_name": "Pukhraj Mann",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
+            "times_bought": 215,
+            "share_of_runs": 0.43,
+            "avg_price_when_bought": 0.3
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "times_bought": 211,
+            "share_of_runs": 0.422,
+            "avg_price_when_bought": 0.31
+          },
+          {
+            "player_name": "Rohan Kunnummal",
+            "times_bought": 210,
+            "share_of_runs": 0.42,
             "avg_price_when_bought": 0.3
           },
           {
             "player_name": "Salman Nizar",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
+            "times_bought": 204,
+            "share_of_runs": 0.408,
             "avg_price_when_bought": 0.3
           },
           {
-            "player_name": "Manan Vohra",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
+            "player_name": "Ankit Kumar",
+            "times_bought": 188,
+            "share_of_runs": 0.376,
             "avg_price_when_bought": 0.3
           },
           {
-            "player_name": "Jordan Cox",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.75
+            "player_name": "Pathum Nissanka",
+            "times_bought": 162,
+            "share_of_runs": 0.324,
+            "avg_price_when_bought": 0.77
           },
           {
             "player_name": "Tim Seifert",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
+            "times_bought": 72,
+            "share_of_runs": 0.144,
             "avg_price_when_bought": 1.5
           },
           {
-            "player_name": "Kusal Perera",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 1.0
-          },
-          {
             "player_name": "Benjamin McDermott",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 69,
+            "share_of_runs": 0.138,
             "avg_price_when_bought": 0.75
           },
           {
             "player_name": "Kusal Mendis",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 66,
+            "share_of_runs": 0.132,
             "avg_price_when_bought": 0.75
           },
           {
+            "player_name": "Jordan Cox",
+            "times_bought": 64,
+            "share_of_runs": 0.128,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Kusal Perera",
+            "times_bought": 60,
+            "share_of_runs": 0.12,
+            "avg_price_when_bought": 1.01
+          },
+          {
             "player_name": "Mayank Agarawal",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 1.05
+            "times_bought": 16,
+            "share_of_runs": 0.032,
+            "avg_price_when_bought": 0.97
+          },
+          {
+            "player_name": "Rahul Tripathi",
+            "times_bought": 9,
+            "share_of_runs": 0.018,
+            "avg_price_when_bought": 0.96
           }
         ],
         "mc_spend_summary": [
@@ -40077,44 +52233,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "MI",
             "total_spend": 2.5
+          },
+          {
+            "run_id": 21,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 22,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 23,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 24,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 25,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 26,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 27,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 28,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 29,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 30,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 31,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 32,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 33,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 34,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 35,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 36,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 37,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 38,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 39,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 40,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 41,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 42,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 44,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 45,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 46,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 47,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 48,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 49,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 50,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 51,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 52,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 53,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 54,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 55,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 56,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 57,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 58,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 59,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 60,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 61,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 62,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 63,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 64,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 65,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 66,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 67,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 68,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 69,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 70,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 71,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 72,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 73,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 74,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 75,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 76,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 77,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 78,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 79,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 80,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 81,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 82,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 83,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 84,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 85,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 86,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 87,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 88,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 89,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 90,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 91,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 92,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 93,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 94,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 95,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 96,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 97,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 98,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 99,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 100,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 101,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 102,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 103,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 104,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 105,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 106,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 107,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 108,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 109,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 110,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 111,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 112,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 113,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 114,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 115,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 116,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 117,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 118,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 119,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 120,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 121,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 122,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 123,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 124,
+            "focus_team": "MI",
+            "total_spend": 2.65
+          },
+          {
+            "run_id": 125,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 126,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 127,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 128,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 129,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 130,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 131,
+            "focus_team": "MI",
+            "total_spend": 2.6
+          },
+          {
+            "run_id": 132,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 133,
+            "focus_team": "MI",
+            "total_spend": 2.6
+          },
+          {
+            "run_id": 134,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 135,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 136,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 137,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 138,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 139,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 140,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 141,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 142,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 143,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 144,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 145,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 146,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 147,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 148,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 149,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 150,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 151,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 152,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 153,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 154,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 155,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 156,
+            "focus_team": "MI",
+            "total_spend": 2.65
+          },
+          {
+            "run_id": 157,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 158,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 159,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 160,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 161,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 162,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 163,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 164,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 165,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 166,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 167,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 168,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 169,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 170,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 171,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 172,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 173,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 174,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 175,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 176,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 177,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 178,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 179,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 180,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 181,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 182,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 183,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 184,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 185,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 186,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 187,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 188,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 189,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 190,
+            "focus_team": "MI",
+            "total_spend": 2.6
+          },
+          {
+            "run_id": 191,
+            "focus_team": "MI",
+            "total_spend": 2.35
+          },
+          {
+            "run_id": 192,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 193,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 194,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 195,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 196,
+            "focus_team": "MI",
+            "total_spend": 2.6
+          },
+          {
+            "run_id": 197,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 198,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 199,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 200,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 201,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 202,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 203,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 204,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 205,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 206,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 207,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 208,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 209,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 210,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 211,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 212,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 213,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 214,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 215,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 216,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 217,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 218,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 219,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 220,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 221,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 222,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 223,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 224,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 225,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 226,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 227,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 228,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 229,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 230,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 231,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 232,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 233,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 234,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 235,
+            "focus_team": "MI",
+            "total_spend": 2.65
+          },
+          {
+            "run_id": 236,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 237,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 238,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 239,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 240,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 241,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 242,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 243,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 244,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 245,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 246,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 247,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 248,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 249,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 250,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 251,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 252,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 253,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 254,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 255,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 256,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 257,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 258,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 259,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 260,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 261,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 262,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 263,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 264,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 265,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 266,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 267,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 268,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 269,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 270,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 271,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 272,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 273,
+            "focus_team": "MI",
+            "total_spend": 2.6
+          },
+          {
+            "run_id": 274,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 275,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 276,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 277,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 278,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 279,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 280,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 281,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 282,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 283,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 284,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 285,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 286,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 287,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 288,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 289,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 290,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 291,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 292,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 293,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 294,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 295,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 296,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 297,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 298,
+            "focus_team": "MI",
+            "total_spend": 2.55
+          },
+          {
+            "run_id": 299,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 300,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 301,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 302,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 303,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 304,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 305,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 306,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 307,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 308,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 309,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 310,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 311,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 312,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 313,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 314,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 315,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 316,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 317,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 318,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 319,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 320,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 321,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 322,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 323,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 324,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 325,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 326,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 327,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 328,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 329,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 330,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 331,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 332,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 333,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 334,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 335,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 336,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 337,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 338,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 339,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 340,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 341,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 342,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 343,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 344,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 345,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 346,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 347,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 348,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 349,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 350,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 351,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 352,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 353,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 354,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 355,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 356,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 357,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 358,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 359,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 360,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 361,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 362,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 363,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 364,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 365,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 366,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 367,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 368,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 369,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 370,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 371,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 372,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 373,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 374,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 375,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 376,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 377,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 378,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 379,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 380,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 381,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 382,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 383,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 384,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 385,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 386,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 387,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 388,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 389,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 390,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 391,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 392,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 393,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 394,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 395,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 396,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 397,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 398,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 399,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 400,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 401,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 402,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 403,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 404,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 405,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 406,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 407,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 408,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 409,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 410,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 411,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 412,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 413,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 414,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 415,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 416,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 417,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 418,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 419,
+            "focus_team": "MI",
+            "total_spend": 2.4
+          },
+          {
+            "run_id": 420,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 421,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 422,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 423,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 424,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 425,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 426,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 427,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 428,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 429,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 430,
+            "focus_team": "MI",
+            "total_spend": 2.45
+          },
+          {
+            "run_id": 431,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 432,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 433,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 434,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 435,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 436,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 437,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 438,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 439,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 440,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 441,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 442,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 443,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 444,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 445,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 446,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 447,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 448,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 449,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 450,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 451,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 452,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 453,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 454,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 455,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 456,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 457,
+            "focus_team": "MI",
+            "total_spend": 2.55
+          },
+          {
+            "run_id": 458,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 459,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 460,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 461,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 462,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 463,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 464,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 465,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 466,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 467,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 468,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 469,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 470,
+            "focus_team": "MI",
+            "total_spend": 2.65
+          },
+          {
+            "run_id": 471,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 472,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 473,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 474,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 475,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 476,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 477,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 478,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 479,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 480,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 481,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 482,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 483,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 484,
+            "focus_team": "MI",
+            "total_spend": 2.25
+          },
+          {
+            "run_id": 485,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 486,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 487,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 488,
+            "focus_team": "MI",
+            "total_spend": 2.2
+          },
+          {
+            "run_id": 489,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 490,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 491,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 492,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 493,
+            "focus_team": "MI",
+            "total_spend": 1.95
+          },
+          {
+            "run_id": 494,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 495,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 496,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 497,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 498,
+            "focus_team": "MI",
+            "total_spend": 2.7
+          },
+          {
+            "run_id": 499,
+            "focus_team": "MI",
+            "total_spend": 2.5
+          },
+          {
+            "run_id": 500,
+            "focus_team": "MI",
+            "total_spend": 2.5
           }
         ],
         "top_targets": [
           {
-            "player_name": "Aman Rao Perala",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Kuldeep Sen",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
+            "times_bought": 278,
+            "share_of_runs": 0.556,
             "avg_price_when_bought": 0.85
           },
           {
-            "player_name": "Ankit Kumar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Danish Malewar",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.3
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
           },
           {
-            "player_name": "Rohan Kunnummal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.3
+            "player_name": "Manan Vohra",
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
           },
           {
             "player_name": "Akshat Raghuwanshi",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.34
+            "times_bought": 218,
+            "share_of_runs": 0.436,
+            "avg_price_when_bought": 0.31
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "times_bought": 215,
+            "share_of_runs": 0.43,
+            "avg_price_when_bought": 0.3
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "times_bought": 211,
+            "share_of_runs": 0.422,
+            "avg_price_when_bought": 0.31
           }
         ]
       },
@@ -40179,147 +54735,183 @@ window.DASHBOARD_DATA = {
         ],
         "mc_purchase_summary": [
           {
-            "player_name": "Mayank Agarawal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.54
-          },
-          {
             "player_name": "Rahul Tripathi",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.05
+            "times_bought": 219,
+            "share_of_runs": 0.438,
+            "avg_price_when_bought": 1.91
           },
           {
-            "player_name": "Ackeem Auguste",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.75
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 4.25
-          },
-          {
-            "player_name": "Anmolpreet Singh",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.6
-          },
-          {
-            "player_name": "Jamie Smith",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 4.0
-          },
-          {
-            "player_name": "Rahmanullah Gurbaz",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 3.1
+            "player_name": "Mayank Agarawal",
+            "times_bought": 207,
+            "share_of_runs": 0.414,
+            "avg_price_when_bought": 1.44
           },
           {
             "player_name": "Sediqullah Atal",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.78
+            "times_bought": 138,
+            "share_of_runs": 0.276,
+            "avg_price_when_bought": 0.76
           },
           {
-            "player_name": "Tim Robinson",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "player_name": "Ackeem Auguste",
+            "times_bought": 131,
+            "share_of_runs": 0.262,
             "avg_price_when_bought": 0.75
           },
           {
-            "player_name": "Yash Dhull",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Aarya Desai",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Atharva Taide",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.6
-          },
-          {
-            "player_name": "Finn Allen",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 4.0
-          },
-          {
-            "player_name": "Jonny Bairstow",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 2.75
-          },
-          {
-            "player_name": "Reeza Hendricks",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 1.0
-          },
-          {
-            "player_name": "Abhinav Manohar",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.8
-          },
-          {
-            "player_name": "Abhinav Tejrana",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Akshat Raghuwanshi",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.55
-          },
-          {
-            "player_name": "Steve Smith",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 2.38
-          },
-          {
-            "player_name": "Aman Rao Perala",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Ben Duckett",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 91,
+            "share_of_runs": 0.182,
             "avg_price_when_bought": 3.75
           },
           {
+            "player_name": "Jonny Bairstow",
+            "times_bought": 90,
+            "share_of_runs": 0.18,
+            "avg_price_when_bought": 2.75
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "times_bought": 88,
+            "share_of_runs": 0.176,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "times_bought": 84,
+            "share_of_runs": 0.168,
+            "avg_price_when_bought": 4.25
+          },
+          {
+            "player_name": "Rahmanullah Gurbaz",
+            "times_bought": 83,
+            "share_of_runs": 0.166,
+            "avg_price_when_bought": 3.1
+          },
+          {
+            "player_name": "Yash Dhull",
+            "times_bought": 82,
+            "share_of_runs": 0.164,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 80,
+            "share_of_runs": 0.16,
+            "avg_price_when_bought": 4.0
+          },
+          {
+            "player_name": "Abhinav Manohar",
+            "times_bought": 78,
+            "share_of_runs": 0.156,
+            "avg_price_when_bought": 0.8
+          },
+          {
+            "player_name": "Atharva Taide",
+            "times_bought": 77,
+            "share_of_runs": 0.154,
+            "avg_price_when_bought": 0.6
+          },
+          {
+            "player_name": "Aarya Desai",
+            "times_bought": 75,
+            "share_of_runs": 0.15,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Finn Allen",
+            "times_bought": 72,
+            "share_of_runs": 0.144,
+            "avg_price_when_bought": 4.0
+          },
+          {
+            "player_name": "Anmolpreet Singh",
+            "times_bought": 69,
+            "share_of_runs": 0.138,
+            "avg_price_when_bought": 0.6
+          },
+          {
             "player_name": "Pathum Nissanka",
-            "times_bought": 1,
+            "times_bought": 63,
+            "share_of_runs": 0.126,
+            "avg_price_when_bought": 1.13
+          },
+          {
+            "player_name": "Steve Smith",
+            "times_bought": 58,
+            "share_of_runs": 0.116,
+            "avg_price_when_bought": 2.56
+          },
+          {
+            "player_name": "Tim Robinson",
+            "times_bought": 55,
+            "share_of_runs": 0.11,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "times_bought": 51,
+            "share_of_runs": 0.102,
+            "avg_price_when_bought": 1.0
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "times_bought": 25,
             "share_of_runs": 0.05,
-            "avg_price_when_bought": 1.05
+            "avg_price_when_bought": 0.55
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "times_bought": 24,
+            "share_of_runs": 0.048,
+            "avg_price_when_bought": 0.56
+          },
+          {
+            "player_name": "Danish Malewar",
+            "times_bought": 16,
+            "share_of_runs": 0.032,
+            "avg_price_when_bought": 0.51
+          },
+          {
+            "player_name": "Manan Vohra",
+            "times_bought": 15,
+            "share_of_runs": 0.03,
+            "avg_price_when_bought": 0.56
           },
           {
             "player_name": "Rohan Kunnummal",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "times_bought": 8,
+            "share_of_runs": 0.016,
+            "avg_price_when_bought": 0.39
+          },
+          {
+            "player_name": "Ankit Kumar",
+            "times_bought": 7,
+            "share_of_runs": 0.014,
+            "avg_price_when_bought": 0.39
+          },
+          {
+            "player_name": "Salman Nizar",
+            "times_bought": 7,
+            "share_of_runs": 0.014,
+            "avg_price_when_bought": 0.37
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "times_bought": 5,
+            "share_of_runs": 0.01,
             "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Ruchit Ahir",
+            "times_bought": 1,
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.7
           },
           {
             "player_name": "Vansh Bedi",
             "times_bought": 1,
-            "share_of_runs": 0.05,
+            "share_of_runs": 0.002,
             "avg_price_when_bought": 0.7
           }
         ],
@@ -40423,44 +55015,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "PBKS",
             "total_spend": 5.7
+          },
+          {
+            "run_id": 21,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 22,
+            "focus_team": "PBKS",
+            "total_spend": 7.8
+          },
+          {
+            "run_id": 23,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 24,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 25,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 26,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 27,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 28,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 29,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 30,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 31,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 32,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 33,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 34,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 35,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 36,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 37,
+            "focus_team": "PBKS",
+            "total_spend": 7.1
+          },
+          {
+            "run_id": 38,
+            "focus_team": "PBKS",
+            "total_spend": 5.5
+          },
+          {
+            "run_id": 39,
+            "focus_team": "PBKS",
+            "total_spend": 5.65
+          },
+          {
+            "run_id": 40,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 41,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 42,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 44,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 45,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 46,
+            "focus_team": "PBKS",
+            "total_spend": 5.15
+          },
+          {
+            "run_id": 47,
+            "focus_team": "PBKS",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 48,
+            "focus_team": "PBKS",
+            "total_spend": 4.75
+          },
+          {
+            "run_id": 49,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 50,
+            "focus_team": "PBKS",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 51,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 52,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 53,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 54,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 55,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 56,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 57,
+            "focus_team": "PBKS",
+            "total_spend": 6.0
+          },
+          {
+            "run_id": 58,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 59,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 60,
+            "focus_team": "PBKS",
+            "total_spend": 5.65
+          },
+          {
+            "run_id": 61,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 62,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 63,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 64,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 65,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 66,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 67,
+            "focus_team": "PBKS",
+            "total_spend": 5.95
+          },
+          {
+            "run_id": 68,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 69,
+            "focus_team": "PBKS",
+            "total_spend": 6.0
+          },
+          {
+            "run_id": 70,
+            "focus_team": "PBKS",
+            "total_spend": 4.6
+          },
+          {
+            "run_id": 71,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 72,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 73,
+            "focus_team": "PBKS",
+            "total_spend": 5.6
+          },
+          {
+            "run_id": 74,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 75,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 76,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 77,
+            "focus_team": "PBKS",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 78,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 79,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 80,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 81,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 82,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 83,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 84,
+            "focus_team": "PBKS",
+            "total_spend": 6.25
+          },
+          {
+            "run_id": 85,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 86,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 87,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 88,
+            "focus_team": "PBKS",
+            "total_spend": 5.35
+          },
+          {
+            "run_id": 89,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 90,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 91,
+            "focus_team": "PBKS",
+            "total_spend": 5.4
+          },
+          {
+            "run_id": 92,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 93,
+            "focus_team": "PBKS",
+            "total_spend": 5.95
+          },
+          {
+            "run_id": 94,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 95,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 96,
+            "focus_team": "PBKS",
+            "total_spend": 5.05
+          },
+          {
+            "run_id": 97,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 98,
+            "focus_team": "PBKS",
+            "total_spend": 4.95
+          },
+          {
+            "run_id": 99,
+            "focus_team": "PBKS",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 100,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 101,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 102,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 103,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 104,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 105,
+            "focus_team": "PBKS",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 106,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 107,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 108,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 109,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 110,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 111,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 112,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 113,
+            "focus_team": "PBKS",
+            "total_spend": 4.7
+          },
+          {
+            "run_id": 114,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 115,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 116,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 117,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 118,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 119,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 120,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 121,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 122,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 123,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 124,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 125,
+            "focus_team": "PBKS",
+            "total_spend": 7.1
+          },
+          {
+            "run_id": 126,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 127,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 128,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 129,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 130,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 131,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 132,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 133,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 134,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 135,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 136,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 137,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 138,
+            "focus_team": "PBKS",
+            "total_spend": 7.95
+          },
+          {
+            "run_id": 139,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 140,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 141,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 142,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 143,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 144,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 145,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 146,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 147,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 148,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 149,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 150,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 151,
+            "focus_team": "PBKS",
+            "total_spend": 8.8
+          },
+          {
+            "run_id": 152,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 153,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 154,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 155,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 156,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 157,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 158,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 159,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 160,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 161,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 162,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 163,
+            "focus_team": "PBKS",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 164,
+            "focus_team": "PBKS",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 165,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 166,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 167,
+            "focus_team": "PBKS",
+            "total_spend": 7.7
+          },
+          {
+            "run_id": 168,
+            "focus_team": "PBKS",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 169,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 170,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 171,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 172,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 173,
+            "focus_team": "PBKS",
+            "total_spend": 7.8
+          },
+          {
+            "run_id": 174,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 175,
+            "focus_team": "PBKS",
+            "total_spend": 5.05
+          },
+          {
+            "run_id": 176,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 177,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 178,
+            "focus_team": "PBKS",
+            "total_spend": 5.75
+          },
+          {
+            "run_id": 179,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 180,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 181,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 182,
+            "focus_team": "PBKS",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 183,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 184,
+            "focus_team": "PBKS",
+            "total_spend": 7.7
+          },
+          {
+            "run_id": 185,
+            "focus_team": "PBKS",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 186,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 187,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 188,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 189,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 190,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 191,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 192,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 193,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 194,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 195,
+            "focus_team": "PBKS",
+            "total_spend": 6.2
+          },
+          {
+            "run_id": 196,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 197,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 198,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 199,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 200,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 201,
+            "focus_team": "PBKS",
+            "total_spend": 6.2
+          },
+          {
+            "run_id": 202,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 203,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 204,
+            "focus_team": "PBKS",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 205,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 206,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 207,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 208,
+            "focus_team": "PBKS",
+            "total_spend": 5.4
+          },
+          {
+            "run_id": 209,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 210,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 211,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 212,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 213,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 214,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 215,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 216,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 217,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 218,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 219,
+            "focus_team": "PBKS",
+            "total_spend": 8.2
+          },
+          {
+            "run_id": 220,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 221,
+            "focus_team": "PBKS",
+            "total_spend": 6.0
+          },
+          {
+            "run_id": 222,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 223,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 224,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 225,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 226,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 227,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 228,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 229,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 230,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 231,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 232,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 233,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 234,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 235,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 236,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 237,
+            "focus_team": "PBKS",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 238,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 239,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 240,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 241,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 242,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 243,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 244,
+            "focus_team": "PBKS",
+            "total_spend": 8.55
+          },
+          {
+            "run_id": 245,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 246,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 247,
+            "focus_team": "PBKS",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 248,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 249,
+            "focus_team": "PBKS",
+            "total_spend": 5.65
+          },
+          {
+            "run_id": 250,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 251,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 252,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 253,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 254,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 255,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 256,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 257,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 258,
+            "focus_team": "PBKS",
+            "total_spend": 7.1
+          },
+          {
+            "run_id": 259,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 260,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 261,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 262,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 263,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 264,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 265,
+            "focus_team": "PBKS",
+            "total_spend": 5.75
+          },
+          {
+            "run_id": 266,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 267,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 268,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 269,
+            "focus_team": "PBKS",
+            "total_spend": 7.45
+          },
+          {
+            "run_id": 270,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 271,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 272,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 273,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 274,
+            "focus_team": "PBKS",
+            "total_spend": 5.5
+          },
+          {
+            "run_id": 275,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 276,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 277,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 278,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 279,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 280,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 281,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 282,
+            "focus_team": "PBKS",
+            "total_spend": 5.7
+          },
+          {
+            "run_id": 283,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 284,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 285,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 286,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 287,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 288,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 289,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 290,
+            "focus_team": "PBKS",
+            "total_spend": 5.55
+          },
+          {
+            "run_id": 291,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 292,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 293,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 294,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 295,
+            "focus_team": "PBKS",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 296,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 297,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 298,
+            "focus_team": "PBKS",
+            "total_spend": 6.25
+          },
+          {
+            "run_id": 299,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 300,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 301,
+            "focus_team": "PBKS",
+            "total_spend": 5.95
+          },
+          {
+            "run_id": 302,
+            "focus_team": "PBKS",
+            "total_spend": 4.85
+          },
+          {
+            "run_id": 303,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 304,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 305,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 306,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 307,
+            "focus_team": "PBKS",
+            "total_spend": 4.7
+          },
+          {
+            "run_id": 308,
+            "focus_team": "PBKS",
+            "total_spend": 7.7
+          },
+          {
+            "run_id": 309,
+            "focus_team": "PBKS",
+            "total_spend": 4.7
+          },
+          {
+            "run_id": 310,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 311,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 312,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 313,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 314,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 315,
+            "focus_team": "PBKS",
+            "total_spend": 4.7
+          },
+          {
+            "run_id": 316,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 317,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 318,
+            "focus_team": "PBKS",
+            "total_spend": 8.25
+          },
+          {
+            "run_id": 319,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 320,
+            "focus_team": "PBKS",
+            "total_spend": 5.3
+          },
+          {
+            "run_id": 321,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 322,
+            "focus_team": "PBKS",
+            "total_spend": 8.4
+          },
+          {
+            "run_id": 323,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 324,
+            "focus_team": "PBKS",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 325,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 326,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 327,
+            "focus_team": "PBKS",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 328,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 329,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 330,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 331,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 332,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 333,
+            "focus_team": "PBKS",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 334,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 335,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 336,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 337,
+            "focus_team": "PBKS",
+            "total_spend": 6.0
+          },
+          {
+            "run_id": 338,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 339,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 340,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 341,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 342,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 343,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 344,
+            "focus_team": "PBKS",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 345,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 346,
+            "focus_team": "PBKS",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 347,
+            "focus_team": "PBKS",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 348,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 349,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 350,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 351,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 352,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 353,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 354,
+            "focus_team": "PBKS",
+            "total_spend": 5.4
+          },
+          {
+            "run_id": 355,
+            "focus_team": "PBKS",
+            "total_spend": 6.6
+          },
+          {
+            "run_id": 356,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 357,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 358,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 359,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 360,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 361,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 362,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 363,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 364,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 365,
+            "focus_team": "PBKS",
+            "total_spend": 6.7
+          },
+          {
+            "run_id": 366,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 367,
+            "focus_team": "PBKS",
+            "total_spend": 5.6
+          },
+          {
+            "run_id": 368,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 369,
+            "focus_team": "PBKS",
+            "total_spend": 5.35
+          },
+          {
+            "run_id": 370,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 371,
+            "focus_team": "PBKS",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 372,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 373,
+            "focus_team": "PBKS",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 374,
+            "focus_team": "PBKS",
+            "total_spend": 5.95
+          },
+          {
+            "run_id": 375,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 376,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 377,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 378,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 379,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 380,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 381,
+            "focus_team": "PBKS",
+            "total_spend": 5.75
+          },
+          {
+            "run_id": 382,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 383,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 384,
+            "focus_team": "PBKS",
+            "total_spend": 6.0
+          },
+          {
+            "run_id": 385,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 386,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 387,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 388,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 389,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 390,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 391,
+            "focus_team": "PBKS",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 392,
+            "focus_team": "PBKS",
+            "total_spend": 7.1
+          },
+          {
+            "run_id": 393,
+            "focus_team": "PBKS",
+            "total_spend": 8.5
+          },
+          {
+            "run_id": 394,
+            "focus_team": "PBKS",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 395,
+            "focus_team": "PBKS",
+            "total_spend": 5.95
+          },
+          {
+            "run_id": 396,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 397,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 398,
+            "focus_team": "PBKS",
+            "total_spend": 4.6
+          },
+          {
+            "run_id": 399,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 400,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 401,
+            "focus_team": "PBKS",
+            "total_spend": 5.75
+          },
+          {
+            "run_id": 402,
+            "focus_team": "PBKS",
+            "total_spend": 5.5
+          },
+          {
+            "run_id": 403,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 404,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 405,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 406,
+            "focus_team": "PBKS",
+            "total_spend": 5.15
+          },
+          {
+            "run_id": 407,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 408,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 409,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 410,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 411,
+            "focus_team": "PBKS",
+            "total_spend": 7.2
+          },
+          {
+            "run_id": 412,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 413,
+            "focus_team": "PBKS",
+            "total_spend": 9.2
+          },
+          {
+            "run_id": 414,
+            "focus_team": "PBKS",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 415,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 416,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 417,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 418,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 419,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 420,
+            "focus_team": "PBKS",
+            "total_spend": 4.4
+          },
+          {
+            "run_id": 421,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 422,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 423,
+            "focus_team": "PBKS",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 424,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 425,
+            "focus_team": "PBKS",
+            "total_spend": 7.4
+          },
+          {
+            "run_id": 426,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 427,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 428,
+            "focus_team": "PBKS",
+            "total_spend": 4.9
+          },
+          {
+            "run_id": 429,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 430,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 431,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 432,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 433,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 434,
+            "focus_team": "PBKS",
+            "total_spend": 5.8
+          },
+          {
+            "run_id": 435,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 436,
+            "focus_team": "PBKS",
+            "total_spend": 6.85
+          },
+          {
+            "run_id": 437,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 438,
+            "focus_team": "PBKS",
+            "total_spend": 6.05
+          },
+          {
+            "run_id": 439,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 440,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 441,
+            "focus_team": "PBKS",
+            "total_spend": 6.4
+          },
+          {
+            "run_id": 442,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 443,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 444,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 445,
+            "focus_team": "PBKS",
+            "total_spend": 5.7
+          },
+          {
+            "run_id": 446,
+            "focus_team": "PBKS",
+            "total_spend": 5.65
+          },
+          {
+            "run_id": 447,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 448,
+            "focus_team": "PBKS",
+            "total_spend": 5.7
+          },
+          {
+            "run_id": 449,
+            "focus_team": "PBKS",
+            "total_spend": 6.15
+          },
+          {
+            "run_id": 450,
+            "focus_team": "PBKS",
+            "total_spend": 7.45
+          },
+          {
+            "run_id": 451,
+            "focus_team": "PBKS",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 452,
+            "focus_team": "PBKS",
+            "total_spend": 5.05
+          },
+          {
+            "run_id": 453,
+            "focus_team": "PBKS",
+            "total_spend": 7.7
+          },
+          {
+            "run_id": 454,
+            "focus_team": "PBKS",
+            "total_spend": 4.5
+          },
+          {
+            "run_id": 455,
+            "focus_team": "PBKS",
+            "total_spend": 6.65
+          },
+          {
+            "run_id": 456,
+            "focus_team": "PBKS",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 457,
+            "focus_team": "PBKS",
+            "total_spend": 5.75
+          },
+          {
+            "run_id": 458,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 459,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 460,
+            "focus_team": "PBKS",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 461,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 462,
+            "focus_team": "PBKS",
+            "total_spend": 7.3
+          },
+          {
+            "run_id": 463,
+            "focus_team": "PBKS",
+            "total_spend": 6.55
+          },
+          {
+            "run_id": 464,
+            "focus_team": "PBKS",
+            "total_spend": 5.0
+          },
+          {
+            "run_id": 465,
+            "focus_team": "PBKS",
+            "total_spend": 5.85
+          },
+          {
+            "run_id": 466,
+            "focus_team": "PBKS",
+            "total_spend": 6.35
+          },
+          {
+            "run_id": 467,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 468,
+            "focus_team": "PBKS",
+            "total_spend": 7.9
+          },
+          {
+            "run_id": 469,
+            "focus_team": "PBKS",
+            "total_spend": 7.7
+          },
+          {
+            "run_id": 470,
+            "focus_team": "PBKS",
+            "total_spend": 6.8
+          },
+          {
+            "run_id": 471,
+            "focus_team": "PBKS",
+            "total_spend": 8.05
+          },
+          {
+            "run_id": 472,
+            "focus_team": "PBKS",
+            "total_spend": 8.95
+          },
+          {
+            "run_id": 473,
+            "focus_team": "PBKS",
+            "total_spend": 5.45
+          },
+          {
+            "run_id": 474,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 475,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 476,
+            "focus_team": "PBKS",
+            "total_spend": 6.9
+          },
+          {
+            "run_id": 477,
+            "focus_team": "PBKS",
+            "total_spend": 6.45
+          },
+          {
+            "run_id": 478,
+            "focus_team": "PBKS",
+            "total_spend": 8.15
+          },
+          {
+            "run_id": 479,
+            "focus_team": "PBKS",
+            "total_spend": 6.1
+          },
+          {
+            "run_id": 480,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 481,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 482,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 483,
+            "focus_team": "PBKS",
+            "total_spend": 7.05
+          },
+          {
+            "run_id": 484,
+            "focus_team": "PBKS",
+            "total_spend": 6.5
+          },
+          {
+            "run_id": 485,
+            "focus_team": "PBKS",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 486,
+            "focus_team": "PBKS",
+            "total_spend": 4.95
+          },
+          {
+            "run_id": 487,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 488,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 489,
+            "focus_team": "PBKS",
+            "total_spend": 7.35
+          },
+          {
+            "run_id": 490,
+            "focus_team": "PBKS",
+            "total_spend": 5.5
+          },
+          {
+            "run_id": 491,
+            "focus_team": "PBKS",
+            "total_spend": 6.3
+          },
+          {
+            "run_id": 492,
+            "focus_team": "PBKS",
+            "total_spend": 5.9
+          },
+          {
+            "run_id": 493,
+            "focus_team": "PBKS",
+            "total_spend": 6.95
+          },
+          {
+            "run_id": 494,
+            "focus_team": "PBKS",
+            "total_spend": 8.3
+          },
+          {
+            "run_id": 495,
+            "focus_team": "PBKS",
+            "total_spend": 7.0
+          },
+          {
+            "run_id": 496,
+            "focus_team": "PBKS",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 497,
+            "focus_team": "PBKS",
+            "total_spend": 6.75
+          },
+          {
+            "run_id": 498,
+            "focus_team": "PBKS",
+            "total_spend": 5.25
+          },
+          {
+            "run_id": 499,
+            "focus_team": "PBKS",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 500,
+            "focus_team": "PBKS",
+            "total_spend": 5.05
           }
         ],
         "top_targets": [
           {
-            "player_name": "Mayank Agarawal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.54
+            "player_name": "Rahul Tripathi",
+            "times_bought": 219,
+            "share_of_runs": 0.438,
+            "avg_price_when_bought": 1.91
           },
           {
-            "player_name": "Rahul Tripathi",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.05
+            "player_name": "Mayank Agarawal",
+            "times_bought": 207,
+            "share_of_runs": 0.414,
+            "avg_price_when_bought": 1.44
+          },
+          {
+            "player_name": "Sediqullah Atal",
+            "times_bought": 138,
+            "share_of_runs": 0.276,
+            "avg_price_when_bought": 0.76
           },
           {
             "player_name": "Ackeem Auguste",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
+            "times_bought": 131,
+            "share_of_runs": 0.262,
             "avg_price_when_bought": 0.75
           },
           {
-            "player_name": "Quinton De Kock",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 4.25
+            "player_name": "Ben Duckett",
+            "times_bought": 91,
+            "share_of_runs": 0.182,
+            "avg_price_when_bought": 3.75
           },
           {
-            "player_name": "Anmolpreet Singh",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.6
-          },
-          {
-            "player_name": "Jamie Smith",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 4.0
+            "player_name": "Jonny Bairstow",
+            "times_bought": 90,
+            "share_of_runs": 0.18,
+            "avg_price_when_bought": 2.75
           }
         ]
       },
@@ -40581,154 +57573,166 @@ window.DASHBOARD_DATA = {
         ],
         "mc_purchase_summary": [
           {
-            "player_name": "Karn Sharma",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
-            "avg_price_when_bought": 1.7
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 1.57
-          },
-          {
             "player_name": "Shivam Shukla",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
+            "times_bought": 354,
+            "share_of_runs": 0.708,
             "avg_price_when_bought": 0.5
           },
           {
+            "player_name": "Kumar Kartikeya Singh",
+            "times_bought": 352,
+            "share_of_runs": 0.704,
+            "avg_price_when_bought": 1.6
+          },
+          {
             "player_name": "Prashant Solanki",
-            "times_bought": 13,
+            "times_bought": 328,
+            "share_of_runs": 0.656,
+            "avg_price_when_bought": 0.88
+          },
+          {
+            "player_name": "Karn Sharma",
+            "times_bought": 325,
             "share_of_runs": 0.65,
+            "avg_price_when_bought": 1.69
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "times_bought": 323,
+            "share_of_runs": 0.646,
             "avg_price_when_bought": 0.88
           },
           {
             "player_name": "Vignesh Puthur",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
-            "avg_price_when_bought": 1.02
+            "times_bought": 319,
+            "share_of_runs": 0.638,
+            "avg_price_when_bought": 1.0
           },
           {
             "player_name": "Mayank Agarawal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.65
-          },
-          {
-            "player_name": "Maheesh Theekshana",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 3.59
-          },
-          {
-            "player_name": "Mujeeb Rahman",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.88
+            "times_bought": 197,
+            "share_of_runs": 0.394,
+            "avg_price_when_bought": 1.67
           },
           {
             "player_name": "Rahul Tripathi",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 2.09
-          },
-          {
-            "player_name": "Raj Limbani",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.6
-          },
-          {
-            "player_name": "Simarjeet Singh",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.64
-          },
-          {
-            "player_name": "Reeza Hendricks",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 1.0
-          },
-          {
-            "player_name": "Akash Madhwal",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.64
-          },
-          {
-            "player_name": "Steve Smith",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 2.25
+            "times_bought": 183,
+            "share_of_runs": 0.366,
+            "avg_price_when_bought": 2.32
           },
           {
             "player_name": "Akeal Hosein",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "times_bought": 170,
+            "share_of_runs": 0.34,
+            "avg_price_when_bought": 3.61
+          },
+          {
+            "player_name": "Maheesh Theekshana",
+            "times_bought": 168,
+            "share_of_runs": 0.336,
+            "avg_price_when_bought": 3.58
+          },
+          {
+            "player_name": "Mujeeb Rahman",
+            "times_bought": 162,
+            "share_of_runs": 0.324,
             "avg_price_when_bought": 3.5
           },
           {
+            "player_name": "Simarjeet Singh",
+            "times_bought": 115,
+            "share_of_runs": 0.23,
+            "avg_price_when_bought": 0.67
+          },
+          {
             "player_name": "Kartik Tyagi",
-            "times_bought": 4,
+            "times_bought": 102,
+            "share_of_runs": 0.204,
+            "avg_price_when_bought": 0.95
+          },
+          {
+            "player_name": "Raj Limbani",
+            "times_bought": 102,
+            "share_of_runs": 0.204,
+            "avg_price_when_bought": 0.59
+          },
+          {
+            "player_name": "Akash Madhwal",
+            "times_bought": 100,
             "share_of_runs": 0.2,
-            "avg_price_when_bought": 1.0
-          },
-          {
-            "player_name": "Pathum Nissanka",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 1.12
-          },
-          {
-            "player_name": "Naman Tiwari",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.9
-          },
-          {
-            "player_name": "Sushant Mishra",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.9
-          },
-          {
-            "player_name": "Ackeem Auguste",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.75
+            "avg_price_when_bought": 0.68
           },
           {
             "player_name": "Ashok Sharma",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.8
+            "times_bought": 96,
+            "share_of_runs": 0.192,
+            "avg_price_when_bought": 0.9
           },
           {
-            "player_name": "Kuldeep Sen",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 1.05
+            "player_name": "Steve Smith",
+            "times_bought": 94,
+            "share_of_runs": 0.188,
+            "avg_price_when_bought": 2.76
           },
           {
-            "player_name": "Sediqullah Atal",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.85
+            "player_name": "Pathum Nissanka",
+            "times_bought": 84,
+            "share_of_runs": 0.168,
+            "avg_price_when_bought": 1.22
+          },
+          {
+            "player_name": "Sushant Mishra",
+            "times_bought": 83,
+            "share_of_runs": 0.166,
+            "avg_price_when_bought": 0.9
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "times_bought": 81,
+            "share_of_runs": 0.162,
+            "avg_price_when_bought": 1.01
+          },
+          {
+            "player_name": "Naman Tiwari",
+            "times_bought": 75,
+            "share_of_runs": 0.15,
+            "avg_price_when_bought": 0.91
           },
           {
             "player_name": "Tim Robinson",
+            "times_bought": 57,
+            "share_of_runs": 0.114,
+            "avg_price_when_bought": 0.76
+          },
+          {
+            "player_name": "Sediqullah Atal",
+            "times_bought": 55,
+            "share_of_runs": 0.11,
+            "avg_price_when_bought": 0.8
+          },
+          {
+            "player_name": "Ackeem Auguste",
+            "times_bought": 32,
+            "share_of_runs": 0.064,
+            "avg_price_when_bought": 0.75
+          },
+          {
+            "player_name": "Kuldeep Sen",
+            "times_bought": 21,
+            "share_of_runs": 0.042,
+            "avg_price_when_bought": 1.0
+          },
+          {
+            "player_name": "Umesh Yadav",
+            "times_bought": 21,
+            "share_of_runs": 0.042,
+            "avg_price_when_bought": 1.5
+          },
+          {
+            "player_name": "Pukhraj Mann",
             "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 0.85
+            "share_of_runs": 0.002,
+            "avg_price_when_bought": 0.3
           }
         ],
         "mc_spend_summary": [
@@ -40831,44 +57835,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "RCB",
             "total_spend": 10.2
+          },
+          {
+            "run_id": 21,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 22,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 23,
+            "focus_team": "RCB",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 24,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 25,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 26,
+            "focus_team": "RCB",
+            "total_spend": 9.3
+          },
+          {
+            "run_id": 27,
+            "focus_team": "RCB",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 28,
+            "focus_team": "RCB",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 29,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 30,
+            "focus_team": "RCB",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 31,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 32,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 33,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 34,
+            "focus_team": "RCB",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 35,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 36,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 37,
+            "focus_team": "RCB",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 38,
+            "focus_team": "RCB",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 39,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 40,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 41,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 42,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 43,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 44,
+            "focus_team": "RCB",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 45,
+            "focus_team": "RCB",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 46,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 47,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 48,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 49,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 50,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 51,
+            "focus_team": "RCB",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 52,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 53,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 54,
+            "focus_team": "RCB",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 55,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 56,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 57,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 58,
+            "focus_team": "RCB",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 59,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 60,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 61,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 62,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 63,
+            "focus_team": "RCB",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 64,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 65,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 66,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 67,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 68,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 69,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 70,
+            "focus_team": "RCB",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 71,
+            "focus_team": "RCB",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 72,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 73,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 74,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 75,
+            "focus_team": "RCB",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 76,
+            "focus_team": "RCB",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 77,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 78,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 79,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 80,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 81,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 82,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 83,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 84,
+            "focus_team": "RCB",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 85,
+            "focus_team": "RCB",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 86,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 87,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 88,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 89,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 90,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 91,
+            "focus_team": "RCB",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 92,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 93,
+            "focus_team": "RCB",
+            "total_spend": 14.2
+          },
+          {
+            "run_id": 94,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 95,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 96,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 97,
+            "focus_team": "RCB",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 98,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 99,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 100,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 101,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 102,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 103,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 104,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 105,
+            "focus_team": "RCB",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 106,
+            "focus_team": "RCB",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 107,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 108,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 109,
+            "focus_team": "RCB",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 110,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 111,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 112,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 113,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 114,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 115,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 116,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 117,
+            "focus_team": "RCB",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 118,
+            "focus_team": "RCB",
+            "total_spend": 11.8
+          },
+          {
+            "run_id": 119,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 120,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 121,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 122,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 123,
+            "focus_team": "RCB",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 124,
+            "focus_team": "RCB",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 125,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 126,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 127,
+            "focus_team": "RCB",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 128,
+            "focus_team": "RCB",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 129,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 130,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 131,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 132,
+            "focus_team": "RCB",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 133,
+            "focus_team": "RCB",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 134,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 135,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 136,
+            "focus_team": "RCB",
+            "total_spend": 10.35
+          },
+          {
+            "run_id": 137,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 138,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 139,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 140,
+            "focus_team": "RCB",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 141,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 142,
+            "focus_team": "RCB",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 143,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 144,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 145,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 146,
+            "focus_team": "RCB",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 147,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 148,
+            "focus_team": "RCB",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 149,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 150,
+            "focus_team": "RCB",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 151,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 152,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 153,
+            "focus_team": "RCB",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 154,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 155,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 156,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 157,
+            "focus_team": "RCB",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 158,
+            "focus_team": "RCB",
+            "total_spend": 9.9
+          },
+          {
+            "run_id": 159,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 160,
+            "focus_team": "RCB",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 161,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 162,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 163,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 164,
+            "focus_team": "RCB",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 165,
+            "focus_team": "RCB",
+            "total_spend": 10.25
+          },
+          {
+            "run_id": 166,
+            "focus_team": "RCB",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 167,
+            "focus_team": "RCB",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 168,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 169,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 170,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 171,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 172,
+            "focus_team": "RCB",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 173,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 174,
+            "focus_team": "RCB",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 175,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 176,
+            "focus_team": "RCB",
+            "total_spend": 11.35
+          },
+          {
+            "run_id": 177,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 178,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 179,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 180,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 181,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 182,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 183,
+            "focus_team": "RCB",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 184,
+            "focus_team": "RCB",
+            "total_spend": 9.8
+          },
+          {
+            "run_id": 185,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 186,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 187,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 188,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 189,
+            "focus_team": "RCB",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 190,
+            "focus_team": "RCB",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 191,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 192,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 193,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 194,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 195,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 196,
+            "focus_team": "RCB",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 197,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 198,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 199,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 200,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 201,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 202,
+            "focus_team": "RCB",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 203,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 204,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 205,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 206,
+            "focus_team": "RCB",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 207,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 208,
+            "focus_team": "RCB",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 209,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 210,
+            "focus_team": "RCB",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 211,
+            "focus_team": "RCB",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 212,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 213,
+            "focus_team": "RCB",
+            "total_spend": 9.45
+          },
+          {
+            "run_id": 214,
+            "focus_team": "RCB",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 215,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 216,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 217,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 218,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 219,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 220,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 221,
+            "focus_team": "RCB",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 222,
+            "focus_team": "RCB",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 223,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 224,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 225,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 226,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 227,
+            "focus_team": "RCB",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 228,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 229,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 230,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 231,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 232,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 233,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 234,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 235,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 236,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 237,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 238,
+            "focus_team": "RCB",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 239,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 240,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 241,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 242,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 243,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 244,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 245,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 246,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 247,
+            "focus_team": "RCB",
+            "total_spend": 9.55
+          },
+          {
+            "run_id": 248,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 249,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 250,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 251,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 252,
+            "focus_team": "RCB",
+            "total_spend": 10.1
+          },
+          {
+            "run_id": 253,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 254,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 255,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 256,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 257,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 258,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 259,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 260,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 261,
+            "focus_team": "RCB",
+            "total_spend": 12.0
+          },
+          {
+            "run_id": 262,
+            "focus_team": "RCB",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 263,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 264,
+            "focus_team": "RCB",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 265,
+            "focus_team": "RCB",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 266,
+            "focus_team": "RCB",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 267,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 268,
+            "focus_team": "RCB",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 269,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 270,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 271,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 272,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 273,
+            "focus_team": "RCB",
+            "total_spend": 11.1
+          },
+          {
+            "run_id": 274,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 275,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 276,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 277,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 278,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 279,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 280,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 281,
+            "focus_team": "RCB",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 282,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 283,
+            "focus_team": "RCB",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 284,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 285,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 286,
+            "focus_team": "RCB",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 287,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 288,
+            "focus_team": "RCB",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 289,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 290,
+            "focus_team": "RCB",
+            "total_spend": 9.35
+          },
+          {
+            "run_id": 291,
+            "focus_team": "RCB",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 292,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 293,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 294,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 295,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 296,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 297,
+            "focus_team": "RCB",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 298,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 299,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 300,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 301,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 302,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 303,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 304,
+            "focus_team": "RCB",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 305,
+            "focus_team": "RCB",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 306,
+            "focus_team": "RCB",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 307,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 308,
+            "focus_team": "RCB",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 309,
+            "focus_team": "RCB",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 310,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 311,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 312,
+            "focus_team": "RCB",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 313,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 314,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 315,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 316,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 317,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 318,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 319,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 320,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 321,
+            "focus_team": "RCB",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 322,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 323,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 324,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 325,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 326,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 327,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 328,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 329,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 330,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 331,
+            "focus_team": "RCB",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 332,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 333,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 334,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 335,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 336,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 337,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 338,
+            "focus_team": "RCB",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 339,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 340,
+            "focus_team": "RCB",
+            "total_spend": 9.95
+          },
+          {
+            "run_id": 341,
+            "focus_team": "RCB",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 342,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 343,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 344,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 345,
+            "focus_team": "RCB",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 346,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 347,
+            "focus_team": "RCB",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 348,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 349,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 350,
+            "focus_team": "RCB",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 351,
+            "focus_team": "RCB",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 352,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 353,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 354,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 355,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 356,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 357,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 358,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 359,
+            "focus_team": "RCB",
+            "total_spend": 9.75
+          },
+          {
+            "run_id": 360,
+            "focus_team": "RCB",
+            "total_spend": 10.4
+          },
+          {
+            "run_id": 361,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 362,
+            "focus_team": "RCB",
+            "total_spend": 10.1
+          },
+          {
+            "run_id": 363,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 364,
+            "focus_team": "RCB",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 365,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 366,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 367,
+            "focus_team": "RCB",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 368,
+            "focus_team": "RCB",
+            "total_spend": 10.15
+          },
+          {
+            "run_id": 369,
+            "focus_team": "RCB",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 370,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 371,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 372,
+            "focus_team": "RCB",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 373,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 374,
+            "focus_team": "RCB",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 375,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 376,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 377,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 378,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 379,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 380,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 381,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 382,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 383,
+            "focus_team": "RCB",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 384,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 385,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 386,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 387,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 388,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 389,
+            "focus_team": "RCB",
+            "total_spend": 11.5
+          },
+          {
+            "run_id": 390,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 391,
+            "focus_team": "RCB",
+            "total_spend": 12.15
+          },
+          {
+            "run_id": 392,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 393,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 394,
+            "focus_team": "RCB",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 395,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 396,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 397,
+            "focus_team": "RCB",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 398,
+            "focus_team": "RCB",
+            "total_spend": 10.85
+          },
+          {
+            "run_id": 399,
+            "focus_team": "RCB",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 400,
+            "focus_team": "RCB",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 401,
+            "focus_team": "RCB",
+            "total_spend": 10.9
+          },
+          {
+            "run_id": 402,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 403,
+            "focus_team": "RCB",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 404,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 405,
+            "focus_team": "RCB",
+            "total_spend": 11.4
+          },
+          {
+            "run_id": 406,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 407,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 408,
+            "focus_team": "RCB",
+            "total_spend": 9.7
+          },
+          {
+            "run_id": 409,
+            "focus_team": "RCB",
+            "total_spend": 10.7
+          },
+          {
+            "run_id": 410,
+            "focus_team": "RCB",
+            "total_spend": 10.3
+          },
+          {
+            "run_id": 411,
+            "focus_team": "RCB",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 412,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 413,
+            "focus_team": "RCB",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 414,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 415,
+            "focus_team": "RCB",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 416,
+            "focus_team": "RCB",
+            "total_spend": 14.2
+          },
+          {
+            "run_id": 417,
+            "focus_team": "RCB",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 418,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 419,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 420,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 421,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 422,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 423,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 424,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 425,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 426,
+            "focus_team": "RCB",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 427,
+            "focus_team": "RCB",
+            "total_spend": 10.1
+          },
+          {
+            "run_id": 428,
+            "focus_team": "RCB",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 429,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 430,
+            "focus_team": "RCB",
+            "total_spend": 11.2
+          },
+          {
+            "run_id": 431,
+            "focus_team": "RCB",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 432,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 433,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 434,
+            "focus_team": "RCB",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 435,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 436,
+            "focus_team": "RCB",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 437,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 438,
+            "focus_team": "RCB",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 439,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 440,
+            "focus_team": "RCB",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 441,
+            "focus_team": "RCB",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 442,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 443,
+            "focus_team": "RCB",
+            "total_spend": 10.8
+          },
+          {
+            "run_id": 444,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 445,
+            "focus_team": "RCB",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 446,
+            "focus_team": "RCB",
+            "total_spend": 11.7
+          },
+          {
+            "run_id": 447,
+            "focus_team": "RCB",
+            "total_spend": 11.0
+          },
+          {
+            "run_id": 448,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 449,
+            "focus_team": "RCB",
+            "total_spend": 11.75
+          },
+          {
+            "run_id": 450,
+            "focus_team": "RCB",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 451,
+            "focus_team": "RCB",
+            "total_spend": 10.55
+          },
+          {
+            "run_id": 452,
+            "focus_team": "RCB",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 453,
+            "focus_team": "RCB",
+            "total_spend": 9.85
+          },
+          {
+            "run_id": 454,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 455,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 456,
+            "focus_team": "RCB",
+            "total_spend": 11.3
+          },
+          {
+            "run_id": 457,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 458,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 459,
+            "focus_team": "RCB",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 460,
+            "focus_team": "RCB",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 461,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 462,
+            "focus_team": "RCB",
+            "total_spend": 10.5
+          },
+          {
+            "run_id": 463,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 464,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 465,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 466,
+            "focus_team": "RCB",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 467,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 468,
+            "focus_team": "RCB",
+            "total_spend": 11.25
+          },
+          {
+            "run_id": 469,
+            "focus_team": "RCB",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 470,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 471,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 472,
+            "focus_team": "RCB",
+            "total_spend": 9.65
+          },
+          {
+            "run_id": 473,
+            "focus_team": "RCB",
+            "total_spend": 12.25
+          },
+          {
+            "run_id": 474,
+            "focus_team": "RCB",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 475,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 476,
+            "focus_team": "RCB",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 477,
+            "focus_team": "RCB",
+            "total_spend": 10.65
+          },
+          {
+            "run_id": 478,
+            "focus_team": "RCB",
+            "total_spend": 11.15
+          },
+          {
+            "run_id": 479,
+            "focus_team": "RCB",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 480,
+            "focus_team": "RCB",
+            "total_spend": 11.45
+          },
+          {
+            "run_id": 481,
+            "focus_team": "RCB",
+            "total_spend": 10.6
+          },
+          {
+            "run_id": 482,
+            "focus_team": "RCB",
+            "total_spend": 11.6
+          },
+          {
+            "run_id": 483,
+            "focus_team": "RCB",
+            "total_spend": 10.2
+          },
+          {
+            "run_id": 484,
+            "focus_team": "RCB",
+            "total_spend": 10.45
+          },
+          {
+            "run_id": 485,
+            "focus_team": "RCB",
+            "total_spend": 11.55
+          },
+          {
+            "run_id": 486,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 487,
+            "focus_team": "RCB",
+            "total_spend": 11.05
+          },
+          {
+            "run_id": 488,
+            "focus_team": "RCB",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 489,
+            "focus_team": "RCB",
+            "total_spend": 10.75
+          },
+          {
+            "run_id": 490,
+            "focus_team": "RCB",
+            "total_spend": 11.65
+          },
+          {
+            "run_id": 491,
+            "focus_team": "RCB",
+            "total_spend": 12.4
+          },
+          {
+            "run_id": 492,
+            "focus_team": "RCB",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 493,
+            "focus_team": "RCB",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 494,
+            "focus_team": "RCB",
+            "total_spend": 11.95
+          },
+          {
+            "run_id": 495,
+            "focus_team": "RCB",
+            "total_spend": 10.0
+          },
+          {
+            "run_id": 496,
+            "focus_team": "RCB",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 497,
+            "focus_team": "RCB",
+            "total_spend": 11.85
+          },
+          {
+            "run_id": 498,
+            "focus_team": "RCB",
+            "total_spend": 10.05
+          },
+          {
+            "run_id": 499,
+            "focus_team": "RCB",
+            "total_spend": 10.95
+          },
+          {
+            "run_id": 500,
+            "focus_team": "RCB",
+            "total_spend": 11.95
           }
         ],
         "top_targets": [
           {
-            "player_name": "Karn Sharma",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
-            "avg_price_when_bought": 1.7
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 1.57
-          },
-          {
             "player_name": "Shivam Shukla",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
+            "times_bought": 354,
+            "share_of_runs": 0.708,
             "avg_price_when_bought": 0.5
           },
           {
+            "player_name": "Kumar Kartikeya Singh",
+            "times_bought": 352,
+            "share_of_runs": 0.704,
+            "avg_price_when_bought": 1.6
+          },
+          {
             "player_name": "Prashant Solanki",
-            "times_bought": 13,
+            "times_bought": 328,
+            "share_of_runs": 0.656,
+            "avg_price_when_bought": 0.88
+          },
+          {
+            "player_name": "Karn Sharma",
+            "times_bought": 325,
             "share_of_runs": 0.65,
+            "avg_price_when_bought": 1.69
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "times_bought": 323,
+            "share_of_runs": 0.646,
             "avg_price_when_bought": 0.88
           },
           {
             "player_name": "Vignesh Puthur",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
-            "avg_price_when_bought": 1.02
-          },
-          {
-            "player_name": "Mayank Agarawal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.65
+            "times_bought": 319,
+            "share_of_runs": 0.638,
+            "avg_price_when_bought": 1.0
           }
         ]
       },
@@ -40934,104 +60338,116 @@ window.DASHBOARD_DATA = {
         "mc_purchase_summary": [
           {
             "player_name": "Chetan Sakariya",
-            "times_bought": 19,
-            "share_of_runs": 0.95,
+            "times_bought": 496,
+            "share_of_runs": 0.992,
             "avg_price_when_bought": 0.76
           },
           {
-            "player_name": "Rahul Chahar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 4.5
-          },
-          {
             "player_name": "Ravi Bishnoi",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
+            "times_bought": 261,
+            "share_of_runs": 0.522,
             "avg_price_when_bought": 6.0
           },
           {
-            "player_name": "Saqib Mahmood",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 1.5
-          },
-          {
-            "player_name": "Manan Vohra",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.46
+            "player_name": "Rahul Chahar",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 4.5
           },
           {
             "player_name": "Kuldeep Sen",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.8
+            "times_bought": 132,
+            "share_of_runs": 0.264,
+            "avg_price_when_bought": 0.78
+          },
+          {
+            "player_name": "Lungisani Ngidi",
+            "times_bought": 91,
+            "share_of_runs": 0.182,
+            "avg_price_when_bought": 2.0
+          },
+          {
+            "player_name": "Mustafizur Rahman",
+            "times_bought": 90,
+            "share_of_runs": 0.18,
+            "avg_price_when_bought": 2.0
           },
           {
             "player_name": "Kyle Jamieson",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "times_bought": 87,
+            "share_of_runs": 0.174,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "Adam Milne",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
+            "times_bought": 86,
+            "share_of_runs": 0.172,
             "avg_price_when_bought": 2.0
           },
           {
-            "player_name": "Lungisani Ngidi",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 2.0
-          },
-          {
-            "player_name": "Pukhraj Mann",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.43
-          },
-          {
-            "player_name": "Salman Nizar",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
-            "avg_price_when_bought": 0.33
-          },
-          {
-            "player_name": "Danish Malewar",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.5
-          },
-          {
-            "player_name": "Mustafizur Rahman",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 2.0
-          },
-          {
-            "player_name": "Rohan Kunnummal",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.4
+            "player_name": "Saqib Mahmood",
+            "times_bought": 78,
+            "share_of_runs": 0.156,
+            "avg_price_when_bought": 1.5
           },
           {
             "player_name": "William Orourke",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 68,
+            "share_of_runs": 0.136,
             "avg_price_when_bought": 2.0
           },
           {
-            "player_name": "Ankit Kumar",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
+            "player_name": "Salman Nizar",
+            "times_bought": 64,
+            "share_of_runs": 0.128,
             "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Ankit Kumar",
+            "times_bought": 62,
+            "share_of_runs": 0.124,
+            "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "times_bought": 55,
+            "share_of_runs": 0.11,
+            "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Rohan Kunnummal",
+            "times_bought": 51,
+            "share_of_runs": 0.102,
+            "avg_price_when_bought": 0.4
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "times_bought": 37,
+            "share_of_runs": 0.074,
+            "avg_price_when_bought": 0.48
+          },
+          {
+            "player_name": "Manan Vohra",
+            "times_bought": 37,
+            "share_of_runs": 0.074,
+            "avg_price_when_bought": 0.49
+          },
+          {
+            "player_name": "Danish Malewar",
+            "times_bought": 35,
+            "share_of_runs": 0.07,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "times_bought": 30,
+            "share_of_runs": 0.06,
+            "avg_price_when_bought": 0.49
           },
           {
             "player_name": "Saurav Chuahan",
             "times_bought": 1,
-            "share_of_runs": 0.05,
+            "share_of_runs": 0.002,
             "avg_price_when_bought": 0.3
           }
         ],
@@ -41135,44 +60551,2444 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "RR",
             "total_spend": 7.85
+          },
+          {
+            "run_id": 21,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 22,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 23,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 24,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 25,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 26,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 27,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 28,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 29,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 30,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 31,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 32,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 33,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 34,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 35,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 36,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 37,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 38,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 39,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 40,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 41,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 42,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 43,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 44,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 45,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 46,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 47,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 48,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 49,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 50,
+            "focus_team": "RR",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 51,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 52,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 53,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 54,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 55,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 56,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 57,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 58,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 59,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 60,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 61,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 62,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 63,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 64,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 65,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 66,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 67,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 68,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 69,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 70,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 71,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 72,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 73,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 74,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 75,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 76,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 77,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 78,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 79,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 80,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 81,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 82,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 83,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 84,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 85,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 86,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 87,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 88,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 89,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 90,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 91,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 92,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 93,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 94,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 95,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 96,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 97,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 98,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 99,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 100,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 101,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 102,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 103,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 104,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 105,
+            "focus_team": "RR",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 106,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 107,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 108,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 109,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 110,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 111,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 112,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 113,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 114,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 115,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 116,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 117,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 118,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 119,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 120,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 121,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 122,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 123,
+            "focus_team": "RR",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 124,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 125,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 126,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 127,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 128,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 129,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 130,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 131,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 132,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 133,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 134,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 135,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 136,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 137,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 138,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 139,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 140,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 141,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 142,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 143,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 144,
+            "focus_team": "RR",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 145,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 146,
+            "focus_team": "RR",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 147,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 148,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 149,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 150,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 151,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 152,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 153,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 154,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 155,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 156,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 157,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 158,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 159,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 160,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 161,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 162,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 163,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 164,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 165,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 166,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 167,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 168,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 169,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 170,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 171,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 172,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 173,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 174,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 175,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 176,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 177,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 178,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 179,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 180,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 181,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 182,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 183,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 184,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 185,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 186,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 187,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 188,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 189,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 190,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 191,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 192,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 193,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 194,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 195,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 196,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 197,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 198,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 199,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 200,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 201,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 202,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 203,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 204,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 205,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 206,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 207,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 208,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 209,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 210,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 211,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 212,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 213,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 214,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 215,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 216,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 217,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 218,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 219,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 220,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 221,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 222,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 223,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 224,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 225,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 226,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 227,
+            "focus_team": "RR",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 228,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 229,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 230,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 231,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 232,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 233,
+            "focus_team": "RR",
+            "total_spend": 7.85
+          },
+          {
+            "run_id": 234,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 235,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 236,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 237,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 238,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 239,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 240,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 241,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 242,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 243,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 244,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 245,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 246,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 247,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 248,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 249,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 250,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 251,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 252,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 253,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 254,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 255,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 256,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 257,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 258,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 259,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 260,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 261,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 262,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 263,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 264,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 265,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 266,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 267,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 268,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 269,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 270,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 271,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 272,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 273,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 274,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 275,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 276,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 277,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 278,
+            "focus_team": "RR",
+            "total_spend": 9.7
+          },
+          {
+            "run_id": 279,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 280,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 281,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 282,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 283,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 284,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 285,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 286,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 287,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 288,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 289,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 290,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 291,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 292,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 293,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 294,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 295,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 296,
+            "focus_team": "RR",
+            "total_spend": 8.55
+          },
+          {
+            "run_id": 297,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 298,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 299,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 300,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 301,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 302,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 303,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 304,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 305,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 306,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 307,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 308,
+            "focus_team": "RR",
+            "total_spend": 9.35
+          },
+          {
+            "run_id": 309,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 310,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 311,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 312,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 313,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 314,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 315,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 316,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 317,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 318,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 319,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 320,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 321,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 322,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 323,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 324,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 325,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 326,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 327,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 328,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 329,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 330,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 331,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 332,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 333,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 334,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 335,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 336,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 337,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 338,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 339,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 340,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 341,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 342,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 343,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 344,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 345,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 346,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 347,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 348,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 349,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 350,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 351,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 352,
+            "focus_team": "RR",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 353,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 354,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 355,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 356,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 357,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 358,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 359,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 360,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 361,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 362,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 363,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 364,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 365,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 366,
+            "focus_team": "RR",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 367,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 368,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 369,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 370,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 371,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 372,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 373,
+            "focus_team": "RR",
+            "total_spend": 9.1
+          },
+          {
+            "run_id": 374,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 375,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 376,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 377,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 378,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 379,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 380,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 381,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 382,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 383,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 384,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 385,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 386,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 387,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 388,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 389,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 390,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 391,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 392,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 393,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 394,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 395,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 396,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 397,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 398,
+            "focus_team": "RR",
+            "total_spend": 7.5
+          },
+          {
+            "run_id": 399,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 400,
+            "focus_team": "RR",
+            "total_spend": 8.75
+          },
+          {
+            "run_id": 401,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 402,
+            "focus_team": "RR",
+            "total_spend": 7.6
+          },
+          {
+            "run_id": 403,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 404,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 405,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 406,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 407,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 408,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 409,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 410,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 411,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 412,
+            "focus_team": "RR",
+            "total_spend": 9.7
+          },
+          {
+            "run_id": 413,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 414,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 415,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 416,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 417,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 418,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 419,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 420,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 421,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 422,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 423,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 424,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 425,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 426,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 427,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 428,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 429,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 430,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 431,
+            "focus_team": "RR",
+            "total_spend": 9.05
+          },
+          {
+            "run_id": 432,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 433,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 434,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 435,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 436,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 437,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 438,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 439,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 440,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 441,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 442,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 443,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 444,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 445,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 446,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 447,
+            "focus_team": "RR",
+            "total_spend": 7.15
+          },
+          {
+            "run_id": 448,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 449,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 450,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 451,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 452,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 453,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 454,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 455,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 456,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 457,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 458,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 459,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 460,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 461,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 462,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 463,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 464,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 465,
+            "focus_team": "RR",
+            "total_spend": 8.65
+          },
+          {
+            "run_id": 466,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 467,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 468,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 469,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 470,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 471,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 472,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 473,
+            "focus_team": "RR",
+            "total_spend": 9.0
+          },
+          {
+            "run_id": 474,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 475,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 476,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 477,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 478,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 479,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 480,
+            "focus_team": "RR",
+            "total_spend": 7.55
+          },
+          {
+            "run_id": 481,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 482,
+            "focus_team": "RR",
+            "total_spend": 8.1
+          },
+          {
+            "run_id": 483,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 484,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 485,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 486,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 487,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 488,
+            "focus_team": "RR",
+            "total_spend": 9.6
+          },
+          {
+            "run_id": 489,
+            "focus_team": "RR",
+            "total_spend": 8.0
+          },
+          {
+            "run_id": 490,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 491,
+            "focus_team": "RR",
+            "total_spend": 8.85
+          },
+          {
+            "run_id": 492,
+            "focus_team": "RR",
+            "total_spend": 7.75
+          },
+          {
+            "run_id": 493,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 494,
+            "focus_team": "RR",
+            "total_spend": 7.25
+          },
+          {
+            "run_id": 495,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 496,
+            "focus_team": "RR",
+            "total_spend": 9.15
+          },
+          {
+            "run_id": 497,
+            "focus_team": "RR",
+            "total_spend": 9.25
+          },
+          {
+            "run_id": 498,
+            "focus_team": "RR",
+            "total_spend": 9.5
+          },
+          {
+            "run_id": 499,
+            "focus_team": "RR",
+            "total_spend": 7.65
+          },
+          {
+            "run_id": 500,
+            "focus_team": "RR",
+            "total_spend": 9.25
           }
         ],
         "top_targets": [
           {
             "player_name": "Chetan Sakariya",
-            "times_bought": 19,
-            "share_of_runs": 0.95,
+            "times_bought": 496,
+            "share_of_runs": 0.992,
             "avg_price_when_bought": 0.76
           },
           {
-            "player_name": "Rahul Chahar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 4.5
-          },
-          {
             "player_name": "Ravi Bishnoi",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
+            "times_bought": 261,
+            "share_of_runs": 0.522,
             "avg_price_when_bought": 6.0
           },
           {
-            "player_name": "Saqib Mahmood",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 1.5
-          },
-          {
-            "player_name": "Manan Vohra",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 0.46
+            "player_name": "Rahul Chahar",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 4.5
           },
           {
             "player_name": "Kuldeep Sen",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 0.8
+            "times_bought": 132,
+            "share_of_runs": 0.264,
+            "avg_price_when_bought": 0.78
+          },
+          {
+            "player_name": "Lungisani Ngidi",
+            "times_bought": 91,
+            "share_of_runs": 0.182,
+            "avg_price_when_bought": 2.0
+          },
+          {
+            "player_name": "Mustafizur Rahman",
+            "times_bought": 90,
+            "share_of_runs": 0.18,
+            "avg_price_when_bought": 2.0
           }
         ]
       },
@@ -41322,153 +63138,195 @@ window.DASHBOARD_DATA = {
         "mc_purchase_summary": [
           {
             "player_name": "Kartik Sharma",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
             "player_name": "Mukul Choudhary",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
-            "player_name": "Ruchit Ahir",
-            "times_bought": 20,
-            "share_of_runs": 1.0,
-            "avg_price_when_bought": 0.7
-          },
-          {
             "player_name": "Tejasvi Singh",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.4
           },
           {
             "player_name": "Tushar Raheja",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 0.7
           },
           {
+            "player_name": "Ruchit Ahir",
+            "times_bought": 499,
+            "share_of_runs": 0.998,
+            "avg_price_when_bought": 0.7
+          },
+          {
             "player_name": "Vansh Bedi",
-            "times_bought": 19,
-            "share_of_runs": 0.95,
+            "times_bought": 499,
+            "share_of_runs": 0.998,
             "avg_price_when_bought": 0.7
-          },
-          {
-            "player_name": "Simarjeet Singh",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 0.7
-          },
-          {
-            "player_name": "Rahmanullah Gurbaz",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 2.85
           },
           {
             "player_name": "Raj Limbani",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 0.67
+            "times_bought": 158,
+            "share_of_runs": 0.316,
+            "avg_price_when_bought": 0.61
+          },
+          {
+            "player_name": "Simarjeet Singh",
+            "times_bought": 158,
+            "share_of_runs": 0.316,
+            "avg_price_when_bought": 0.78
           },
           {
             "player_name": "Akash Madhwal",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 0.77
-          },
-          {
-            "player_name": "Finn Allen",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 2.6
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 4.75
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 1.04
-          },
-          {
-            "player_name": "Sushant Mishra",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 1.04
+            "times_bought": 149,
+            "share_of_runs": 0.298,
+            "avg_price_when_bought": 0.79
           },
           {
             "player_name": "Ashok Sharma",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
+            "times_bought": 127,
+            "share_of_runs": 0.254,
+            "avg_price_when_bought": 0.97
+          },
+          {
+            "player_name": "Kartik Tyagi",
+            "times_bought": 122,
+            "share_of_runs": 0.244,
             "avg_price_when_bought": 1.03
           },
           {
-            "player_name": "Gerald Coetzee",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 3.25
+            "player_name": "Sushant Mishra",
+            "times_bought": 122,
+            "share_of_runs": 0.244,
+            "avg_price_when_bought": 0.95
           },
           {
             "player_name": "Naman Tiwari",
-            "times_bought": 4,
-            "share_of_runs": 0.2,
-            "avg_price_when_bought": 1.03
+            "times_bought": 117,
+            "share_of_runs": 0.234,
+            "avg_price_when_bought": 0.93
+          },
+          {
+            "player_name": "Rahmanullah Gurbaz",
+            "times_bought": 92,
+            "share_of_runs": 0.184,
+            "avg_price_when_bought": 2.85
+          },
+          {
+            "player_name": "Finn Allen",
+            "times_bought": 88,
+            "share_of_runs": 0.176,
+            "avg_price_when_bought": 3.5
           },
           {
             "player_name": "Jonny Bairstow",
-            "times_bought": 3,
-            "share_of_runs": 0.15,
+            "times_bought": 88,
+            "share_of_runs": 0.176,
             "avg_price_when_bought": 2.5
           },
           {
-            "player_name": "Anmolpreet Singh",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 0.5
+            "player_name": "Matt Henry",
+            "times_bought": 82,
+            "share_of_runs": 0.164,
+            "avg_price_when_bought": 4.75
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 80,
+            "share_of_runs": 0.16,
+            "avg_price_when_bought": 3.5
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "times_bought": 80,
+            "share_of_runs": 0.16,
+            "avg_price_when_bought": 3.75
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "times_bought": 76,
+            "share_of_runs": 0.152,
+            "avg_price_when_bought": 4.75
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "times_bought": 74,
+            "share_of_runs": 0.148,
+            "avg_price_when_bought": 2.6
           },
           {
             "player_name": "Anrich Nortje",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 72,
+            "share_of_runs": 0.144,
             "avg_price_when_bought": 5.5
           },
           {
             "player_name": "Ben Duckett",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 72,
+            "share_of_runs": 0.144,
             "avg_price_when_bought": 3.25
           },
           {
-            "player_name": "Jamie Smith",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
-            "avg_price_when_bought": 3.5
+            "player_name": "Gerald Coetzee",
+            "times_bought": 70,
+            "share_of_runs": 0.14,
+            "avg_price_when_bought": 3.25
           },
           {
             "player_name": "Matheesha Pathirana",
-            "times_bought": 2,
-            "share_of_runs": 0.1,
+            "times_bought": 64,
+            "share_of_runs": 0.128,
             "avg_price_when_bought": 5.5
           },
           {
-            "player_name": "Matt Henry",
-            "times_bought": 1,
-            "share_of_runs": 0.05,
-            "avg_price_when_bought": 4.75
+            "player_name": "Fazalhaq Farooqi",
+            "times_bought": 62,
+            "share_of_runs": 0.124,
+            "avg_price_when_bought": 2.5
+          },
+          {
+            "player_name": "Atharva Taide",
+            "times_bought": 10,
+            "share_of_runs": 0.02,
+            "avg_price_when_bought": 0.6
+          },
+          {
+            "player_name": "Aarya Desai",
+            "times_bought": 8,
+            "share_of_runs": 0.016,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "times_bought": 8,
+            "share_of_runs": 0.016,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Anmolpreet Singh",
+            "times_bought": 8,
+            "share_of_runs": 0.016,
+            "avg_price_when_bought": 0.54
+          },
+          {
+            "player_name": "Yash Dhull",
+            "times_bought": 8,
+            "share_of_runs": 0.016,
+            "avg_price_when_bought": 0.5
+          },
+          {
+            "player_name": "Abhinav Manohar",
+            "times_bought": 7,
+            "share_of_runs": 0.014,
+            "avg_price_when_bought": 0.8
           }
         ],
         "mc_spend_summary": [
@@ -41571,43 +63429,2443 @@ window.DASHBOARD_DATA = {
             "run_id": 20,
             "focus_team": "SRH",
             "total_spend": 16.0
+          },
+          {
+            "run_id": 21,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 22,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 23,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 24,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 25,
+            "focus_team": "SRH",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 26,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 27,
+            "focus_team": "SRH",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 28,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 29,
+            "focus_team": "SRH",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 30,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 31,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 32,
+            "focus_team": "SRH",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 33,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 34,
+            "focus_team": "SRH",
+            "total_spend": 14.3
+          },
+          {
+            "run_id": 35,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 36,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 37,
+            "focus_team": "SRH",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 38,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 39,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 40,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 41,
+            "focus_team": "SRH",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 42,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 43,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 44,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 45,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 46,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 47,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 48,
+            "focus_team": "SRH",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 49,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 50,
+            "focus_team": "SRH",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 51,
+            "focus_team": "SRH",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 52,
+            "focus_team": "SRH",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 53,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 54,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 55,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 56,
+            "focus_team": "SRH",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 57,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 58,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 59,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 60,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 61,
+            "focus_team": "SRH",
+            "total_spend": 13.45
+          },
+          {
+            "run_id": 62,
+            "focus_team": "SRH",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 63,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 64,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 65,
+            "focus_team": "SRH",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 66,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 67,
+            "focus_team": "SRH",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 68,
+            "focus_team": "SRH",
+            "total_spend": 13.0
+          },
+          {
+            "run_id": 69,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 70,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 71,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 72,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 73,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 74,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 75,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 76,
+            "focus_team": "SRH",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 77,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 78,
+            "focus_team": "SRH",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 79,
+            "focus_team": "SRH",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 80,
+            "focus_team": "SRH",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 81,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 82,
+            "focus_team": "SRH",
+            "total_spend": 12.05
+          },
+          {
+            "run_id": 83,
+            "focus_team": "SRH",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 84,
+            "focus_team": "SRH",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 85,
+            "focus_team": "SRH",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 86,
+            "focus_team": "SRH",
+            "total_spend": 12.6
+          },
+          {
+            "run_id": 87,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 88,
+            "focus_team": "SRH",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 89,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 90,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 91,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 92,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 93,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 94,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 95,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 96,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 97,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 98,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 99,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 100,
+            "focus_team": "SRH",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 101,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 102,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 103,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 104,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 105,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 106,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 107,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 108,
+            "focus_team": "SRH",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 109,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 110,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 111,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 112,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 113,
+            "focus_team": "SRH",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 114,
+            "focus_team": "SRH",
+            "total_spend": 14.65
+          },
+          {
+            "run_id": 115,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 116,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 117,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 118,
+            "focus_team": "SRH",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 119,
+            "focus_team": "SRH",
+            "total_spend": 12.65
+          },
+          {
+            "run_id": 120,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 121,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 122,
+            "focus_team": "SRH",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 123,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 124,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 125,
+            "focus_team": "SRH",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 126,
+            "focus_team": "SRH",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 127,
+            "focus_team": "SRH",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 128,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 129,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 130,
+            "focus_team": "SRH",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 131,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 132,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 133,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 134,
+            "focus_team": "SRH",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 135,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 136,
+            "focus_team": "SRH",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 137,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 138,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 139,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 140,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 141,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 142,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 143,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 144,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 145,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 146,
+            "focus_team": "SRH",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 147,
+            "focus_team": "SRH",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 148,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 149,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 150,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 151,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 152,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 153,
+            "focus_team": "SRH",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 154,
+            "focus_team": "SRH",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 155,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 156,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 157,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 158,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 159,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 160,
+            "focus_team": "SRH",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 161,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 162,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 163,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 164,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 165,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 166,
+            "focus_team": "SRH",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 167,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 168,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 169,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 170,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 171,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 172,
+            "focus_team": "SRH",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 173,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 174,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 175,
+            "focus_team": "SRH",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 176,
+            "focus_team": "SRH",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 177,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 178,
+            "focus_team": "SRH",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 179,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 180,
+            "focus_team": "SRH",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 181,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 182,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 183,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 184,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 185,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 186,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 187,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 188,
+            "focus_team": "SRH",
+            "total_spend": 16.25
+          },
+          {
+            "run_id": 189,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 190,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 191,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 192,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 193,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 194,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 195,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 196,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 197,
+            "focus_team": "SRH",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 198,
+            "focus_team": "SRH",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 199,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 200,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 201,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 202,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 203,
+            "focus_team": "SRH",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 204,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 205,
+            "focus_team": "SRH",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 206,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 207,
+            "focus_team": "SRH",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 208,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 209,
+            "focus_team": "SRH",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 210,
+            "focus_team": "SRH",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 211,
+            "focus_team": "SRH",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 212,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 213,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 214,
+            "focus_team": "SRH",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 215,
+            "focus_team": "SRH",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 216,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 217,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 218,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 219,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 220,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 221,
+            "focus_team": "SRH",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 222,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 223,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 224,
+            "focus_team": "SRH",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 225,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 226,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 227,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 228,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 229,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 230,
+            "focus_team": "SRH",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 231,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 232,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 233,
+            "focus_team": "SRH",
+            "total_spend": 15.9
+          },
+          {
+            "run_id": 234,
+            "focus_team": "SRH",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 235,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 236,
+            "focus_team": "SRH",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 237,
+            "focus_team": "SRH",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 238,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 239,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 240,
+            "focus_team": "SRH",
+            "total_spend": 13.7
+          },
+          {
+            "run_id": 241,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 242,
+            "focus_team": "SRH",
+            "total_spend": 15.05
+          },
+          {
+            "run_id": 243,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 244,
+            "focus_team": "SRH",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 245,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 246,
+            "focus_team": "SRH",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 247,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 248,
+            "focus_team": "SRH",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 249,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 250,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 251,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 252,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 253,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 254,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 255,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 256,
+            "focus_team": "SRH",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 257,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 258,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 259,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 260,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 261,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 262,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 263,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 264,
+            "focus_team": "SRH",
+            "total_spend": 12.35
+          },
+          {
+            "run_id": 265,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 266,
+            "focus_team": "SRH",
+            "total_spend": 15.15
+          },
+          {
+            "run_id": 267,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 268,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 269,
+            "focus_team": "SRH",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 270,
+            "focus_team": "SRH",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 271,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 272,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 273,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 274,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 275,
+            "focus_team": "SRH",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 276,
+            "focus_team": "SRH",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 277,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 278,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 279,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 280,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 281,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 282,
+            "focus_team": "SRH",
+            "total_spend": 16.35
+          },
+          {
+            "run_id": 283,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 284,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 285,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 286,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 287,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 288,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 289,
+            "focus_team": "SRH",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 290,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 291,
+            "focus_team": "SRH",
+            "total_spend": 16.05
+          },
+          {
+            "run_id": 292,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 293,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 294,
+            "focus_team": "SRH",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 295,
+            "focus_team": "SRH",
+            "total_spend": 15.6
+          },
+          {
+            "run_id": 296,
+            "focus_team": "SRH",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 297,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 298,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 299,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 300,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 301,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 302,
+            "focus_team": "SRH",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 303,
+            "focus_team": "SRH",
+            "total_spend": 15.85
+          },
+          {
+            "run_id": 304,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 305,
+            "focus_team": "SRH",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 306,
+            "focus_team": "SRH",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 307,
+            "focus_team": "SRH",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 308,
+            "focus_team": "SRH",
+            "total_spend": 12.1
+          },
+          {
+            "run_id": 309,
+            "focus_team": "SRH",
+            "total_spend": 15.2
+          },
+          {
+            "run_id": 310,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 311,
+            "focus_team": "SRH",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 312,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 313,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 314,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 315,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 316,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 317,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 318,
+            "focus_team": "SRH",
+            "total_spend": 14.2
+          },
+          {
+            "run_id": 319,
+            "focus_team": "SRH",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 320,
+            "focus_team": "SRH",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 321,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 322,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 323,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 324,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 325,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 326,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 327,
+            "focus_team": "SRH",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 328,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 329,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 330,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 331,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 332,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 333,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 334,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 335,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 336,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 337,
+            "focus_team": "SRH",
+            "total_spend": 16.2
+          },
+          {
+            "run_id": 338,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 339,
+            "focus_team": "SRH",
+            "total_spend": 13.2
+          },
+          {
+            "run_id": 340,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 341,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 342,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 343,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 344,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 345,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 346,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 347,
+            "focus_team": "SRH",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 348,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 349,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 350,
+            "focus_team": "SRH",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 351,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 352,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 353,
+            "focus_team": "SRH",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 354,
+            "focus_team": "SRH",
+            "total_spend": 12.5
+          },
+          {
+            "run_id": 355,
+            "focus_team": "SRH",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 356,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 357,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 358,
+            "focus_team": "SRH",
+            "total_spend": 14.05
+          },
+          {
+            "run_id": 359,
+            "focus_team": "SRH",
+            "total_spend": 14.6
+          },
+          {
+            "run_id": 360,
+            "focus_team": "SRH",
+            "total_spend": 12.3
+          },
+          {
+            "run_id": 361,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 362,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 363,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 364,
+            "focus_team": "SRH",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 365,
+            "focus_team": "SRH",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 366,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 367,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 368,
+            "focus_team": "SRH",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 369,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 370,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 371,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 372,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 373,
+            "focus_team": "SRH",
+            "total_spend": 12.55
+          },
+          {
+            "run_id": 374,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 375,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 376,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 377,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 378,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 379,
+            "focus_team": "SRH",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 380,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 381,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 382,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 383,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 384,
+            "focus_team": "SRH",
+            "total_spend": 14.45
+          },
+          {
+            "run_id": 385,
+            "focus_team": "SRH",
+            "total_spend": 12.7
+          },
+          {
+            "run_id": 386,
+            "focus_team": "SRH",
+            "total_spend": 14.0
+          },
+          {
+            "run_id": 387,
+            "focus_team": "SRH",
+            "total_spend": 14.25
+          },
+          {
+            "run_id": 388,
+            "focus_team": "SRH",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 389,
+            "focus_team": "SRH",
+            "total_spend": 16.4
+          },
+          {
+            "run_id": 390,
+            "focus_team": "SRH",
+            "total_spend": 14.35
+          },
+          {
+            "run_id": 391,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 392,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 393,
+            "focus_team": "SRH",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 394,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 395,
+            "focus_team": "SRH",
+            "total_spend": 13.35
+          },
+          {
+            "run_id": 396,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 397,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 398,
+            "focus_team": "SRH",
+            "total_spend": 13.9
+          },
+          {
+            "run_id": 399,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 400,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 401,
+            "focus_team": "SRH",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 402,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 403,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 404,
+            "focus_team": "SRH",
+            "total_spend": 14.1
+          },
+          {
+            "run_id": 405,
+            "focus_team": "SRH",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 406,
+            "focus_team": "SRH",
+            "total_spend": 16.45
+          },
+          {
+            "run_id": 407,
+            "focus_team": "SRH",
+            "total_spend": 15.95
+          },
+          {
+            "run_id": 408,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 409,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 410,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 411,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 412,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 413,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 414,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 415,
+            "focus_team": "SRH",
+            "total_spend": 16.0
+          },
+          {
+            "run_id": 416,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 417,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 418,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 419,
+            "focus_team": "SRH",
+            "total_spend": 15.45
+          },
+          {
+            "run_id": 420,
+            "focus_team": "SRH",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 421,
+            "focus_team": "SRH",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 422,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 423,
+            "focus_team": "SRH",
+            "total_spend": 13.1
+          },
+          {
+            "run_id": 424,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 425,
+            "focus_team": "SRH",
+            "total_spend": 13.8
+          },
+          {
+            "run_id": 426,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 427,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 428,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 429,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 430,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 431,
+            "focus_team": "SRH",
+            "total_spend": 13.3
+          },
+          {
+            "run_id": 432,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 433,
+            "focus_team": "SRH",
+            "total_spend": 12.95
+          },
+          {
+            "run_id": 434,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 435,
+            "focus_team": "SRH",
+            "total_spend": 12.75
+          },
+          {
+            "run_id": 436,
+            "focus_team": "SRH",
+            "total_spend": 14.9
+          },
+          {
+            "run_id": 437,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 438,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 439,
+            "focus_team": "SRH",
+            "total_spend": 15.55
+          },
+          {
+            "run_id": 440,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 441,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 442,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 443,
+            "focus_team": "SRH",
+            "total_spend": 15.35
+          },
+          {
+            "run_id": 444,
+            "focus_team": "SRH",
+            "total_spend": 14.65
+          },
+          {
+            "run_id": 445,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 446,
+            "focus_team": "SRH",
+            "total_spend": 13.05
+          },
+          {
+            "run_id": 447,
+            "focus_team": "SRH",
+            "total_spend": 14.15
+          },
+          {
+            "run_id": 448,
+            "focus_team": "SRH",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 449,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 450,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 451,
+            "focus_team": "SRH",
+            "total_spend": 16.55
+          },
+          {
+            "run_id": 452,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 453,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 454,
+            "focus_team": "SRH",
+            "total_spend": 16.15
+          },
+          {
+            "run_id": 455,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 456,
+            "focus_team": "SRH",
+            "total_spend": 15.3
+          },
+          {
+            "run_id": 457,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 458,
+            "focus_team": "SRH",
+            "total_spend": 12.45
+          },
+          {
+            "run_id": 459,
+            "focus_team": "SRH",
+            "total_spend": 13.85
+          },
+          {
+            "run_id": 460,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 461,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 462,
+            "focus_team": "SRH",
+            "total_spend": 13.25
+          },
+          {
+            "run_id": 463,
+            "focus_team": "SRH",
+            "total_spend": 14.95
+          },
+          {
+            "run_id": 464,
+            "focus_team": "SRH",
+            "total_spend": 15.75
+          },
+          {
+            "run_id": 465,
+            "focus_team": "SRH",
+            "total_spend": 13.65
+          },
+          {
+            "run_id": 466,
+            "focus_team": "SRH",
+            "total_spend": 13.55
+          },
+          {
+            "run_id": 467,
+            "focus_team": "SRH",
+            "total_spend": 13.15
+          },
+          {
+            "run_id": 468,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 469,
+            "focus_team": "SRH",
+            "total_spend": 13.4
+          },
+          {
+            "run_id": 470,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 471,
+            "focus_team": "SRH",
+            "total_spend": 15.65
+          },
+          {
+            "run_id": 472,
+            "focus_team": "SRH",
+            "total_spend": 13.75
+          },
+          {
+            "run_id": 473,
+            "focus_team": "SRH",
+            "total_spend": 15.7
+          },
+          {
+            "run_id": 474,
+            "focus_team": "SRH",
+            "total_spend": 15.5
+          },
+          {
+            "run_id": 475,
+            "focus_team": "SRH",
+            "total_spend": 15.25
+          },
+          {
+            "run_id": 476,
+            "focus_team": "SRH",
+            "total_spend": 14.55
+          },
+          {
+            "run_id": 477,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 478,
+            "focus_team": "SRH",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 479,
+            "focus_team": "SRH",
+            "total_spend": 15.8
+          },
+          {
+            "run_id": 480,
+            "focus_team": "SRH",
+            "total_spend": 12.85
+          },
+          {
+            "run_id": 481,
+            "focus_team": "SRH",
+            "total_spend": 15.0
+          },
+          {
+            "run_id": 482,
+            "focus_team": "SRH",
+            "total_spend": 16.3
+          },
+          {
+            "run_id": 483,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 484,
+            "focus_team": "SRH",
+            "total_spend": 12.8
+          },
+          {
+            "run_id": 485,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 486,
+            "focus_team": "SRH",
+            "total_spend": 15.1
+          },
+          {
+            "run_id": 487,
+            "focus_team": "SRH",
+            "total_spend": 14.7
+          },
+          {
+            "run_id": 488,
+            "focus_team": "SRH",
+            "total_spend": 13.6
+          },
+          {
+            "run_id": 489,
+            "focus_team": "SRH",
+            "total_spend": 12.2
+          },
+          {
+            "run_id": 490,
+            "focus_team": "SRH",
+            "total_spend": 15.4
+          },
+          {
+            "run_id": 491,
+            "focus_team": "SRH",
+            "total_spend": 14.4
+          },
+          {
+            "run_id": 492,
+            "focus_team": "SRH",
+            "total_spend": 16.1
+          },
+          {
+            "run_id": 493,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 494,
+            "focus_team": "SRH",
+            "total_spend": 13.95
+          },
+          {
+            "run_id": 495,
+            "focus_team": "SRH",
+            "total_spend": 13.5
+          },
+          {
+            "run_id": 496,
+            "focus_team": "SRH",
+            "total_spend": 11.9
+          },
+          {
+            "run_id": 497,
+            "focus_team": "SRH",
+            "total_spend": 14.5
+          },
+          {
+            "run_id": 498,
+            "focus_team": "SRH",
+            "total_spend": 12.9
+          },
+          {
+            "run_id": 499,
+            "focus_team": "SRH",
+            "total_spend": 14.8
+          },
+          {
+            "run_id": 500,
+            "focus_team": "SRH",
+            "total_spend": 13.7
           }
         ],
         "top_targets": [
           {
             "player_name": "Kartik Sharma",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
             "player_name": "Mukul Choudhary",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
-            "player_name": "Ruchit Ahir",
-            "times_bought": 20,
-            "share_of_runs": 1.0,
-            "avg_price_when_bought": 0.7
-          },
-          {
             "player_name": "Tejasvi Singh",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.4
           },
           {
             "player_name": "Tushar Raheja",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 0.7
           },
           {
+            "player_name": "Ruchit Ahir",
+            "times_bought": 499,
+            "share_of_runs": 0.998,
+            "avg_price_when_bought": 0.7
+          },
+          {
             "player_name": "Vansh Bedi",
-            "times_bought": 19,
-            "share_of_runs": 0.95,
+            "times_bought": 499,
+            "share_of_runs": 0.998,
             "avg_price_when_bought": 0.7
           }
         ]
@@ -41658,11 +65916,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Manan Vohra",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.37,
-            "price_std": 0.1,
+            "expected_price": 0.35,
+            "price_std": 0.09,
             "quality_score": 0.2596,
             "base_ceiling": 0.82,
-            "value_surplus": 0.45,
+            "value_surplus": 0.47,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.1366,
             "is_overseas": false
@@ -41671,11 +65929,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Abhinav Manohar",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.86,
+            "expected_price": 0.87,
             "price_std": 0.07,
             "quality_score": 0.187,
             "base_ceiling": 0.68,
-            "value_surplus": -0.18,
+            "value_surplus": -0.19,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2092,
             "is_overseas": false
@@ -41684,26 +65942,13 @@ window.DASHBOARD_DATA = {
             "player_name": "Akshat Raghuwanshi",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.38,
-            "price_std": 0.13,
+            "expected_price": 0.35,
+            "price_std": 0.1,
             "quality_score": 0.1842,
             "base_ceiling": 0.67,
-            "value_surplus": 0.29,
+            "value_surplus": 0.32,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.212,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Aman Rao Perala",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "expected_price": 0.3,
-            "price_std": 0.0,
-            "quality_score": 0.18,
-            "base_ceiling": 0.66,
-            "value_surplus": 0.36,
-            "purchase_share": 1.0,
-            "quality_gap_from_top": 0.2162,
             "is_overseas": false
           },
           {
@@ -41723,11 +65968,24 @@ window.DASHBOARD_DATA = {
             "player_name": "Danish Malewar",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.34,
-            "price_std": 0.08,
+            "expected_price": 0.35,
+            "price_std": 0.09,
             "quality_score": 0.18,
             "base_ceiling": 0.66,
-            "value_surplus": 0.32,
+            "value_surplus": 0.31,
+            "purchase_share": 1.0,
+            "quality_gap_from_top": 0.2162,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "expected_price": 0.35,
+            "price_std": 0.1,
+            "quality_score": 0.18,
+            "base_ceiling": 0.66,
+            "value_surplus": 0.31,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2162,
             "is_overseas": false
@@ -41749,11 +66007,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Atharva Taide",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.7,
-            "price_std": 0.09,
+            "expected_price": 0.67,
+            "price_std": 0.08,
             "quality_score": 0.1138,
             "base_ceiling": 0.53,
-            "value_surplus": -0.17,
+            "value_surplus": -0.14,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2824,
             "is_overseas": false
@@ -41762,11 +66020,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Anmolpreet Singh",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.63,
-            "price_std": 0.07,
+            "expected_price": 0.64,
+            "price_std": 0.05,
             "quality_score": 0.1013,
             "base_ceiling": 0.5,
-            "value_surplus": -0.13,
+            "value_surplus": -0.14,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2949,
             "is_overseas": false
@@ -41814,11 +66072,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Yash Dhull",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "expected_price": 0.56,
+            "expected_price": 0.55,
             "price_std": 0.05,
             "quality_score": 0.0753,
             "base_ceiling": 0.45,
-            "value_surplus": -0.11,
+            "value_surplus": -0.1,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3209,
             "is_overseas": false
@@ -42011,11 +66269,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Akash Deep",
             "role_bucket": "domestic_pace",
             "reserve_price": 1.0,
-            "expected_price": 3.41,
+            "expected_price": 3.36,
             "price_std": 0.38,
             "quality_score": 0.2427,
             "base_ceiling": 1.64,
-            "value_surplus": -1.77,
+            "value_surplus": -1.72,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4473,
             "is_overseas": false
@@ -42024,11 +66282,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Shivam Mavi",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.75,
-            "expected_price": 2.64,
+            "expected_price": 2.69,
             "price_std": 0.38,
             "quality_score": 0.2376,
             "base_ceiling": 1.34,
-            "value_surplus": -1.3,
+            "value_surplus": -1.35,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4524,
             "is_overseas": false
@@ -42037,11 +66295,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Kartik Tyagi",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.3,
-            "expected_price": 0.99,
-            "price_std": 0.11,
+            "expected_price": 1.03,
+            "price_std": 0.16,
             "quality_score": 0.2178,
             "base_ceiling": 0.78,
-            "value_surplus": -0.21,
+            "value_surplus": -0.25,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4722,
             "is_overseas": false
@@ -42050,11 +66308,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Kuldeep Sen",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.75,
-            "expected_price": 0.87,
+            "expected_price": 0.86,
             "price_std": 0.08,
             "quality_score": 0.1977,
             "base_ceiling": 1.24,
-            "value_surplus": 0.37,
+            "value_surplus": 0.38,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4923,
             "is_overseas": false
@@ -42115,11 +66373,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Ashok Sharma",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.3,
-            "expected_price": 0.96,
-            "price_std": 0.15,
+            "expected_price": 0.94,
+            "price_std": 0.13,
             "quality_score": 0.1809,
             "base_ceiling": 0.7,
-            "value_surplus": -0.26,
+            "value_surplus": -0.24,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5091,
             "is_overseas": false
@@ -42128,11 +66386,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Naman Tiwari",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.3,
-            "expected_price": 0.94,
-            "price_std": 0.14,
+            "expected_price": 0.93,
+            "price_std": 0.13,
             "quality_score": 0.1801,
             "base_ceiling": 0.7,
-            "value_surplus": -0.24,
+            "value_surplus": -0.23,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5099,
             "is_overseas": false
@@ -42182,11 +66440,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Kumar Kartikeya Singh",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "expected_price": 1.62,
-            "price_std": 0.16,
+            "expected_price": 1.67,
+            "price_std": 0.17,
             "quality_score": 0.4045,
             "base_ceiling": 1.77,
-            "value_surplus": 0.15,
+            "value_surplus": 0.1,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2855,
             "is_overseas": false
@@ -42195,11 +66453,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Rahul Chahar",
             "role_bucket": "indian_spin",
             "reserve_price": 1.0,
-            "expected_price": 4.0,
-            "price_std": 0.51,
+            "expected_price": 3.98,
+            "price_std": 0.5,
             "quality_score": 0.3913,
             "base_ceiling": 2.69,
-            "value_surplus": -1.31,
+            "value_surplus": -1.29,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2987,
             "is_overseas": false
@@ -42208,11 +66466,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Karn Sharma",
             "role_bucket": "indian_spin",
             "reserve_price": 0.5,
-            "expected_price": 1.76,
-            "price_std": 0.2,
+            "expected_price": 1.79,
+            "price_std": 0.23,
             "quality_score": 0.3504,
             "base_ceiling": 1.84,
-            "value_surplus": 0.07,
+            "value_surplus": 0.05,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3396,
             "is_overseas": false
@@ -42221,11 +66479,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Vignesh Puthur",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "expected_price": 1.03,
-            "price_std": 0.07,
+            "expected_price": 1.04,
+            "price_std": 0.08,
             "quality_score": 0.2233,
             "base_ceiling": 1.11,
-            "value_surplus": 0.08,
+            "value_surplus": 0.07,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4667,
             "is_overseas": false
@@ -42247,11 +66505,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Prashant Solanki",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "expected_price": 0.91,
+            "expected_price": 0.92,
             "price_std": 0.11,
             "quality_score": 0.1827,
             "base_ceiling": 0.96,
-            "value_surplus": 0.05,
+            "value_surplus": 0.04,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5073,
             "is_overseas": false
@@ -42273,11 +66531,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Yash Raj Punja",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "expected_price": 1.01,
-            "price_std": 0.16,
+            "expected_price": 0.94,
+            "price_std": 0.13,
             "quality_score": 0.1816,
             "base_ceiling": 0.96,
-            "value_surplus": -0.05,
+            "value_surplus": 0.02,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5084,
             "is_overseas": false
@@ -42338,11 +66596,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Shivam Shukla",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "expected_price": 0.52,
-            "price_std": 0.06,
+            "expected_price": 0.53,
+            "price_std": 0.07,
             "quality_score": 0.073,
             "base_ceiling": 0.57,
-            "value_surplus": 0.05,
+            "value_surplus": 0.04,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.617,
             "is_overseas": false
@@ -42418,11 +66676,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Rahul Tripathi",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 2.16,
-            "price_std": 0.4,
+            "expected_price": 2.08,
+            "price_std": 0.5,
             "quality_score": 0.5181,
             "base_ceiling": 1.91,
-            "value_surplus": -0.26,
+            "value_surplus": -0.17,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0,
             "is_overseas": false
@@ -42431,11 +66689,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Prithvi Shaw",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 3.15,
-            "price_std": 0.13,
+            "expected_price": 3.12,
+            "price_std": 0.11,
             "quality_score": 0.5055,
             "base_ceiling": 1.89,
-            "value_surplus": -1.26,
+            "value_surplus": -1.23,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0126,
             "is_overseas": false
@@ -42444,11 +66702,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Steve Smith",
             "role_bucket": "middle_bat",
             "reserve_price": 2.0,
-            "expected_price": 2.52,
-            "price_std": 0.68,
+            "expected_price": 2.75,
+            "price_std": 0.66,
             "quality_score": 0.4629,
             "base_ceiling": 3.35,
-            "value_surplus": 0.83,
+            "value_surplus": 0.6,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0552,
             "is_overseas": true
@@ -42457,11 +66715,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Sarfaraz Khan",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 2.33,
-            "price_std": 0.08,
+            "expected_price": 2.36,
+            "price_std": 0.11,
             "quality_score": 0.3127,
             "base_ceiling": 1.45,
-            "value_surplus": -0.88,
+            "value_surplus": -0.91,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2054,
             "is_overseas": false
@@ -42470,11 +66728,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Cameron Green",
             "role_bucket": "middle_bat",
             "reserve_price": 2.0,
-            "expected_price": 4.85,
-            "price_std": 0.13,
+            "expected_price": 4.82,
+            "price_std": 0.11,
             "quality_score": 0.3103,
             "base_ceiling": 2.9,
-            "value_surplus": -1.95,
+            "value_surplus": -1.92,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2078,
             "is_overseas": true
@@ -42483,11 +66741,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Pathum Nissanka",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 1.01,
+            "expected_price": 1.07,
             "price_std": 0.25,
             "quality_score": 0.3067,
             "base_ceiling": 1.44,
-            "value_surplus": 0.43,
+            "value_surplus": 0.37,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2114,
             "is_overseas": true
@@ -42496,11 +66754,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Mayank Agarawal",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 1.55,
+            "expected_price": 1.53,
             "price_std": 0.24,
             "quality_score": 0.2586,
             "base_ceiling": 1.33,
-            "value_surplus": -0.22,
+            "value_surplus": -0.2,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2595,
             "is_overseas": false
@@ -42509,11 +66767,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Jake Fraser-McGurk",
             "role_bucket": "middle_bat",
             "reserve_price": 2.0,
-            "expected_price": 4.28,
-            "price_std": 0.08,
+            "expected_price": 4.31,
+            "price_std": 0.1,
             "quality_score": 0.1803,
             "base_ceiling": 2.52,
-            "value_surplus": -1.76,
+            "value_surplus": -1.79,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3378,
             "is_overseas": true
@@ -42522,11 +66780,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Reeza Hendricks",
             "role_bucket": "middle_bat",
             "reserve_price": 1.0,
-            "expected_price": 1.02,
-            "price_std": 0.06,
+            "expected_price": 1.05,
+            "price_std": 0.09,
             "quality_score": 0.1744,
             "base_ceiling": 1.41,
-            "value_surplus": 0.39,
+            "value_surplus": 0.36,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3437,
             "is_overseas": true
@@ -42535,11 +66793,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Tim Robinson",
             "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "expected_price": 0.79,
+            "expected_price": 0.78,
             "price_std": 0.05,
             "quality_score": 0.0988,
             "base_ceiling": 0.97,
-            "value_surplus": 0.18,
+            "value_surplus": 0.19,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4193,
             "is_overseas": true
@@ -42563,11 +66821,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Matheesha Pathirana",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "expected_price": 5.5,
-            "price_std": 0.51,
+            "expected_price": 5.47,
+            "price_std": 0.5,
             "quality_score": 0.3858,
             "base_ceiling": 3.49,
-            "value_surplus": -2.01,
+            "value_surplus": -1.98,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0794,
             "is_overseas": true
@@ -42576,11 +66834,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Anrich Nortje",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "expected_price": 5.1,
-            "price_std": 0.49,
+            "expected_price": 5.11,
+            "price_std": 0.43,
             "quality_score": 0.3381,
             "base_ceiling": 3.3,
-            "value_surplus": -1.8,
+            "value_surplus": -1.81,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.1271,
             "is_overseas": true
@@ -42641,11 +66899,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Jacob Duffy",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "expected_price": 4.39,
-            "price_std": 0.46,
+            "expected_price": 4.47,
+            "price_std": 0.48,
             "quality_score": 0.2272,
             "base_ceiling": 2.87,
-            "value_surplus": -1.52,
+            "value_surplus": -1.6,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.238,
             "is_overseas": true
@@ -42655,7 +66913,7 @@ window.DASHBOARD_DATA = {
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
             "expected_price": 4.49,
-            "price_std": 0.43,
+            "price_std": 0.48,
             "quality_score": 0.2255,
             "base_ceiling": 2.87,
             "value_surplus": -1.62,
@@ -42680,11 +66938,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Fazalhaq Farooqi",
             "role_bucket": "overseas_pace",
             "reserve_price": 1.0,
-            "expected_price": 2.59,
+            "expected_price": 2.46,
             "price_std": 0.25,
             "quality_score": 0.1834,
             "base_ceiling": 1.58,
-            "value_surplus": -1.01,
+            "value_surplus": -0.88,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2818,
             "is_overseas": true
@@ -42771,11 +67029,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Gerald Coetzee",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "expected_price": 3.24,
-            "price_std": 0.24,
+            "expected_price": 3.19,
+            "price_std": 0.31,
             "quality_score": 0.1345,
             "base_ceiling": 2.52,
-            "value_surplus": -0.72,
+            "value_surplus": -0.67,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3307,
             "is_overseas": true
@@ -42784,11 +67042,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Spencer Johnson",
             "role_bucket": "overseas_pace",
             "reserve_price": 1.5,
-            "expected_price": 2.33,
-            "price_std": 0.28,
+            "expected_price": 2.39,
+            "price_std": 0.24,
             "quality_score": 0.1205,
             "base_ceiling": 1.92,
-            "value_surplus": -0.41,
+            "value_surplus": -0.47,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.3447,
             "is_overseas": true
@@ -43336,11 +67594,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Maheesh Theekshana",
             "role_bucket": "spin_bowler",
             "reserve_price": 2.0,
-            "expected_price": 3.68,
-            "price_std": 0.29,
+            "expected_price": 3.7,
+            "price_std": 0.28,
             "quality_score": 0.2899,
             "base_ceiling": 2.93,
-            "value_surplus": -0.74,
+            "value_surplus": -0.77,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0,
             "is_overseas": true
@@ -43349,11 +67607,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Akeal Hosein",
             "role_bucket": "spin_bowler",
             "reserve_price": 2.0,
-            "expected_price": 3.56,
-            "price_std": 0.32,
+            "expected_price": 3.66,
+            "price_std": 0.31,
             "quality_score": 0.2867,
             "base_ceiling": 2.92,
-            "value_surplus": -0.64,
+            "value_surplus": -0.74,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0032,
             "is_overseas": true
@@ -43362,11 +67620,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Mujeeb Rahman",
             "role_bucket": "spin_bowler",
             "reserve_price": 2.0,
-            "expected_price": 3.6,
-            "price_std": 0.19,
+            "expected_price": 3.48,
+            "price_std": 0.26,
             "quality_score": 0.2372,
             "base_ceiling": 2.76,
-            "value_surplus": -0.84,
+            "value_surplus": -0.72,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0527,
             "is_overseas": true
@@ -43466,11 +67724,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Wahidullah Zadran",
             "role_bucket": "spin_bowler",
             "reserve_price": 0.3,
-            "expected_price": 0.38,
-            "price_std": 0.04,
+            "expected_price": 0.4,
+            "price_std": 0.05,
             "quality_score": 0.07,
             "base_ceiling": 0.46,
-            "value_surplus": 0.08,
+            "value_surplus": 0.06,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.2199,
             "is_overseas": true
@@ -43507,11 +67765,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Sediqullah Atal",
             "role_bucket": "top_order_bat",
             "reserve_price": 0.75,
-            "expected_price": 0.82,
+            "expected_price": 0.79,
             "price_std": 0.05,
             "quality_score": 0.1049,
             "base_ceiling": 0.99,
-            "value_surplus": 0.17,
+            "value_surplus": 0.2,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.6842,
             "is_overseas": true
@@ -43535,11 +67793,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Quinton De Kock",
             "role_bucket": "wicketkeeper",
             "reserve_price": 1.0,
-            "expected_price": 3.98,
-            "price_std": 0.38,
+            "expected_price": 3.9,
+            "price_std": 0.34,
             "quality_score": 0.8672,
             "base_ceiling": 3.4,
-            "value_surplus": -0.58,
+            "value_surplus": -0.5,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.0,
             "is_overseas": true
@@ -43548,11 +67806,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Jonny Bairstow",
             "role_bucket": "wicketkeeper",
             "reserve_price": 1.0,
-            "expected_price": 2.52,
-            "price_std": 0.27,
+            "expected_price": 2.56,
+            "price_std": 0.24,
             "quality_score": 0.46,
             "base_ceiling": 2.27,
-            "value_surplus": -0.25,
+            "value_surplus": -0.29,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.4072,
             "is_overseas": true
@@ -43613,11 +67871,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Finn Allen",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "expected_price": 3.56,
-            "price_std": 0.34,
+            "expected_price": 3.64,
+            "price_std": 0.35,
             "quality_score": 0.3463,
             "base_ceiling": 3.17,
-            "value_surplus": -0.39,
+            "value_surplus": -0.47,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5209,
             "is_overseas": true
@@ -43626,11 +67884,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Rahmanullah Gurbaz",
             "role_bucket": "wicketkeeper",
             "reserve_price": 1.5,
-            "expected_price": 2.9,
-            "price_std": 0.22,
+            "expected_price": 2.88,
+            "price_std": 0.25,
             "quality_score": 0.3424,
             "base_ceiling": 2.55,
-            "value_surplus": -0.35,
+            "value_surplus": -0.33,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5248,
             "is_overseas": true
@@ -43639,11 +67897,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Jamie Smith",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "expected_price": 3.66,
-            "price_std": 0.3,
+            "expected_price": 3.56,
+            "price_std": 0.31,
             "quality_score": 0.3303,
             "base_ceiling": 3.12,
-            "value_surplus": -0.54,
+            "value_surplus": -0.44,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5369,
             "is_overseas": true
@@ -43652,11 +67910,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Kusal Perera",
             "role_bucket": "wicketkeeper",
             "reserve_price": 1.0,
-            "expected_price": 1.0,
-            "price_std": 0.0,
+            "expected_price": 1.01,
+            "price_std": 0.05,
             "quality_score": 0.3038,
             "base_ceiling": 1.84,
-            "value_surplus": 0.84,
+            "value_surplus": 0.83,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5634,
             "is_overseas": true
@@ -43678,11 +67936,11 @@ window.DASHBOARD_DATA = {
             "player_name": "Ben Duckett",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "expected_price": 3.26,
-            "price_std": 0.31,
+            "expected_price": 3.37,
+            "price_std": 0.29,
             "quality_score": 0.284,
             "base_ceiling": 2.96,
-            "value_surplus": -0.3,
+            "value_surplus": -0.41,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.5832,
             "is_overseas": true
@@ -43731,7 +67989,7 @@ window.DASHBOARD_DATA = {
             "role_bucket": "wicketkeeper",
             "reserve_price": 0.75,
             "expected_price": 0.75,
-            "price_std": 0.0,
+            "price_std": 0.01,
             "quality_score": 0.2672,
             "base_ceiling": 1.45,
             "value_surplus": 0.7,
@@ -43782,11 +68040,11 @@ window.DASHBOARD_DATA = {
             "player_name": "K.S. Bharat",
             "role_bucket": "wicketkeeper",
             "reserve_price": 0.75,
-            "expected_price": 1.14,
+            "expected_price": 1.13,
             "price_std": 0.1,
             "quality_score": 0.1757,
             "base_ceiling": 1.21,
-            "value_surplus": 0.07,
+            "value_surplus": 0.08,
             "purchase_share": 1.0,
             "quality_gap_from_top": 0.6915,
             "is_overseas": false
@@ -43985,27 +68243,27 @@ window.DASHBOARD_DATA = {
         "recommended_fills": [
           {
             "player_name": "David Miller",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 9.0
           },
           {
             "player_name": "Devon Conway",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 6.0
           },
           {
             "player_name": "Gus Atkinson",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 2.0
           },
           {
             "player_name": "K.S. Bharat",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
-            "avg_price_when_bought": 1.14
+            "avg_price_when_bought": 1.13
           }
         ],
         "role_gaps": [
@@ -44240,28 +68498,28 @@ window.DASHBOARD_DATA = {
         ],
         "recommended_fills": [
           {
-            "player_name": "Fazalhaq Farooqi",
-            "times_bought": 17,
-            "share_of_runs": 0.85,
-            "avg_price_when_bought": 2.68
-          },
-          {
             "player_name": "Matheesha Pathirana",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 5.75
-          },
-          {
-            "player_name": "Matt Henry",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
-            "avg_price_when_bought": 4.69
+            "times_bought": 314,
+            "share_of_runs": 0.628,
+            "avg_price_when_bought": 5.76
           },
           {
             "player_name": "Anrich Nortje",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 5.33
+            "times_bought": 294,
+            "share_of_runs": 0.588,
+            "avg_price_when_bought": 5.25
+          },
+          {
+            "player_name": "Gerald Coetzee",
+            "times_bought": 290,
+            "share_of_runs": 0.58,
+            "avg_price_when_bought": 3.38
+          },
+          {
+            "player_name": "Matt Henry",
+            "times_bought": 280,
+            "share_of_runs": 0.56,
+            "avg_price_when_bought": 4.73
           }
         ],
         "role_gaps": [
@@ -44502,27 +68760,27 @@ window.DASHBOARD_DATA = {
         "recommended_fills": [
           {
             "player_name": "Akeal Hosein",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.5
-          },
-          {
-            "player_name": "Ashok Sharma",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 0.99
-          },
-          {
-            "player_name": "Maheesh Theekshana",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.73
+            "times_bought": 278,
+            "share_of_runs": 0.556,
+            "avg_price_when_bought": 3.67
           },
           {
             "player_name": "Mujeeb Rahman",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
-            "avg_price_when_bought": 3.68
+            "times_bought": 273,
+            "share_of_runs": 0.546,
+            "avg_price_when_bought": 3.46
+          },
+          {
+            "player_name": "Maheesh Theekshana",
+            "times_bought": 271,
+            "share_of_runs": 0.542,
+            "avg_price_when_bought": 3.76
+          },
+          {
+            "player_name": "Naman Tiwari",
+            "times_bought": 190,
+            "share_of_runs": 0.38,
+            "avg_price_when_bought": 0.98
           }
         ],
         "role_gaps": [
@@ -44758,28 +69016,28 @@ window.DASHBOARD_DATA = {
         ],
         "recommended_fills": [
           {
+            "player_name": "Finn Allen",
+            "times_bought": 179,
+            "share_of_runs": 0.358,
+            "avg_price_when_bought": 3.36
+          },
+          {
+            "player_name": "Jamie Smith",
+            "times_bought": 177,
+            "share_of_runs": 0.354,
+            "avg_price_when_bought": 3.25
+          },
+          {
             "player_name": "Ben Duckett",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 3.02
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 3.11
           },
           {
             "player_name": "Jonny Bairstow",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.31
-          },
-          {
-            "player_name": "Cameron Green",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 5.0
-          },
-          {
-            "player_name": "Prithvi Shaw",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
-            "avg_price_when_bought": 3.3
+            "times_bought": 173,
+            "share_of_runs": 0.346,
+            "avg_price_when_bought": 2.33
           }
         ],
         "role_gaps": [
@@ -45008,27 +69266,27 @@ window.DASHBOARD_DATA = {
         "recommended_fills": [
           {
             "player_name": "Kartik Sharma",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
             "player_name": "Mukul Choudhary",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.0
           },
           {
-            "player_name": "Ruchit Ahir",
-            "times_bought": 20,
-            "share_of_runs": 1.0,
-            "avg_price_when_bought": 0.7
-          },
-          {
             "player_name": "Tejasvi Singh",
-            "times_bought": 20,
+            "times_bought": 500,
             "share_of_runs": 1.0,
             "avg_price_when_bought": 1.4
+          },
+          {
+            "player_name": "Tushar Raheja",
+            "times_bought": 500,
+            "share_of_runs": 1.0,
+            "avg_price_when_bought": 0.7
           }
         ],
         "role_gaps": [
@@ -45289,28 +69547,28 @@ window.DASHBOARD_DATA = {
         ],
         "recommended_fills": [
           {
-            "player_name": "Mayank Agarawal",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 1.54
+            "player_name": "Rahul Tripathi",
+            "times_bought": 219,
+            "share_of_runs": 0.438,
+            "avg_price_when_bought": 1.91
           },
           {
-            "player_name": "Rahul Tripathi",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 2.05
+            "player_name": "Mayank Agarawal",
+            "times_bought": 207,
+            "share_of_runs": 0.414,
+            "avg_price_when_bought": 1.44
+          },
+          {
+            "player_name": "Sediqullah Atal",
+            "times_bought": 138,
+            "share_of_runs": 0.276,
+            "avg_price_when_bought": 0.76
           },
           {
             "player_name": "Ackeem Auguste",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
+            "times_bought": 131,
+            "share_of_runs": 0.262,
             "avg_price_when_bought": 0.75
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "times_bought": 5,
-            "share_of_runs": 0.25,
-            "avg_price_when_bought": 4.25
           }
         ],
         "role_gaps": [
@@ -45565,27 +69823,27 @@ window.DASHBOARD_DATA = {
         "recommended_fills": [
           {
             "player_name": "Wahidullah Zadran",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
+            "times_bought": 413,
+            "share_of_runs": 0.826,
             "avg_price_when_bought": 0.38
           },
           {
             "player_name": "Pathum Nissanka",
-            "times_bought": 8,
-            "share_of_runs": 0.4,
+            "times_bought": 172,
+            "share_of_runs": 0.344,
             "avg_price_when_bought": 1.23
           },
           {
             "player_name": "Steve Smith",
-            "times_bought": 7,
-            "share_of_runs": 0.35,
-            "avg_price_when_bought": 2.64
+            "times_bought": 165,
+            "share_of_runs": 0.33,
+            "avg_price_when_bought": 2.77
           },
           {
-            "player_name": "Cameron Green",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 4.75
+            "player_name": "Sarfaraz Khan",
+            "times_bought": 157,
+            "share_of_runs": 0.314,
+            "avg_price_when_bought": 2.3
           }
         ],
         "role_gaps": [
@@ -45823,28 +70081,28 @@ window.DASHBOARD_DATA = {
         ],
         "recommended_fills": [
           {
-            "player_name": "Karn Sharma",
-            "times_bought": 16,
-            "share_of_runs": 0.8,
-            "avg_price_when_bought": 1.7
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
-            "avg_price_when_bought": 1.57
-          },
-          {
             "player_name": "Shivam Shukla",
-            "times_bought": 14,
-            "share_of_runs": 0.7,
+            "times_bought": 354,
+            "share_of_runs": 0.708,
             "avg_price_when_bought": 0.5
           },
           {
+            "player_name": "Kumar Kartikeya Singh",
+            "times_bought": 352,
+            "share_of_runs": 0.704,
+            "avg_price_when_bought": 1.6
+          },
+          {
             "player_name": "Prashant Solanki",
-            "times_bought": 13,
-            "share_of_runs": 0.65,
+            "times_bought": 328,
+            "share_of_runs": 0.656,
             "avg_price_when_bought": 0.88
+          },
+          {
+            "player_name": "Karn Sharma",
+            "times_bought": 325,
+            "share_of_runs": 0.65,
+            "avg_price_when_bought": 1.69
           }
         ],
         "role_gaps": [
@@ -46074,27 +70332,27 @@ window.DASHBOARD_DATA = {
         "recommended_fills": [
           {
             "player_name": "Chetan Sakariya",
-            "times_bought": 19,
-            "share_of_runs": 0.95,
+            "times_bought": 496,
+            "share_of_runs": 0.992,
             "avg_price_when_bought": 0.76
           },
           {
-            "player_name": "Rahul Chahar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 4.5
-          },
-          {
             "player_name": "Ravi Bishnoi",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
+            "times_bought": 261,
+            "share_of_runs": 0.522,
             "avg_price_when_bought": 6.0
           },
           {
-            "player_name": "Saqib Mahmood",
-            "times_bought": 6,
-            "share_of_runs": 0.3,
-            "avg_price_when_bought": 1.5
+            "player_name": "Rahul Chahar",
+            "times_bought": 239,
+            "share_of_runs": 0.478,
+            "avg_price_when_bought": 4.5
+          },
+          {
+            "player_name": "Kuldeep Sen",
+            "times_bought": 132,
+            "share_of_runs": 0.264,
+            "avg_price_when_bought": 0.78
           }
         ],
         "role_gaps": [
@@ -46342,28 +70600,28 @@ window.DASHBOARD_DATA = {
         ],
         "recommended_fills": [
           {
-            "player_name": "Aman Rao Perala",
-            "times_bought": 12,
-            "share_of_runs": 0.6,
-            "avg_price_when_bought": 0.3
-          },
-          {
             "player_name": "Kuldeep Sen",
-            "times_bought": 11,
-            "share_of_runs": 0.55,
+            "times_bought": 278,
+            "share_of_runs": 0.556,
             "avg_price_when_bought": 0.85
           },
           {
-            "player_name": "Ankit Kumar",
-            "times_bought": 10,
-            "share_of_runs": 0.5,
-            "avg_price_when_bought": 0.3
+            "player_name": "Danish Malewar",
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
           },
           {
-            "player_name": "Danish Malewar",
-            "times_bought": 9,
-            "share_of_runs": 0.45,
-            "avg_price_when_bought": 0.3
+            "player_name": "Manan Vohra",
+            "times_bought": 229,
+            "share_of_runs": 0.458,
+            "avg_price_when_bought": 0.31
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "times_bought": 218,
+            "share_of_runs": 0.436,
+            "avg_price_when_bought": 0.31
           }
         ],
         "role_gaps": [
@@ -89489,7 +113747,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": true,
           "quality_score": 0.3424,
           "base_ceiling": 2.55,
-          "expected_price": 2.9,
+          "expected_price": 2.88,
           "purchase_share": 1.0
         },
         "style": {
@@ -97806,7 +122064,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1138,
           "base_ceiling": 0.53,
-          "expected_price": 0.7,
+          "expected_price": 0.67,
           "purchase_share": 1.0
         },
         "style": {
@@ -109909,7 +134167,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1013,
           "base_ceiling": 0.5,
-          "expected_price": 0.63,
+          "expected_price": 0.64,
           "purchase_share": 1.0
         },
         "style": {
@@ -111086,7 +135344,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.3913,
           "base_ceiling": 2.69,
-          "expected_price": 4.0,
+          "expected_price": 3.98,
           "purchase_share": 1.0
         },
         "style": {
@@ -132019,7 +156277,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2376,
           "base_ceiling": 1.34,
-          "expected_price": 2.64,
+          "expected_price": 2.69,
           "purchase_share": 1.0
         },
         "style": {
@@ -143682,7 +167940,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1842,
           "base_ceiling": 0.67,
-          "expected_price": 0.38,
+          "expected_price": 0.35,
           "purchase_share": 1.0
         },
         "style": {
@@ -146307,7 +170565,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2427,
           "base_ceiling": 1.64,
-          "expected_price": 3.41,
+          "expected_price": 3.36,
           "purchase_share": 1.0
         },
         "style": {
@@ -146871,7 +171129,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2178,
           "base_ceiling": 0.78,
-          "expected_price": 0.99,
+          "expected_price": 1.03,
           "purchase_share": 1.0
         },
         "style": {
@@ -149586,7 +173844,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": true,
           "quality_score": 0.1049,
           "base_ceiling": 0.99,
-          "expected_price": 0.82,
+          "expected_price": 0.79,
           "purchase_share": 1.0
         },
         "style": {
@@ -165646,7 +189904,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1184,
           "base_ceiling": 0.56,
-          "expected_price": 0.66,
+          "expected_price": 0.74,
           "purchase_share": 1.0
         },
         "style": {
@@ -167630,7 +191888,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1157,
           "base_ceiling": 0.56,
-          "expected_price": 0.7,
+          "expected_price": 0.74,
           "purchase_share": 1.0
         },
         "style": {
@@ -173129,7 +197387,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": true,
           "quality_score": 0.1834,
           "base_ceiling": 1.58,
-          "expected_price": 2.59,
+          "expected_price": 2.46,
           "purchase_share": 1.0
         },
         "style": {
@@ -183556,7 +207814,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1809,
           "base_ceiling": 0.7,
-          "expected_price": 0.96,
+          "expected_price": 0.94,
           "purchase_share": 1.0
         },
         "style": {
@@ -206297,7 +230555,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.3913,
           "base_ceiling": 2.69,
-          "expected_price": 4.0,
+          "expected_price": 3.98,
           "purchase_share": 1.0
         },
         "style": {
@@ -220122,7 +244380,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2178,
           "base_ceiling": 0.78,
-          "expected_price": 0.99,
+          "expected_price": 1.03,
           "purchase_share": 1.0
         },
         "style": {
@@ -221564,7 +245822,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2376,
           "base_ceiling": 1.34,
-          "expected_price": 2.64,
+          "expected_price": 2.69,
           "purchase_share": 1.0
         },
         "style": {
@@ -227223,7 +251481,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1157,
           "base_ceiling": 0.56,
-          "expected_price": 0.7,
+          "expected_price": 0.74,
           "purchase_share": 1.0
         },
         "style": {
@@ -245080,7 +269338,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1184,
           "base_ceiling": 0.56,
-          "expected_price": 0.66,
+          "expected_price": 0.74,
           "purchase_share": 1.0
         },
         "style": {
@@ -246101,7 +270359,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.2427,
           "base_ceiling": 1.64,
-          "expected_price": 3.41,
+          "expected_price": 3.36,
           "purchase_share": 1.0
         },
         "style": {
@@ -251238,7 +275496,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1816,
           "base_ceiling": 0.96,
-          "expected_price": 1.01,
+          "expected_price": 0.94,
           "purchase_share": 1.0
         },
         "style": {
@@ -259839,7 +284097,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1809,
           "base_ceiling": 0.7,
-          "expected_price": 0.96,
+          "expected_price": 0.94,
           "purchase_share": 1.0
         },
         "style": {
@@ -261362,7 +285620,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": true,
           "quality_score": 0.1834,
           "base_ceiling": 1.58,
-          "expected_price": 2.59,
+          "expected_price": 2.46,
           "purchase_share": 1.0
         },
         "style": {
@@ -293555,7 +317813,7 @@ window.DASHBOARD_DATA = {
           "is_overseas": false,
           "quality_score": 0.1138,
           "base_ceiling": 0.53,
-          "expected_price": 0.7,
+          "expected_price": 0.67,
           "purchase_share": 1.0
         },
         "style": {
@@ -306578,30 +330836,12 @@ window.DASHBOARD_DATA = {
         },
         "top_targets": [
           {
-            "player_name": "Fazalhaq Farooqi",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 1.0,
-            "quality_score": 0.1834,
-            "base_ceiling": 1.58,
-            "mc_share": 0.85,
-            "is_overseas": true
-          },
-          {
             "player_name": "Matheesha Pathirana",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
             "quality_score": 0.3858,
             "base_ceiling": 3.49,
-            "mc_share": 0.7,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Matt Henry",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.2255,
-            "base_ceiling": 2.87,
-            "mc_share": 0.65,
+            "mc_share": 0.628,
             "is_overseas": true
           },
           {
@@ -306610,17 +330850,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.3381,
             "base_ceiling": 3.3,
-            "mc_share": 0.6,
+            "mc_share": 0.588,
             "is_overseas": true
-          },
-          {
-            "player_name": "Mahipal Lomror",
-            "role_bucket": "spin_all_rounder",
-            "reserve_price": 0.5,
-            "quality_score": 0.2272,
-            "base_ceiling": 1.06,
-            "mc_share": 0.6,
-            "is_overseas": false
           },
           {
             "player_name": "Gerald Coetzee",
@@ -306628,88 +330859,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.1345,
             "base_ceiling": 2.52,
-            "mc_share": 0.6,
+            "mc_share": 0.58,
             "is_overseas": true
           },
           {
-            "player_name": "Shivam Mavi",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.75,
-            "quality_score": 0.2376,
-            "base_ceiling": 1.34,
-            "mc_share": 0.55,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Tanush Kotian",
-            "role_bucket": "spin_all_rounder",
-            "reserve_price": 0.3,
-            "quality_score": 0.1539,
-            "base_ceiling": 0.66,
-            "mc_share": 0.55,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Rahul Chahar",
-            "role_bucket": "indian_spin",
-            "reserve_price": 1.0,
-            "quality_score": 0.3913,
-            "base_ceiling": 2.69,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Prashant Veer",
-            "role_bucket": "spin_all_rounder",
-            "reserve_price": 0.3,
-            "quality_score": 0.2662,
-            "base_ceiling": 0.92,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Akash Deep",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 1.0,
-            "quality_score": 0.2427,
-            "base_ceiling": 1.64,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Anmolpreet Singh",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1013,
-            "base_ceiling": 0.5,
-            "mc_share": 0.4,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Shivang Kumar",
-            "role_bucket": "spin_all_rounder",
-            "reserve_price": 0.3,
-            "quality_score": 0.2658,
-            "base_ceiling": 0.92,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Abhinav Manohar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.187,
-            "base_ceiling": 0.68,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Jacob Duffy",
+            "player_name": "Matt Henry",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "quality_score": 0.2272,
+            "quality_score": 0.2255,
             "base_ceiling": 2.87,
-            "mc_share": 0.3,
+            "mc_share": 0.56,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Fazalhaq Farooqi",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 1.0,
+            "quality_score": 0.1834,
+            "base_ceiling": 1.58,
+            "mc_share": 0.558,
             "is_overseas": true
           },
           {
@@ -306718,34 +330886,88 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.5,
             "quality_score": 0.1205,
             "base_ceiling": 1.92,
-            "mc_share": 0.3,
+            "mc_share": 0.558,
             "is_overseas": true
           },
           {
-            "player_name": "Yash Dhull",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.0753,
-            "base_ceiling": 0.45,
-            "mc_share": 0.25,
+            "player_name": "Jacob Duffy",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 2.0,
+            "quality_score": 0.2272,
+            "base_ceiling": 2.87,
+            "mc_share": 0.528,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Rahul Chahar",
+            "role_bucket": "indian_spin",
+            "reserve_price": 1.0,
+            "quality_score": 0.3913,
+            "base_ceiling": 2.69,
+            "mc_share": 0.522,
             "is_overseas": false
           },
           {
-            "player_name": "Atharva Taide",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1138,
-            "base_ceiling": 0.53,
-            "mc_share": 0.2,
+            "player_name": "Akash Deep",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 1.0,
+            "quality_score": 0.2427,
+            "base_ceiling": 1.64,
+            "mc_share": 0.522,
             "is_overseas": false
           },
           {
-            "player_name": "Aarya Desai",
+            "player_name": "Mahipal Lomror",
+            "role_bucket": "spin_all_rounder",
+            "reserve_price": 0.5,
+            "quality_score": 0.2272,
+            "base_ceiling": 1.06,
+            "mc_share": 0.52,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Tanush Kotian",
+            "role_bucket": "spin_all_rounder",
+            "reserve_price": 0.3,
+            "quality_score": 0.1539,
+            "base_ceiling": 0.66,
+            "mc_share": 0.514,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Shivang Kumar",
+            "role_bucket": "spin_all_rounder",
+            "reserve_price": 0.3,
+            "quality_score": 0.2658,
+            "base_ceiling": 0.92,
+            "mc_share": 0.508,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Prashant Veer",
+            "role_bucket": "spin_all_rounder",
+            "reserve_price": 0.3,
+            "quality_score": 0.2662,
+            "base_ceiling": 0.92,
+            "mc_share": 0.498,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Shivam Mavi",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.75,
+            "quality_score": 0.2376,
+            "base_ceiling": 1.34,
+            "mc_share": 0.478,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Anmolpreet Singh",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.2,
+            "quality_score": 0.1013,
+            "base_ceiling": 0.5,
+            "mc_share": 0.346,
             "is_overseas": false
           },
           {
@@ -306754,31 +330976,67 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.44,
-            "mc_share": 0.1,
+            "mc_share": 0.25,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Yash Dhull",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.0753,
+            "base_ceiling": 0.45,
+            "mc_share": 0.226,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Atharva Taide",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.1138,
+            "base_ceiling": 0.53,
+            "mc_share": 0.222,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Aarya Desai",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.204,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Abhinav Manohar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.187,
+            "base_ceiling": 0.68,
+            "mc_share": 0.19,
             "is_overseas": false
           }
         ],
         "mc_share_map": {
-          "Fazalhaq Farooqi": 0.85,
-          "Matheesha Pathirana": 0.7,
-          "Matt Henry": 0.65,
-          "Anrich Nortje": 0.6,
-          "Gerald Coetzee": 0.6,
-          "Mahipal Lomror": 0.6,
-          "Shivam Mavi": 0.55,
-          "Tanush Kotian": 0.55,
-          "Prashant Veer": 0.5,
-          "Rahul Chahar": 0.5,
-          "Akash Deep": 0.45,
-          "Anmolpreet Singh": 0.4,
-          "Abhinav Manohar": 0.35,
-          "Shivang Kumar": 0.35,
-          "Jacob Duffy": 0.3,
-          "Spencer Johnson": 0.3,
-          "Yash Dhull": 0.25,
-          "Aarya Desai": 0.2,
-          "Atharva Taide": 0.2,
-          "Abhinav Tejrana": 0.1
+          "Matheesha Pathirana": 0.628,
+          "Anrich Nortje": 0.588,
+          "Gerald Coetzee": 0.58,
+          "Matt Henry": 0.56,
+          "Fazalhaq Farooqi": 0.558,
+          "Spencer Johnson": 0.558,
+          "Jacob Duffy": 0.528,
+          "Akash Deep": 0.522,
+          "Rahul Chahar": 0.522,
+          "Mahipal Lomror": 0.52,
+          "Tanush Kotian": 0.514,
+          "Shivang Kumar": 0.508,
+          "Prashant Veer": 0.498,
+          "Shivam Mavi": 0.478,
+          "Anmolpreet Singh": 0.346,
+          "Abhinav Tejrana": 0.25,
+          "Yash Dhull": 0.226,
+          "Atharva Taide": 0.222,
+          "Aarya Desai": 0.204,
+          "Abhinav Manohar": 0.19
         }
       },
       "DC": {
@@ -306822,12 +331080,21 @@ window.DASHBOARD_DATA = {
         },
         "top_targets": [
           {
-            "player_name": "Ben Duckett",
+            "player_name": "Finn Allen",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "quality_score": 0.284,
-            "base_ceiling": 2.96,
-            "mc_share": 0.5,
+            "quality_score": 0.3463,
+            "base_ceiling": 3.17,
+            "mc_share": 0.358,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jamie Smith",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 2.0,
+            "quality_score": 0.3303,
+            "base_ceiling": 3.12,
+            "mc_share": 0.354,
             "is_overseas": true
           },
           {
@@ -306836,25 +331103,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.0,
             "quality_score": 0.46,
             "base_ceiling": 2.27,
-            "mc_share": 0.45,
+            "mc_share": 0.346,
             "is_overseas": true
           },
           {
-            "player_name": "Prithvi Shaw",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.5055,
-            "base_ceiling": 1.89,
-            "mc_share": 0.4,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Cameron Green",
-            "role_bucket": "middle_bat",
+            "player_name": "Ben Duckett",
+            "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "quality_score": 0.3103,
-            "base_ceiling": 2.9,
-            "mc_share": 0.4,
+            "quality_score": 0.284,
+            "base_ceiling": 2.96,
+            "mc_share": 0.346,
             "is_overseas": true
           },
           {
@@ -306863,43 +331121,52 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.0,
             "quality_score": 0.8672,
             "base_ceiling": 3.4,
-            "mc_share": 0.35,
+            "mc_share": 0.342,
             "is_overseas": true
           },
           {
-            "player_name": "Finn Allen",
+            "player_name": "Rahmanullah Gurbaz",
             "role_bucket": "wicketkeeper",
-            "reserve_price": 2.0,
-            "quality_score": 0.3463,
-            "base_ceiling": 3.17,
-            "mc_share": 0.35,
+            "reserve_price": 1.5,
+            "quality_score": 0.3424,
+            "base_ceiling": 2.55,
+            "mc_share": 0.324,
             "is_overseas": true
           },
           {
-            "player_name": "Naman Tiwari",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1801,
-            "base_ceiling": 0.7,
-            "mc_share": 0.35,
+            "player_name": "Prithvi Shaw",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.5055,
+            "base_ceiling": 1.89,
+            "mc_share": 0.27,
             "is_overseas": false
           },
           {
-            "player_name": "Abhinav Tejrana",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.3,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Akeal Hosein",
-            "role_bucket": "spin_bowler",
+            "player_name": "Cameron Green",
+            "role_bucket": "middle_bat",
             "reserve_price": 2.0,
-            "quality_score": 0.2867,
-            "base_ceiling": 2.92,
-            "mc_share": 0.25,
+            "quality_score": 0.3103,
+            "base_ceiling": 2.9,
+            "mc_share": 0.27,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Sarfaraz Khan",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.3127,
+            "base_ceiling": 1.45,
+            "mc_share": 0.234,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Jake Fraser-McGurk",
+            "role_bucket": "middle_bat",
+            "reserve_price": 2.0,
+            "quality_score": 0.1803,
+            "base_ceiling": 2.52,
+            "mc_share": 0.226,
             "is_overseas": true
           },
           {
@@ -306908,44 +331175,44 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1827,
             "base_ceiling": 0.96,
-            "mc_share": 0.25,
+            "mc_share": 0.206,
             "is_overseas": false
           },
           {
-            "player_name": "Spencer Johnson",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 1.5,
-            "quality_score": 0.1205,
-            "base_ceiling": 1.92,
-            "mc_share": 0.25,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "role_bucket": "indian_spin",
+            "player_name": "Anmolpreet Singh",
+            "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "quality_score": 0.4045,
-            "base_ceiling": 1.77,
-            "mc_share": 0.2,
+            "quality_score": 0.1013,
+            "base_ceiling": 0.5,
+            "mc_share": 0.188,
             "is_overseas": false
           },
           {
-            "player_name": "Rahmanullah Gurbaz",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.5,
-            "quality_score": 0.3424,
-            "base_ceiling": 2.55,
-            "mc_share": 0.2,
-            "is_overseas": true
+            "player_name": "Akash Madhwal",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1157,
+            "base_ceiling": 0.56,
+            "mc_share": 0.18,
+            "is_overseas": false
           },
           {
-            "player_name": "Anrich Nortje",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.3381,
-            "base_ceiling": 3.3,
-            "mc_share": 0.2,
-            "is_overseas": true
+            "player_name": "Kartik Tyagi",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.2178,
+            "base_ceiling": 0.78,
+            "mc_share": 0.174,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Karn Sharma",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.5,
+            "quality_score": 0.3504,
+            "base_ceiling": 1.84,
+            "mc_share": 0.172,
+            "is_overseas": false
           },
           {
             "player_name": "Vignesh Puthur",
@@ -306953,16 +331220,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.2233,
             "base_ceiling": 1.11,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.1816,
-            "base_ceiling": 0.96,
-            "mc_share": 0.2,
+            "mc_share": 0.172,
             "is_overseas": false
           },
           {
@@ -306971,81 +331229,89 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1138,
             "base_ceiling": 0.53,
-            "mc_share": 0.2,
+            "mc_share": 0.172,
             "is_overseas": false
           },
           {
-            "player_name": "Sediqullah Atal",
-            "role_bucket": "top_order_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.1049,
-            "base_ceiling": 0.99,
-            "mc_share": 0.2,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Anmolpreet Singh",
+            "player_name": "Aarya Desai",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "quality_score": 0.1013,
-            "base_ceiling": 0.5,
-            "mc_share": 0.2,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.17,
             "is_overseas": false
           },
           {
-            "player_name": "Shivam Shukla",
+            "player_name": "Yash Raj Punja",
             "role_bucket": "indian_spin",
             "reserve_price": 0.3,
-            "quality_score": 0.073,
-            "base_ceiling": 0.57,
-            "mc_share": 0.2,
+            "quality_score": 0.1816,
+            "base_ceiling": 0.96,
+            "mc_share": 0.168,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Sushant Mishra",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.7,
+            "mc_share": 0.164,
             "is_overseas": false
           }
         ],
         "mc_share_map": {
-          "Ben Duckett": 0.5,
-          "Jonny Bairstow": 0.45,
-          "Cameron Green": 0.4,
-          "Prithvi Shaw": 0.4,
-          "Finn Allen": 0.35,
-          "Naman Tiwari": 0.35,
-          "Quinton De Kock": 0.35,
-          "Abhinav Tejrana": 0.3,
-          "Akeal Hosein": 0.25,
-          "Prashant Solanki": 0.25,
-          "Spencer Johnson": 0.25,
-          "Anmolpreet Singh": 0.2,
-          "Anrich Nortje": 0.2,
-          "Atharva Taide": 0.2,
-          "Kumar Kartikeya Singh": 0.2,
-          "Rahmanullah Gurbaz": 0.2,
-          "Sediqullah Atal": 0.2,
-          "Shivam Shukla": 0.2,
-          "Vignesh Puthur": 0.2,
-          "Yash Raj Punja": 0.2,
-          "Aarya Desai": 0.15,
-          "Akash Madhwal": 0.15,
-          "Ashok Sharma": 0.15,
-          "Jacob Duffy": 0.15,
-          "Jamie Smith": 0.15,
-          "Kartik Tyagi": 0.15,
-          "Matheesha Pathirana": 0.15,
-          "Sushant Mishra": 0.15,
-          "Wahidullah Zadran": 0.15,
-          "Ackeem Auguste": 0.1,
-          "Fazalhaq Farooqi": 0.1,
-          "Jake Fraser-McGurk": 0.1,
-          "Matt Henry": 0.1,
-          "Sarfaraz Khan": 0.1,
-          "Yash Dhull": 0.1,
-          "Abhinav Manohar": 0.05,
-          "Gerald Coetzee": 0.05,
-          "Karn Sharma": 0.05,
-          "Maheesh Theekshana": 0.05,
-          "Mujeeb Rahman": 0.05,
-          "Raj Limbani": 0.05,
-          "Simarjeet Singh": 0.05,
-          "Steve Smith": 0.05
+          "Finn Allen": 0.358,
+          "Jamie Smith": 0.354,
+          "Ben Duckett": 0.346,
+          "Jonny Bairstow": 0.346,
+          "Quinton De Kock": 0.342,
+          "Rahmanullah Gurbaz": 0.324,
+          "Cameron Green": 0.27,
+          "Prithvi Shaw": 0.27,
+          "Sarfaraz Khan": 0.234,
+          "Jake Fraser-McGurk": 0.226,
+          "Prashant Solanki": 0.206,
+          "Anmolpreet Singh": 0.188,
+          "Akash Madhwal": 0.18,
+          "Kartik Tyagi": 0.174,
+          "Atharva Taide": 0.172,
+          "Karn Sharma": 0.172,
+          "Vignesh Puthur": 0.172,
+          "Aarya Desai": 0.17,
+          "Yash Raj Punja": 0.168,
+          "Sushant Mishra": 0.164,
+          "Naman Tiwari": 0.16,
+          "Ackeem Auguste": 0.158,
+          "Spencer Johnson": 0.156,
+          "Abhinav Manohar": 0.154,
+          "Anrich Nortje": 0.15,
+          "Matt Henry": 0.15,
+          "Ashok Sharma": 0.146,
+          "Jacob Duffy": 0.144,
+          "Fazalhaq Farooqi": 0.14,
+          "Matheesha Pathirana": 0.138,
+          "Kumar Kartikeya Singh": 0.13,
+          "Mujeeb Rahman": 0.13,
+          "Yash Dhull": 0.13,
+          "Raj Limbani": 0.128,
+          "Sediqullah Atal": 0.126,
+          "Gerald Coetzee": 0.122,
+          "Maheesh Theekshana": 0.122,
+          "Abhinav Tejrana": 0.12,
+          "Shivam Shukla": 0.12,
+          "Simarjeet Singh": 0.112,
+          "Akeal Hosein": 0.104,
+          "Wahidullah Zadran": 0.076,
+          "Rahul Tripathi": 0.06,
+          "Mayank Agarawal": 0.054,
+          "Pathum Nissanka": 0.038,
+          "Reeza Hendricks": 0.03,
+          "Steve Smith": 0.028,
+          "Tim Robinson": 0.022,
+          "Kuldeep Sen": 0.012,
+          "Ankit Kumar": 0.002,
+          "Umesh Yadav": 0.002
         }
       },
       "GT": {
@@ -307096,7 +331362,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.46,
-            "mc_share": 0.8,
+            "mc_share": 0.826,
             "is_overseas": true
           },
           {
@@ -307105,7 +331371,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.3067,
             "base_ceiling": 1.44,
-            "mc_share": 0.4,
+            "mc_share": 0.344,
             "is_overseas": true
           },
           {
@@ -307114,7 +331380,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.4629,
             "base_ceiling": 3.35,
-            "mc_share": 0.35,
+            "mc_share": 0.33,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Sarfaraz Khan",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.3127,
+            "base_ceiling": 1.45,
+            "mc_share": 0.314,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "role_bucket": "middle_bat",
+            "reserve_price": 1.0,
+            "quality_score": 0.1744,
+            "base_ceiling": 1.41,
+            "mc_share": 0.258,
             "is_overseas": true
           },
           {
@@ -307123,16 +331407,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.5055,
             "base_ceiling": 1.89,
-            "mc_share": 0.3,
+            "mc_share": 0.252,
             "is_overseas": false
           },
           {
-            "player_name": "Jamie Smith",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 2.0,
-            "quality_score": 0.3303,
-            "base_ceiling": 3.12,
-            "mc_share": 0.3,
+            "player_name": "Tim Robinson",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.0988,
+            "base_ceiling": 0.97,
+            "mc_share": 0.228,
             "is_overseas": true
           },
           {
@@ -307141,62 +331425,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.3103,
             "base_ceiling": 2.9,
-            "mc_share": 0.3,
+            "mc_share": 0.218,
             "is_overseas": true
-          },
-          {
-            "player_name": "Tim Robinson",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.0988,
-            "base_ceiling": 0.97,
-            "mc_share": 0.25,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.8672,
-            "base_ceiling": 3.4,
-            "mc_share": 0.2,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Rahul Tripathi",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.5181,
-            "base_ceiling": 1.91,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Umesh Yadav",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 1.5,
-            "quality_score": 0.4309,
-            "base_ceiling": 2.76,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Sarfaraz Khan",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.3127,
-            "base_ceiling": 1.45,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Kuldeep Sen",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.75,
-            "quality_score": 0.1977,
-            "base_ceiling": 1.24,
-            "mc_share": 0.2,
-            "is_overseas": false
           },
           {
             "player_name": "Jake Fraser-McGurk",
@@ -307204,7 +331434,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.1803,
             "base_ceiling": 2.52,
-            "mc_share": 0.2,
+            "mc_share": 0.216,
             "is_overseas": true
           },
           {
@@ -307213,7 +331443,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.5,
             "quality_score": 0.3424,
             "base_ceiling": 2.55,
-            "mc_share": 0.15,
+            "mc_share": 0.184,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.8672,
+            "base_ceiling": 3.4,
+            "mc_share": 0.178,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jamie Smith",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 2.0,
+            "quality_score": 0.3303,
+            "base_ceiling": 3.12,
+            "mc_share": 0.168,
             "is_overseas": true
           },
           {
@@ -307222,25 +331470,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.284,
             "base_ceiling": 2.96,
-            "mc_share": 0.15,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Reeza Hendricks",
-            "role_bucket": "middle_bat",
-            "reserve_price": 1.0,
-            "quality_score": 0.1744,
-            "base_ceiling": 1.41,
-            "mc_share": 0.15,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Jonny Bairstow",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.46,
-            "base_ceiling": 2.27,
-            "mc_share": 0.1,
+            "mc_share": 0.168,
             "is_overseas": true
           },
           {
@@ -307249,55 +331479,108 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.3463,
             "base_ceiling": 3.17,
-            "mc_share": 0.1,
+            "mc_share": 0.156,
             "is_overseas": true
           },
           {
-            "player_name": "Akash Madhwal",
+            "player_name": "Jonny Bairstow",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.46,
+            "base_ceiling": 2.27,
+            "mc_share": 0.146,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Kuldeep Sen",
             "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1157,
-            "base_ceiling": 0.56,
-            "mc_share": 0.1,
+            "reserve_price": 0.75,
+            "quality_score": 0.1977,
+            "base_ceiling": 1.24,
+            "mc_share": 0.126,
             "is_overseas": false
           },
           {
-            "player_name": "Tim Seifert",
-            "role_bucket": "wicketkeeper",
+            "player_name": "Rahul Tripathi",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.5181,
+            "base_ceiling": 1.91,
+            "mc_share": 0.118,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Mayank Agarawal",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.2586,
+            "base_ceiling": 1.33,
+            "mc_share": 0.106,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Umesh Yadav",
+            "role_bucket": "domestic_pace",
             "reserve_price": 1.5,
-            "quality_score": 0.363,
-            "base_ceiling": 2.62,
-            "mc_share": 0.05,
-            "is_overseas": true
+            "quality_score": 0.4309,
+            "base_ceiling": 2.76,
+            "mc_share": 0.102,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Naman Tiwari",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1801,
+            "base_ceiling": 0.7,
+            "mc_share": 0.076,
+            "is_overseas": false
           }
         ],
         "mc_share_map": {
-          "Wahidullah Zadran": 0.8,
-          "Pathum Nissanka": 0.4,
-          "Steve Smith": 0.35,
-          "Cameron Green": 0.3,
-          "Jamie Smith": 0.3,
-          "Prithvi Shaw": 0.3,
-          "Tim Robinson": 0.25,
-          "Jake Fraser-McGurk": 0.2,
-          "Kuldeep Sen": 0.2,
-          "Quinton De Kock": 0.2,
-          "Rahul Tripathi": 0.2,
-          "Sarfaraz Khan": 0.2,
-          "Umesh Yadav": 0.2,
-          "Ben Duckett": 0.15,
-          "Rahmanullah Gurbaz": 0.15,
-          "Reeza Hendricks": 0.15,
-          "Akash Madhwal": 0.1,
-          "Finn Allen": 0.1,
-          "Jonny Bairstow": 0.1,
-          "Ashok Sharma": 0.05,
-          "Chetan Sakariya": 0.05,
-          "Kartik Tyagi": 0.05,
-          "Mayank Agarawal": 0.05,
-          "Naman Tiwari": 0.05,
-          "Sushant Mishra": 0.05,
-          "Tim Seifert": 0.05
+          "Wahidullah Zadran": 0.826,
+          "Pathum Nissanka": 0.344,
+          "Steve Smith": 0.33,
+          "Sarfaraz Khan": 0.314,
+          "Reeza Hendricks": 0.258,
+          "Prithvi Shaw": 0.252,
+          "Tim Robinson": 0.228,
+          "Cameron Green": 0.218,
+          "Jake Fraser-McGurk": 0.216,
+          "Rahmanullah Gurbaz": 0.184,
+          "Quinton De Kock": 0.178,
+          "Ben Duckett": 0.168,
+          "Jamie Smith": 0.168,
+          "Finn Allen": 0.156,
+          "Jonny Bairstow": 0.146,
+          "Kuldeep Sen": 0.126,
+          "Rahul Tripathi": 0.118,
+          "Mayank Agarawal": 0.106,
+          "Umesh Yadav": 0.102,
+          "Akash Madhwal": 0.076,
+          "Naman Tiwari": 0.076,
+          "Kartik Tyagi": 0.072,
+          "Ashok Sharma": 0.07,
+          "Sushant Mishra": 0.056,
+          "Simarjeet Singh": 0.054,
+          "Raj Limbani": 0.05,
+          "Tim Seifert": 0.016,
+          "Kusal Mendis": 0.014,
+          "Kusal Perera": 0.014,
+          "Chetan Sakariya": 0.008,
+          "Salman Nizar": 0.008,
+          "Ankit Kumar": 0.006,
+          "Danish Malewar": 0.006,
+          "Jordan Cox": 0.006,
+          "Pukhraj Mann": 0.006,
+          "Aman Rao Perala": 0.004,
+          "Benjamin McDermott": 0.004,
+          "Josh Inglis": 0.004,
+          "Manan Vohra": 0.004,
+          "Akshat Raghuwanshi": 0.002,
+          "Rohan Kunnummal": 0.002,
+          "Shivam Shukla": 0.002,
+          "Tom Banton": 0.002
         }
       },
       "KKR": {
@@ -307390,67 +331673,13 @@ window.DASHBOARD_DATA = {
             "is_overseas": true
           },
           {
-            "player_name": "Sarfaraz Khan",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.3127,
-            "base_ceiling": 1.45,
-            "mc_share": 0.7,
-            "is_overseas": false
-          },
-          {
             "player_name": "Jake Fraser-McGurk",
             "role_bucket": "middle_bat",
             "reserve_price": 2.0,
             "quality_score": 0.1803,
             "base_ceiling": 2.52,
-            "mc_share": 0.7,
+            "mc_share": 0.558,
             "is_overseas": true
-          },
-          {
-            "player_name": "Akash Deep",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 1.0,
-            "quality_score": 0.2427,
-            "base_ceiling": 1.64,
-            "mc_share": 0.55,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Ravi Bishnoi",
-            "role_bucket": "indian_spin",
-            "reserve_price": 2.0,
-            "quality_score": 0.5051,
-            "base_ceiling": 4.66,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Abhinav Manohar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.187,
-            "base_ceiling": 0.68,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Aarya Desai",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Abhinav Tejrana",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.5,
-            "is_overseas": false
           },
           {
             "player_name": "Shivam Mavi",
@@ -307458,34 +331687,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.2376,
             "base_ceiling": 1.34,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Atharva Taide",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1138,
-            "base_ceiling": 0.53,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Yash Dhull",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.0753,
-            "base_ceiling": 0.45,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Prithvi Shaw",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.5055,
-            "base_ceiling": 1.89,
-            "mc_share": 0.3,
+            "mc_share": 0.522,
             "is_overseas": false
           },
           {
@@ -307494,25 +331696,106 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.3103,
             "base_ceiling": 2.9,
-            "mc_share": 0.3,
+            "mc_share": 0.512,
             "is_overseas": true
           },
           {
-            "player_name": "Jamie Smith",
+            "player_name": "Abhinav Manohar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.187,
+            "base_ceiling": 0.68,
+            "mc_share": 0.486,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Prithvi Shaw",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.5055,
+            "base_ceiling": 1.89,
+            "mc_share": 0.478,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Ravi Bishnoi",
+            "role_bucket": "indian_spin",
+            "reserve_price": 2.0,
+            "quality_score": 0.5051,
+            "base_ceiling": 4.66,
+            "mc_share": 0.478,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Akash Deep",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 1.0,
+            "quality_score": 0.2427,
+            "base_ceiling": 1.64,
+            "mc_share": 0.478,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Yash Dhull",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.0753,
+            "base_ceiling": 0.45,
+            "mc_share": 0.464,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Aarya Desai",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.46,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Sarfaraz Khan",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.3127,
+            "base_ceiling": 1.45,
+            "mc_share": 0.452,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.438,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Atharva Taide",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.1138,
+            "base_ceiling": 0.53,
+            "mc_share": 0.432,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Anmolpreet Singh",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.1013,
+            "base_ceiling": 0.5,
+            "mc_share": 0.312,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Finn Allen",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "quality_score": 0.3303,
-            "base_ceiling": 3.12,
-            "mc_share": 0.25,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Quinton De Kock",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.8672,
-            "base_ceiling": 3.4,
-            "mc_share": 0.2,
+            "quality_score": 0.3463,
+            "base_ceiling": 3.17,
+            "mc_share": 0.166,
             "is_overseas": true
           }
         ],
@@ -307523,25 +331806,25 @@ window.DASHBOARD_DATA = {
           "K.S. Bharat": 1.0,
           "Venkatesh Iyer": 1.0,
           "Wiaan Mulder": 1.0,
-          "Jake Fraser-McGurk": 0.7,
-          "Sarfaraz Khan": 0.7,
-          "Akash Deep": 0.55,
-          "Aarya Desai": 0.5,
-          "Abhinav Manohar": 0.5,
-          "Abhinav Tejrana": 0.5,
-          "Ravi Bishnoi": 0.5,
-          "Atharva Taide": 0.45,
-          "Shivam Mavi": 0.45,
-          "Yash Dhull": 0.45,
-          "Cameron Green": 0.3,
-          "Prithvi Shaw": 0.3,
-          "Jamie Smith": 0.25,
-          "Ben Duckett": 0.2,
-          "Quinton De Kock": 0.2,
-          "Jonny Bairstow": 0.15,
-          "Anmolpreet Singh": 0.1,
-          "Finn Allen": 0.1,
-          "Rahmanullah Gurbaz": 0.1
+          "Jake Fraser-McGurk": 0.558,
+          "Shivam Mavi": 0.522,
+          "Cameron Green": 0.512,
+          "Abhinav Manohar": 0.486,
+          "Akash Deep": 0.478,
+          "Prithvi Shaw": 0.478,
+          "Ravi Bishnoi": 0.478,
+          "Yash Dhull": 0.464,
+          "Aarya Desai": 0.46,
+          "Sarfaraz Khan": 0.452,
+          "Abhinav Tejrana": 0.438,
+          "Atharva Taide": 0.432,
+          "Anmolpreet Singh": 0.312,
+          "Finn Allen": 0.166,
+          "Ben Duckett": 0.16,
+          "Jamie Smith": 0.158,
+          "Jonny Bairstow": 0.152,
+          "Quinton De Kock": 0.152,
+          "Rahmanullah Gurbaz": 0.142
         }
       },
       "LSG": {
@@ -307585,21 +331868,12 @@ window.DASHBOARD_DATA = {
         },
         "top_targets": [
           {
-            "player_name": "Maheesh Theekshana",
-            "role_bucket": "spin_bowler",
-            "reserve_price": 2.0,
-            "quality_score": 0.2899,
-            "base_ceiling": 2.93,
-            "mc_share": 0.55,
-            "is_overseas": true
-          },
-          {
             "player_name": "Akeal Hosein",
             "role_bucket": "spin_bowler",
             "reserve_price": 2.0,
             "quality_score": 0.2867,
             "base_ceiling": 2.92,
-            "mc_share": 0.55,
+            "mc_share": 0.556,
             "is_overseas": true
           },
           {
@@ -307608,52 +331882,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.2372,
             "base_ceiling": 2.76,
-            "mc_share": 0.55,
+            "mc_share": 0.546,
             "is_overseas": true
           },
           {
-            "player_name": "Ashok Sharma",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1809,
-            "base_ceiling": 0.7,
-            "mc_share": 0.55,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Sushant Mishra",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.18,
-            "base_ceiling": 0.7,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.1816,
-            "base_ceiling": 0.96,
-            "mc_share": 0.4,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.2178,
-            "base_ceiling": 0.78,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "role_bucket": "overseas_pace",
+            "player_name": "Maheesh Theekshana",
+            "role_bucket": "spin_bowler",
             "reserve_price": 2.0,
-            "quality_score": 0.2272,
-            "base_ceiling": 2.87,
-            "mc_share": 0.3,
+            "quality_score": 0.2899,
+            "base_ceiling": 2.93,
+            "mc_share": 0.542,
             "is_overseas": true
           },
           {
@@ -307662,7 +331900,34 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1801,
             "base_ceiling": 0.7,
-            "mc_share": 0.3,
+            "mc_share": 0.38,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Sushant Mishra",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.7,
+            "mc_share": 0.37,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Ashok Sharma",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1809,
+            "base_ceiling": 0.7,
+            "mc_share": 0.338,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Kartik Tyagi",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.2178,
+            "base_ceiling": 0.78,
+            "mc_share": 0.306,
             "is_overseas": false
           },
           {
@@ -307671,17 +331936,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.46,
-            "mc_share": 0.25,
+            "mc_share": 0.302,
             "is_overseas": false
-          },
-          {
-            "player_name": "Matt Henry",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.2255,
-            "base_ceiling": 2.87,
-            "mc_share": 0.2,
-            "is_overseas": true
           },
           {
             "player_name": "Simarjeet Singh",
@@ -307689,7 +331945,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1184,
             "base_ceiling": 0.56,
-            "mc_share": 0.2,
+            "mc_share": 0.288,
             "is_overseas": false
           },
           {
@@ -307698,16 +331954,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1157,
             "base_ceiling": 0.56,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Karn Sharma",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.5,
-            "quality_score": 0.3504,
-            "base_ceiling": 1.84,
-            "mc_share": 0.15,
+            "mc_share": 0.246,
             "is_overseas": false
           },
           {
@@ -307716,7 +331963,61 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.2233,
             "base_ceiling": 1.11,
-            "mc_share": 0.15,
+            "mc_share": 0.19,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.3,
+            "quality_score": 0.1816,
+            "base_ceiling": 0.96,
+            "mc_share": 0.186,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Karn Sharma",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.5,
+            "quality_score": 0.3504,
+            "base_ceiling": 1.84,
+            "mc_share": 0.178,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Fazalhaq Farooqi",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 1.0,
+            "quality_score": 0.1834,
+            "base_ceiling": 1.58,
+            "mc_share": 0.178,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 2.0,
+            "quality_score": 0.2272,
+            "base_ceiling": 2.87,
+            "mc_share": 0.176,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Shivam Shukla",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.3,
+            "quality_score": 0.073,
+            "base_ceiling": 0.57,
+            "mc_share": 0.17,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Kumar Kartikeya Singh",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.3,
+            "quality_score": 0.4045,
+            "base_ceiling": 1.77,
+            "mc_share": 0.166,
             "is_overseas": false
           },
           {
@@ -307725,34 +332026,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.1345,
             "base_ceiling": 2.52,
-            "mc_share": 0.15,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 1.5,
-            "quality_score": 0.1205,
-            "base_ceiling": 1.92,
-            "mc_share": 0.15,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Kumar Kartikeya Singh",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.4045,
-            "base_ceiling": 1.77,
-            "mc_share": 0.1,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Anrich Nortje",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.3381,
-            "base_ceiling": 3.3,
-            "mc_share": 0.1,
+            "mc_share": 0.158,
             "is_overseas": true
           },
           {
@@ -307761,35 +332035,44 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1827,
             "base_ceiling": 0.96,
-            "mc_share": 0.1,
+            "mc_share": 0.138,
             "is_overseas": false
+          },
+          {
+            "player_name": "Spencer Johnson",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 1.5,
+            "quality_score": 0.1205,
+            "base_ceiling": 1.92,
+            "mc_share": 0.138,
+            "is_overseas": true
           }
         ],
         "mc_share_map": {
-          "Akeal Hosein": 0.55,
-          "Ashok Sharma": 0.55,
-          "Maheesh Theekshana": 0.55,
-          "Mujeeb Rahman": 0.55,
-          "Sushant Mishra": 0.45,
-          "Yash Raj Punja": 0.4,
-          "Kartik Tyagi": 0.35,
-          "Jacob Duffy": 0.3,
-          "Naman Tiwari": 0.3,
-          "Raj Limbani": 0.25,
-          "Akash Madhwal": 0.2,
-          "Matt Henry": 0.2,
-          "Simarjeet Singh": 0.2,
-          "Gerald Coetzee": 0.15,
-          "Karn Sharma": 0.15,
-          "Spencer Johnson": 0.15,
-          "Vignesh Puthur": 0.15,
-          "Anrich Nortje": 0.1,
-          "Kumar Kartikeya Singh": 0.1,
-          "Prashant Solanki": 0.1,
-          "Shivam Shukla": 0.1,
-          "Fazalhaq Farooqi": 0.05,
-          "Matheesha Pathirana": 0.05,
-          "Wahidullah Zadran": 0.05
+          "Akeal Hosein": 0.556,
+          "Mujeeb Rahman": 0.546,
+          "Maheesh Theekshana": 0.542,
+          "Naman Tiwari": 0.38,
+          "Sushant Mishra": 0.37,
+          "Ashok Sharma": 0.338,
+          "Kartik Tyagi": 0.306,
+          "Raj Limbani": 0.302,
+          "Simarjeet Singh": 0.288,
+          "Akash Madhwal": 0.246,
+          "Vignesh Puthur": 0.19,
+          "Yash Raj Punja": 0.186,
+          "Fazalhaq Farooqi": 0.178,
+          "Karn Sharma": 0.178,
+          "Jacob Duffy": 0.176,
+          "Shivam Shukla": 0.17,
+          "Kumar Kartikeya Singh": 0.166,
+          "Gerald Coetzee": 0.158,
+          "Prashant Solanki": 0.138,
+          "Spencer Johnson": 0.138,
+          "Matt Henry": 0.126,
+          "Anrich Nortje": 0.118,
+          "Matheesha Pathirana": 0.106,
+          "Wahidullah Zadran": 0.098
         }
       },
       "MI": {
@@ -307833,84 +332116,12 @@ window.DASHBOARD_DATA = {
         },
         "top_targets": [
           {
-            "player_name": "Aman Rao Perala",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.18,
-            "base_ceiling": 0.66,
-            "mc_share": 0.6,
-            "is_overseas": false
-          },
-          {
             "player_name": "Kuldeep Sen",
             "role_bucket": "domestic_pace",
             "reserve_price": 0.75,
             "quality_score": 0.1977,
             "base_ceiling": 1.24,
-            "mc_share": 0.55,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Ankit Kumar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.5,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Danish Malewar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.18,
-            "base_ceiling": 0.66,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Rohan Kunnummal",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Pathum Nissanka",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.3067,
-            "base_ceiling": 1.44,
-            "mc_share": 0.4,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Akshat Raghuwanshi",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1842,
-            "base_ceiling": 0.67,
-            "mc_share": 0.4,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Pukhraj Mann",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Salman Nizar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.35,
+            "mc_share": 0.556,
             "is_overseas": false
           },
           {
@@ -307919,16 +332130,79 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.2596,
             "base_ceiling": 0.82,
-            "mc_share": 0.3,
+            "mc_share": 0.458,
             "is_overseas": false
           },
           {
-            "player_name": "Jordan Cox",
-            "role_bucket": "wicketkeeper",
+            "player_name": "Danish Malewar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.66,
+            "mc_share": 0.458,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.1842,
+            "base_ceiling": 0.67,
+            "mc_share": 0.436,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.43,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.66,
+            "mc_share": 0.422,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Rohan Kunnummal",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.42,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Salman Nizar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.408,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Ankit Kumar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.376,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Pathum Nissanka",
+            "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "quality_score": 0.2672,
-            "base_ceiling": 1.45,
-            "mc_share": 0.25,
+            "quality_score": 0.3067,
+            "base_ceiling": 1.44,
+            "mc_share": 0.324,
             "is_overseas": true
           },
           {
@@ -307937,16 +332211,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.5,
             "quality_score": 0.363,
             "base_ceiling": 2.62,
-            "mc_share": 0.15,
+            "mc_share": 0.144,
             "is_overseas": true
           },
           {
-            "player_name": "Kusal Perera",
+            "player_name": "Benjamin McDermott",
             "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.3038,
-            "base_ceiling": 1.84,
-            "mc_share": 0.1,
+            "reserve_price": 0.75,
+            "quality_score": 0.18,
+            "base_ceiling": 1.22,
+            "mc_share": 0.138,
             "is_overseas": true
           },
           {
@@ -307955,7 +332229,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.2767,
             "base_ceiling": 1.47,
-            "mc_share": 0.05,
+            "mc_share": 0.132,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jordan Cox",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 0.75,
+            "quality_score": 0.2672,
+            "base_ceiling": 1.45,
+            "mc_share": 0.128,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Kusal Perera",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.3038,
+            "base_ceiling": 1.84,
+            "mc_share": 0.12,
             "is_overseas": true
           },
           {
@@ -307964,17 +332256,17 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.2586,
             "base_ceiling": 1.33,
-            "mc_share": 0.05,
+            "mc_share": 0.032,
             "is_overseas": false
           },
           {
-            "player_name": "Benjamin McDermott",
-            "role_bucket": "wicketkeeper",
+            "player_name": "Rahul Tripathi",
+            "role_bucket": "middle_bat",
             "reserve_price": 0.75,
-            "quality_score": 0.18,
-            "base_ceiling": 1.22,
-            "mc_share": 0.05,
-            "is_overseas": true
+            "quality_score": 0.5181,
+            "base_ceiling": 1.91,
+            "mc_share": 0.018,
+            "is_overseas": false
           },
           {
             "player_name": "Quinton De Kock",
@@ -308002,34 +332294,26 @@ window.DASHBOARD_DATA = {
             "base_ceiling": 1.84,
             "mc_share": 0.0,
             "is_overseas": false
-          },
-          {
-            "player_name": "Dharmendrasinh Jadeja",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.69,
-            "base_ceiling": 2.81,
-            "mc_share": 0.0,
-            "is_overseas": false
           }
         ],
         "mc_share_map": {
-          "Aman Rao Perala": 0.6,
-          "Kuldeep Sen": 0.55,
-          "Ankit Kumar": 0.5,
-          "Danish Malewar": 0.45,
-          "Rohan Kunnummal": 0.45,
-          "Akshat Raghuwanshi": 0.4,
-          "Pathum Nissanka": 0.4,
-          "Pukhraj Mann": 0.35,
-          "Salman Nizar": 0.35,
-          "Manan Vohra": 0.3,
-          "Jordan Cox": 0.25,
-          "Tim Seifert": 0.15,
-          "Kusal Perera": 0.1,
-          "Benjamin McDermott": 0.05,
-          "Kusal Mendis": 0.05,
-          "Mayank Agarawal": 0.05
+          "Kuldeep Sen": 0.556,
+          "Danish Malewar": 0.458,
+          "Manan Vohra": 0.458,
+          "Akshat Raghuwanshi": 0.436,
+          "Pukhraj Mann": 0.43,
+          "Aman Rao Perala": 0.422,
+          "Rohan Kunnummal": 0.42,
+          "Salman Nizar": 0.408,
+          "Ankit Kumar": 0.376,
+          "Pathum Nissanka": 0.324,
+          "Tim Seifert": 0.144,
+          "Benjamin McDermott": 0.138,
+          "Kusal Mendis": 0.132,
+          "Jordan Cox": 0.128,
+          "Kusal Perera": 0.12,
+          "Mayank Agarawal": 0.032,
+          "Rahul Tripathi": 0.018
         }
       },
       "PBKS": {
@@ -308079,7 +332363,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.5181,
             "base_ceiling": 1.91,
-            "mc_share": 0.45,
+            "mc_share": 0.438,
             "is_overseas": false
           },
           {
@@ -308088,16 +332372,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.2586,
             "base_ceiling": 1.33,
-            "mc_share": 0.45,
+            "mc_share": 0.414,
             "is_overseas": false
           },
           {
-            "player_name": "Quinton De Kock",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.8672,
-            "base_ceiling": 3.4,
-            "mc_share": 0.25,
+            "player_name": "Sediqullah Atal",
+            "role_bucket": "top_order_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.1049,
+            "base_ceiling": 0.99,
+            "mc_share": 0.276,
             "is_overseas": true
           },
           {
@@ -308106,7 +332390,43 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.0808,
             "base_ceiling": 0.93,
-            "mc_share": 0.25,
+            "mc_share": 0.262,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Ben Duckett",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 2.0,
+            "quality_score": 0.284,
+            "base_ceiling": 2.96,
+            "mc_share": 0.182,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jonny Bairstow",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.46,
+            "base_ceiling": 2.27,
+            "mc_share": 0.18,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Abhinav Tejrana",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.176,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.8672,
+            "base_ceiling": 3.4,
+            "mc_share": 0.168,
             "is_overseas": true
           },
           {
@@ -308115,43 +332435,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.5,
             "quality_score": 0.3424,
             "base_ceiling": 2.55,
-            "mc_share": 0.2,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Jamie Smith",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 2.0,
-            "quality_score": 0.3303,
-            "base_ceiling": 3.12,
-            "mc_share": 0.2,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Sediqullah Atal",
-            "role_bucket": "top_order_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.1049,
-            "base_ceiling": 0.99,
-            "mc_share": 0.2,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Anmolpreet Singh",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1013,
-            "base_ceiling": 0.5,
-            "mc_share": 0.2,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Tim Robinson",
-            "role_bucket": "middle_bat",
-            "reserve_price": 0.75,
-            "quality_score": 0.0988,
-            "base_ceiling": 0.97,
-            "mc_share": 0.2,
+            "mc_share": 0.166,
             "is_overseas": true
           },
           {
@@ -308160,35 +332444,26 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.0753,
             "base_ceiling": 0.45,
-            "mc_share": 0.2,
+            "mc_share": 0.164,
             "is_overseas": false
           },
           {
-            "player_name": "Jonny Bairstow",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.0,
-            "quality_score": 0.46,
-            "base_ceiling": 2.27,
-            "mc_share": 0.15,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Finn Allen",
+            "player_name": "Jamie Smith",
             "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "quality_score": 0.3463,
-            "base_ceiling": 3.17,
-            "mc_share": 0.15,
+            "quality_score": 0.3303,
+            "base_ceiling": 3.12,
+            "mc_share": 0.16,
             "is_overseas": true
           },
           {
-            "player_name": "Reeza Hendricks",
-            "role_bucket": "middle_bat",
-            "reserve_price": 1.0,
-            "quality_score": 0.1744,
-            "base_ceiling": 1.41,
-            "mc_share": 0.15,
-            "is_overseas": true
+            "player_name": "Abhinav Manohar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.187,
+            "base_ceiling": 0.68,
+            "mc_share": 0.156,
+            "is_overseas": false
           },
           {
             "player_name": "Atharva Taide",
@@ -308196,7 +332471,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1138,
             "base_ceiling": 0.53,
-            "mc_share": 0.15,
+            "mc_share": 0.154,
             "is_overseas": false
           },
           {
@@ -308209,39 +332484,21 @@ window.DASHBOARD_DATA = {
             "is_overseas": false
           },
           {
-            "player_name": "Steve Smith",
-            "role_bucket": "middle_bat",
+            "player_name": "Finn Allen",
+            "role_bucket": "wicketkeeper",
             "reserve_price": 2.0,
-            "quality_score": 0.4629,
-            "base_ceiling": 3.35,
-            "mc_share": 0.1,
+            "quality_score": 0.3463,
+            "base_ceiling": 3.17,
+            "mc_share": 0.144,
             "is_overseas": true
           },
           {
-            "player_name": "Abhinav Manohar",
+            "player_name": "Anmolpreet Singh",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
-            "quality_score": 0.187,
-            "base_ceiling": 0.68,
-            "mc_share": 0.1,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Akshat Raghuwanshi",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.1842,
-            "base_ceiling": 0.67,
-            "mc_share": 0.1,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Abhinav Tejrana",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.1,
+            "quality_score": 0.1013,
+            "base_ceiling": 0.5,
+            "mc_share": 0.138,
             "is_overseas": false
           },
           {
@@ -308250,35 +332507,68 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.3067,
             "base_ceiling": 1.44,
-            "mc_share": 0.05,
+            "mc_share": 0.126,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Steve Smith",
+            "role_bucket": "middle_bat",
+            "reserve_price": 2.0,
+            "quality_score": 0.4629,
+            "base_ceiling": 3.35,
+            "mc_share": 0.116,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Tim Robinson",
+            "role_bucket": "middle_bat",
+            "reserve_price": 0.75,
+            "quality_score": 0.0988,
+            "base_ceiling": 0.97,
+            "mc_share": 0.11,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "role_bucket": "middle_bat",
+            "reserve_price": 1.0,
+            "quality_score": 0.1744,
+            "base_ceiling": 1.41,
+            "mc_share": 0.102,
             "is_overseas": true
           }
         ],
         "mc_share_map": {
-          "Mayank Agarawal": 0.45,
-          "Rahul Tripathi": 0.45,
-          "Ackeem Auguste": 0.25,
-          "Quinton De Kock": 0.25,
-          "Anmolpreet Singh": 0.2,
-          "Jamie Smith": 0.2,
-          "Rahmanullah Gurbaz": 0.2,
-          "Sediqullah Atal": 0.2,
-          "Tim Robinson": 0.2,
-          "Yash Dhull": 0.2,
+          "Rahul Tripathi": 0.438,
+          "Mayank Agarawal": 0.414,
+          "Sediqullah Atal": 0.276,
+          "Ackeem Auguste": 0.262,
+          "Ben Duckett": 0.182,
+          "Jonny Bairstow": 0.18,
+          "Abhinav Tejrana": 0.176,
+          "Quinton De Kock": 0.168,
+          "Rahmanullah Gurbaz": 0.166,
+          "Yash Dhull": 0.164,
+          "Jamie Smith": 0.16,
+          "Abhinav Manohar": 0.156,
+          "Atharva Taide": 0.154,
           "Aarya Desai": 0.15,
-          "Atharva Taide": 0.15,
-          "Finn Allen": 0.15,
-          "Jonny Bairstow": 0.15,
-          "Reeza Hendricks": 0.15,
-          "Abhinav Manohar": 0.1,
-          "Abhinav Tejrana": 0.1,
-          "Akshat Raghuwanshi": 0.1,
-          "Steve Smith": 0.1,
-          "Aman Rao Perala": 0.05,
-          "Ben Duckett": 0.05,
-          "Pathum Nissanka": 0.05,
-          "Rohan Kunnummal": 0.05,
-          "Vansh Bedi": 0.05
+          "Finn Allen": 0.144,
+          "Anmolpreet Singh": 0.138,
+          "Pathum Nissanka": 0.126,
+          "Steve Smith": 0.116,
+          "Tim Robinson": 0.11,
+          "Reeza Hendricks": 0.102,
+          "Akshat Raghuwanshi": 0.05,
+          "Aman Rao Perala": 0.048,
+          "Danish Malewar": 0.032,
+          "Manan Vohra": 0.03,
+          "Rohan Kunnummal": 0.016,
+          "Ankit Kumar": 0.014,
+          "Salman Nizar": 0.014,
+          "Pukhraj Mann": 0.01,
+          "Ruchit Ahir": 0.002,
+          "Vansh Bedi": 0.002
         }
       },
       "RCB": {
@@ -308320,12 +332610,12 @@ window.DASHBOARD_DATA = {
         },
         "top_targets": [
           {
-            "player_name": "Karn Sharma",
+            "player_name": "Shivam Shukla",
             "role_bucket": "indian_spin",
-            "reserve_price": 0.5,
-            "quality_score": 0.3504,
-            "base_ceiling": 1.84,
-            "mc_share": 0.8,
+            "reserve_price": 0.3,
+            "quality_score": 0.073,
+            "base_ceiling": 0.57,
+            "mc_share": 0.708,
             "is_overseas": false
           },
           {
@@ -308334,25 +332624,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.4045,
             "base_ceiling": 1.77,
-            "mc_share": 0.7,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Shivam Shukla",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.073,
-            "base_ceiling": 0.57,
-            "mc_share": 0.7,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Vignesh Puthur",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.2233,
-            "base_ceiling": 1.11,
-            "mc_share": 0.65,
+            "mc_share": 0.704,
             "is_overseas": false
           },
           {
@@ -308361,7 +332633,34 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1827,
             "base_ceiling": 0.96,
+            "mc_share": 0.656,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Karn Sharma",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.5,
+            "quality_score": 0.3504,
+            "base_ceiling": 1.84,
             "mc_share": 0.65,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Yash Raj Punja",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.3,
+            "quality_score": 0.1816,
+            "base_ceiling": 0.96,
+            "mc_share": 0.646,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Vignesh Puthur",
+            "role_bucket": "indian_spin",
+            "reserve_price": 0.3,
+            "quality_score": 0.2233,
+            "base_ceiling": 1.11,
+            "mc_share": 0.638,
             "is_overseas": false
           },
           {
@@ -308370,34 +332669,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.2586,
             "base_ceiling": 1.33,
-            "mc_share": 0.45,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Maheesh Theekshana",
-            "role_bucket": "spin_bowler",
-            "reserve_price": 2.0,
-            "quality_score": 0.2899,
-            "base_ceiling": 2.93,
-            "mc_share": 0.4,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Mujeeb Rahman",
-            "role_bucket": "spin_bowler",
-            "reserve_price": 2.0,
-            "quality_score": 0.2372,
-            "base_ceiling": 2.76,
-            "mc_share": 0.4,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Yash Raj Punja",
-            "role_bucket": "indian_spin",
-            "reserve_price": 0.3,
-            "quality_score": 0.1816,
-            "base_ceiling": 0.96,
-            "mc_share": 0.4,
+            "mc_share": 0.394,
             "is_overseas": false
           },
           {
@@ -308406,52 +332678,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.5181,
             "base_ceiling": 1.91,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Simarjeet Singh",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1184,
-            "base_ceiling": 0.56,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Raj Limbani",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.46,
-            "mc_share": 0.35,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Reeza Hendricks",
-            "role_bucket": "middle_bat",
-            "reserve_price": 1.0,
-            "quality_score": 0.1744,
-            "base_ceiling": 1.41,
-            "mc_share": 0.3,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Steve Smith",
-            "role_bucket": "middle_bat",
-            "reserve_price": 2.0,
-            "quality_score": 0.4629,
-            "base_ceiling": 3.35,
-            "mc_share": 0.25,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Akash Madhwal",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1157,
-            "base_ceiling": 0.56,
-            "mc_share": 0.25,
+            "mc_share": 0.366,
             "is_overseas": false
           },
           {
@@ -308460,8 +332687,35 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.2867,
             "base_ceiling": 2.92,
-            "mc_share": 0.2,
+            "mc_share": 0.34,
             "is_overseas": true
+          },
+          {
+            "player_name": "Maheesh Theekshana",
+            "role_bucket": "spin_bowler",
+            "reserve_price": 2.0,
+            "quality_score": 0.2899,
+            "base_ceiling": 2.93,
+            "mc_share": 0.336,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Mujeeb Rahman",
+            "role_bucket": "spin_bowler",
+            "reserve_price": 2.0,
+            "quality_score": 0.2372,
+            "base_ceiling": 2.76,
+            "mc_share": 0.324,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Simarjeet Singh",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1184,
+            "base_ceiling": 0.56,
+            "mc_share": 0.23,
+            "is_overseas": false
           },
           {
             "player_name": "Kartik Tyagi",
@@ -308469,8 +332723,44 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.2178,
             "base_ceiling": 0.78,
+            "mc_share": 0.204,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Raj Limbani",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.46,
+            "mc_share": 0.204,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Akash Madhwal",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1157,
+            "base_ceiling": 0.56,
             "mc_share": 0.2,
             "is_overseas": false
+          },
+          {
+            "player_name": "Ashok Sharma",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.1809,
+            "base_ceiling": 0.7,
+            "mc_share": 0.192,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Steve Smith",
+            "role_bucket": "middle_bat",
+            "reserve_price": 2.0,
+            "quality_score": 0.4629,
+            "base_ceiling": 3.35,
+            "mc_share": 0.188,
+            "is_overseas": true
           },
           {
             "player_name": "Pathum Nissanka",
@@ -308478,17 +332768,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.3067,
             "base_ceiling": 1.44,
-            "mc_share": 0.15,
+            "mc_share": 0.168,
             "is_overseas": true
-          },
-          {
-            "player_name": "Naman Tiwari",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.1801,
-            "base_ceiling": 0.7,
-            "mc_share": 0.1,
-            "is_overseas": false
           },
           {
             "player_name": "Sushant Mishra",
@@ -308496,36 +332777,47 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.18,
             "base_ceiling": 0.7,
-            "mc_share": 0.1,
+            "mc_share": 0.166,
             "is_overseas": false
+          },
+          {
+            "player_name": "Reeza Hendricks",
+            "role_bucket": "middle_bat",
+            "reserve_price": 1.0,
+            "quality_score": 0.1744,
+            "base_ceiling": 1.41,
+            "mc_share": 0.162,
+            "is_overseas": true
           }
         ],
         "mc_share_map": {
-          "Karn Sharma": 0.8,
-          "Kumar Kartikeya Singh": 0.7,
-          "Shivam Shukla": 0.7,
-          "Prashant Solanki": 0.65,
-          "Vignesh Puthur": 0.65,
-          "Mayank Agarawal": 0.45,
-          "Maheesh Theekshana": 0.4,
-          "Mujeeb Rahman": 0.4,
-          "Yash Raj Punja": 0.4,
-          "Rahul Tripathi": 0.35,
-          "Raj Limbani": 0.35,
-          "Simarjeet Singh": 0.35,
-          "Reeza Hendricks": 0.3,
-          "Akash Madhwal": 0.25,
-          "Steve Smith": 0.25,
-          "Akeal Hosein": 0.2,
-          "Kartik Tyagi": 0.2,
-          "Pathum Nissanka": 0.15,
-          "Naman Tiwari": 0.1,
-          "Sushant Mishra": 0.1,
-          "Ackeem Auguste": 0.05,
-          "Ashok Sharma": 0.05,
-          "Kuldeep Sen": 0.05,
-          "Sediqullah Atal": 0.05,
-          "Tim Robinson": 0.05
+          "Shivam Shukla": 0.708,
+          "Kumar Kartikeya Singh": 0.704,
+          "Prashant Solanki": 0.656,
+          "Karn Sharma": 0.65,
+          "Yash Raj Punja": 0.646,
+          "Vignesh Puthur": 0.638,
+          "Mayank Agarawal": 0.394,
+          "Rahul Tripathi": 0.366,
+          "Akeal Hosein": 0.34,
+          "Maheesh Theekshana": 0.336,
+          "Mujeeb Rahman": 0.324,
+          "Simarjeet Singh": 0.23,
+          "Kartik Tyagi": 0.204,
+          "Raj Limbani": 0.204,
+          "Akash Madhwal": 0.2,
+          "Ashok Sharma": 0.192,
+          "Steve Smith": 0.188,
+          "Pathum Nissanka": 0.168,
+          "Sushant Mishra": 0.166,
+          "Reeza Hendricks": 0.162,
+          "Naman Tiwari": 0.15,
+          "Tim Robinson": 0.114,
+          "Sediqullah Atal": 0.11,
+          "Ackeem Auguste": 0.064,
+          "Kuldeep Sen": 0.042,
+          "Umesh Yadav": 0.042,
+          "Pukhraj Mann": 0.002
         }
       },
       "RR": {
@@ -308579,7 +332871,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.1073,
             "base_ceiling": 1.02,
-            "mc_share": 0.95,
+            "mc_share": 0.992,
             "is_overseas": false
           },
           {
@@ -308588,7 +332880,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.5051,
             "base_ceiling": 4.66,
-            "mc_share": 0.5,
+            "mc_share": 0.522,
             "is_overseas": false
           },
           {
@@ -308597,35 +332889,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.0,
             "quality_score": 0.3913,
             "base_ceiling": 2.69,
-            "mc_share": 0.5,
+            "mc_share": 0.478,
             "is_overseas": false
-          },
-          {
-            "player_name": "Saqib Mahmood",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 1.5,
-            "quality_score": 0.1045,
-            "base_ceiling": 1.87,
-            "mc_share": 0.3,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Manan Vohra",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.2596,
-            "base_ceiling": 0.82,
-            "mc_share": 0.25,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Kyle Jamieson",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.2565,
-            "base_ceiling": 2.99,
-            "mc_share": 0.2,
-            "is_overseas": true
           },
           {
             "player_name": "Kuldeep Sen",
@@ -308633,7 +332898,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.75,
             "quality_score": 0.1977,
             "base_ceiling": 1.24,
-            "mc_share": 0.2,
+            "mc_share": 0.264,
             "is_overseas": false
           },
           {
@@ -308642,7 +332907,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.298,
             "base_ceiling": 3.15,
-            "mc_share": 0.15,
+            "mc_share": 0.182,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Mustafizur Rahman",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 2.0,
+            "quality_score": 0.4652,
+            "base_ceiling": 3.79,
+            "mc_share": 0.18,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Kyle Jamieson",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 2.0,
+            "quality_score": 0.2565,
+            "base_ceiling": 2.99,
+            "mc_share": 0.174,
             "is_overseas": true
           },
           {
@@ -308651,44 +332934,17 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.2614,
             "base_ceiling": 3.01,
-            "mc_share": 0.15,
+            "mc_share": 0.172,
             "is_overseas": true
           },
           {
-            "player_name": "Pukhraj Mann",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.15,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Salman Nizar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.07,
-            "base_ceiling": 0.44,
-            "mc_share": 0.15,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Mustafizur Rahman",
+            "player_name": "Saqib Mahmood",
             "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.4652,
-            "base_ceiling": 3.79,
-            "mc_share": 0.1,
+            "reserve_price": 1.5,
+            "quality_score": 0.1045,
+            "base_ceiling": 1.87,
+            "mc_share": 0.156,
             "is_overseas": true
-          },
-          {
-            "player_name": "Danish Malewar",
-            "role_bucket": "domestic_bat_depth",
-            "reserve_price": 0.3,
-            "quality_score": 0.18,
-            "base_ceiling": 0.66,
-            "mc_share": 0.1,
-            "is_overseas": false
           },
           {
             "player_name": "William Orourke",
@@ -308696,25 +332952,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 2.0,
             "quality_score": 0.1038,
             "base_ceiling": 2.4,
-            "mc_share": 0.1,
+            "mc_share": 0.136,
             "is_overseas": true
           },
           {
-            "player_name": "Rohan Kunnummal",
+            "player_name": "Salman Nizar",
             "role_bucket": "domestic_bat_depth",
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.44,
-            "mc_share": 0.1,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Saurav Chuahan",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 0.3,
-            "quality_score": 0.154,
-            "base_ceiling": 0.66,
-            "mc_share": 0.05,
+            "mc_share": 0.128,
             "is_overseas": false
           },
           {
@@ -308723,7 +332970,70 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.44,
-            "mc_share": 0.05,
+            "mc_share": 0.124,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Pukhraj Mann",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.11,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Rohan Kunnummal",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.07,
+            "base_ceiling": 0.44,
+            "mc_share": 0.102,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Manan Vohra",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.2596,
+            "base_ceiling": 0.82,
+            "mc_share": 0.074,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Akshat Raghuwanshi",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.1842,
+            "base_ceiling": 0.67,
+            "mc_share": 0.074,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Danish Malewar",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.66,
+            "mc_share": 0.07,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Aman Rao Perala",
+            "role_bucket": "domestic_bat_depth",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.66,
+            "mc_share": 0.06,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Saurav Chuahan",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 0.3,
+            "quality_score": 0.154,
+            "base_ceiling": 0.66,
+            "mc_share": 0.002,
             "is_overseas": false
           },
           {
@@ -308734,44 +333044,28 @@ window.DASHBOARD_DATA = {
             "base_ceiling": 3.4,
             "mc_share": 0.0,
             "is_overseas": true
-          },
-          {
-            "player_name": "David Miller",
-            "role_bucket": "top_order_bat",
-            "reserve_price": 2.0,
-            "quality_score": 0.7891,
-            "base_ceiling": 4.29,
-            "mc_share": 0.0,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Vijay Kumar",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.69,
-            "base_ceiling": 1.84,
-            "mc_share": 0.0,
-            "is_overseas": false
           }
         ],
         "mc_share_map": {
-          "Chetan Sakariya": 0.95,
-          "Rahul Chahar": 0.5,
-          "Ravi Bishnoi": 0.5,
-          "Saqib Mahmood": 0.3,
-          "Manan Vohra": 0.25,
-          "Kuldeep Sen": 0.2,
-          "Kyle Jamieson": 0.2,
-          "Adam Milne": 0.15,
-          "Lungisani Ngidi": 0.15,
-          "Pukhraj Mann": 0.15,
-          "Salman Nizar": 0.15,
-          "Danish Malewar": 0.1,
-          "Mustafizur Rahman": 0.1,
-          "Rohan Kunnummal": 0.1,
-          "William Orourke": 0.1,
-          "Ankit Kumar": 0.05,
-          "Saurav Chuahan": 0.05
+          "Chetan Sakariya": 0.992,
+          "Ravi Bishnoi": 0.522,
+          "Rahul Chahar": 0.478,
+          "Kuldeep Sen": 0.264,
+          "Lungisani Ngidi": 0.182,
+          "Mustafizur Rahman": 0.18,
+          "Kyle Jamieson": 0.174,
+          "Adam Milne": 0.172,
+          "Saqib Mahmood": 0.156,
+          "William Orourke": 0.136,
+          "Salman Nizar": 0.128,
+          "Ankit Kumar": 0.124,
+          "Pukhraj Mann": 0.11,
+          "Rohan Kunnummal": 0.102,
+          "Akshat Raghuwanshi": 0.074,
+          "Manan Vohra": 0.074,
+          "Danish Malewar": 0.07,
+          "Aman Rao Perala": 0.06,
+          "Saurav Chuahan": 0.002
         }
       },
       "SRH": {
@@ -308838,15 +333132,6 @@ window.DASHBOARD_DATA = {
             "is_overseas": false
           },
           {
-            "player_name": "Ruchit Ahir",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 0.3,
-            "quality_score": 0.15,
-            "base_ceiling": 0.65,
-            "mc_share": 1.0,
-            "is_overseas": false
-          },
-          {
             "player_name": "Tushar Raheja",
             "role_bucket": "wicketkeeper",
             "reserve_price": 0.3,
@@ -308856,12 +333141,21 @@ window.DASHBOARD_DATA = {
             "is_overseas": false
           },
           {
+            "player_name": "Ruchit Ahir",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 0.3,
+            "quality_score": 0.15,
+            "base_ceiling": 0.65,
+            "mc_share": 0.998,
+            "is_overseas": false
+          },
+          {
             "player_name": "Vansh Bedi",
             "role_bucket": "wicketkeeper",
             "reserve_price": 0.3,
             "quality_score": 0.15,
             "base_ceiling": 0.65,
-            "mc_share": 0.95,
+            "mc_share": 0.998,
             "is_overseas": false
           },
           {
@@ -308870,17 +333164,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1184,
             "base_ceiling": 0.56,
-            "mc_share": 0.4,
+            "mc_share": 0.316,
             "is_overseas": false
-          },
-          {
-            "player_name": "Rahmanullah Gurbaz",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 1.5,
-            "quality_score": 0.3424,
-            "base_ceiling": 2.55,
-            "mc_share": 0.35,
-            "is_overseas": true
           },
           {
             "player_name": "Raj Limbani",
@@ -308888,26 +333173,8 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.07,
             "base_ceiling": 0.46,
-            "mc_share": 0.35,
+            "mc_share": 0.316,
             "is_overseas": false
-          },
-          {
-            "player_name": "Finn Allen",
-            "role_bucket": "wicketkeeper",
-            "reserve_price": 2.0,
-            "quality_score": 0.3463,
-            "base_ceiling": 3.17,
-            "mc_share": 0.3,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Spencer Johnson",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 1.5,
-            "quality_score": 0.1205,
-            "base_ceiling": 1.92,
-            "mc_share": 0.3,
-            "is_overseas": true
           },
           {
             "player_name": "Akash Madhwal",
@@ -308915,34 +333182,7 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1157,
             "base_ceiling": 0.56,
-            "mc_share": 0.3,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Jacob Duffy",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.2272,
-            "base_ceiling": 2.87,
-            "mc_share": 0.25,
-            "is_overseas": true
-          },
-          {
-            "player_name": "Kartik Tyagi",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.2178,
-            "base_ceiling": 0.78,
-            "mc_share": 0.25,
-            "is_overseas": false
-          },
-          {
-            "player_name": "Sushant Mishra",
-            "role_bucket": "domestic_pace",
-            "reserve_price": 0.3,
-            "quality_score": 0.18,
-            "base_ceiling": 0.7,
-            "mc_share": 0.25,
+            "mc_share": 0.298,
             "is_overseas": false
           },
           {
@@ -308951,7 +333191,25 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1809,
             "base_ceiling": 0.7,
-            "mc_share": 0.2,
+            "mc_share": 0.254,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Kartik Tyagi",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.2178,
+            "base_ceiling": 0.78,
+            "mc_share": 0.244,
+            "is_overseas": false
+          },
+          {
+            "player_name": "Sushant Mishra",
+            "role_bucket": "domestic_pace",
+            "reserve_price": 0.3,
+            "quality_score": 0.18,
+            "base_ceiling": 0.7,
+            "mc_share": 0.244,
             "is_overseas": false
           },
           {
@@ -308960,16 +333218,16 @@ window.DASHBOARD_DATA = {
             "reserve_price": 0.3,
             "quality_score": 0.1801,
             "base_ceiling": 0.7,
-            "mc_share": 0.2,
+            "mc_share": 0.234,
             "is_overseas": false
           },
           {
-            "player_name": "Gerald Coetzee",
-            "role_bucket": "overseas_pace",
-            "reserve_price": 2.0,
-            "quality_score": 0.1345,
-            "base_ceiling": 2.52,
-            "mc_share": 0.2,
+            "player_name": "Rahmanullah Gurbaz",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.5,
+            "quality_score": 0.3424,
+            "base_ceiling": 2.55,
+            "mc_share": 0.184,
             "is_overseas": true
           },
           {
@@ -308978,45 +333236,88 @@ window.DASHBOARD_DATA = {
             "reserve_price": 1.0,
             "quality_score": 0.46,
             "base_ceiling": 2.27,
-            "mc_share": 0.15,
+            "mc_share": 0.176,
             "is_overseas": true
           },
           {
-            "player_name": "Matheesha Pathirana",
+            "player_name": "Finn Allen",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 2.0,
+            "quality_score": 0.3463,
+            "base_ceiling": 3.17,
+            "mc_share": 0.176,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Matt Henry",
             "role_bucket": "overseas_pace",
             "reserve_price": 2.0,
-            "quality_score": 0.3858,
-            "base_ceiling": 3.49,
-            "mc_share": 0.1,
+            "quality_score": 0.2255,
+            "base_ceiling": 2.87,
+            "mc_share": 0.164,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Quinton De Kock",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 1.0,
+            "quality_score": 0.8672,
+            "base_ceiling": 3.4,
+            "mc_share": 0.16,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jamie Smith",
+            "role_bucket": "wicketkeeper",
+            "reserve_price": 2.0,
+            "quality_score": 0.3303,
+            "base_ceiling": 3.12,
+            "mc_share": 0.16,
+            "is_overseas": true
+          },
+          {
+            "player_name": "Jacob Duffy",
+            "role_bucket": "overseas_pace",
+            "reserve_price": 2.0,
+            "quality_score": 0.2272,
+            "base_ceiling": 2.87,
+            "mc_share": 0.152,
             "is_overseas": true
           }
         ],
         "mc_share_map": {
           "Kartik Sharma": 1.0,
           "Mukul Choudhary": 1.0,
-          "Ruchit Ahir": 1.0,
           "Tejasvi Singh": 1.0,
           "Tushar Raheja": 1.0,
-          "Vansh Bedi": 0.95,
-          "Simarjeet Singh": 0.4,
-          "Rahmanullah Gurbaz": 0.35,
-          "Raj Limbani": 0.35,
-          "Akash Madhwal": 0.3,
-          "Finn Allen": 0.3,
-          "Spencer Johnson": 0.3,
-          "Jacob Duffy": 0.25,
-          "Kartik Tyagi": 0.25,
-          "Sushant Mishra": 0.25,
-          "Ashok Sharma": 0.2,
-          "Gerald Coetzee": 0.2,
-          "Naman Tiwari": 0.2,
-          "Jonny Bairstow": 0.15,
-          "Anmolpreet Singh": 0.1,
-          "Anrich Nortje": 0.1,
-          "Ben Duckett": 0.1,
-          "Jamie Smith": 0.1,
-          "Matheesha Pathirana": 0.1,
-          "Matt Henry": 0.05
+          "Ruchit Ahir": 0.998,
+          "Vansh Bedi": 0.998,
+          "Raj Limbani": 0.316,
+          "Simarjeet Singh": 0.316,
+          "Akash Madhwal": 0.298,
+          "Ashok Sharma": 0.254,
+          "Kartik Tyagi": 0.244,
+          "Sushant Mishra": 0.244,
+          "Naman Tiwari": 0.234,
+          "Rahmanullah Gurbaz": 0.184,
+          "Finn Allen": 0.176,
+          "Jonny Bairstow": 0.176,
+          "Matt Henry": 0.164,
+          "Jamie Smith": 0.16,
+          "Quinton De Kock": 0.16,
+          "Jacob Duffy": 0.152,
+          "Spencer Johnson": 0.148,
+          "Anrich Nortje": 0.144,
+          "Ben Duckett": 0.144,
+          "Gerald Coetzee": 0.14,
+          "Matheesha Pathirana": 0.128,
+          "Fazalhaq Farooqi": 0.124,
+          "Atharva Taide": 0.02,
+          "Aarya Desai": 0.016,
+          "Abhinav Tejrana": 0.016,
+          "Anmolpreet Singh": 0.016,
+          "Yash Dhull": 0.016,
+          "Abhinav Manohar": 0.014
         }
       }
     },
@@ -309030,7 +333331,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "PBKS",
         "final_price": 4.25,
-        "expected_price": 3.98,
+        "expected_price": 3.9,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": true,
@@ -309191,7 +333492,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "PBKS",
         "final_price": 2.05,
-        "expected_price": 2.17,
+        "expected_price": 2.08,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": false,
@@ -309260,7 +333561,7 @@ window.DASHBOARD_DATA = {
         "set_no": 1,
         "winner": "GT",
         "final_price": 3.05,
-        "expected_price": 3.15,
+        "expected_price": 3.12,
         "purchase_share": 1.0,
         "runner_up": "KKR",
         "is_overseas": false,
@@ -309444,7 +333745,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "GT",
         "final_price": 3.75,
-        "expected_price": 2.52,
+        "expected_price": 2.75,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": true,
@@ -309467,7 +333768,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "DC",
         "final_price": 2.25,
-        "expected_price": 2.52,
+        "expected_price": 2.56,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": true,
@@ -309628,7 +333929,7 @@ window.DASHBOARD_DATA = {
         "set_no": 13,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": NaN,
+        "expected_price": 2.0,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": true,
@@ -309697,7 +333998,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "LSG",
         "final_price": 2.0,
-        "expected_price": 1.62,
+        "expected_price": 1.67,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": false,
@@ -309743,7 +334044,7 @@ window.DASHBOARD_DATA = {
         "set_no": 5,
         "winner": "CSK",
         "final_price": 3.5,
-        "expected_price": 4.0,
+        "expected_price": 3.98,
         "purchase_share": 1.0,
         "runner_up": "KKR",
         "is_overseas": false,
@@ -309766,7 +334067,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "DC",
         "final_price": 4.5,
-        "expected_price": 5.5,
+        "expected_price": 5.47,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": true,
@@ -309973,7 +334274,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "DC",
         "final_price": 1.8,
-        "expected_price": 1.77,
+        "expected_price": 1.79,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": false,
@@ -309996,7 +334297,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "GT",
         "final_price": 3.5,
-        "expected_price": 3.56,
+        "expected_price": 3.64,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": true,
@@ -310019,7 +334320,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "SRH",
         "final_price": 2.85,
-        "expected_price": 2.9,
+        "expected_price": 2.88,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": true,
@@ -310042,7 +334343,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "CSK",
         "final_price": 5.0,
-        "expected_price": 5.1,
+        "expected_price": 5.11,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": true,
@@ -310088,7 +334389,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "KKR",
         "final_price": 4.0,
-        "expected_price": 3.66,
+        "expected_price": 3.56,
         "purchase_share": 1.0,
         "runner_up": "PBKS",
         "is_overseas": true,
@@ -310134,7 +334435,7 @@ window.DASHBOARD_DATA = {
         "set_no": 1,
         "winner": "KKR",
         "final_price": 2.3,
-        "expected_price": 2.33,
+        "expected_price": 2.36,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": false,
@@ -310157,7 +334458,7 @@ window.DASHBOARD_DATA = {
         "set_no": 1,
         "winner": "DC",
         "final_price": 5.0,
-        "expected_price": 4.85,
+        "expected_price": 4.82,
         "purchase_share": 1.0,
         "runner_up": "KKR",
         "is_overseas": true,
@@ -310226,7 +334527,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "MI",
         "final_price": 0.75,
-        "expected_price": 1.01,
+        "expected_price": 1.07,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": true,
@@ -310295,7 +334596,7 @@ window.DASHBOARD_DATA = {
         "set_no": 13,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 1.0,
+        "expected_price": 1.01,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": true,
@@ -310364,7 +334665,7 @@ window.DASHBOARD_DATA = {
         "set_no": 13,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": NaN,
+        "expected_price": 2.0,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": true,
@@ -310410,7 +334711,7 @@ window.DASHBOARD_DATA = {
         "set_no": 5,
         "winner": "LSG",
         "final_price": 4.0,
-        "expected_price": 3.67,
+        "expected_price": 3.7,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": true,
@@ -310433,7 +334734,7 @@ window.DASHBOARD_DATA = {
         "set_no": 5,
         "winner": "LSG",
         "final_price": 3.0,
-        "expected_price": 3.56,
+        "expected_price": 3.66,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": true,
@@ -310479,7 +334780,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "DC",
         "final_price": 3.0,
-        "expected_price": 3.26,
+        "expected_price": 3.37,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": true,
@@ -311077,7 +335378,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": "RR",
         "final_price": 0.5,
-        "expected_price": 0.37,
+        "expected_price": 0.35,
         "purchase_share": 1.0,
         "runner_up": "MI",
         "is_overseas": false,
@@ -311100,7 +335401,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "GT",
         "final_price": 1.25,
-        "expected_price": 1.55,
+        "expected_price": 1.53,
         "purchase_share": 1.0,
         "runner_up": "MI",
         "is_overseas": false,
@@ -311238,7 +335539,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "KKR",
         "final_price": 3.75,
-        "expected_price": 3.41,
+        "expected_price": 3.36,
         "purchase_share": 1.0,
         "runner_up": "CSK",
         "is_overseas": false,
@@ -311307,7 +335608,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "CSK",
         "final_price": 2.3,
-        "expected_price": 2.64,
+        "expected_price": 2.69,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": false,
@@ -311330,7 +335631,7 @@ window.DASHBOARD_DATA = {
         "set_no": 5,
         "winner": "RCB",
         "final_price": 3.5,
-        "expected_price": 3.6,
+        "expected_price": 3.48,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": true,
@@ -311376,7 +335677,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "LSG",
         "final_price": 4.25,
-        "expected_price": 4.39,
+        "expected_price": 4.47,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": true,
@@ -311468,7 +335769,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "RCB",
         "final_price": 1.0,
-        "expected_price": 1.03,
+        "expected_price": 1.04,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -311491,7 +335792,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "SRH",
         "final_price": 1.0,
-        "expected_price": 0.99,
+        "expected_price": 1.03,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": false,
@@ -311698,7 +335999,7 @@ window.DASHBOARD_DATA = {
         "set_no": 14,
         "winner": "MI",
         "final_price": 0.85,
-        "expected_price": 0.87,
+        "expected_price": 0.86,
         "purchase_share": 1.0,
         "runner_up": "RR",
         "is_overseas": false,
@@ -311859,7 +336160,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "KKR",
         "final_price": 0.9,
-        "expected_price": 0.86,
+        "expected_price": 0.87,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -311882,7 +336183,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 0.38,
+        "expected_price": 0.35,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -311928,7 +336229,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "CSK",
         "final_price": 2.75,
-        "expected_price": 2.59,
+        "expected_price": 2.46,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": true,
@@ -311951,7 +336252,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "RCB",
         "final_price": 0.9,
-        "expected_price": 0.91,
+        "expected_price": 0.92,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -312066,7 +336367,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "RCB",
         "final_price": 0.8,
-        "expected_price": 1.01,
+        "expected_price": 0.94,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": false,
@@ -312112,7 +336413,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "LSG",
         "final_price": 1.0,
-        "expected_price": 0.96,
+        "expected_price": 0.94,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": false,
@@ -312135,7 +336436,7 @@ window.DASHBOARD_DATA = {
         "set_no": 1,
         "winner": "KKR",
         "final_price": 4.25,
-        "expected_price": 4.28,
+        "expected_price": 4.31,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": true,
@@ -312158,7 +336459,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "DC",
         "final_price": 0.9,
-        "expected_price": 0.94,
+        "expected_price": 0.93,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": false,
@@ -312204,7 +336505,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "SRH",
         "final_price": 1.2,
-        "expected_price": 0.99,
+        "expected_price": 0.93,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": false,
@@ -312227,7 +336528,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 0.34,
+        "expected_price": 0.35,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -312250,7 +336551,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": "MI",
         "final_price": 0.3,
-        "expected_price": 0.3,
+        "expected_price": 0.35,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -312365,7 +336666,7 @@ window.DASHBOARD_DATA = {
         "set_no": 3,
         "winner": "KKR",
         "final_price": 1.05,
-        "expected_price": 1.14,
+        "expected_price": 1.13,
         "purchase_share": 1.0,
         "runner_up": "SRH",
         "is_overseas": false,
@@ -312434,7 +336735,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "RCB",
         "final_price": 1.0,
-        "expected_price": 1.02,
+        "expected_price": 1.05,
         "purchase_share": 1.0,
         "runner_up": "PBKS",
         "is_overseas": true,
@@ -314918,7 +339219,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "CSK",
         "final_price": 3.25,
-        "expected_price": 3.24,
+        "expected_price": 3.19,
         "purchase_share": 1.0,
         "runner_up": "LSG",
         "is_overseas": true,
@@ -314964,7 +339265,7 @@ window.DASHBOARD_DATA = {
         "set_no": 4,
         "winner": "SRH",
         "final_price": 2.6,
-        "expected_price": 2.33,
+        "expected_price": 2.39,
         "purchase_share": 1.0,
         "runner_up": "CSK",
         "is_overseas": true,
@@ -315010,7 +339311,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "LSG",
         "final_price": 0.6,
-        "expected_price": 0.66,
+        "expected_price": 0.74,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": false,
@@ -315056,7 +339357,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "RCB",
         "final_price": 0.6,
-        "expected_price": 0.7,
+        "expected_price": 0.74,
         "purchase_share": 1.0,
         "runner_up": "GT",
         "is_overseas": false,
@@ -315079,7 +339380,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "PBKS",
         "final_price": 0.6,
-        "expected_price": 0.7,
+        "expected_price": 0.67,
         "purchase_share": 1.0,
         "runner_up": "CSK",
         "is_overseas": false,
@@ -315148,7 +339449,7 @@ window.DASHBOARD_DATA = {
         "set_no": 14,
         "winner": "RR",
         "final_price": 0.75,
-        "expected_price": 0.77,
+        "expected_price": 0.76,
         "purchase_share": 1.0,
         "runner_up": "MI",
         "is_overseas": false,
@@ -315171,7 +339472,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": "DC",
         "final_price": 0.85,
-        "expected_price": 0.82,
+        "expected_price": 0.79,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": true,
@@ -315286,7 +339587,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "DC",
         "final_price": 0.6,
-        "expected_price": 0.63,
+        "expected_price": 0.64,
         "purchase_share": 1.0,
         "runner_up": "PBKS",
         "is_overseas": false,
@@ -315332,7 +339633,7 @@ window.DASHBOARD_DATA = {
         "set_no": 11,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 0.79,
+        "expected_price": 0.78,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": true,
@@ -315677,7 +339978,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "CSK",
         "final_price": 0.6,
-        "expected_price": 0.56,
+        "expected_price": 0.55,
         "purchase_share": 1.0,
         "runner_up": "KKR",
         "is_overseas": false,
@@ -315769,7 +340070,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "RCB",
         "final_price": 0.5,
-        "expected_price": 0.52,
+        "expected_price": 0.53,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -316137,7 +340438,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "KKR",
         "final_price": 0.6,
-        "expected_price": 0.53,
+        "expected_price": 0.54,
         "purchase_share": 1.0,
         "runner_up": "CSK",
         "is_overseas": false,
@@ -316160,7 +340461,7 @@ window.DASHBOARD_DATA = {
         "set_no": 6,
         "winner": "KKR",
         "final_price": 0.6,
-        "expected_price": 0.54,
+        "expected_price": 0.55,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -316183,7 +340484,7 @@ window.DASHBOARD_DATA = {
         "set_no": 9,
         "winner": "RCB",
         "final_price": 0.6,
-        "expected_price": 0.64,
+        "expected_price": 0.6,
         "purchase_share": 1.0,
         "runner_up": "DC",
         "is_overseas": false,
@@ -316206,7 +340507,7 @@ window.DASHBOARD_DATA = {
         "set_no": 10,
         "winner": "GT",
         "final_price": 0.4,
-        "expected_price": 0.39,
+        "expected_price": 0.4,
         "purchase_share": 1.0,
         "runner_up": "RCB",
         "is_overseas": true,
@@ -316229,7 +340530,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": "MI",
         "final_price": 0.3,
-        "expected_price": 0.31,
+        "expected_price": 0.33,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -316252,7 +340553,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": "MI",
         "final_price": 0.3,
-        "expected_price": 0.33,
+        "expected_price": 0.32,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -316275,7 +340576,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 0.34,
+        "expected_price": 0.32,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -316298,7 +340599,7 @@ window.DASHBOARD_DATA = {
         "set_no": 16,
         "winner": NaN,
         "final_price": NaN,
-        "expected_price": 0.31,
+        "expected_price": 0.32,
         "purchase_share": 1.0,
         "runner_up": NaN,
         "is_overseas": false,
@@ -1329234,7 +1353535,7 @@ window.DASHBOARD_DATA = {
         }
       ],
       "registry_entry_count": 72,
-      "latest_ingest_at": "2026-10-24T06:12:35+00:00"
+      "latest_ingest_at": "2026-10-24T10:41:38+00:00"
     },
     "methodology": {
       "summary": "Match Planning combines final 2026 squads with active-player phase impact, skill radar context, wins-added proxies, venue-level IPL evidence, and Layer 3 availability intelligence. Only players with active 2025-tagged evidence are used for the quantitative SWOT and tactical recommendations.",
